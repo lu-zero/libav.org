@@ -34,7 +34,7 @@ Martin Böhme, a good overview of the FFmpeg APIs.
 </ul>
 
 
-<?php require ('navbar-footer.html'); ?>
+<?php require ('navbar.html'); ?>
 
 </body>
 </html>

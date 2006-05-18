@@ -93,7 +93,7 @@ operator status, contributors that committed patches get voice.
 <P>
 
 
-<?php require ('navbar-footer.html'); ?>
+<?php require ('navbar.html'); ?>
 
 </body>
 </html>

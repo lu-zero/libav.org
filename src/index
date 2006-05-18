@@ -177,7 +177,7 @@ generators for all common audio/video formats.</li>
 
 </ul>
 
-<?php require ('navbar-footer.html'); ?>
+<?php require ('navbar.html'); ?>
 
 <!--
 <hr>

@@ -53,7 +53,7 @@ of CVS.
 
 <p>
 
-<?php require ('navbar-footer.html'); ?>
+<?php require ('navbar.html'); ?>
 
 </body>
 </html>
