@@ -17,7 +17,7 @@
 
 <?php require ('navbar.html'); ?>
 
- 
+
 <h2>News</h2>
 
 <strong>(May 02, 2006)</strong> FFmpeg is participating in this year's
@@ -45,7 +45,7 @@ Fantasy VII</em> game</a> (Windows port). As usual, check out
 <strong>(August 17, 2005)</strong> Due to the generous donations of all you
 people we have ordered a new server for the project and will have it
 running in a few weeks. Look at the
-<a href="http://mplayerhq.hu/homepage/design7/news.html#server_thanks">MPlayer news page</a>
+<a href="http://mplayerhq.hu/design7/news.html#server_thanks">MPlayer news page</a>
 for details. Thank you!
 
 <p>
@@ -55,7 +55,7 @@ for details. Thank you!
 serious failure. We are now looking for donations to get a replacement
 server and hosting place. If you wish to see FFmpeg continue to prosper,
 please contribute. Look at the
-<a href="http://mplayerhq.hu/homepage/design7/news.html#server_wanted">MPlayer news page</a>
+<a href="http://mplayerhq.hu/design7/news.html#server_wanted">MPlayer news page</a>
 for details.
 
 <p>
@@ -86,7 +86,7 @@ and <a href="http://www.videolan.org/x264.html">x264</a> projects, FFmpeg's
 libavcodec can already decode the <em>next-generation (buzzword alert!)</em>
 H.264 video codec data inside the latest Apple QuickTime files. Along with
 the free, open source <a href="http://www.audiocoding.com/">FAAD AAC decoding
-library (for the audio track)</a> and a competent QuickTime file demuxer, 
+library (for the audio track)</a> and a competent QuickTime file demuxer,
 open source software is <strong>already equipped</strong> to handle
 the <strong>newest multimedia files</strong> on the internet.
 
@@ -102,7 +102,7 @@ FFmpeg now includes a native decoder for Apple's Lossless Audio Codec
 <p>
 
 <b>(Feb 28, 2005)</b>
-At least 2 new features recently: Native decoder implementations of both 
+At least 2 new features recently: Native decoder implementations of both
 the Shorten lossless audio codec and the LOCO video codec. Further, finally
 added a link to Martin Boehme's FFmpeg API documentation that so many of you have
 already located with search engines. See the <A HREF="documentation.php">documentation
@@ -112,7 +112,7 @@ page</A> for more information.
 
 <b>(Feb 6, 2005)</b>
 Added a new <a href="compat.php">compatibility page</a> to help users
-understand which FFmpeg encoding options work best if they 
+understand which FFmpeg encoding options work best if they
 need to interoperate with certain proprietary multimedia players.
 
 <p>
@@ -135,7 +135,7 @@ Here are some of the newest FFmpeg developments:
 <li>Nullsoft Video (NSV) file demuxer
 </ul>
 
-As always, check the <a href="ffmpeg-doc.html">main FFmpeg doc</a> for a 
+As always, check the <a href="ffmpeg-doc.html">main FFmpeg doc</a> for a
 complete feature list, and the <a href="changelog.html">Changelog for recent
 changes</a>.
 
