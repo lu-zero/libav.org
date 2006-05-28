@@ -17,7 +17,7 @@ FFmpeg has always been a very experimental and developer-driven project. It
 is a key component in many multimedia projects and has new features added
 constantly. New, official "releases" are few and far between. In short,
 if you want to work with FFmpeg, you are advised to go along with CVS
-development rather than relying on formal releases. CVS snapshots work 
+development rather than relying on formal releases. CVS snapshots work
 really well 99% of the time so people are not afraid to use them.
 
 <h3>FFmpeg CVS</h3>
@@ -32,7 +32,7 @@ client to check out the source code:
 </pre>
 <br>
 
-Alternatively, you can use 
+Alternatively, you can use
 <b><a href="http://www1.mplayerhq.hu/cgi-bin/cvsweb.cgi/?cvsroot=FFMpeg">the
 FFmpeg CVSweb interface</a></b> to browse the source tree online.
 

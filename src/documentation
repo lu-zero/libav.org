@@ -29,7 +29,7 @@ developers will be able to better diagnose the problem if you follow
 <li><a href="http://mplayerhq.hu/~michael/ffmpeg-doxy/">FFmpeg API documentation</a>,
 automatically generated from the FFmpeg source code using
 <a href="http://www.doxygen.org/index.html">doxygen</a>.
-<li><a href="http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html">Using libavformat and libavcodec</a> by 
+<li><a href="http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html">Using libavformat and libavcodec</a> by
 Martin Böhme, a good overview of the FFmpeg APIs.
 </ul>
 

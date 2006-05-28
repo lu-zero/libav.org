@@ -31,11 +31,11 @@ is intended to help them out.
 <P>
 <H3>Testing Procedure</H3>
 These tests were conducted on Friday, February 4, 2005 with the FFmpeg CVS copy
-from that day. Also, the machine generating the files was an AMD64 
+from that day. Also, the machine generating the files was an AMD64
 computer.
 
 <P>
-The Windows testing computer is a Pentium 4 PC with a fresh install of 
+The Windows testing computer is a Pentium 4 PC with a fresh install of
 Windows XP with Service Pack 2 pre-applied. Windows Media Player is the
 default, "out of the box" version installed with the platform. The Apple
 QuickTime Player is v6.5.2, the latest as of this writing.
@@ -94,7 +94,7 @@ video and AAC audio. Note that AAC encoding support is external to FFmpeg
 and must be configured appropriately.
 
 <P>
-Another compatible format that Apple's QuickTime Player can handle is 
+Another compatible format that Apple's QuickTime Player can handle is
 vanilla MPEG. The command line:
 
 <BLOCKQUOTE>
