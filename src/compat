@@ -105,7 +105,7 @@ will create a MPEG file with MPEG-1 video and MP2 audio.
 
 <P>
 
-<?php require ('navbar-footer.html'); ?>
+<?php require ('navbar.html'); ?>
 
 </body>
 </html>

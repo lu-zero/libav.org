@@ -98,7 +98,7 @@ your problem. In this case, please follow these steps:
     FFmpeg developers will have access
 </ul>
 
-<?php require ('navbar-footer.html'); ?>
+<?php require ('navbar.html'); ?>
 
 </body>
 </html>

@@ -76,7 +76,7 @@ will come after their dues. Most notably, MPEG-LA (licensing authority) is
 vigilant and diligent about collecting for MPEG-related technologies.
 
 
-<?php require ('navbar-footer.html'); ?>
+<?php require ('navbar.html'); ?>
 
 </body>
 </html>

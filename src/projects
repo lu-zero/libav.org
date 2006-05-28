@@ -120,7 +120,7 @@ an email to the <A HREF="mailinglists.php">ffmpeg-devel mailing list</A>.
 </table>
 
 
-<?php require ('navbar-footer.html'); ?>
+<?php require ('navbar.html'); ?>
 
 </body>
 </html>

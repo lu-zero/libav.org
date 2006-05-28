@@ -19,7 +19,7 @@ Codec feature comparison</A>
 </UL>
 
 
-<?php require ('navbar-footer.html'); ?>
+<?php require ('navbar.html'); ?>
 
 </body>
 </html>
