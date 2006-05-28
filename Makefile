@@ -7,8 +7,6 @@ TARGETS=$(addsuffix .html,$(addprefix htdocs/,$(SRCS)))
 
 
 all: $(TARGETS)
-	echo $(SRCS)
-	echo $(TARGETS)
 
 clean:
 	rm -f $(TARGETS)
