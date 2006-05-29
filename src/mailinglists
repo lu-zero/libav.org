@@ -21,16 +21,16 @@ by sending an email instead.
 <p>
 <b>Need help with FFmpeg?</b> First, this very important question:
 
-<center><h3>Are you using the latest CVS version of FFmpeg?</h3></center>
+<center><h3>Are you using the latest SVN version of FFmpeg?</h3></center>
 
 Seriously, FFmpeg is in a state of perpetual development and "official"
 releases are highly infrequent and largely a formality. The releases do
 not reflect the state of the FFmpeg's current technology. You should be using
-the latest CVS checkout or snapshot package.
+the latest SVN checkout or snapshot package.
 
 <p>
 Now then, if you are still experiencing problems with the latest, up to date
-CVS copy, check out the
+SVN copy, check out the
 <a href="bugreports.php">FFmpeg bug report page</a>. Providing the
 kind of information requested on that page helps the developers help you
 with the problem you are reporting. It saves time for everyone. Simply
@@ -86,7 +86,7 @@ IRC network: <b>#ffmpeg</b>
 </p>
 
 <p>
-The channel is open and unmoderated, developers with CVS write access have
+The channel is open and unmoderated, developers with SVN write access have
 operator status, contributors that committed patches get voice.
 </p>
 

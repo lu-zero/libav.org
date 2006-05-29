@@ -16,7 +16,7 @@ htdocs/%.html: src/%
 <center>\n\
 [<a href="index.html">Main Page and News</a>]\n\
 [<a href="changelog.html">Changelog</a>]\n\
-[<a href="download.html">Download and CVS</a>]\n\
+[<a href="download.html">Download and SVN</a>]\n\
 [<a href="documentation.html">Documentation</a>]\n\
 [<a href="compat.html">Compatibility</a>]\n\
 [<a href="mailinglists.html">Mailing Lists</a>]\n\

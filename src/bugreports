@@ -32,10 +32,10 @@ Before reporting a bug, please consider the following items:
 
 <p>
 
-Be sure that you are using the latest CVS version of FFmpeg. The FFmpeg
+Be sure that you are using the latest SVN version of FFmpeg. The FFmpeg
 project is constantly evolving and does not make formal releases very
 often. The latest release is likely to be very out of date. Use the very
-latest CVS version of FFmpeg or your report is likely to be disregarded.
+latest SVN version of FFmpeg or your report is likely to be disregarded.
 
 When writing your bug report, please include:
 <ul>
