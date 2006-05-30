@@ -27,7 +27,7 @@ promises.
 
 <p>
 If you find a problem with FFmpeg, you can submit a report to the
-<a href="http://mplayerhq.hu/mailman/listinfo/ffmpeg-devel">ffmpeg-devel mailing list</a>.
+<a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-devel">ffmpeg-devel mailing list</a>.
 Before reporting a bug, please consider the following items:
 
 <p>

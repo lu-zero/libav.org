@@ -41,13 +41,13 @@ page anyway.
 <p>
 
 After you have a good bug report, subscribe to and email the
-<a href="http://mplayerhq.hu/mailman/listinfo/ffmpeg-user">ffmpeg-user list</a>.
+<a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-user">ffmpeg-user list</a>.
 
 <p>
 <b>Want to participate in the active development of FFmpeg?</b> Keep up
 with the latest developments by subscribing to both the
-<a href="http://mplayerhq.hu/mailman/listinfo/ffmpeg-devel">ffmpeg-devel</a> and
-<a href="http://mplayerhq.hu/mailman/listinfo/ffmpeg-cvslog">ffmpeg-cvslog</a> lists.
+<a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-devel">ffmpeg-devel</a> and
+<a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-cvslog">ffmpeg-cvslog</a> lists.
 If you send us a patch, please make it a unified diff (diff -u), everything
 else is unusable. For more detailed guidelines, have a look at the
 <a href="http://mplayerhq.hu/DOCS/tech/patches.txt">MPlayer patch guidelines</a>
@@ -62,11 +62,11 @@ browse the archives before posting questions.
 </p>
 
 <p>
-<a href="http://mplayerhq.hu/pipermail/ffmpeg-cvslog/">ffmpeg-cvslog archives</a>
+<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-cvslog/">ffmpeg-cvslog archives</a>
 <br>
-<a href="http://mplayerhq.hu/pipermail/ffmpeg-devel/">ffmpeg-devel archives</a>
+<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-devel/">ffmpeg-devel archives</a>
 <br>
-<a href="http://mplayerhq.hu/pipermail/ffmpeg-user/">ffmpeg-user archives</a>
+<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-user/">ffmpeg-user archives</a>
 </p>
 
 <p>
