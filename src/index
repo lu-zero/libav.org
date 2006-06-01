@@ -20,6 +20,18 @@
 
 <h2>News</h2>
 
+<strong>(June 01, 2006)</strong> FFmpeg got 5 projects in the Google Summer of Code program.
+Checkout the <a href="http://code.google.com/soc/ffmpeg/about.html">FFmpeg SoC about page</a> for
+more information about the 5 projects.
+
+<p>
+
+
+<strong>(June 01, 2006)</strong> FFmpeg cvs to svn transition is completed. The cvs server
+is now retired.
+
+<p>
+
 <strong>(May 02, 2006)</strong> FFmpeg is participating in this year's
 <a href="http://code.google.com/soc/">Google Summer of Code</a>.
 If you are interested, check out the
