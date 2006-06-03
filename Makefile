@@ -11,7 +11,7 @@ all: $(TARGETS)
 clean:
 	rm -f $(TARGETS)
 
-htdocs/%.html: src/%
+htdocs/%.html: src/% Makefile
 	sed $< -e "/<?php require ('navbar.html'); ?>/a\
 <center>\n\
 [<a href="index.html">Main Page and News</a>]\n\
