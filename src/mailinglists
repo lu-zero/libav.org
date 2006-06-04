@@ -14,11 +14,6 @@
 <?php require ('navbar.html'); ?>
 
 <p>
-<b>Note:</b> Confirming mailing list subscription by clicking on the link
-in the mail you receive after subscribing does not work, please confirm
-by sending an email instead.
-
-<p>
 <b>Need help with FFmpeg?</b> First, this very important question:
 
 <center><h3>Are you using the latest SVN version of FFmpeg?</h3></center>
