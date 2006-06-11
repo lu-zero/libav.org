@@ -34,15 +34,14 @@ client to check out the source code:
 
 Alternatively, you can use
 <b><a href="http://svn.mplayerhq.hu/ffmpeg/trunk/">the
-FFmpeg CVSweb interface</a></b> to browse the source tree online.
+FFmpeg ViewVC interface</a></b> to browse the source tree online.
 
+<!--
 <p>
 Further,
-<strike>
 <a href="http://mplayerhq.hu/MPlayer/cvs/">an archive of recent SVN snapshots are also available</a>
-</strike>
 for download.
-(The link is currently down until we have set up the new project server.)
+-->
 
 
 <h3>Formal Releases</h3>
