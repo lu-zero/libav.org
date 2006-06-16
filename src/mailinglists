@@ -26,7 +26,7 @@ the latest SVN checkout or snapshot package.
 <p>
 Now then, if you are still experiencing problems with the latest, up to date
 SVN copy, check out the
-<a href="bugreports.php">FFmpeg bug report page</a>. Providing the
+<a href="bugreports.html">FFmpeg bug report page</a>. Providing the
 kind of information requested on that page helps the developers help you
 with the problem you are reporting. It saves time for everyone. Simply
 writing "It does not work!" is remarkably useless and inevitably leads to

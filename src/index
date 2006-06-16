@@ -50,7 +50,7 @@ with a few developers. Drop by the Free Video booth to meet us.
 native decoder for Duck TrueMotion 2 data. This decoder can handle data from
 the popular <a href="http://www.mobygames.com/game/windows/final-fantasy-vii"><em>Final
 Fantasy VII</em> game</a> (Windows port). As usual, check out
-<a href="download.php">the latest CVS</a>.
+<a href="download.html">the latest CVS</a>.
 
 <p>
 
@@ -117,13 +117,13 @@ FFmpeg now includes a native decoder for Apple's Lossless Audio Codec
 At least 2 new features recently: Native decoder implementations of both
 the Shorten lossless audio codec and the LOCO video codec. Further, finally
 added a link to Martin Boehme's FFmpeg API documentation that so many of you have
-already located with search engines. See the <A HREF="documentation.php">documentation
+already located with search engines. See the <A HREF="documentation.html">documentation
 page</A> for more information.
 
 <p>
 
 <b>(Feb 6, 2005)</b>
-Added a new <a href="compat.php">compatibility page</a> to help users
+Added a new <a href="compat.html">compatibility page</a> to help users
 understand which FFmpeg encoding options work best if they
 need to interoperate with certain proprietary multimedia players.
 
@@ -153,7 +153,7 @@ changes</a>.
 
 <p>
 
-<b>Looking for help?</b> Check out the <a href="mailinglists.php">mailing
+<b>Looking for help?</b> Check out the <a href="mailinglists.html">mailing
 lists</a>, and be sure to give us good troubleshooting information.
 
 </p>
