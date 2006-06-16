@@ -26,7 +26,7 @@ developers will be able to better diagnose the problem if you follow
 <li><a href="ffplay-doc.html">ffplay documentation</a>
 <li><a href="hooks.html">video hook documentation</a>
 <li><a href="sample.html">sample ffserver configuration file</a>
-<li><a href="http://mplayerhq.hu/~michael/ffmpeg-doxy/">FFmpeg API documentation</a>,
+<li><a href="http://cekirdek.pardus.org.tr/~ismail/ffmpeg-docs/">FFmpeg API documentation</a>,
 automatically generated from the FFmpeg source code using
 <a href="http://www.doxygen.org/index.html">doxygen</a>.
 <li><a href="http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html">Using libavformat and libavcodec</a> by
