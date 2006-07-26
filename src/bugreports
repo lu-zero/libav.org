@@ -86,16 +86,16 @@ your problem. In this case, please follow these steps:
     and then upload small-sample-file rather than sample-file
   <li>Upload the sample to the MPlayer FTP:
   <ul>
-    <li>log into ftp.mplayerhq.hu with an anonymous FTP login
+    <li>Log into ftp.mplayerhq.hu with an anonymous FTP login.
     <li>cd -> /MPlayer/incoming
-    <li>create a new directory
+    <li>Create a new directory.
     <li>cd -> your new directory
-    <li>upload a brief text file describing the sample and what is wrong
-    <li>upload the sample
+    <li>Upload a brief text file describing the sample and what is wrong.
+    <li>Upload the sample.
   </ul>
   <li>Email the list and indicate the location of the sample; note that you
     will not be able to download files from /MPlayer/incoming, but the
-    FFmpeg developers will have access
+    FFmpeg developers will have access.
 </ul>
 
 <?php require ('navbar.html'); ?>
