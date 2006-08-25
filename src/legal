@@ -14,16 +14,17 @@
 
 <H3>FFmpeg License</H3>
 FFmpeg is licensed under the GNU Lesser General Public License, or LGPL.
-Essentially, this means that you are allowed to use the FFmpeg library in
+Essentially, this means that you are allowed to use parts of FFmpeg in
 your own application, regardless of your application's license. However, if
-you alter the FFmpeg library in any way, <I>and subsequently distribute it</I>,
+you alter a part of FFmpeg in any way, <I>and subsequently distribute it</I>,
 you are expected to make those changes available under the LGPL license.
 <A HREF="http://www.gnu.org/copyleft/lesser.html">This is the full text of
 the LGPL.</A>
 
 <P>
 Be advised that FFmpeg incorporates several modules that are covered under
-The GNU General Public License, notably <I>liba52</I> and <I>libpostproc</I>.
+The GNU General Public License, notably <I>liba52</I>, <I>libpostproc</I>
+and <I>libswscale</I>.
 If you use these components in your project, you are expected to release your
 whole application under the GPL if you distribute your project at all.
 <A HREF="http://www.gnu.org/copyleft/gpl.html">This is the full text of
