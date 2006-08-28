@@ -86,7 +86,7 @@ your problem. In this case, please follow these steps:
     and then upload small-sample-file rather than sample-file
   <li>Upload the sample to the MPlayer FTP:
   <ul>
-    <li>Log into ftp.mplayerhq.hu with an anonymous FTP login.
+    <li>Log into upload.mplayerhq.hu with an anonymous FTP login.
     <li>cd -> /MPlayer/incoming
     <li>Create a new directory.
     <li>cd -> your new directory
