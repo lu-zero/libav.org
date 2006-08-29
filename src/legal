@@ -13,24 +13,18 @@
 <?php require ('navbar.html'); ?>
 
 <H3>FFmpeg License</H3>
-FFmpeg is licensed under the GNU Lesser General Public License, or LGPL.
-Essentially, this means that you are allowed to use parts of FFmpeg in
-your own application, regardless of your application's license. However, if
-you alter a part of FFmpeg in any way, <I>and subsequently distribute it</I>,
-you are expected to make those changes available under the LGPL license.
-<A HREF="http://www.gnu.org/copyleft/lesser.html">This is the full text of
-the LGPL.</A>
 
-<P>
-Be advised that FFmpeg incorporates several modules that are covered under
-The GNU General Public License, notably <I>liba52</I>, <I>libpostproc</I>
-and <I>libswscale</I>.
-If you use these components in your project, you are expected to release your
-whole application under the GPL if you distribute your project at all.
-<A HREF="http://www.gnu.org/copyleft/gpl.html">This is the full text of
-the GPL.</A>
+FFmpeg is licensed under the <a href="http://www.gnu.org/copyleft/lesser.html">
+GNU Lesser General Public License (LGPL)</a>.  However, FFmpeg
+incorporates several optional modules that are covered by the
+<a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License
+(GPL)</a>, notably liba52, libpostproc and libswscale.  If those parts
+get used the GPL applies to all of FFmpeg.
 
-<P>
+Read the license texts to learn how this affects programs built on top
+of FFmpeg or reusing FFmpeg.  You may also wish to have a look at the
+<a href="http://www.gnu.org/licenses/gpl-faq.html">GPL FAQ</a>.
+
 <H3>Trademark</H3>
 FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project.
 
