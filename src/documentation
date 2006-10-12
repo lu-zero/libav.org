@@ -35,6 +35,8 @@ Martin Böhme, a good overview of the FFmpeg APIs.
 <li><a href="http://arrozcru.no-ip.org/ffmpeg/">FFmpeg Windows Help</a>
 discusses all issues regarding FFmpeg under Windows including a wiki
 and help forums.
+<li><a href="http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html">FFmpeg on Mac OS X HOWTO</a>
+explains installing and using FFmpeg on Mac OS X.
 </ul>
 
 
