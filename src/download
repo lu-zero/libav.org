@@ -36,13 +36,6 @@ Alternatively, you can use
 <b><a href="http://svn.mplayerhq.hu/ffmpeg/trunk/">the
 FFmpeg ViewVC interface</a></b> to browse the source tree online.
 
-<!--
-<p>
-Further,
-<a href="http://mplayerhq.hu/MPlayer/cvs/">an archive of recent SVN snapshots are also available</a>
-for download.
--->
-
 
 <h3>Formal Releases</h3>
 If you prefer a formal release, please see
