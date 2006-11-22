@@ -36,6 +36,13 @@ Alternatively, you can use
 <b><a href="http://svn.mplayerhq.hu/ffmpeg/trunk/">the
 FFmpeg ViewVC interface</a></b> to browse the source tree online.
 
+<p>
+We also provide nightly Subversion snapshots. You can choose between a
+<a href="ffmpeg-checkout-snapshot.tar.bz2">full checkout</a> that you
+can update with Subversion or
+<a href="ffmpeg-export-snapshot.tar.bz2">bare sources</a> that are
+smaller but don't come with Subversion metadata.
+
 
 <h3>Formal Releases</h3>
 If you are looking for a formal release, stop now, there are none.
