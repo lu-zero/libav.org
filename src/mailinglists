@@ -14,6 +14,12 @@
 <?php require ('navbar.html'); ?>
 
 <p>
+Please follow the netiquette when posting on FFmpeg mailing lists, especially
+avoid <a href="http://en.wikipedia.org/wiki/Top-posting">top-posting</a>
+and <a href="http://en.wikipedia.org/wiki/Thread_hijacking">thread hijacking</a>.
+Trespass these rules at the risk of being flamed.
+
+<p>
 <b>Need help with FFmpeg?</b> First, this very important question:
 
 <center><h3>Are you using the latest SVN version of FFmpeg?</h3></center>
@@ -47,12 +53,6 @@ If you send us a patch, please make it a unified diff (diff -u), everything
 else is unusable. For more detailed guidelines, have a look at the
 <a href="http://mplayerhq.hu/DOCS/tech/patches.txt">MPlayer patch guidelines</a>
 most of what is written there applies to FFmpeg as well.
-
-<p>
-Please follow the netiquette when posting on FFmpeg mailing lists, especially
-avoid <a href="http://en.wikipedia.org/wiki/Top-posting">top-posting</a>
-and <a href="http://en.wikipedia.org/wiki/Thread_hijacking">thread hijacking</a>.
-Trespass these rules at the risk of being flamed.
 
 <h3>Mailling list archives</h3>
 
