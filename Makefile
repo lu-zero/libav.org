@@ -21,7 +21,6 @@ htdocs/%.html: src/% Makefile
 [<a href="compat.html">Compatibility</a>]\n\
 [<a href="mailinglists.html">Mailing Lists</a>]\n\
 [<a href="bugreports.html">Reporting Bugs</a>]\n\
-[<a href="http://sourceforge.net/projects/ffmpeg/">Sourceforge Project Page</a>]\n\
 [<a href="legal.html">License and Legal Issues</a>]\n\
 [<a href="projects.html">Projects Using FFmpeg</a>]\n\
 [<a href="links.html">Links and Other Information</a>]\n\
