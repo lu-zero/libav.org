@@ -15,11 +15,12 @@
 
 <p>
 Please follow the netiquette when posting on FFmpeg mailing lists, especially
-avoid <a href="http://en.wikipedia.org/wiki/Top-posting">top-posting</a>,
-<a href="http://en.wikipedia.org/wiki/Thread_hijacking">thread hijacking</a>,
-and posting small files compressed, uncompressed is preferred, also please
-try to avoid posting mails with 1 page long signatures or patches with
-application/octet-stream as mime-type
+avoid <a href="http://en.wikipedia.org/wiki/Top-posting">top-posting</a> and
+<a href="http://en.wikipedia.org/wiki/Thread_hijacking">thread hijacking</a>.
+If you attach files, avoid compressing small files, uncompressed is preferred.
+Also please try to avoid posting mails with overly long signatures or nonsense
+corporate disclaimers that claim the content of your mails is confidential.
+Attached patches should not have application/octet-stream as mime-type.
 Trespass these rules at the risk of being flamed.
 
 <p>
