@@ -27,14 +27,14 @@ promises.
 
 <p>
 If you find a problem with FFmpeg, you can submit a report to the
-<a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-devel">ffmpeg-devel mailing list</a>.
+<a href="mailinglists.html">FFmpeg mailing lists</a>.
 Before reporting a bug, please consider the following items:
 
 <p>
 
 Be sure that you are using the latest SVN version of FFmpeg. The FFmpeg
 project is constantly evolving and does not make formal releases very
-often. The latest release is likely to be very out of date. Use the very
+often. The latest release is bound to be very out of date. Use the very
 latest SVN version of FFmpeg or your report is likely to be disregarded.
 
 When writing your bug report, please include (uncompressed):
@@ -60,7 +60,7 @@ the output. To do this, launch ffmpeg_g in gdb:
 In gdb, type 'r' for run, along with the rest of the FFmpeg command line:
 
 <pre>
-  > r &lt;rest of command line&gt;
+  &gt; r &lt;rest of command line&gt;
 </pre>
 
 When gdb encounters its problem, run the following commands and copy/paste
@@ -99,11 +99,14 @@ your problem. In this case, please follow these steps:
     will not be able to download files from /MPlayer/incoming, but the
     FFmpeg developers will have access.
 </ul>
-<b>Important: movie files which have been compressed (rar,7z,gzip,...) will be
-deleted without examining them unless they are raw rgb/yuv/pcm</b>
-<b>furthermore movie files uploaded to services like megaupload, rapidshare or
-any other similar service will be ignored, we are not willing to spend our
-time fighting with this ridiculous bloated and spamfilled crap</b>
+
+<p>
+
+<b>Important: Movie files which have been compressed (rar,7z,gzip,...) will be
+deleted without being examined unless they are raw RGB/YUV/PCM.</b>
+<b>Furthermore movie files uploaded to services like megaupload, rapidshare or
+any other similar service will be ignored. We are not willing to spend our
+time fighting with this ridiculous bloated and spamfilled crap.</b>
 
 <?php require ('navbar.html'); ?>
 
