@@ -49,7 +49,10 @@ engineer them where required.
 <BR>
 A: Patent laws change wildly between jurisdictions. Further, even in places where
 software patents are recognized, there is serious doubt about the legitimacy of such
-legislation.
+legislation. Note patents on algorithms are illegal in many countries, also
+the use of patents to prevent the useage of a format or codec on a specific
+operating system or together with specific other software might violate
+anti trust laws.
 
 <P>
 <B>Q: Bottom line: Should I be worried about legal issues if I use FFmpeg?</B>
