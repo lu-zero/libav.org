@@ -38,17 +38,17 @@ If you use your imagination, you can visualize any dire scenario and cease
 doing any productive work.
 
 <P>
-<B>Q: Does FFmpeg use proprietary/patented intellectual property?</B>
+<B>Q: Does FFmpeg use proprietary/patented algorithms?</B>
 <BR>
 A: Yes. There is a lot of multimedia available in proprietary/patented
 formats so it becomes necessary to support such formats and even reverse
 engineer them where required.
 
 <P>
-<B>Q: Is it legal to use such proprietary/patented IP?</B>
+<B>Q: Is it legal to use such proprietary/patented algorithms?</B>
 <BR>
-A: IP laws change wildly between jurisdictions. Further, even in places where
-software IP is recognized, there is serious doubt about the legitimacy of such
+A: Patent laws change wildly between jurisdictions. Further, even in places where
+software patents are recognized, there is serious doubt about the legitimacy of such
 legislation.
 
 <P>
