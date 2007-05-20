@@ -40,9 +40,30 @@ doing any productive work.
 <P>
 <B>Q: Does FFmpeg use patented algorithms?</B>
 <BR>
-A: Yes. There is a lot of multimedia available in proprietary/patented
-formats so it becomes necessary to support such formats and even reverse
-engineer them where required.
+A: We do not know, we are not lawyers so we are not qualified to awnser
+this. Also we have never read patents to implement any part of ffmpeg,
+ao even if we where qualified we couldnt awnser it as we do not know
+what is patented. Furthermore the sheer number of software patents makes it
+impossible to read them all so noone (lawyer or not) could awnser
+such a question with a definite no, thouse who do lie.
+What we do know is that various standards ffmpeg supports contain vague
+hints that any conforming implementation might be subject to some patent
+rights in some jurisdictions, examples for such statements are:
+<br>
+For h.264:
+<blockquote>
+ITU draws attention to the possibility that the practice or implementation of this Recommendation may
+involve the use of a claimed Intellectual Property Right. ITU takes no position concerning the evidence,
+validity or applicability of claimed Intellectual Property Rights, whether asserted by ITU members or others
+outside of the Recommendation development process.
+</blockquote>
+And for mpeg4:
+<blockquote>
+The user's attention is called to the possibility that, for some of the processes specified in this part of ISO/IEC
+14496, conformance with this specification may require use of an invention covered by patent rights.
+By publication of this part of ISO/IEC 14496, no position is taken with respect to the validity of this claim or of any
+patent rights in connection therewith.
+</blockquote>
 
 <P>
 <B>Q: Is it legal to use such patented algorithms?</B>
