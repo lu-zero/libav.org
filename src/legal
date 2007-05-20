@@ -104,6 +104,18 @@ than a patent lawsuit during which you would not be able to sell you product
 as the patent would be valid until you win the lawsuit 5+ years in the future.
 That is assuming you didnt go bankrupt before...
 
+<P>
+<B>Q: Can I be safe if I've payed my protection money.</B>
+<BR>
+A: You can never be safe as long as your country recognizes software
+patents for valid. There are companies that own many patents, pay and
+cross-license for other companies patents, but even such companies are
+being found guilty of infringing some obscure little-known
+lousy-related patent and end up paying millions for it.
+That's why lobbing against software patents is in your interest.
+Of course none of this is related to you using ffmpeg or another codec
+implementation, if you want to be safe the only option is to not touch
+any software at all.
 
 <?php require ('navbar.html'); ?>
 
