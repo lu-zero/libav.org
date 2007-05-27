@@ -55,7 +55,7 @@ with the latest developments by subscribing to both the
 <a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-cvslog">ffmpeg-cvslog</a> lists.
 If you send us a patch, please make it a unified diff (diff -u), everything
 else is unusable. For more detailed guidelines, have a look at the
-<a href="http://mplayerhq.hu/DOCS/tech/patches.txt">MPlayer patch guidelines</a>
+<a href="http://www.mplayerhq.hu/DOCS/tech/patches.txt">MPlayer patch guidelines</a>
 most of what is written there applies to FFmpeg as well.
 
 <h3>Mailling list archives</h3>
