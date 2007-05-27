@@ -46,7 +46,7 @@ The following command lines produced AVI files that were playable with
 the default WinXP/SP2 installation of Windows Media Player:
 
 <UL>
-<LI><EM>ffmpeg -i &lt;inputfile.ext&gt; -vcodec msmpeg4 -vtag MP43 -acodec mp3 &lt;file.avi&gt;</EM
+<LI><EM>ffmpeg -i &lt;inputfile.ext&gt; -vcodec msmpeg4 -vtag MP43 -acodec mp3 &lt;file.avi&gt;</EM>
 <BR>
 This is the same as the infamous 'DIV3' DivX ;-) codec. However, if the
 '-vtag' option is omitted, the 'DIV3' tag will be inserted by default and
