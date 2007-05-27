@@ -63,13 +63,13 @@ Fantasy VII</em> game</a> (Windows port). As usual, check out
 <strong>(August 17, 2005)</strong> Due to the generous donations of all you
 people we have ordered a new server for the project and will have it
 running in a few weeks. Look at the
-<a href="http://mplayerhq.hu/design7/news.html#server_thanks">MPlayer news page</a>
+<a href="http://www.mplayerhq.hu/design7/news.html#server_thanks">MPlayer news page</a>
 for details. Thank you!
 
 <p>
 
 <strong>(August 6, 2005)</strong> A few days ago the server of the
-<a href="http://mplayerhq.hu/">MPlayer</a> project where FFmpeg is hosted had a
+<a href="http://www.mplayerhq.hu/">MPlayer</a> project where FFmpeg is hosted had a
 serious failure. We are now looking for donations to get a replacement
 server and hosting place. If you wish to see FFmpeg continue to prosper,
 please contribute. Look at the
@@ -100,7 +100,7 @@ the player is only available for Mac OS X, and the latest QuickTime files are
 only viewable on that platform. That is, <strong>unless you are using an
 FFmpeg-derived</strong>
 multimedia application. Thanks to dedicated multimedia hackers from the FFmpeg
-and <a href="http://www.videolan.org/x264.html">x264</a> projects, FFmpeg's
+and <a href="http://www.videolan.org/developers/x264.html">x264</a> projects, FFmpeg's
 libavcodec can already decode the <em>next-generation (buzzword alert!)</em>
 H.264 video codec data inside the latest Apple QuickTime files. Along with
 the free, open source <a href="http://www.audiocoding.com/">FAAD AAC decoding
