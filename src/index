@@ -123,8 +123,8 @@ FFmpeg now includes a native decoder for Apple's Lossless Audio Codec
 At least 2 new features recently: Native decoder implementations of both
 the Shorten lossless audio codec and the LOCO video codec. Further, finally
 added a link to Martin Boehme's FFmpeg API documentation that so many of you have
-already located with search engines. See the <A HREF="documentation.html">documentation
-page</A> for more information.
+already located with search engines. See the <a href="documentation.html">documentation
+page</a> for more information.
 
 <p>
 
