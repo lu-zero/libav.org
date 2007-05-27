@@ -95,7 +95,7 @@ The channel is open and unmoderated, developers with SVN write access have
 operator status, contributors that committed patches get voice.
 </p>
 
-<P>
+<p>
 
 
 <?php require ('navbar.html'); ?>

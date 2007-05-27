@@ -8,11 +8,11 @@
 
 <body BGCOLOR="#FFFFFF">
 
-<H2>FFmpeg License and Legal Considerations</H2>
+<h2>FFmpeg License and Legal Considerations</h2>
 
 <?php require ('navbar.html'); ?>
 
-<H3>FFmpeg License</H3>
+<h3>FFmpeg License</h3>
 
 FFmpeg is licensed under the <a href="http://www.gnu.org/copyleft/lesser.html">
 GNU Lesser General Public License (LGPL)</a>.  However, FFmpeg
@@ -25,21 +25,21 @@ Read the license texts to learn how this affects programs built on top
 of FFmpeg or reusing FFmpeg.  You may also wish to have a look at the
 <a href="http://www.gnu.org/licenses/gpl-faq.html">GPL FAQ</a>.
 
-<H3>Trademark</H3>
+<h3>Trademark</h3>
 FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project.
 
-<P>
-<H3>Legal Mini-FAQ</H3>
+<p>
+<h3>Legal Mini-FAQ</h3>
 A lot of legal questions arise when discussing multimedia technology. This
 mini-FAQ attempts to address these issues. Note that much of this discussion
-is based on <I>precedent</I>, or what has happened in the past under similar
-circumstances. Very little consideration is given to <I>what could happen</I>.
+is based on <i>precedent</i>, or what has happened in the past under similar
+circumstances. Very little consideration is given to <i>what could happen</i>.
 If you use your imagination, you can visualize any dire scenario and cease
 doing any productive work.
 
-<P>
-<B>Q: Does FFmpeg use patented algorithms?</B>
-<BR>
+<p>
+<b>Q: Does FFmpeg use patented algorithms?</b>
+<br>
 A: We do not know, we are not lawyers so we are not qualified to answer
 this. Also we have never read patents to implement any part of FFmpeg,
 so even if we were qualified we could not answer it as we do not know
@@ -65,9 +65,9 @@ By publication of this part of ISO/IEC 14496, no position is taken with respect 
 patent rights in connection therewith.
 </blockquote>
 
-<P>
-<B>Q: Is it legal to use such patented algorithms?</B>
-<BR>
+<p>
+<b>Q: Is it legal to use such patented algorithms?</b>
+<br>
 A: Patent laws change wildly between jurisdictions. Further, even in places where
 software patents are recognized, there is serious doubt about the legitimacy of such
 legislation. Note patents on algorithms are illegal in many countries, also
@@ -75,17 +75,17 @@ the use of patents to prevent the usage of a format or codec on a specific
 operating system or together with specific other software might violate
 anti trust laws.
 
-<P>
-<B>Q: Bottom line: Should I be worried about legal issues if I use FFmpeg?</B>
-<BR>
+<p>
+<b>Q: Bottom line: Should I be worried about legal issues if I use FFmpeg?</b>
+<br>
 A: Are you a private user working with FFmpeg for your own personal purposes?
 If so, there is remarkably little reason to be concerned. Are you using FFmpeg
 in a commercial software product? Read on to the next question...
 
-<P>
-<B>Q: Since FFmpeg is licensed under the LGPL, is it perfectly all right to
-incorporate the whole FFmpeg core into my own commercial product?</B>
-<BR>
+<p>
+<b>Q: Since FFmpeg is licensed under the LGPL, is it perfectly all right to
+incorporate the whole FFmpeg core into my own commercial product?</b>
+<br>
 A: You might have a problem here. Sure the LGPL allows you to incorporate the
 code. However, there have been cases where companies have
 used FFmpeg in their projects, usually for such capabilities as superior
@@ -94,9 +94,9 @@ make money from certain technologies, the alleged owners of the technologies
 will come after their protection money. Most notably, MPEG-LA (licensing authority) is
 vigilant and diligent about collecting for MPEG-related technologies.
 
-<P>
-<B>Q: You called the patent license fee protection money, is this a joke?</B>
-<BR>
+<p>
+<b>Q: You called the patent license fee protection money, is this a joke?</b>
+<br>
 A: No, the legal validity of these patents is highly questionable, still in
 the current judiciary systems it is very easy to ruin a company with patents
 even if the patents are invalid. Paying the (small) license fee is much cheaper
@@ -104,9 +104,9 @@ than a patent lawsuit during which you would not be able to sell your product
 as the patent would be valid until you win the lawsuit 5+ years in the future.
 That is assuming you did not go bankrupt before...
 
-<P>
-<B>Q: Can I be safe if I've payed my protection money.</B>
-<BR>
+<p>
+<b>Q: Can I be safe if I've payed my protection money.</b>
+<br>
 A: You can never be safe as long as your country recognizes software
 patents for valid. There are companies that own many patents, pay and
 cross-license for other companies patents, but even such companies are

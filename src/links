@@ -8,15 +8,15 @@
 <body BGCOLOR="#FFFFFF">
 
 
-<H2>FFmpeg Links and Related Information</H2>
+<h2>FFmpeg Links and Related Information</h2>
 <?php require ('navbar.html'); ?>
 
-<UL>
-<LI><A HREF="http://www.multimedia.cx/">Multimedia Research
-Institute</A>: Documentation on many things multimedia
-<LI><A HREF="http://mplayerhq.hu/%7Emichael/codec-features.html">MPEG4
-Codec feature comparison</A>
-</UL>
+<ul>
+<li><a href="http://www.multimedia.cx/">Multimedia Research
+Institute</a>: Documentation on many things multimedia
+<li><a href="http://mplayerhq.hu/%7Emichael/codec-features.html">MPEG4
+Codec feature comparison</a>
+</ul>
 
 
 <?php require ('navbar.html'); ?>
