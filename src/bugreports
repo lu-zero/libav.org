@@ -78,7 +78,7 @@ the output into your bugreport email:
 The developers may ask you to provide a sample media file illustrating
 your problem. In this case, please follow these steps:
 <ul>
-  <li>If the sample file is too large ( > 10 megabytes), cut it down to
+  <li>If the sample file is too large ( &gt; 10 megabytes), cut it down to
     size with the Unix 'dd' command:
       <blockquote>
       dd if=sample-file of=small-sample-file bs=1024 count=10000

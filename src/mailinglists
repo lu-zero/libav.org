@@ -26,7 +26,7 @@ Trespass these rules at the risk of being flamed.
 <p>
 <b>Need help with FFmpeg?</b> First, this very important question:
 
-<center><h3>Are you using the latest SVN version of FFmpeg?</h3></center>
+<p><strong>Are you using the latest SVN version of FFmpeg?</strong></p>
 
 Seriously, FFmpeg is in a state of perpetual development and "official"
 releases are highly infrequent and largely a formality. The releases do
@@ -94,8 +94,6 @@ IRC network: <b>#ffmpeg</b>
 The channel is open and unmoderated, developers with SVN write access have
 operator status, contributors that committed patches get voice.
 </p>
-
-<p>
 
 
 <?php require ('navbar.html'); ?>
