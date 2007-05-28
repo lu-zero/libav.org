@@ -2,7 +2,7 @@
 
 <html>
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
    <title>FFmpeg Documentation</title>
 </head>
 
@@ -30,7 +30,7 @@ developers will be able to better diagnose the problem if you follow
 automatically generated from the FFmpeg source code using
 <a href="http://www.doxygen.org/index.html">doxygen</a>.
 <li><a href="http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html">Using libavformat and libavcodec</a> by
-Martin Böhme, a good overview of the FFmpeg APIs.
+Martin BÃ¶hme, a good overview of the FFmpeg APIs.
 <li><a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_codec_howto">Tutorial about the internal FFmpeg API</a>, covers how to add an audio codec.
 <li><a href="http://arrozcru.no-ip.org/ffmpeg/">FFmpeg Windows Help</a>
 discusses all issues regarding FFmpeg under Windows including a wiki
