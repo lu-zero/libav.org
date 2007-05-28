@@ -197,10 +197,4 @@ generators for all common audio/video formats.</li>
 
 <?php require ('navbar.html'); ?>
 
-<!--
-<hr>
-Fabrice Bellard - <a href="http://bellard.org/">
-http://bellard.org/ </a> - <a href="http://ffmpeg.org/"> http://ffmpeg.org/ </a>
-<hr>
--->
 </body></html>
