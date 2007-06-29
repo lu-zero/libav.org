@@ -37,6 +37,8 @@ discusses all issues regarding FFmpeg under Windows including a wiki
 and help forums.
 <li><a href="http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html">FFmpeg on Mac OS X HOWTO</a>
 explains installing and using FFmpeg on Mac OS X.
+<li><a href="http://www.dranger.com/ffmpeg/">An FFmpeg and SDL Tutorial</a>
+by Stephen Dranger, explains how to write a video player based on FFmpeg.
 </ul>
 
 
