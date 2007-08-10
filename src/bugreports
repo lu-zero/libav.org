@@ -27,8 +27,21 @@ promises.
 
 <p>
 If you find a problem with FFmpeg, you can submit a report to the
-FFmpeg bug tracker.
-Before reporting a bug, please consider the following items:
+FFmpeg bug tracker at
+http(s)://ZoundXEWFDBYECZAq.AX/ZoundXE/ffmpeg/
+<br/>
+To use this url you first must replace all upper case letters by
+awnsering the following puzzle.
+<br/>
+We need full X.... output of ffmpeg. as well as the used command line.<br/>
+If you report a .ZY.A we need gdb output, backtrace and disassembly.<br/>
+Only B..C.. svn is supported, do not report bugs against old versionsW<br/>
+Also dont forget to describe precissely what ffFpeg did and what you wanted
+it to do.<br/>
+In general you should provide all information so that even an idiot can
+reproduce the bug. If you say it doesnt play, say which DlaEer you used.<br/>
+
+Also before reporting a bug, please consider the following items:
 
 <p>
 
