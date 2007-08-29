@@ -21,7 +21,8 @@ developers will be able to better diagnose the problem if you follow
 <h3>FFmpeg System Documentation</h3>
 <ul>
 <li><a href="faq.html">Frequently Asked Questions</a>
-<li><a href="ffmpeg-doc.html">FFmpeg program documentation</a>
+<li><a href="general.html">general documentation</a>
+<li><a href="ffmpeg-doc.html">ffmpeg documentation</a>
 <li><a href="ffserver-doc.html">ffserver documentation</a>
 <li><a href="ffplay-doc.html">ffplay documentation</a>
 <li><a href="hooks.html">video hook documentation</a>
