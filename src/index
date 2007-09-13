@@ -31,6 +31,13 @@ Further donations are welcome as well.
 
 <h2>News</h2>
 
+<strong>(September 13, 2007)</strong> In about half a year of work since the
+last update we have added among other things: DXA and Monkey's Audio demuxer
+and decoder, DNxHD, Atrac3 and AC-3 decoders, QTRLE encoder, NUT and Matroska
+muxers.
+
+<p>
+
 <strong>(July 14, 2007)</strong> FFmpeg got 8 projects this year in the Google Summer of Code program.
 Check out the <a href="http://code.google.com/soc/ffmpeg/about.html">FFmpeg SoC about page</a> for
 more information.
