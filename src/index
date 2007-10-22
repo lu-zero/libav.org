@@ -44,6 +44,10 @@ support for H.264 was committed to svn.
 
 <p>
 
+<strong>(September 29, 2007)</strong> AMV audio and video decoding has arrived.
+
+<p>
+
 <strong>(September 13, 2007)</strong> In about half a year of work since the
 last update we have added among other things: DXA and Monkey's Audio demuxer
 and decoder, DNxHD, Atrac3 and AC-3 decoders, QTRLE encoder, NUT and Matroska
