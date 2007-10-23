@@ -8,9 +8,9 @@
 
 <body bgcolor="#FFFFFF">
 
-<h2>FFmpeg License and Legal Considerations</h2>
-
 <?php require ('navbar.html'); ?>
+
+<h2>FFmpeg License and Legal Considerations</h2>
 
 <h3>FFmpeg License</h3>
 

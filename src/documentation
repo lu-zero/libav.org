@@ -8,10 +8,9 @@
 
 <body bgcolor="#FFFFFF">
 
-<h2>FFmpeg Documentation</h2>
-
 <?php require ('navbar.html'); ?>
 
+<h2>FFmpeg Documentation</h2>
 
 <h3>Reporting Bugs</h3>
 Want to report a bug? Help us help you: The FFmpeg

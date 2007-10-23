@@ -8,9 +8,9 @@
 
 <body bgcolor="#FFFFFF">
 
-<h2>FFmpeg Compatibility</h2>
-
 <?php require ('navbar.html'); ?>
+
+<h2>FFmpeg Compatibility</h2>
 
 <h3>Windows Compatibility</h3>
 

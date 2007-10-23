@@ -8,10 +8,9 @@
 
 <body bgcolor="#FFFFFF">
 
+<?php require ('navbar.html'); ?>
 
 <h2>FFmpeg Mailing Lists</h2>
-
-<?php require ('navbar.html'); ?>
 
 <p>
 Please follow the netiquette when posting on FFmpeg mailing lists, especially

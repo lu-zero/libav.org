@@ -8,9 +8,9 @@
 
 <body bgcolor="#FFFFFF">
 
-<h2>FFmpeg-Based Projects</h2>
-
 <?php require ('navbar.html'); ?>
+
+<h2>FFmpeg-Based Projects</h2>
 
 These are some of the projects known to incorporate work from the FFmpeg
 project. If you would like to see another project added here, please send

@@ -7,9 +7,9 @@
 
 <body bgcolor="#FFFFFF">
 
+<?php require ('navbar.html'); ?>
 
 <h2>FFmpeg Links and Related Information</h2>
-<?php require ('navbar.html'); ?>
 
 <ul>
 <li><a href="http://www.multimedia.cx/">Multimedia Research
