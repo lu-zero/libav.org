@@ -40,7 +40,7 @@ Further donations are welcome as well.
 <p>
 
 <strong>(October 9, 2007)</strong> Apart from a DNxHD encoder, PAFF decoding
-support for H.264 was committed to svn.
+support for H.264 was committed to SVN.
 
 <p>
 
@@ -74,7 +74,7 @@ more information about the 5 projects.
 <p>
 
 
-<strong>(June 01, 2006)</strong> FFmpeg cvs to svn transition is completed. The cvs server
+<strong>(June 01, 2006)</strong> FFmpeg CVS to SVN transition is completed. The CVS server
 is now retired.
 
 <p>
@@ -83,7 +83,7 @@ is now retired.
 <a href="http://code.google.com/soc/">Google Summer of Code</a>.
 If you are interested, check out the
 <a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_Summer_Of_Code">list of possible projects</a>
-on MultimediaWiki.
+on the multimedia wiki.
 
 <p>
 
@@ -163,7 +163,7 @@ FFmpeg now includes a native decoder for Apple's Lossless Audio Codec
 <b>(Feb 28, 2005)</b>
 At least 2 new features recently: Native decoder implementations of both
 the Shorten lossless audio codec and the LOCO video codec. Further, finally
-added a link to Martin Boehme's FFmpeg API documentation that so many of you have
+added a link to Martin Böhme's FFmpeg API documentation that so many of you have
 already located with search engines. See the <a href="documentation.html">documentation
 page</a> for more information.
 
@@ -220,7 +220,7 @@ can compiled under most operating systems, including Windows.
 format to another. It also supports grabbing and encoding in real time
 from a TV card.</li>
 
-<li><tt>ffserver</tt> is an HTTP (RTSP is being developped) multimedia
+<li><tt>ffserver</tt> is an HTTP (RTSP is being developed) multimedia
 streaming server for live broadcasts. Time shifting of live broadcast
 is also supported.</li>
 
@@ -228,7 +228,7 @@ is also supported.</li>
 href="http://www.libsdl.org/">SDL</a> and on the FFmpeg libraries.</li>
 
 <li><tt>libavcodec</tt> is a library containing all the FFmpeg
-audio/video encoders and decoders. Most codecs were developped from
+audio/video encoders and decoders. Most codecs were developed from
 scratch to ensure best performances and high code reusability.</li>
 
 <li><tt>libavformat</tt> is a library containing parsers and

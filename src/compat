@@ -19,7 +19,7 @@ variety of audio and video codecs inside. Sometimes these formats do
 not adhere to "accepted" specifications. Many open source multimedia
 playback applications have been specifically tuned to play all manner
 of multimedia files, no matter how incomplete or broken. However,
-certain widespread, proprietary multimedia apps, such as Microsoft
+certain widespread, proprietary multimedia applications, such as Microsoft
 Windows Media Player and Apple's QuickTime Player, are a little more
 rigid in the types of files they will accept.
 

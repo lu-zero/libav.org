@@ -30,7 +30,7 @@ If you find a problem with FFmpeg, you can submit a report to the
 FFmpeg bug tracker at
 http(s)://ZQundXE.mplayerhq.hu/ZQundXE/ffmpeg/
 <br>
-To use this url you first must replace all uppercase letters by
+To use this URL you first must replace all uppercase letters by
 answering the following puzzle.
 <br>
 We need full Xncut output of ffmpeg as well as the command line you used.
@@ -78,7 +78,7 @@ In gdb, type 'r' for run, along with the rest of the FFmpeg command line:
 </pre>
 
 When gdb encounters its problem, run the following commands and copy/paste
-the output into your bugreport email:
+the output into your bug report email:
 
 <pre>
   bt
@@ -123,7 +123,7 @@ your problem. In this case, please follow these steps:
 deleted without being examined unless they are raw RGB/YUV/PCM.</b>
 <b>Furthermore movie files uploaded to services like megaupload, rapidshare or
 any other similar service will be ignored. We are not willing to spend our
-time fighting with this ridiculous bloated and spamfilled crap.</b>
+time fighting with this ridiculous, bloated and spam-filled crap.</b>
 
 <?php require ('navbar.html'); ?>
 

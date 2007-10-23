@@ -23,7 +23,7 @@ really well 99% of the time so people are not afraid to use them.
 <h2>FFmpeg SVN</h2>
 Note that the FFmpeg SVN repository is hosted by
 <a href="http://www.mplayerhq.hu">the MPlayer project</a>, rather than by
-Sourceforge, for... historical reasons. In order to use the standard SVN
+SourceForge, for... historical reasons. In order to use the standard SVN
 client to check out the source code:
 
 <pre>
