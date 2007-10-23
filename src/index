@@ -29,7 +29,7 @@ Further donations are welcome as well.
 </p>
 <hr>
 
-<h2>News</h2>
+<h1>News</h1>
 
 <strong>(October 22, 2007)</strong> Beam Software SIFF demuxer and video decoder support added.
 
@@ -205,7 +205,7 @@ lists</a>, and be sure to give us good troubleshooting information.
 
 </p>
 
-<h2>Project Description</h2>
+<h1>Project Description</h1>
 
 <b>FFmpeg</b> is a complete solution to record, convert and stream
 audio and video. It includes <b>libavcodec</b>, the leading

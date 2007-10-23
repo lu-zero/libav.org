@@ -10,9 +10,9 @@
 
 <?php require ('navbar.html'); ?>
 
-<h2>FFmpeg License and Legal Considerations</h2>
+<h1>FFmpeg License and Legal Considerations</h1>
 
-<h3>FFmpeg License</h3>
+<h2>FFmpeg License</h2>
 
 FFmpeg is licensed under the <a href="http://www.gnu.org/copyleft/lesser.html">
 GNU Lesser General Public License (LGPL)</a>.  However, FFmpeg
@@ -25,10 +25,10 @@ Read the license texts to learn how this affects programs built on top
 of FFmpeg or reusing FFmpeg.  You may also wish to have a look at the
 <a href="http://www.gnu.org/licenses/gpl-faq.html">GPL FAQ</a>.
 
-<h3>Trademark</h3>
+<h2>Trademark</h2>
 FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project.
 
-<h3>Legal Mini-FAQ</h3>
+<h2>Legal Mini-FAQ</h2>
 A lot of legal questions arise when discussing multimedia technology. This
 mini-FAQ attempts to address these issues. Note that much of this discussion
 is based on <i>precedent</i>, or what has happened in the past under similar

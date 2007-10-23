@@ -9,7 +9,7 @@
 
 <?php require ('navbar.html'); ?>
 
-<h2>FFmpeg Links and Related Information</h2>
+<h1>FFmpeg Links and Related Information</h1>
 
 <ul>
 <li><a href="http://www.multimedia.cx/">Multimedia Research

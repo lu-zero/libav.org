@@ -10,9 +10,9 @@
 
 <?php require ('navbar.html'); ?>
 
-<h2>FFmpeg Compatibility</h2>
+<h1>FFmpeg Compatibility</h1>
 
-<h3>Windows Compatibility</h3>
+<h2>Windows Compatibility</h2>
 
 FFmpeg can generate a lot of different types of multimedia files with a
 variety of audio and video codecs inside. Sometimes these formats do
@@ -28,7 +28,7 @@ Some FFmpeg end-users wish to know which encoding modes will produce files
 that can be played in common proprietary multimedia players. This page
 is intended to help them out.
 
-<h3>Testing Procedure</h3>
+<h2>Testing Procedure</h2>
 These tests were conducted on Friday, February 4, 2005 with the FFmpeg CVS copy
 from that day. Also, the machine generating the files was an AMD64
 computer.
@@ -39,7 +39,7 @@ Windows XP with Service Pack 2 pre-applied. Windows Media Player is the
 default, "out of the box" version installed with the platform. The Apple
 QuickTime Player is v6.5.2, the latest as of this writing.
 
-<h3>Windows Media Player</h3>
+<h2>Windows Media Player</h2>
 The following command lines produced AVI files that were playable with
 the default WinXP/SP2 installation of Windows Media Player:
 
@@ -77,7 +77,7 @@ line:
 will create a MPEG file with MPEG-1 video and MP2 audio.
 
 
-<h3>Apple QuickTime Player</h3>
+<h2>Apple QuickTime Player</h2>
 The following command lines produced QuickTime files that were playable
 with Apple QuickTime Player v6.5.2:
 

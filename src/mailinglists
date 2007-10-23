@@ -10,7 +10,7 @@
 
 <?php require ('navbar.html'); ?>
 
-<h2>FFmpeg Mailing Lists</h2>
+<h1>FFmpeg Mailing Lists</h1>
 
 <p>
 Please follow the netiquette when posting on FFmpeg mailing lists, especially
@@ -56,7 +56,7 @@ else is unusable. For more detailed guidelines, have a look at the
 <a href="http://www.mplayerhq.hu/DOCS/tech/patches.txt">MPlayer patch guidelines</a>
 most of what is written there applies to FFmpeg as well.
 
-<h3>Mailling list archives</h3>
+<h2>Mailling list archives</h2>
 
 <p>
 To read up on past discussions, read the mailing list archives. It is highly
@@ -85,7 +85,7 @@ archives.
 </p>
 
 
-<h3>IRC channel</h3>
+<h2>IRC channel</h2>
 
 <p>
 FFmpeg has an official channel on the <a href="http://freenode.net/">freenode</a>

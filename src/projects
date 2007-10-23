@@ -10,7 +10,7 @@
 
 <?php require ('navbar.html'); ?>
 
-<h2>FFmpeg-Based Projects</h2>
+<h1>FFmpeg-Based Projects</h1>
 
 These are some of the projects known to incorporate work from the FFmpeg
 project. If you would like to see another project added here, please send

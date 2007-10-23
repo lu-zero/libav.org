@@ -10,9 +10,9 @@
 
 <?php require ('navbar.html'); ?>
 
-<h2>FFmpeg Download and SVN</h2>
+<h1>FFmpeg Download and SVN</h1>
 
-<h3>Getting FFmpeg</h3>
+<h2>Getting FFmpeg</h2>
 FFmpeg has always been a very experimental and developer-driven project. It
 is a key component in many multimedia projects and has new features added
 constantly. New, official "releases" are few and far between. In short,
@@ -20,7 +20,7 @@ if you want to work with FFmpeg, you are advised to go along with SVN
 development rather than relying on formal releases. SVN snapshots work
 really well 99% of the time so people are not afraid to use them.
 
-<h3>FFmpeg SVN</h3>
+<h2>FFmpeg SVN</h2>
 Note that the FFmpeg SVN repository is hosted by
 <a href="http://www.mplayerhq.hu">the MPlayer project</a>, rather than by
 Sourceforge, for... historical reasons. In order to use the standard SVN
@@ -42,7 +42,7 @@ can update with Subversion or
 smaller but don't come with Subversion metadata.
 
 
-<h3>Formal Releases</h3>
+<h2>Formal Releases</h2>
 If you are looking for a formal release, stop now, there are none.
 Maybe we will have some in the future, but don't hold your breath.
 

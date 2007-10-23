@@ -10,14 +10,14 @@
 
 <?php require ('navbar.html'); ?>
 
-<h2>FFmpeg Documentation</h2>
+<h1>FFmpeg Documentation</h1>
 
-<h3>Reporting Bugs</h3>
+<h2>Reporting Bugs</h2>
 Want to report a bug? Help us help you: The FFmpeg
 developers will be able to better diagnose the problem if you follow
 <a href="bugreports.html">these bug reporting guidelines</a>.
 
-<h3>FFmpeg System Documentation</h3>
+<h2>FFmpeg System Documentation</h2>
 <ul>
 <li><a href="faq.html">Frequently Asked Questions</a>
 <li><a href="general.html">general documentation</a>
