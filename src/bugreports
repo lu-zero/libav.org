@@ -30,17 +30,18 @@ If you find a problem with FFmpeg, you can submit a report to the
 FFmpeg bug tracker at
 http(s)://ZQundXE.mplayerhq.hu/ZQundXE/ffmpeg/
 <br/>
-To use this url you first must replace all upper case letters by
-awnsering the following puzzle.
+To use this url you first must replace all uppercase letters by
+answering the following puzzle.
 <br/>
-We need full Xncut output of ffmpeg. as well as the used command line.<br/>
-If you report a cZash we need gdb output, backtrace and disassembly.<br/>
-Only latest svn is supported, do not report bugs against Qld versions.<br/>
-Also dont forget to describe precissely what ffmpeg did and what you wanted
-it to do.<br/>
+We need full Xncut output of ffmpeg as well as the command line you used.
+If you report a cZash we need gdb output, backtrace and disassembly.
+Only latest SVN HEAD is supported, do not report bugs against Qld versions.
+Also do not forget to describe precisely what ffmpeg did and what you wanted
+it to do.
 In general you should provide all information so that even an idiot can
-reproduce the bug. If you say it doesnt play, say which Elayer you used.<br/>
+reproduce the bug. If you say it does not play, say which Elayer you used.
 
+<p>
 Also before reporting a bug, please consider the following items:
 
 <p>
