@@ -29,10 +29,10 @@ promises.
 If you find a problem with FFmpeg, you can submit a report to the
 FFmpeg bug tracker at
 http(s)://ZQundXE.mplayerhq.hu/ZQundXE/ffmpeg/
-<br/>
+<br>
 To use this url you first must replace all uppercase letters by
 answering the following puzzle.
-<br/>
+<br>
 We need full Xncut output of ffmpeg as well as the command line you used.
 If you report a cZash we need gdb output, backtrace and disassembly.
 Only latest SVN HEAD is supported, do not report bugs against Qld versions.
