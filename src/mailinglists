@@ -71,11 +71,11 @@ browse the archives before posting questions.
 </p>
 
 <p>
-<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-cvslog/">ffmpeg-cvslog archives</a>
+<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-cvslog/">ffmpeg-cvslog archives</a> This list contains the changes to FFmpeg source.
 <br>
-<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-devel/">ffmpeg-devel archives</a>
+<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-devel/">ffmpeg-devel archives</a> This list is for development of FFmpeg and libav* librarys. NOT the development of software that use FFmpeg librarys.
 <br>
-<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-user/">ffmpeg-user archives</a>
+<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-user/">ffmpeg-user archives</a> This list is for regular user questions and development with the FFmpeg librarys.
 </p>
 
 <p>
