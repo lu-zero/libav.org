@@ -82,6 +82,9 @@ development of software that use the FFmpeg libraries.
 <br>
 <a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-cvslog/">ffmpeg-cvslog</a>:
 This list gets all changes to the FFmpeg sources.
+<br>
+<a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-soc/">ffmpeg-soc</a>:
+This list is about development of the FFmpeg Google Summer of Code projects.
 </p>
 
 <p>
@@ -89,7 +92,8 @@ Alternatively, you can follow our mailing lists through
 <a href="http://gmane.org">Gmane</a> at
 <a href="http://dir.gmane.org/gmane.comp.video.ffmpeg.cvs">ffmpeg-cvslog</a>,
 <a href="http://dir.gmane.org/gmane.comp.video.ffmpeg.devel">ffmpeg-devel</a>,
-<a href="http://dir.gmane.org/gmane.comp.video.ffmpeg.user">ffmpeg-user</a> and
+<a href="http://dir.gmane.org/gmane.comp.video.ffmpeg.user">ffmpeg-user</a>,
+<a href="http://dir.gmane.org/gmane.comp.video.ffmpeg.soc">ffmpeg-soc</a> and
 <a href="http://dir.gmane.org/gmane.comp.video.ffmpeg.issues">ffmpeg-issues</a>.
 </p>
 
@@ -108,6 +112,8 @@ browse the archives before posting questions.
 <a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-devel/">ffmpeg-devel archives</a>
 <br>
 <a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-cvslog/">ffmpeg-cvslog archives</a>
+<br>
+<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-soc/">ffmpeg-soc archives</a>
 </p>
 
 
