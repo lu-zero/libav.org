@@ -19,7 +19,8 @@ avoid <a href="http://en.wikipedia.org/wiki/Top-posting">top-posting</a> and
 If you attach files, avoid compressing small files, uncompressed is preferred.
 Also please try to avoid posting mails with overly long signatures or nonsense
 corporate disclaimers that claim the content of your mails is confidential.
-Attached patches should not have application/octet-stream as mime-type.
+Attached patches should not have application/octet-stream as mime-type, but
+text/plain or even better text/x-diff or text/x-patch.
 Trespass these rules at the risk of being flamed.
 
 <p>
