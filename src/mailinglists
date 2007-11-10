@@ -66,12 +66,6 @@ most of what is written there applies to FFmpeg as well.
 <h2>Mailing lists</h2>
 
 <p>
-To read up on past discussions, read the mailing list archives. It is highly
-likely that you will find an answer to your questions there, so make sure to
-browse the archives before posting questions.
-</p>
-
-<p>
 <a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-user/">ffmpeg-user</a>:
 This list is for regular user questions like compilation troubles and similar
 and for questions about development with the FFmpeg libraries.
