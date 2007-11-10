@@ -32,11 +32,11 @@ releases are highly infrequent and largely a formality. The releases do
 not reflect the state of the FFmpeg's current technology. You should be using
 the latest SVN checkout or snapshot package.
 
-<p><strong>Have you compiled ffmpeg with --enable-libfaac, --enable-libfaad and --enable-libmp3lame ?</strong></p>
+<p><strong>Have you compiled FFmpeg with<code>--enable-libfaac
+--enable-libfaad --enable-libmp3lame</code>?</strong></p>
 
-Most of the times you are missing an aac encode/decoder or a mp3 encoder. Make sure you compile ffmpeg with these
-configure flags before you ask for help. (To be ultra clear use this configure line
-"./configure --enable-libfaac --enable-libfaad --enable-libmp3lame --enable-gpl".)
+Most of the times you are missing an AAC encoder/decoder or an MP3 encoder.
+Make sure you compile FFmpeg with these flags before you ask for help.
 
 <p>
 Now then, if you are still experiencing problems with the latest, up to date
