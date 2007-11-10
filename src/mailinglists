@@ -62,6 +62,38 @@ else is unusable. For more detailed guidelines, have a look at the
 <a href="http://www.mplayerhq.hu/DOCS/tech/patches.txt">MPlayer patch guidelines</a>
 most of what is written there applies to FFmpeg as well.
 
+
+<h2>Mailing lists</h2>
+
+<p>
+To read up on past discussions, read the mailing list archives. It is highly
+likely that you will find an answer to your questions there, so make sure to
+browse the archives before posting questions.
+</p>
+
+<p>
+<a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-user/">ffmpeg-user</a>:
+This list is for regular user questions like compilation troubles and similar
+and for questions about development with the FFmpeg libraries.
+<br>
+<a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-devel/">ffmpeg-devel</a>
+This list is for development of FFmpeg itself. It is <strong>not</strong> for
+development of software that use the FFmpeg libraries.
+<br>
+<a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-cvslog/">ffmpeg-cvslog</a>:
+This list gets all changes to the FFmpeg sources.
+</p>
+
+<p>
+Alternatively, you can follow our mailing lists through
+<a href="http://gmane.org">Gmane</a> at
+<a href="http://dir.gmane.org/gmane.comp.video.ffmpeg.cvs">ffmpeg-cvslog</a>,
+<a href="http://dir.gmane.org/gmane.comp.video.ffmpeg.devel">ffmpeg-devel</a>,
+<a href="http://dir.gmane.org/gmane.comp.video.ffmpeg.user">ffmpeg-user</a> and
+<a href="http://dir.gmane.org/gmane.comp.video.ffmpeg.issues">ffmpeg-issues</a>.
+</p>
+
+
 <h2>Mailing list archives</h2>
 
 <p>
@@ -71,23 +103,11 @@ browse the archives before posting questions.
 </p>
 
 <p>
-<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-cvslog/">ffmpeg-cvslog archives</a> This list contains the changes to FFmpeg source.
+<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-user/">ffmpeg-user archives</a>
 <br>
-<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-devel/">ffmpeg-devel archives</a> This list is for development of FFmpeg and libav* librarys. NOT the development of software that use FFmpeg librarys.
+<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-devel/">ffmpeg-devel archives</a>
 <br>
-<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-user/">ffmpeg-user archives</a> This list is for regular user questions and development with the FFmpeg librarys.
-</p>
-
-<p>
-<a href="http://gmane.org">Gmane</a> also has
-<a href="http://dir.gmane.org/gmane.comp.video.ffmpeg.cvs">ffmpeg-cvslog</a>
-and
-<a href="http://dir.gmane.org/gmane.comp.video.ffmpeg.devel">ffmpeg-devel</a>
-and
-<a href="http://dir.gmane.org/gmane.comp.video.ffmpeg.user">ffmpeg-user</a>
-and
-<a href="http://dir.gmane.org/gmane.comp.video.ffmpeg.issues">ffmpeg-issues</a>
-archives.
+<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-cvslog/">ffmpeg-cvslog archives</a>
 </p>
 
 
