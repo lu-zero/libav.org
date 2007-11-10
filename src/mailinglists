@@ -91,16 +91,24 @@ archives.
 </p>
 
 
-<h2>IRC channel</h2>
+<h2>IRC channels</h2>
 
 <p>
-FFmpeg has an official channel on the <a href="http://freenode.net/">freenode</a>
-IRC network: <b>#ffmpeg</b>
+FFmpeg has two official channels on the <a href="http://freenode.net/">freenode</a>
+IRC network. Both channels are open and unmoderated. Developers with SVN
+write access have operator status, contributors with patches in FFmpeg
+have voice in the channels.
 </p>
 
 <p>
-The channel is open and unmoderated, developers with SVN write access have
-operator status, contributors that committed patches get voice.
+<b>#ffmpeg</b> is for user support and general questions similar to the
+ffmpeg-user mailing list.
+</p>
+
+<p>
+<b>#ffmpeg-devel</b> is strictly dedicated to FFmpeg development. This
+means development of FFmpeg itself. Development of other software that uses
+the FFmpeg libraries is offtopic there.
 </p>
 
 
