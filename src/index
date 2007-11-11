@@ -31,6 +31,10 @@ Further donations are welcome as well.
 
 <h1>News</h1>
 
+<strong>(November 11, 2007)</strong> FFmpeg now supports XIntra8 frames, meaning that WMV2 and WMV3 samples that showed artifacts can be decoded correctly.
+
+<p>
+
 <strong>(October 22, 2007)</strong> Beam Software SIFF demuxer and video decoder support added.
 
 <p>
