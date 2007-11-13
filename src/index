@@ -32,8 +32,8 @@ Further donations are welcome as well.
 <h1>News</h1>
 
 <strong>(November 11, 2007)</strong> FFmpeg now supports XIntra8 frames,
-meaning that some WMV2 and WMV3 samples that showed blocky colour artifacts
-can be decoded correctly.
+meaning that finally all WMV2 samples and some WMV3 samples that showed
+blocky color artifacts can be decoded correctly.
 
 <p>
 
