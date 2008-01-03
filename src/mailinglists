@@ -33,7 +33,7 @@ releases are highly infrequent and largely a formality. The releases do
 not reflect the state of the FFmpeg's current technology. You should be using
 the latest SVN checkout or snapshot package.
 
-<p><strong>Have you compiled FFmpeg with<code>--enable-libfaac
+<p><strong>Have you configured FFmpeg with <code>--enable-libfaac
 --enable-libfaad --enable-libmp3lame</code>?</strong></p>
 
 Most of the times you are missing an AAC encoder/decoder or an MP3 encoder.
