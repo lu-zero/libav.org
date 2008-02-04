@@ -29,6 +29,7 @@ an email to the <a href="mailinglists.html">ffmpeg-devel mailing list</a>.
 <td>
 <ul>
 <li><a href="http://sourceforge.net/projects/ac3encode/">ac3encode</a></li>
+<li><a href="http://alembik.sourceforge.net/">Alembik</a></li>
 <li><a href="http://atglas.sourceforge.net/">AtGLas</a></li>
 <li><a href="http://avifile.sourceforge.net/">avifile</a></li>
 <li><a href="http://gatos.sourceforge.net/avview.php">Avview</a></li>
@@ -79,12 +80,12 @@ an email to the <a href="mailinglists.html">ffmpeg-devel mailing list</a>.
 <li><a href="http://lynkeos.sourceforge.net/">Lynkeos</a></li>
 <li><a href="http://mconverter.sourceforge.net/">mConverter</a></li>
 <li><a href="http://mlt.sourceforge.net/">MLT Framework</a></li>
-<li><a href="http://www.nurs.or.jp/~calcium/3gpp/sources/">MobileHackerz</a></li>
 </ul>
 </td>
 
 <td>
 <ul>
+<li><a href="http://www.nurs.or.jp/~calcium/3gpp/sources/">MobileHackerz</a></li>
 <li><a href="http://www.miksoft.net/mobileMediaConverter.htm">Mobile Media Converter</a></li>
 <li><a href="http://www.mobiletoones.com/">MobileToones</a></li>
 <li><a href="http://sourceforge.net/projects/modprismiq/">modprismiq</a></li>
