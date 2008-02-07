@@ -31,13 +31,13 @@ Further donations are welcome as well.
 
 <h1>News</h1>
 
-<strong>(November 11, 2007)</strong> We have added Ogg and AVM2 (Flash 9)
+<strong>(February 7, 2008)</strong> We have added Ogg and AVM2 (Flash 9)
 SWF muxers, TechnoTrend PVA and Linux Media Labs MPEG-4 (LMLM4) demuxers,
 PC Paintbrush PCX and Sun Rasterfile decoders.
 
 <p>
 
-<strong>(February 7, 2008)</strong> FFmpeg now supports XIntra8 frames,
+<strong>(November 11, 2007)</strong> FFmpeg now supports XIntra8 frames,
 meaning that finally all WMV2 samples and some WMV3 samples that showed
 blocky color artifacts can be decoded correctly.
 
