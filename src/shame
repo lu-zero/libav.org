@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>FFmpeg-based Projects</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<?php require ('navbar.html'); ?>
+
+<h1>Hall of Shame</h1>
+
+<p>
+This is a list of projects or companies violating FFmpeg's license. The list
+is part of an effort to get them to comply with the licensing terms by shaming
+them in public. A good way to help us is to link to this page, thereby boosting
+its pagerank, possibly near or past the homepage of the offender.
+</p>
+
+<p>
+Our issue tracker also contains a list of
+<a href="https://roundup.mplayerhq.hu/roundup/ffmpeg/issue?%40search_text=&amp;title=&amp;%40columns=title&amp;topic=14&amp;id=&amp;%40columns=id&amp;creation=&amp;activity=&amp;%40columns=activity&amp;%40sort=activity&amp;priority=&amp;%40group=priority&amp;type=&amp;status=-1%2C1%2C2&amp;%40columns=status&amp;substatus=&amp;%40pagesize=50&amp;%40startwith=0&amp;%40action=search">license violations</a>.
+If you become aware of license infringements, please notify us on the
+<a href="mailinglists.html">ffmpeg-devel mailing list</a> and/or add
+it to our <a href="https://roundup.mplayerhq.hu/roundup/ffmpeg/">issue tracker</a>.
+</p>
+
+<p>
+(in alphabetical order)
+</p>
+
+<ul>
+<li><a href="http://gomplayer.com/">GOM Player</a></li>
+<li><a href="http://www.mp4converter.net/dvd-to-appletv-converter-mac.html">MP4Converter</a></li>
+</ul>
+
+
+<?php require ('navbar.html'); ?>
+
+</body>
+</html>

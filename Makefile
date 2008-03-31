@@ -1,7 +1,7 @@
 # ffmpeg.org HTML generation from source files
 
 SRCS=bugreports compat documentation download \
-     index legal links mailinglists projects
+     index legal links mailinglists projects shame
 
 TARGETS=$(addsuffix .html,$(addprefix htdocs/,$(SRCS)))
 
@@ -23,6 +23,7 @@ htdocs/%.html: src/% Makefile
 [<a href="bugreports.html">Reporting Bugs</a>]\n\
 [<a href="legal.html">License and Legal Issues</a>]\n\
 [<a href="projects.html">Projects Using FFmpeg</a>]\n\
+[<a href="shame.html">Hall of Shame</a>]\n\
 [<a href="links.html">Links and Other Information</a>]\n\
 </center>\n\
 <br>\n" \
