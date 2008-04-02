@@ -8,7 +8,7 @@
 
 <body bgcolor="#FFFFFF">
 
-<?php require ('navbar.html'); ?>
+FFMPEG_WEBSITE_NAVBAR
 
 <h1>FFmpeg-Based Projects</h1>
 
@@ -157,7 +157,7 @@ an email to the <a href="mailinglists.html">ffmpeg-devel mailing list</a>.
 </table>
 
 
-<?php require ('navbar.html'); ?>
+FFMPEG_WEBSITE_NAVBAR
 
 </body>
 </html>

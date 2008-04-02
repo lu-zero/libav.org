@@ -8,7 +8,7 @@
 
 <body bgcolor="#FFFFFF">
 
-<?php require ('navbar.html'); ?>
+FFMPEG_WEBSITE_NAVBAR
 
 <h1>FFmpeg License and Legal Considerations</h1>
 
@@ -116,7 +116,7 @@ Of course none of this is related to you using FFmpeg or another codec
 implementation. If you want to be safe the only option is not to touch
 any software at all.
 
-<?php require ('navbar.html'); ?>
+FFMPEG_WEBSITE_NAVBAR
 
 </body>
 </html>

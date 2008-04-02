@@ -8,7 +8,7 @@
 
 <body bgcolor="#FFFFFF">
 
-<?php require ('navbar.html'); ?>
+FFMPEG_WEBSITE_NAVBAR
 
 <h1>FFmpeg Documentation</h1>
 
@@ -42,7 +42,7 @@ by Stephen Dranger, explains how to write a video player based on FFmpeg.
 </ul>
 
 
-<?php require ('navbar.html'); ?>
+FFMPEG_WEBSITE_NAVBAR
 
 </body>
 </html>

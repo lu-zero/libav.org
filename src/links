@@ -7,7 +7,7 @@
 
 <body bgcolor="#FFFFFF">
 
-<?php require ('navbar.html'); ?>
+FFMPEG_WEBSITE_NAVBAR
 
 <h1>FFmpeg Links and Related Information</h1>
 
@@ -19,7 +19,7 @@ codec feature comparison</a>
 </ul>
 
 
-<?php require ('navbar.html'); ?>
+FFMPEG_WEBSITE_NAVBAR
 
 </body>
 </html>

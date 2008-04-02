@@ -14,7 +14,7 @@
 <hr>
 
 
-<?php require ('navbar.html'); ?>
+FFMPEG_WEBSITE_NAVBAR
 
 <hr>
 <p style="background: #b9ffae">
@@ -248,6 +248,6 @@ generators for all common audio/video formats.</li>
 
 </ul>
 
-<?php require ('navbar.html'); ?>
+FFMPEG_WEBSITE_NAVBAR
 
 </body></html>

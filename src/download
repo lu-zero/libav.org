@@ -8,7 +8,7 @@
 
 <body bgcolor="#FFFFFF">
 
-<?php require ('navbar.html'); ?>
+FFMPEG_WEBSITE_NAVBAR
 
 <h1>FFmpeg Download and SVN</h1>
 
@@ -46,7 +46,7 @@ smaller but don't come with Subversion metadata.
 If you are looking for a formal release, stop now, there are none.
 Maybe we will have some in the future, but don't hold your breath.
 
-<?php require ('navbar.html'); ?>
+FFMPEG_WEBSITE_NAVBAR
 
 </body>
 </html>

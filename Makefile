@@ -12,7 +12,7 @@ clean:
 	rm -f $(TARGETS)
 
 htdocs/%.html: src/% Makefile
-	sed $< -e "/<?php require ('navbar.html'); ?>/a\
+	sed $< -e "/FFMPEG_WEBSITE_NAVBAR/a\
 <center>\n\
 [<a href="index.html">Main Page and News</a>]\n\
 [<a href="changelog.html">Changelog</a>]\n\
@@ -27,6 +27,6 @@ htdocs/%.html: src/% Makefile
 [<a href="links.html">Links and Other Information</a>]\n\
 </center>\n\
 <br>\n" \
-	-e "/<?php require ('navbar.html'); ?>/d" > $@
+	-e "/FFMPEG_WEBSITE_NAVBAR/d" > $@
 
 .PHONY: all clean
