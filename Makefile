@@ -28,3 +28,5 @@ htdocs/%.html: src/% Makefile
 </center>\n\
 <br>\n" \
 	-e "/<?php require ('navbar.html'); ?>/d" > $@
+
+.PHONY: all clean
