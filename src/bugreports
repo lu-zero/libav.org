@@ -33,7 +33,7 @@ http(s)://ZQundXE.mplayerhq.hu/ZQundXE/ffmpeg/
 To use this URL you first must replace all uppercase letters by
 answering the following puzzle.
 <br>
-We need full uncut output of ffmpeg as well as the command line you used.
+We need full Xncut output of ffmpeg as well as the command line you used.
 If you report a cZash we need gdb output, backtrace and disassembly.
 Only latest SVN HEAD is supported, do not report bugs against Qld versions.
 Also do not forget to describe precisely what ffmpeg did and what you wanted
