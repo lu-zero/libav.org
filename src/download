@@ -41,6 +41,20 @@ can update with Subversion or
 <a href="ffmpeg-export-snapshot.tar.bz2">bare sources</a> that are
 smaller but don't come with Subversion metadata.
 
+<h2>FFmpeg Git</h2>
+There are Git repositories of FFmpeg and libswscale. Both are kept in
+sync with SVN automatically. To allow building FFmpeg with libswscale,
+the libswscale directory must be present inside the FFmpeg directory.
+They can be cloned with the commands
+
+<pre>
+  git clone git://git.mplayerhq.hu/ffmpeg/
+  cd ffmpeg
+  git clone git://git.mplayerhq.hu/libswscale/
+</pre>
+
+Alternatively, you can
+<a href="http://git.mplayerhq.hu/">browse it online</a>.
 
 <h2>Formal Releases</h2>
 If you are looking for a formal release, stop now, there are none.
