@@ -30,6 +30,13 @@ client to check out the source code:
   svn checkout svn://svn.mplayerhq.hu/ffmpeg/trunk ffmpeg
 </pre>
 
+<p>
+If you cannot access the repository, you are being firewalled somewhere.
+Our Subversion setup does <strong>not</strong> work over HTTP/HTTPS, nor
+will it in the future. There is no point in asking for it, the decision
+is final.
+
+<p>
 Alternatively, you can use
 <b><a href="http://svn.mplayerhq.hu/ffmpeg/trunk/">the
 FFmpeg ViewVC interface</a></b> to browse the source tree online.
