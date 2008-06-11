@@ -31,7 +31,10 @@ Further donations are welcome as well.
 
 <h1>News</h1>
 
-<strong>(June 11, 2008)</strong> We have added an Oma demuxer.
+<strong>(June 11, 2008)</strong> We have added an Oma demuxer, the QuickTime
+variant of an IMA ADPCM encoder, a VFW grabber, an iPod/iPhone-compatible MP4
+muxer, a Mimic decoder, an MSN TCP Webcam stream demuxer as well as demuxers
+and decoders for the following fringe formats: RL2, IFF, 8SVX, BFI.
 
 <p>
 
