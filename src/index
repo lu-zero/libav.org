@@ -31,6 +31,13 @@ Further donations are welcome as well.
 
 <h1>News</h1>
 
+<strong>(June 16, 2008)</strong> UAB "DKD" have released a Nellymoser ASAO
+compatible <a href="http://www1.mplayerhq.hu/ASAO/ASAO.zip">decoder and encoder</a> under the LGPL.
+This will aid the development of a native encoder in FFmpeg, and right now a GSoC student is working
+hard on just that task. A great thanks to UAB "DKD" for this contribution to the FFmpeg community.
+
+<p>
+
 <strong>(June 11, 2008)</strong> We have added an Oma demuxer, the QuickTime
 variant of an IMA ADPCM encoder, a VFW grabber, an iPod/iPhone-compatible MP4
 muxer, a Mimic decoder, an MSN TCP Webcam stream demuxer as well as demuxers
