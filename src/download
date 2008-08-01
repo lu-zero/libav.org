@@ -37,16 +37,15 @@ will it in the future. There is no point in asking for it, the decision
 is final.
 
 <p>
-Alternatively, you can use
-<b><a href="http://svn.mplayerhq.hu/ffmpeg/trunk/">the
-FFmpeg ViewVC interface</a></b> to browse the source tree online.
-
-<p>
 We also provide nightly Subversion snapshots. You can choose between a
 <a href="ffmpeg-checkout-snapshot.tar.bz2">full checkout</a> that you
 can update with Subversion or
 <a href="ffmpeg-export-snapshot.tar.bz2">bare sources</a> that are
 smaller but don't come with Subversion metadata.
+
+<p>
+Alternatively, you can
+<a href="http://svn.mplayerhq.hu/ffmpeg/trunk/">browse the source tree online</a>.
 
 <h2>FFmpeg Git</h2>
 There are Git repositories of FFmpeg and libswscale. Both are kept in
