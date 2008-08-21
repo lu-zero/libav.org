@@ -31,10 +31,17 @@ Further donations are welcome as well.
 
 <h1>News</h1>
 
-<strong>(August 21, 2008)</strong> FFmpeg now supports MVI demuxing and Motion
-Pixels Video decoding, D-Cinema audio demuxing, Electronic Arts CMV and TGV
-decoding, MAXIS EA XA demuxing/decoding, MLP/TrueHD decoding, Apple Lossless
-Audio encoding and AAC decoding.
+<strong>(August 21, 2008)</strong> The AAC decoder from FFmpeg Summer of Code
+2006 has finally been cleaned up and is now in FFmpeg trunk. It supports Main
+and Low Complexity profile AAC but does not yet support HE AAC v1 (LC + SBR) or
+v2 (LC + SBR + PS), though implementation of this support is underway. It is
+considerably faster than FAAD and you should expect further performance
+improvements and bug fixes in the coming weeks.
+<p>
+Also, FFmpeg now has floating point PCM support and supports MLP/TrueHD decoding
+(FFmpeg SoC 2008 should bring us an encoder), Apple Lossless Audio encoding
+(FFmpeg SoC 2008) MVI demuxing and Motion Pixels Video decoding, D-Cinema audio
+muxing, Electronic Arts CMV and TGV decoding and MAXIS EA XA demuxing/decoding.
 
 <p>
 
