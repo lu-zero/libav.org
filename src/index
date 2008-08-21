@@ -31,6 +31,13 @@ Further donations are welcome as well.
 
 <h1>News</h1>
 
+<strong>(August 21, 2008)</strong> FFmpeg now supports MVI demuxing and Motion
+Pixels Video decoding, D-Cinema audio demuxing, Electronic Arts CMV and TGV
+decoding, MAXIS EA XA demuxing/decoding, MLP/TrueHD decoding, Apple Lossless
+Audio encoding and AAC decoding.
+
+<p>
+
 <strong>(June 16, 2008)</strong> UAB "DKD" (dkd.lt) have released a
 Nellymoser ASAO compatible
 <a href="http://www1.mplayerhq.hu/ASAO/ASAO.zip">decoder and encoder</a>
