@@ -31,6 +31,11 @@ Further donations are welcome as well.
 
 <h1>News</h1>
 
+<strong>(September 8, 2008)</strong> FFmpeg is undergoing major changes in its
+API/ABI. The last valid revision for libavcodec version 51 is r15261.
+
+<p>
+
 <strong>(August 21, 2008)</strong> The AAC decoder from FFmpeg Summer of Code
 2006 has finally been cleaned up and is now in FFmpeg trunk. It supports Main
 and Low Complexity profile AAC but does not yet support HE AAC v1 (LC + SBR) or
