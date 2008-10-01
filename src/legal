@@ -14,12 +14,13 @@ FFMPEG_WEBSITE_NAVBAR
 
 <h2>FFmpeg License</h2>
 
-FFmpeg is licensed under the <a href="http://www.gnu.org/copyleft/lesser.html">
-GNU Lesser General Public License (LGPL)</a>.  However, FFmpeg
-incorporates several optional modules that are covered by the
-<a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License
-(GPL)</a>, notably libpostproc and libswscale.  If those parts
-get used the GPL applies to all of FFmpeg.
+FFmpeg is licensed under the
+<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser
+General Public License (LGPL) version 2.1</a> or later.
+However, FFmpeg incorporates several optional modules that are covered by the
+<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General
+Public License (GPL) version 2</a> or later, notably libpostproc and libswscale.
+If those parts get used the GPL applies to all of FFmpeg.
 
 Read the license texts to learn how this affects programs built on top
 of FFmpeg or reusing FFmpeg.  You may also wish to have a look at the
