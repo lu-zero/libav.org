@@ -101,7 +101,11 @@ your problem. In this case, please follow these steps:
   <li>Please choose descriptive names like "h264_green_tint.mov" or
       "block_artifacts_after_seeking.mkv". We already have plenty of "bug.rm"
       and "sample.avi" to choose from.
-  <li>Upload the sample to the MPlayer FTP:
+  <li>Upload the sample to the MPlayer FTP server. Note that our FTP server
+    is write-only, as it would immediately get misused for warez trading
+    otherwise. Do not let this confuse you. Even though you cannot see the
+    stuff you upload, it will be there and the FFmpeg developers will have
+    access.
   <ul>
     <li>Log into upload.mplayerhq.hu with an anonymous FTP login.
     <li>cd -> /MPlayer/incoming
@@ -112,9 +116,7 @@ your problem. In this case, please follow these steps:
         sample will most likely be deleted without further examination.
     <li>Upload the sample.
   </ul>
-  <li>Email the list and indicate the location of the sample; note that you
-    will not be able to download files from /MPlayer/incoming, but the
-    FFmpeg developers will have access.
+  <li>Email the list and indicate the location of the sample.
 </ul>
 
 <p>
