@@ -21,13 +21,10 @@ development rather than relying on formal releases. SVN snapshots work
 really well 99% of the time so people are not afraid to use them.
 
 <h2>FFmpeg SVN</h2>
-Note that the FFmpeg SVN repository is hosted by
-<a href="http://www.mplayerhq.hu">the MPlayer project</a>, rather than by
-SourceForge, for... historical reasons. In order to use the standard SVN
-client to check out the source code:
+In order to use the standard SVN client to check out the source code:
 
 <pre>
-  svn checkout svn://svn.mplayerhq.hu/ffmpeg/trunk ffmpeg
+  svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk ffmpeg
 </pre>
 
 <p>
@@ -45,7 +42,7 @@ smaller but don't come with Subversion metadata.
 
 <p>
 Alternatively, you can
-<a href="http://svn.mplayerhq.hu/ffmpeg/trunk/">browse the source tree online</a>.
+<a href="http://svn.ffmpeg.org/ffmpeg/trunk/">browse the source tree online</a>.
 
 <h2>FFmpeg Git</h2>
 There are Git repositories of FFmpeg and libswscale. Both are kept in
@@ -60,7 +57,7 @@ They can be cloned with the commands
 </pre>
 
 Alternatively, you can
-<a href="http://git.mplayerhq.hu/">browse it online</a>.
+<a href="http://git.ffmpeg.org/">browse it online</a>.
 
 <h2>Formal Releases</h2>
 If you are looking for a formal release, stop now, there are none.
