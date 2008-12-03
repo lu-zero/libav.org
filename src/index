@@ -31,6 +31,15 @@ Further donations are welcome as well.
 
 <h1>News</h1>
 
+<strong>(December 3, 2008)</strong> A bunch of new formats have recently been
+added to FFmpeg, namely a QCELP/PureVoice speech decoder, a floating point
+PCM decoder and encoder, a Nellymoser ASAO encoder, an Electronic Arts TGQ
+decoder, Speex decoding via libspeex, an MXF muxer, an ASS/SSA subtitle demuxer
+and muxer and our AC-3 decoder has been extended with E-AC-3 support. Last but
+not least we now have a decoder for RealVideo 4.0.
+
+<p>
+
 <strong>(September 8, 2008)</strong> FFmpeg is undergoing major changes in its
 API/ABI. The last valid revision for libavcodec version 51 is r15261.
 
