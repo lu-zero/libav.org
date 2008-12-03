@@ -16,19 +16,6 @@
 
 FFMPEG_WEBSITE_NAVBAR
 
-<hr>
-<p style="background: #b9ffae">
-FFmpeg <a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-devel/2007-May/030085.html">supporters</a>
-have donated <b>1200 €</b> for the completion of the
-<b><a href="http://en.wikipedia.org/wiki/Snow_%28codec%29">Snow</a> specification 1.0</b>
-and a working <b>implementation</b> licensed under the LGPL.<br>
-Help is very welcome. Please don't hesitate to contact us on the
-<a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-devel">ffmpeg-devel</a>
-mailing list. Gain your portion!<br>
-Further donations are welcome as well.
-</p>
-<hr>
-
 <h1>News</h1>
 
 <strong>(December 3, 2008)</strong> A bunch of new formats have recently been
