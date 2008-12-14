@@ -17,6 +17,49 @@
 
 FFMPEG_WEBSITE_NAVBAR
 
+
+<h1>Project Description</h1>
+
+<b>FFmpeg</b> is a complete solution to record, convert and stream
+audio and video. It includes <b>libavcodec</b>, the leading
+audio/video codec library. FFmpeg is developed under Linux, but it
+can be compiled under most operating systems, including Windows.
+
+<p>The project is made of several components:
+</p>
+
+<ul>
+<li><tt>ffmpeg</tt> is a command line tool to convert one video file
+format to another. It also supports grabbing and encoding in real time
+from a TV card.</li>
+
+<li><tt>ffserver</tt> is an HTTP (RTSP is being developed) multimedia
+streaming server for live broadcasts. Time shifting of live broadcast
+is also supported.</li>
+
+<li><tt>ffplay</tt> is a simple media player based on <a
+href="http://www.libsdl.org/">SDL</a> and on the FFmpeg libraries.</li>
+
+<li><tt>libavcodec</tt> is a library containing all the FFmpeg
+audio/video encoders and decoders. Most codecs were developed from
+scratch to ensure best performances and high code reusability.</li>
+
+<li><tt>libavformat</tt> is a library containing parsers and
+generators for all common audio/video formats.</li>
+
+</ul>
+
+As always, check the <a href="ffmpeg-doc.html">main FFmpeg doc</a> for a
+complete feature list, and the <a href="changelog.html">Changelog for recent
+changes</a>.
+
+<p>
+<b>Looking for help?</b> Check out the <a href="mailinglists.html">mailing
+lists</a>, and be sure to give us good troubleshooting information.
+</p>
+
+
+
 <h1>News</h1>
 
 <strong>(December 3, 2008)</strong> A bunch of new formats have recently been
@@ -238,47 +281,6 @@ Here are some of the newest FFmpeg developments:
 <li>Nullsoft Video (NSV) file demuxer
 </ul>
 
-As always, check the <a href="ffmpeg-doc.html">main FFmpeg doc</a> for a
-complete feature list, and the <a href="changelog.html">Changelog for recent
-changes</a>.
-
-<p>
-
-<b>Looking for help?</b> Check out the <a href="mailinglists.html">mailing
-lists</a>, and be sure to give us good troubleshooting information.
-
-</p>
-
-<h1>Project Description</h1>
-
-<b>FFmpeg</b> is a complete solution to record, convert and stream
-audio and video. It includes <b>libavcodec</b>, the leading
-audio/video codec library. FFmpeg is developed under Linux, but it
-can be compiled under most operating systems, including Windows.
-
-<p>The project is made of several components:
-</p>
-
-<ul>
-<li><tt>ffmpeg</tt> is a command line tool to convert one video file
-format to another. It also supports grabbing and encoding in real time
-from a TV card.</li>
-
-<li><tt>ffserver</tt> is an HTTP (RTSP is being developed) multimedia
-streaming server for live broadcasts. Time shifting of live broadcast
-is also supported.</li>
-
-<li><tt>ffplay</tt> is a simple media player based on <a
-href="http://www.libsdl.org/">SDL</a> and on the FFmpeg libraries.</li>
-
-<li><tt>libavcodec</tt> is a library containing all the FFmpeg
-audio/video encoders and decoders. Most codecs were developed from
-scratch to ensure best performances and high code reusability.</li>
-
-<li><tt>libavformat</tt> is a library containing parsers and
-generators for all common audio/video formats.</li>
-
-</ul>
 
 FFMPEG_WEBSITE_NAVBAR
 
