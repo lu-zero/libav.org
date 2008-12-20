@@ -59,6 +59,26 @@ lists</a>, and be sure to give us good troubleshooting information.
 
 <h1>News</h1>
 
+<strong>(December 20, 2008)</strong>RealVideo 3.0 decoder added.
+Still working the bugs out, please test and report any problems.
+
+<p>
+
+<strong>(December 20, 2008)</strong>The FFmpeg project would like to recognize
+and thank the people at <a href="http://www.picsearch.com/">Picsearch</a>
+for their help improving FFmpeg recently. The Picsearch team makes extensive
+use of FFmpeg and provided feedback to FFmpeg in the form of thousands of files that
+either crash FFmpeg or use unsupported/unknown codecs. The FFmpeg
+development team is putting this information to work in order to improve
+FFmpeg for everyone.
+<p>
+We know that there are other organizations using FFmpeg on a large scale
+to process diverse input types. The FFmpeg team invites those
+organizations to provide similar feedback about problems encountered in
+the wild.
+
+<p>
+
 <strong>(December 3, 2008)</strong> A bunch of new formats have recently been
 added to FFmpeg, namely a QCELP/PureVoice speech decoder, a floating point
 PCM decoder and encoder, a Nellymoser ASAO encoder, an Electronic Arts TGQ
