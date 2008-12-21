@@ -9,14 +9,11 @@
 
 <body bgcolor="#FFFFFF">
 
-<center>
-<img src=ffmpeg-logo.png width="568" height="140" alt="FFmpeg"><br>
-</center>
-<hr>
-
 
 FFMPEG_WEBSITE_NAVBAR
 
+
+<img src=ffmpeg-logo.png width="568" height="140" alt="FFmpeg"><br>
 
 <h1>Project Description</h1>
 
