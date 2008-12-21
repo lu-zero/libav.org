@@ -108,7 +108,7 @@ your problem. In this case, please follow these steps:
     stuff you upload, it will be there and the FFmpeg developers will have
     access.
   <ul>
-    <li>Log into upload.mplayerhq.hu with an anonymous FTP login.
+    <li>Log into upload.ffmpeg.org with an anonymous FTP login.
     <li>cd -> /MPlayer/incoming
     <li>Create a new directory.
     <li>cd -> your new directory
