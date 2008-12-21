@@ -24,8 +24,8 @@ htdocs/%.html: src/% Makefile
 [<a href="legal.html">License and Legal Issues</a>]\n\
 [<a href="projects.html">Projects Using FFmpeg</a>]\n\
 [<a href="shame.html">Hall of Shame</a>]\n\
-[<a href="links.html">Links and Other Information</a>]\n\
-</center>\n" \
+</center>\n\
+<hr>" \
 	-e "/FFMPEG_WEBSITE_NAVBAR/d" > $@
 
 .PHONY: all clean
