@@ -52,9 +52,9 @@ the libswscale directory must be present inside the FFmpeg directory.
 They can be cloned with the commands
 
 <pre>
-  git clone git://git.mplayerhq.hu/ffmpeg/
+  git clone git://git.ffmpeg.org/ffmpeg/
   cd ffmpeg
-  git clone git://git.mplayerhq.hu/libswscale/
+  git clone git://git.ffmpeg.org/libswscale/
 </pre>
 
 Alternatively, you can
