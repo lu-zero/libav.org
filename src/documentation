@@ -18,28 +18,40 @@ Want to report a bug? Help us help you: The FFmpeg
 developers will be able to better diagnose the problem if you follow
 <a href="bugreports.html">these bug reporting guidelines</a>.
 
-<h2>FFmpeg System Documentation</h2>
+<h2>General Documentation</h2>
 <ul>
 <li><a href="faq.html">Frequently Asked Questions</a>
 <li><a href="general.html">general documentation</a>
-<li><a href="ffmpeg-doc.html">ffmpeg documentation</a>
-<li><a href="ffserver-doc.html">ffserver documentation</a>
-<li><a href="ffplay-doc.html">ffplay documentation</a>
-<li><a href="hooks.html">video hook documentation</a>
-<li><a href="sample.html">sample ffserver configuration file</a>
-<li><a href="http://cekirdek.pardus.org.tr/~ismail/ffmpeg-docs/">FFmpeg API documentation</a>,
-automatically generated from the FFmpeg source code using
-<a href="http://www.doxygen.org/index.html">doxygen</a>.
-<li><a href="http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html">Using libavformat and libavcodec</a> by
-Martin Böhme, a good overview of the FFmpeg APIs.
-<li><a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_codec_howto">Tutorial about the internal FFmpeg API</a>, covers how to add an audio codec.
 <li><a href="http://ffmpeg.arrozcru.org/">FFmpeg Windows Help</a>
 discusses all issues regarding FFmpeg under Windows including a wiki
 and help forums.
 <li><a href="http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html">FFmpeg on Mac OS X HOWTO</a>
 explains installing and using FFmpeg on Mac OS X.
+</ul>
+
+<h2>Command Line Interface (CLI) and Related Usage Documentation</h2>
+<ul>
+<li><a href="ffmpeg-doc.html">ffmpeg documentation</a>
+<li><a href="ffserver-doc.html">ffserver documentation</a>
+<li><a href="ffplay-doc.html">ffplay documentation</a>
+<li><a href="hooks.html">video hook documentation</a>
+<li><a href="sample.html">sample ffserver configuration file</a>
+</ul>
+
+<h2>Public API Documentation</h2>
+<ul>
+<li><a href="http://cekirdek.pardus.org.tr/~ismail/ffmpeg-docs/">FFmpeg API documentation</a>,
+automatically generated from the FFmpeg source code using
+<a href="http://www.doxygen.org/index.html">doxygen</a>.
+<li><a href="http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html">Using libavformat and libavcodec</a> by
+Martin Böhme, a good overview of the FFmpeg APIs.
 <li><a href="http://www.dranger.com/ffmpeg/">An FFmpeg and SDL Tutorial</a>
 by Stephen Dranger, explains how to write a video player based on FFmpeg.
+</ul>
+
+<h2>Internal API Documentation</h2>
+<ul>
+<li><a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_codec_howto">Tutorial about the internal FFmpeg API</a>, covers how to add an audio codec.
 </ul>
 
 </body>
