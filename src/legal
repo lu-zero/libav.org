@@ -30,8 +30,9 @@ of FFmpeg or reusing FFmpeg.  You may also wish to have a look at the
 <h2>Trademark</h2>
 FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project.
 
-<h2>Legal Mini-FAQ</h2>
-A lot of legal questions arise when discussing multimedia technology. This
+<h2>Patent Mini-FAQ</h2>
+A lot of legal questions surrounding patents arise when discussing multimedia
+technology. This
 mini-FAQ attempts to address these issues. Note that much of this discussion
 is based on <i>precedent</i>, or what has happened in the past under similar
 circumstances. Very little consideration is given to <i>what could happen</i>.
@@ -77,7 +78,7 @@ operating system or together with specific other software might violate
 antitrust laws.
 
 <p>
-<b>Q: Bottom line: Should I be worried about legal issues if I use FFmpeg?</b>
+<b>Q: Bottom line: Should I be worried about patent issues if I use FFmpeg?</b>
 <br>
 A: Are you a private user working with FFmpeg for your own personal purposes?
 If so, there is remarkably little reason to be concerned. Are you using FFmpeg
