@@ -19,6 +19,7 @@ The usual disclaimers apply, this is not legal advice.
 
 <h2>FFmpeg License</h2>
 
+<p>
 FFmpeg is licensed under the
 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser
 General Public License (LGPL) version 2.1</a> or later.
@@ -26,10 +27,31 @@ However, FFmpeg incorporates several optional modules that are covered by the
 <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General
 Public License (GPL) version 2</a> or later, notably libpostproc and libswscale.
 If those parts get used the GPL applies to all of FFmpeg.
+</p>
 
+<p>
 Read the license texts to learn how this affects programs built on top
 of FFmpeg or reusing FFmpeg.  You may also wish to have a look at the
 <a href="http://www.gnu.org/licenses/gpl-faq.html">GPL FAQ</a>.
+</p>
+
+<p>
+Here is a short list of things you need to take into consideration when you
+incorporate FFmpeg into proprietary programs. This list is not exhaustive,
+it just lists the most common issues we encounter.
+</p>
+
+<ul>
+<li>Be careful if you enable GPL components.</li>
+<li>Provide the license text, the correct version.</li>
+<li>Provide FFmpeg sources, the exact version you use.</li>
+<li>Review your EULA terms. They have to be compatible with the license
+    of FFmpeg. For example, terms forbidding reverse engineering are
+    not acceptable.</li>
+<li>Read the LGPL license text, multiple times, and educate yourself about
+    its effects.</li>
+</ul>
+
 
 <h2>Trademark</h2>
 FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project.
