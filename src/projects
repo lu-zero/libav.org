@@ -10,6 +10,7 @@
 <body bgcolor="#FFFFFF">
 
 FFMPEG_WEBSITE_NAVBAR
+FFMPEG_ABOUT_NAVBAR
 
 <h1>FFmpeg-Based Projects</h1>
 
