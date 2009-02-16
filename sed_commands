@@ -8,7 +8,7 @@
 <a href="changelog.html">Changelog</a> |\
 <a href="documentation.html">Documentation</a> |\
 <a href="bugreports.html">Reporting Bugs</a> |\
-<a href="mailinglists.html">Mailing Lists</a> |\
+<a href="mailinglists.html">Mailing Lists</a>\
 </div>\
 <hr />
 /FFMPEG_WEBSITE_NAVBAR/d
@@ -17,7 +17,7 @@
 <div class="center">\
 <a href="legal.html">License and Legal Issues</a> |\
 <a href="shame.html">Hall of Shame</a> |\
-<a href="projects.html">Projects Using FFmpeg</a> |\
+<a href="projects.html">Projects Using FFmpeg</a>\
 </div>\
 <hr />
 /FFMPEG_ABOUT_NAVBAR/d
