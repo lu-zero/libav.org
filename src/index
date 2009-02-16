@@ -17,10 +17,9 @@ FFMPEG_WEBSITE_NAVBAR
 <h1>Project Description</h1>
 
 <p>
-<b>FFmpeg</b> is a complete solution to record, convert and stream
-audio and video. It includes <b>libavcodec</b>, the leading
-audio/video codec library. FFmpeg is developed under Linux, but it
-can be compiled under most operating systems, including Windows.
+<b>FFmpeg</b> is a complete, cross-platform solution to record, convert and
+stream audio and video. It includes <b>libavcodec</b> - the leading audio/video codec
+library.
 </p>
 
 <p>
