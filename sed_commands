@@ -3,14 +3,14 @@
 <img src=ffmpeg-logo.png width="568" height="140" alt="FFmpeg">\
 <hr>\
 [<a href="index.html">Main Page and News</a>]\
-[<a href="changelog.html">Changelog</a>]\
-[<a href="download.html">Download and SVN</a>]\
-[<a href="documentation.html">Documentation</a>]\
-[<a href="mailinglists.html">Mailing Lists</a>]\
-[<a href="bugreports.html">Reporting Bugs</a>]\
 [<a href="legal.html">License and Legal Issues</a>]\
 [<a href="projects.html">Projects Using FFmpeg</a>]\
 [<a href="shame.html">Hall of Shame</a>]\
+[<a href="download.html">Get FFmpeg</a>]\
+[<a href="changelog.html">Changelog</a>]\
+[<a href="documentation.html">Documentation</a>]\
+[<a href="bugreports.html">Reporting Bugs</a>]\
+[<a href="mailinglists.html">Mailing Lists</a>]\
 </center>\
 <hr>
 /FFMPEG_WEBSITE_NAVBAR/d
