@@ -11,22 +11,28 @@ corporate disclaimers that claim the content of your mails is confidential.
 Attached patches should not have application/octet-stream as mime-type, but
 text/plain or even better text/x-diff or text/x-patch.
 Trespass these rules at the risk of being flamed.
+</p>
 
 <p>
 <b>Need help with FFmpeg?</b> First, this very important question:
+</p>
 
 <p><strong>Are you using the latest SVN version of FFmpeg?</strong></p>
 
+<p>
 Seriously, FFmpeg is in a state of perpetual development and "official"
 releases are highly infrequent and largely a formality. The releases do
 not reflect the state of the FFmpeg's current technology. You should be using
 the latest SVN checkout or snapshot package.
+</p>
 
 <p><strong>Have you configured FFmpeg with <code>--enable-libfaac
 --enable-libfaad --enable-libmp3lame</code>?</strong></p>
 
+<p>
 Most of the times you are missing an AAC encoder/decoder or an MP3 encoder.
 Make sure you compile FFmpeg with these flags before you ask for help.
+</p>
 
 <p>
 Now then, if you are still experiencing problems with the latest, up to date
@@ -37,10 +43,11 @@ with the problem you are reporting. It saves time for everyone. Simply
 writing "It does not work!" is remarkably useless and inevitably leads to
 an exchange where the developers must ask you to visit the bug reporting
 page anyway.
+</p>
 
 <p>
-
 After you have a good bug report, submit it to our bug tracker.
+</p>
 
 <p>
 <b>Want to participate in the active development of FFmpeg?</b> Keep up
@@ -51,6 +58,7 @@ If you send us a patch, please make it a unified diff (diff -u), everything
 else is unusable. For more detailed guidelines, have a look at the
 <a href="http://www.mplayerhq.hu/DOCS/tech/patches.txt">MPlayer patch guidelines</a>
 most of what is written there applies to FFmpeg as well.
+</p>
 
 
 <h2>Mailing lists</h2>
@@ -59,17 +67,17 @@ most of what is written there applies to FFmpeg as well.
 <a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-user/">ffmpeg-user</a>:
 This list is for regular user questions like compilation troubles,
 command-line issues and similar.
-<br>
+<br />
 <a href="http://lists.mplayerhq.hu/mailman/listinfo/libav-user/">libav-user</a>:
 This list is for regular user questions about development with the FFmpeg libraries.
-<br>
+<br />
 <a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-devel/">ffmpeg-devel</a>:
 This list is for development of FFmpeg itself. It is <strong>not</strong> for
 development of software that use the FFmpeg libraries.
-<br>
+<br />
 <a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-cvslog/">ffmpeg-cvslog</a>:
 This list gets all changes to the FFmpeg sources.
-<br>
+<br />
 <a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-soc/">ffmpeg-soc</a>:
 This list is about development of the FFmpeg Google Summer of Code projects.
 </p>
@@ -90,13 +98,13 @@ browse the archives before posting questions.
 
 <p>
 <a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-user/">ffmpeg-user archives</a>
-<br>
+<br />
 <a href="http://lists.mplayerhq.hu/pipermail/libav-user/">libav-user archives</a>
-<br>
+<br />
 <a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-devel/">ffmpeg-devel archives</a>
-<br>
+<br />
 <a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-cvslog/">ffmpeg-cvslog archives</a>
-<br>
+<br />
 <a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-soc/">ffmpeg-soc archives</a>
 </p>
 
