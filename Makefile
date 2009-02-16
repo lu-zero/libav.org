@@ -5,13 +5,17 @@ SRCS=about bugreports documentation download \
 
 TARGETS=$(addsuffix .html,$(addprefix htdocs/,$(SRCS)))
 
+PAGE_DEPS=src/template_head1 src/template_head2 src/template_footer sed_commands
+
 
 all: $(TARGETS)
 
 clean:
 	rm -f $(TARGETS)
 
-htdocs/%.html: src/% Makefile sed_commands
-	sed -f sed_commands $< > $@
+htdocs/%.html: src/% src/%_title $(PAGE_DEPS)
+	sed -f sed_commands $< | \
+	cat src/template_head1 $<_title src/template_head2 - \
+	src/template_footer > $@
 
 .PHONY: all clean

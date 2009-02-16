@@ -1,0 +1,23 @@
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="default.css" />
+</head>
+
+<body>
+
+<div class="center">
+<img src="ffmpeg-logo.png" width="568" height="140" alt="FFmpeg" />
+
+<hr />
+
+<a href="index.html">Home/News</a> |
+<a href="about.html">About</a> |
+<a href="download.html">Get FFmpeg</a> |
+<a href="changelog.html">Changelog</a> |
+<a href="documentation.html">Documentation</a> |
+<a href="bugreports.html">Reporting Bugs</a> |
+<a href="mailinglists.html">Mailing Lists</a>
+</div>
+
+<hr />
+
+
