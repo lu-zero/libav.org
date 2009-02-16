@@ -14,3 +14,13 @@
 </center>\
 <hr>
 /FFMPEG_WEBSITE_NAVBAR/d
+
+/FFMPEG_ABOUT_NAVBAR/a\
+<center>\
+[<a href="compat.html">Compatibility</a>]\
+[<a href="legal.html">License and Legal Issues</a>]\
+[<a href="shame.html">Hall of Shame</a>]\
+[<a href="projects.html">Projects Using FFmpeg</a>]\
+</center>\
+<hr>
+/FFMPEG_ABOUT_NAVBAR/d
