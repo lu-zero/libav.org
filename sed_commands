@@ -1,5 +1,7 @@
 /FFMPEG_WEBSITE_NAVBAR/a\
 <center>\
+<img src=ffmpeg-logo.png width="568" height="140" alt="FFmpeg">\
+<hr>\
 [<a href="index.html">Main Page and News</a>]\
 [<a href="changelog.html">Changelog</a>]\
 [<a href="download.html">Download and SVN</a>]\
