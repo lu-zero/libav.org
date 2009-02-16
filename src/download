@@ -1,25 +1,30 @@
 <h1>FFmpeg Download and SVN</h1>
 
 <h2>Getting FFmpeg</h2>
+<p>
 FFmpeg has always been a very experimental and developer-driven project. It
 is a key component in many multimedia projects and has new features added
 constantly. New, official "releases" are few and far between. In short,
 if you want to work with FFmpeg, you are advised to go along with SVN
 development rather than relying on formal releases. SVN snapshots work
 really well 99% of the time so people are not afraid to use them.
+</p>
 
 <h2>FFmpeg SVN</h2>
+<p>
 In order to use the standard SVN client to check out the source code:
+</p>
 
-<pre>
-  svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk ffmpeg
-</pre>
+<blockquote>
+<pre>svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk ffmpeg</pre>
+</blockquote>
 
 <p>
 If you cannot access the repository, you are being firewalled somewhere.
 Our Subversion setup does <strong>not</strong> work over HTTP/HTTPS, nor
 will it in the future. There is no point in asking for it, the decision
 is final.
+</p>
 
 <p>
 We also provide nightly Subversion snapshots. You can choose between a
@@ -27,26 +32,36 @@ We also provide nightly Subversion snapshots. You can choose between a
 can update with Subversion or
 <a href="ffmpeg-export-snapshot.tar.bz2">bare sources</a> that are
 smaller but don't come with Subversion metadata.
+</p>
 
 <p>
 Alternatively, you can
 <a href="http://svn.ffmpeg.org/ffmpeg/trunk/">browse the source tree online</a>.
+</p>
 
 <h2>FFmpeg Git</h2>
+<p>
 There are Git repositories of FFmpeg and libswscale. Both are kept in
 sync with SVN automatically. To allow building FFmpeg with libswscale,
 the libswscale directory must be present inside the FFmpeg directory.
-They can be cloned with the commands
+They can be cloned with the commands:
+</p>
 
+<blockquote>
 <pre>
-  git clone git://git.ffmpeg.org/ffmpeg/
-  cd ffmpeg
-  git clone git://git.ffmpeg.org/libswscale/
+git clone git://git.ffmpeg.org/ffmpeg/
+cd ffmpeg
+git clone git://git.ffmpeg.org/libswscale/
 </pre>
+</blockquote>
 
+<p>
 Alternatively, you can
 <a href="http://git.ffmpeg.org/">browse it online</a>.
+</p>
 
 <h2>Formal Releases</h2>
+<p>
 If you are looking for a formal release, stop now, there are none.
 Maybe we will have some in the future, but don't hold your breath.
+</p>
