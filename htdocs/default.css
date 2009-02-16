@@ -9,3 +9,7 @@ div.center {
     margin-right: auto;
     text-align: center;
 }
+
+img {
+    border: 0;
+}
