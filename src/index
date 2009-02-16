@@ -20,27 +20,6 @@ audio and video. It includes <b>libavcodec</b>, the leading
 audio/video codec library. FFmpeg is developed under Linux, but it
 can be compiled under most operating systems, including Windows.
 
-<p>The project is made of several components:
-</p>
-
-<ul>
-<li><tt>ffmpeg</tt> is a command line tool to convert multimedia files
-between formats.</li>
-
-<li><tt>ffserver</tt> is a multimedia streaming server for live
-broadcasts.</li>
-
-<li><tt>ffplay</tt> is a simple media player based on <a
-href="http://www.libsdl.org/">SDL</a> and the FFmpeg libraries.</li>
-
-<li><tt>libavcodec</tt> is a library containing decoders and encoders
-for audio/video codecs.</li>
-
-<li><tt>libavformat</tt> is a library containing demuxers and
-muxers for multimedia container formats.</li>
-
-</ul>
-
 As always, check the <a href="ffmpeg-doc.html">main FFmpeg doc</a> for a
 complete feature list, and the <a href="changelog.html">Changelog for recent
 changes</a>.
