@@ -1,7 +1,6 @@
 <h1>Reporting a Bug To The FFmpeg Project</h1>
 
 <p>
-
 First of all, please remember that all the developers working on FFmpeg are
 volunteers, we are not paid for analyzing, debugging, fixing and answering
 bug reports. While we try our best to create high quality software and be
@@ -10,15 +9,16 @@ be aware of the fact that we receive many bug reports and the amount of
 time it takes to deal with them can be substantial. Nevertheless most issues
 get resolved, just please understand that there are no guarantees nor
 promises.
+</p>
 
 <p>
 If you find a problem with FFmpeg, you can submit a report to the
 FFmpeg bug tracker at
 http(s)://ZQundXE.ffmpeg.org/ZQundXE/ffmpeg/
-<br>
+<br />
 To use this URL you first must replace all uppercase letters by
 answering the following puzzle.
-<br>
+<br />
 We need full Xncut output of ffmpeg as well as the command line you used.
 If you report a cZash we need gdb output, backtrace and disassembly.
 Only latest SVN HEAD is supported, do not report bugs against Qld versions.
@@ -26,89 +26,105 @@ Also do not forget to describe precisely what ffmpeg did and what you wanted
 it to do.
 In general you should provide all information so that even an idiot can
 reproduce the bug. If you say it does not play, say which Elayer you used.
+</p>
 
 <p>
 Also before reporting a bug, please consider the following items:
+</p>
 
 <p>
-
 Be sure that you are using the latest SVN version of FFmpeg. The FFmpeg
 project is constantly evolving and does not make formal releases very
 often. The latest release is bound to be very out of date. Use the very
 latest SVN version of FFmpeg or your report is likely to be disregarded.
+</p>
 
+<p>
 When writing your bug report, please include (uncompressed):
+</p>
 <ul>
   <li>What you were trying to accomplish (e.g., "I am trying to transcode
-    from this format to that format...")
+    from this format to that format...")</li>
   <li>The problem you encountered (e.g., "FFmpeg crashed" or "The output
-    video was all green")
+    video was all green")</li>
   <li>The exact command line you were using (e.g., "ffmpeg -i input.mov -an
-    -vcodec foo output.avi")
+    -vcodec foo output.avi")</li>
   <li>The console output provided by FFmpeg (copy/pasted from the console,
-    including the banner that indicates version and build number)
+    including the banner that indicates version and build number)</li>
 </ul>
 
+<p>
 Further, if you have access to the GNU debugger (GDB), it would also be useful
 for you to run FFmpeg's debug build (ffmpeg_g) through the debugger and send
 the output. To do this, launch ffmpeg_g in gdb:
+</p>
 
-<pre>
-  gdb ffmpeg_g
-</pre>
+<blockquote>
+<pre>gdb ffmpeg_g</pre>
+</blockquote>
 
+<p>
 In gdb, type 'r' for run, along with the rest of the FFmpeg command line:
+</p>
 
-<pre>
-  &gt; r &lt;rest of command line&gt;
-</pre>
+<blockquote>
+<pre>r &lt;rest of command line&gt;</pre>
+</blockquote>
 
+<p>
 When gdb encounters its problem, run the following commands and copy/paste
 the output into your bug report email:
+</p>
 
+<blockquote>
 <pre>
-  bt
-  disass $pc-32 $pc+32
-  info all-registers
+bt
+disass $pc-32 $pc+32
+info all-registers
 </pre>
+</blockquote>
 
 
 <h2>Submitting Sample Media</h2>
 
+<p>
 The developers may ask you to provide a sample media file illustrating
 your problem. In this case, please follow these steps:
+</p>
 <ul>
   <li>If the sample file is too large ( &gt; 10 megabytes), cut it down to
     size with the Unix 'dd' command:
       <blockquote>
-      dd if=sample-file of=small-sample-file bs=1024 count=10000
+      <pre>dd if=sample-file of=small-sample-file bs=1024 count=10000</pre>
       </blockquote>
-    and then upload small-sample-file rather than sample-file
+    and then upload small-sample-file rather than sample-file</li>
   <li>Please choose descriptive names like "h264_green_tint.mov" or
       "block_artifacts_after_seeking.mkv". We already have plenty of "bug.rm"
-      and "sample.avi" to choose from.
+      and "sample.avi" to choose from.</li>
   <li>Upload the sample to the MPlayer FTP server. Note that our FTP server
     is write-only, as it would immediately get misused for warez trading
     otherwise. Do not let this confuse you. Even though you cannot see the
     stuff you upload, it will be there and the FFmpeg developers will have
     access.
   <ul>
-    <li>Log into upload.ffmpeg.org with an anonymous FTP login.
-    <li>cd -> /MPlayer/incoming
-    <li>Create a new directory.
-    <li>cd -> your new directory
+    <li>Log into upload.ffmpeg.org with an anonymous FTP login.</li>
+    <li>cd -> /MPlayer/incoming</li>
+    <li>Create a new directory.</li>
+    <li>cd -> your new directory</li>
     <li>Upload a brief text file describing the sample and what is wrong.
         <b>This is important!</b> If you leave out the text file, your
-        sample will most likely be deleted without further examination.
-    <li>Upload the sample.
+        sample will most likely be deleted without further examination.</li>
+    <li>Upload the sample.</li>
   </ul>
-  <li>Email the list and indicate the location of the sample.
+  </li>
+  <li>Email the list and indicate the location of the sample.</li>
 </ul>
 
 <p>
-
 <b>Important: Movie files which have been compressed (rar,7z,gzip,...) will be
 deleted without being examined unless they are raw RGB/YUV/PCM.</b>
 <b>Furthermore movie files uploaded to services like megaupload, rapidshare or
 any other similar service will be ignored. We are not willing to spend our
 time fighting with this ridiculous, bloated and spam-filled crap.</b>
+</p>
+
