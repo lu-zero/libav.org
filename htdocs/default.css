@@ -1,0 +1,11 @@
+body {
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: white;
+}
+
+div.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

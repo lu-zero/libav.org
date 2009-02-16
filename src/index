@@ -1,13 +1,14 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html>
-<head profile="http://www.w3.org/2005/10/profile">
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-   <title>FFmpeg</title>
-   <link rel="icon" href="favicon.png" type="image/png">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>FFmpeg</title>
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="default.css" />
 </head>
 
-<body bgcolor="#FFFFFF">
+<body>
 
 
 FFMPEG_WEBSITE_NAVBAR
@@ -15,14 +16,18 @@ FFMPEG_WEBSITE_NAVBAR
 
 <h1>Project Description</h1>
 
+<p>
 <b>FFmpeg</b> is a complete solution to record, convert and stream
 audio and video. It includes <b>libavcodec</b>, the leading
 audio/video codec library. FFmpeg is developed under Linux, but it
 can be compiled under most operating systems, including Windows.
+</p>
 
+<p>
 As always, check the <a href="ffmpeg-doc.html">main FFmpeg doc</a> for a
 complete feature list, and the <a href="changelog.html">Changelog for recent
 changes</a>.
+</p>
 
 <p>
 <b>Looking for help?</b> Check out the <a href="mailinglists.html">mailing
@@ -30,117 +35,125 @@ lists</a>, and be sure to give us good troubleshooting information.
 </p>
 
 
-
 <h1>News</h1>
 
+<p>
 <strong>(December 20, 2008)</strong> RealVideo 3.0 decoder added.
 Still working the bugs out, please test and report any problems.
+</p>
 
 <p>
-
 <strong>(December 20, 2008)</strong> The FFmpeg project would like to recognize
 and thank the people at <a href="http://www.picsearch.com/">Picsearch</a>
 for their help improving FFmpeg recently. The Picsearch team makes extensive
-use of FFmpeg and provided feedback to FFmpeg in the form of thousands of files that
-either crash FFmpeg or use unsupported/unknown codecs. The FFmpeg
+use of FFmpeg and provided feedback to FFmpeg in the form of thousands of files
+that either crash FFmpeg or use unsupported/unknown codecs. The FFmpeg
 development team is putting this information to work in order to improve
 FFmpeg for everyone.
+</p>
+
 <p>
 We know that there are other organizations using FFmpeg on a large scale
 to process diverse input types. The FFmpeg team invites those
 organizations to provide similar feedback about problems encountered in
 the wild.
+</p>
 
 <p>
-
 <strong>(December 3, 2008)</strong> A bunch of new formats have recently been
 added to FFmpeg, namely a QCELP/PureVoice speech decoder, a floating point
 PCM decoder and encoder, a Nellymoser ASAO encoder, an Electronic Arts TGQ
 decoder, Speex decoding via libspeex, an MXF muxer, an ASS/SSA subtitle demuxer
 and muxer and our AC-3 decoder has been extended with E-AC-3 support. Last but
 not least we now have a decoder for RealVideo 4.0.
+</p>
 
 <p>
-
 <strong>(September 8, 2008)</strong> FFmpeg is undergoing major changes in its
 API/ABI. The last valid revision for libavcodec version 51 is r15261.
+</p>
 
 <p>
-
 <strong>(August 21, 2008)</strong> The AAC decoder from FFmpeg Summer of Code
 2006 has finally been cleaned up and is now in FFmpeg trunk. It supports Main
 and Low Complexity profile AAC but does not yet support HE AAC v1 (LC + SBR) or
 v2 (LC + SBR + PS), though implementation of this support is underway. It is
 considerably faster than FAAD and you should expect further performance
 improvements and bug fixes in the coming weeks.
+</p>
+
 <p>
 Also, FFmpeg now has floating point PCM support and supports MLP/TrueHD decoding
 (FFmpeg SoC 2008 should bring us an encoder), Apple Lossless Audio encoding
 (FFmpeg SoC 2008) MVI demuxing and Motion Pixels Video decoding, D-Cinema audio
 muxing, Electronic Arts CMV and TGV decoding and MAXIS EA XA demuxing/decoding.
+</p>
 
 <p>
-
-<strong>(June 16, 2008)</strong> UAB "DKD" (dkd.lt) have released a
-Nellymoser ASAO compatible
-<a href="http://www1.mplayerhq.hu/ASAO/ASAO.zip">decoder and encoder</a>
-under the LGPL. This will aid the development of a native encoder in FFmpeg,
-and right now a GSoC student is working hard on just that task. A great
+<strong>(June 16, 2008)</strong> UAB "DKD" (dkd.lt) have released a Nellymoser
+ASAO compatible <a href="http://www1.mplayerhq.hu/ASAO/ASAO.zip">decoder and
+encoder</a> under the LGPL. This will aid the development of a native encoder in
+FFmpeg, and right now a GSoC student is working hard on just that task. A great
 thanks to UAB "DKD" for this contribution to the FFmpeg community.
+</p>
 
 <p>
-
 <strong>(June 11, 2008)</strong> We have added an Oma demuxer, the QuickTime
 variant of an IMA ADPCM encoder, a VFW grabber, an iPod/iPhone-compatible MP4
 muxer, a Mimic decoder, an MSN TCP Webcam stream demuxer as well as demuxers
 and decoders for the following fringe formats: RL2, IFF, 8SVX, BFI.
+</p>
 
 <p>
-
 <strong>(February 7, 2008)</strong> We have added Ogg and AVM2 (Flash 9)
 SWF muxers, TechnoTrend PVA and Linux Media Labs MPEG-4 (LMLM4) demuxers,
 PC Paintbrush PCX and Sun Rasterfile decoders.
+</p>
 
 <p>
-
 <strong>(November 11, 2007)</strong> FFmpeg now supports XIntra8 frames,
 meaning that finally all WMV2 samples and some WMV3 samples that showed
 blocky color artifacts can be decoded correctly.
+</p>
 
 <p>
-
-<strong>(October 22, 2007)</strong> Beam Software SIFF demuxer and video decoder support added.
-
-<p>
-
-<strong>(October 15, 2007)</strong> FFmpeg gets support for the Nellymoser speech codec used in flash.
+<strong>(October 22, 2007)</strong> Beam Software SIFF demuxer and video decoder
+support added.
+</p>
 
 <p>
+<strong>(October 15, 2007)</strong> FFmpeg gets support for the Nellymoser
+speech codec used in flash.
+</p>
 
+<p>
 <strong>(October 9, 2007)</strong> Apart from a DNxHD encoder, PAFF decoding
 support for H.264 was committed to SVN.
+</p>
 
 <p>
-
 <strong>(September 29, 2007)</strong> AMV audio and video decoding has arrived.
+</p>
 
 <p>
-
 <strong>(September 13, 2007)</strong> In about half a year of work since the
 last update we have added among other things: DXA and Monkey's Audio demuxer
 and decoder, DNxHD, Atrac3 and AC-3 decoders, QTRLE encoder, NUT and Matroska
 muxers.
+</p>
 
 <p>
-
-<strong>(July 14, 2007)</strong> FFmpeg got 8 projects this year in the Google Summer of Code program.
-Check out the <a href="http://code.google.com/soc/ffmpeg/about.html">FFmpeg SoC about page</a> for
-more information.
+<strong>(July 14, 2007)</strong> FFmpeg got 8 projects this year in the Google
+Summer of Code program. Check out the
+<a href="http://code.google.com/soc/ffmpeg/about.html">FFmpeg SoC about page</a>
+for more information.
+</p>
 
 <p>
-
 <strong>(March 09, 2007)</strong> Nine months without news but with heavy
 development. A few select highlights are decoders for VC-1/WMV3/WMV9, VMware,
 VP5, VP6 video and WavPack, IMC, DCA audio and a WMA encoder.
+</p>
 
-</body></html>
+</body>
+</html>
