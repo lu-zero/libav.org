@@ -36,16 +36,16 @@ h2 {
     font-size: 1.2em;
 }
 
-#navbar {
+#navbar, #navbar_about {
     text-align: center;
 }
 
-#navbar a {
+#navbar a, #navbar_about a {
        text-decoration: none;
        color: blue
 }
 
-#navbar a:hover {
+#navbar a:hover, #navbar_about a:hover {
        text-decoration: underline;
        color: red
 }
