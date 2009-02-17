@@ -1,6 +1,4 @@
 body {
-    margin-left: 2%;
-    margin-right: 2%;
     background-color: white;
 }
 
@@ -12,4 +10,9 @@ div.center {
 
 img {
     border: 0;
+}
+
+#container {
+    margin-left: 2%;
+    margin-right: 2%;
 }
