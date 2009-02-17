@@ -20,9 +20,9 @@ give good troubleshooting information.
 <p>
 <b>FFmpeg is free software and is licensed under the LGPL or GPL</b> depending
 on your choice of configuration options. If you use FFmpeg or its constituent
-libraries, you must adhere to the terms of the license in question, else we will
-track your project down and put it into our <a href="shame.html">Hall of
-Shame</a>, a list of current license violators. To see how easy it is to comply,
+libraries, you <b>must</b> adhere to the terms of the license in question.
+If you do not, we will track down your project and list it in our
+<a href="shame.html">Hall of Shame</a>. To see how easy it is to comply,
 take a look at our <a href="legal.html">license and legal considerations
 page</a>.
 </p>
