@@ -1,20 +1,7 @@
-<h1>FFmpeg Mailing Lists</h1>
+<h1>Contact Us</h1>
 
 <p>
-Please follow the netiquette when posting on FFmpeg mailing lists, especially
-avoid <a href="http://en.wikipedia.org/wiki/Top-posting">top-posting</a> and
-<a href="http://en.wikipedia.org/wiki/Thread_hijacking">thread hijacking</a>.
-Configuring your mail client to break lines after 70 or so characters is a plus.
-If you attach files, avoid compressing small files, uncompressed is preferred.
-Also please try to avoid posting mails with overly long signatures or nonsense
-corporate disclaimers that claim the content of your mails is confidential.
-Attached patches should not have application/octet-stream as mime-type, but
-text/plain or even better text/x-diff or text/x-patch.
-Trespass these rules at the risk of being flamed.
-</p>
-
-<p>
-<b>Need help with FFmpeg?</b> First, this very important question:
+Need help with FFmpeg? First, these very important questions:
 </p>
 
 <p><strong>Are you using the latest SVN version of FFmpeg?</strong></p>
@@ -27,10 +14,10 @@ the latest SVN checkout or snapshot package.
 </p>
 
 <p><strong>Have you configured FFmpeg with <code>--enable-libfaac
---enable-libfaad --enable-libmp3lame</code>?</strong></p>
+--enable-libmp3lame</code>?</strong></p>
 
 <p>
-Most of the times you are missing an AAC encoder/decoder or an MP3 encoder.
+Most of the times you are missing an AAC or MP3 encoder.
 Make sure you compile FFmpeg with these flags before you ask for help.
 </p>
 
@@ -62,6 +49,19 @@ most of what is written there applies to FFmpeg as well.
 
 
 <h2>Mailing lists</h2>
+
+<p>
+Please follow the netiquette when posting on FFmpeg mailing lists, especially
+avoid <a href="http://en.wikipedia.org/wiki/Top-posting">top-posting</a> and
+<a href="http://en.wikipedia.org/wiki/Thread_hijacking">thread hijacking</a>.
+Configuring your mail client to break lines after 70 or so characters is a plus.
+If you attach files, avoid compressing small files, uncompressed is preferred.
+Also please try to avoid posting mails with overly long signatures or nonsense
+corporate disclaimers that claim the content of your mails is confidential.
+Attached patches should not have application/octet-stream as mime-type, but
+text/plain or even better text/x-diff or text/x-patch.
+Trespass these rules at the risk of being flamed.
+</p>
 
 <p>
 <a href="http://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-user/">ffmpeg-user</a>:
