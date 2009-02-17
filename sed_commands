@@ -1,8 +1,8 @@
 /FFMPEG_ABOUT_NAVBAR/a\
 <div class="center">\
-<a href="legal.html">License and Legal Issues</a> |\
-<a href="shame.html">Hall of Shame</a> |\
-<a href="projects.html">Projects Using FFmpeg</a>\
+<a class="navbar" href="legal.html">License and Legal Issues</a> |\
+<a class="navbar" href="shame.html">Hall of Shame</a> |\
+<a class="navbar" href="projects.html">Projects Using FFmpeg</a>\
 </div>\
 <hr />
 /FFMPEG_ABOUT_NAVBAR/d

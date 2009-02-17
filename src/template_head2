@@ -11,13 +11,13 @@
 
 <hr />
 
-<a href="index.html">Home/News</a> |
-<a href="about.html">About</a> |
-<a href="download.html">Get FFmpeg</a> |
-<a href="changelog.html">Changelog</a> |
-<a href="documentation.html">Documentation</a> |
-<a href="bugreports.html">Reporting Bugs</a> |
-<a href="contact.html">Contact Us</a>
+<a class="navbar" href="index.html">Home/News</a> |
+<a class="navbar" href="about.html">About</a> |
+<a class="navbar" href="download.html">Get FFmpeg</a> |
+<a class="navbar" href="changelog.html">Changelog</a> |
+<a class="navbar" href="documentation.html">Documentation</a> |
+<a class="navbar" href="bugreports.html">Reporting Bugs</a> |
+<a class="navbar" href="contact.html">Contact Us</a>
 </div>
 
 <hr />
