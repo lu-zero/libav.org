@@ -36,6 +36,16 @@ h2 {
     font-size: 1.2em;
 }
 
-a.navbar {
-    text-decoration: none;
+#navbar {
+    text-align: center;
+}
+
+#navbar a {
+       text-decoration: none;
+       color: blue
+}
+
+#navbar a:hover {
+       text-decoration: underline;
+       color: red
 }
