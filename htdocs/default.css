@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #313131;
 }
 
 div.center {
@@ -13,8 +13,27 @@ img {
 }
 
 #container {
-    margin-left: 2%;
-    margin-right: 2%;
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+}
+
+#proj_desc {
+    font-size: 1.3em;
+}
+
+h1 {
+    background-color: #313131;
+    color: white;
+    font-size: 1.5em;
+    padding-top: 0.1em;
+    padding-left: 0.4em;
+    padding-bottom: 0.2em;
+}
+
+h2 {
+    color: #313131;
+    font-size: 1.2em;
 }
 
 a.navbar {
