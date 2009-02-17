@@ -41,11 +41,11 @@ h2 {
 }
 
 #navbar a, #navbar_about a {
-       text-decoration: none;
-       color: blue
+    text-decoration: none;
+    color: blue;
 }
 
 #navbar a:hover, #navbar_about a:hover {
-       text-decoration: underline;
-       color: red
+    text-decoration: underline;
+    color: red;
 }
