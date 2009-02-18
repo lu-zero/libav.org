@@ -12,8 +12,6 @@
 </a>
 </div>
 
-<hr />
-
 <div id="navbar">
 <a href="index.html">Home/News</a> |
 <a href="about.html">About</a> |
@@ -22,7 +20,5 @@
 <a href="bugreports.html">Reporting Bugs</a> |
 <a href="contact.html">Contact Us</a>
 </div>
-
-<hr />
 
 
