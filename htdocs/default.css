@@ -1,5 +1,6 @@
 body {
     background-color: #313131;
+    margin: 0;
 }
 
 .center {
@@ -14,7 +15,8 @@ img {
 
 #container {
     background-color: white;
-    margin: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
     padding: 1em;
 }
 
