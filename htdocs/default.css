@@ -1,3 +1,12 @@
+#banner {
+    text-align: center;
+}
+
+#body {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 body {
     background-color: #313131;
     margin: 0;
@@ -17,7 +26,10 @@ img {
     background-color: white;
     margin-left: 1em;
     margin-right: 1em;
-    padding: 1em;
+}
+
+#footer {
+    text-align: center;
 }
 
 #proj_desc {
