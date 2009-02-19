@@ -7,6 +7,7 @@ a {
     border-bottom: 1px solid #7A96B3;
     border-top: 1px solid #7A96B3;
     text-align: center;
+    zoom: 1;
 }
 
 #banner img {
@@ -73,6 +74,7 @@ img {
     margin-top: 12px;
     padding: 0.3em;
     text-align: center;
+    zoom: 1;
 }
 
 #navbar a, #navbar_about a {
@@ -94,6 +96,7 @@ img {
     border-right: 1px solid #5C665C;
     padding: 0.3em;
     text-align: center;
+    zoom: 1;
 }
 
 p {
