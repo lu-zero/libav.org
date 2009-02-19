@@ -18,10 +18,6 @@ body {
     text-align: center;
 }
 
-img {
-    border: 0;
-}
-
 #container {
     background-color: white;
     margin-left: 1em;
@@ -32,17 +28,13 @@ img {
     text-align: center;
 }
 
-#proj_desc {
-    font-size: 1.3em;
-}
-
 h1 {
     background-color: #313131;
     color: white;
     font-size: 1.5em;
-    padding-top: 0.1em;
-    padding-left: 0.4em;
     padding-bottom: 0.2em;
+    padding-left: 0.4em;
+    padding-top: 0.1em;
 }
 
 h2 {
@@ -50,18 +42,26 @@ h2 {
     font-size: 1.2em;
 }
 
+img {
+    border: 0;
+}
+
 #navbar, #navbar_about {
-    text-align: center;
     padding: 0.3em;
+    text-align: center;
 }
 
 #navbar a, #navbar_about a {
-    text-decoration: none;
     color: blue;
     padding: 0.3em;
+    text-decoration: none;
 }
 
 #navbar a:hover, #navbar_about a:hover {
-    text-decoration: underline;
     color: red;
+    text-decoration: underline;
+}
+
+#proj_desc {
+    font-size: 1.3em;
 }
