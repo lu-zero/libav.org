@@ -6,8 +6,8 @@ a {
     background-color: #BBC9D8;
     border-bottom: 1px solid #7A96B3;
     border-top: 1px solid #7A96B3;
+    position: relative;
     text-align: center;
-    zoom: 1;
 }
 
 #banner img {
@@ -73,8 +73,8 @@ img {
     border-top: 1px solid #5C665C;
     margin-top: 12px;
     padding: 0.3em;
+    position: relative;
     text-align: center;
-    zoom: 1;
 }
 
 #navbar a, #navbar_about a {
@@ -95,8 +95,8 @@ img {
     border-left: 1px solid #5C665C;
     border-right: 1px solid #5C665C;
     padding: 0.3em;
+    position: relative;
     text-align: center;
-    zoom: 1;
 }
 
 p {
