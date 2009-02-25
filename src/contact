@@ -53,7 +53,9 @@ most of what is written there applies to FFmpeg as well.
 <p>
 Please follow the netiquette when posting on FFmpeg mailing lists, especially
 avoid <a href="http://en.wikipedia.org/wiki/Top-posting">top-posting</a> and
-<a href="http://en.wikipedia.org/wiki/Thread_hijacking">thread hijacking</a>.
+thread hijacking (that is, replying to a thread and changing the subject line to
+something completely unrelated that was not being discussed within the original
+thread).
 Configuring your mail client to break lines after 70 or so characters is a plus.
 If you attach files, avoid compressing small files, uncompressed is preferred.
 Also please try to avoid posting mails with overly long signatures or nonsense
