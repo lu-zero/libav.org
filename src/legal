@@ -35,7 +35,9 @@ it just lists the most common issues we encounter.
 <ul>
 <li>Be careful if you enable GPL components.</li>
 <li>Provide the license text, the correct version.</li>
-<li>Provide FFmpeg sources, the exact version you use.</li>
+<li>Provide FFmpeg sources, the exact version you use. The code must compile
+    and you should note which revision it is and what options you used for
+    building your binary.</li>
 <li>Review your EULA terms. They have to be compatible with the license
     of FFmpeg. For example, terms forbidding reverse engineering are
     not acceptable.</li>
