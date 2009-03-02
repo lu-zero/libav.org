@@ -1,53 +1,5 @@
 <h1>Contact Us</h1>
 
-<p>
-Need help with FFmpeg? First, these very important questions:
-</p>
-
-<p><strong>Are you using the latest SVN version of FFmpeg?</strong></p>
-
-<p>
-Seriously, FFmpeg is in a state of perpetual development and "official"
-releases are highly infrequent and largely a formality. The releases do
-not reflect the state of the FFmpeg's current technology. You should be using
-the latest SVN checkout or snapshot package.
-</p>
-
-<p><strong>Have you configured FFmpeg with <code>--enable-libfaac
---enable-libmp3lame</code>?</strong></p>
-
-<p>
-Most of the times you are missing an AAC or MP3 encoder.
-Make sure you compile FFmpeg with these flags before you ask for help.
-</p>
-
-<p>
-Now then, if you are still experiencing problems with the latest, up to date
-SVN copy, check out the
-<a href="bugreports.html">FFmpeg bug report page</a>. Providing the
-kind of information requested on that page helps the developers help you
-with the problem you are reporting. It saves time for everyone. Simply
-writing "It does not work!" is remarkably useless and inevitably leads to
-an exchange where the developers must ask you to visit the bug reporting
-page anyway.
-</p>
-
-<p>
-After you have a good bug report, submit it to our bug tracker.
-</p>
-
-<p>
-<b>Want to participate in the active development of FFmpeg?</b> Keep up
-with the latest developments by subscribing to both the
-<a href="https://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-devel/">ffmpeg-devel</a> and
-<a href="https://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-cvslog/">ffmpeg-cvslog</a> lists.
-If you send us a patch, please make it a unified diff (diff -u), everything
-else is unusable. For more detailed guidelines, have a look at the
-<a href="http://www.mplayerhq.hu/DOCS/tech/patches.txt">MPlayer patch guidelines</a>
-most of what is written there applies to FFmpeg as well.
-</p>
-
-
 <h2>Mailing lists</h2>
 
 <p>
@@ -60,8 +12,16 @@ Configuring your mail client to break lines after 70 or so characters is a plus.
 If you attach files, avoid compressing small files, uncompressed is preferred.
 Also please try to avoid posting mails with overly long signatures or nonsense
 corporate disclaimers that claim the content of your mails is confidential.
+</p>
+<p>
 Attached patches should not have application/octet-stream as mime-type, but
 text/plain or even better text/x-diff or text/x-patch.
+If you send us a patch, please make it some form of unified diff. We prefer
+patches made using <code>svn diff &gt; submission.diff</code> from the root of
+your FFmpeg checkout, but we also accept git patches. For more detailed
+guidelines, have a look at the
+<a href="http://www.mplayerhq.hu/DOCS/tech/patches.txt">MPlayer patch guidelines</a>
+most of what is written there applies to FFmpeg as well.
 Trespass these rules at the risk of being flamed.
 </p>
 

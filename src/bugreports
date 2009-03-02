@@ -11,6 +11,15 @@ get resolved, just please understand that there are no guarantees nor
 promises.
 </p>
 
+<p><strong>Are you using the latest SVN version of FFmpeg?</strong></p>
+
+<p>
+FFmpeg is in a state of perpetual development and we do not currently have the
+person power to backport fixes to official releases. As such, if you wish to
+query or report a bug, you must try with the latest SVN revision of FFmpeg to
+confirm the issue still exists.
+</p>
+
 <p>
 If you find a problem with FFmpeg, you can submit a report to the
 FFmpeg bug tracker at

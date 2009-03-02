@@ -20,6 +20,12 @@ give good troubleshooting information.
 </p>
 
 <p>
+<b>Want to participate in the active development of FFmpeg?</b> Keep up
+with the latest developments by subscribing to both the
+<a href="contact.html">ffmpeg-devel and ffmpeg-cvslog</a> lists.
+</p>
+
+<p>
 <b>FFmpeg is free software and is licensed under the LGPL or GPL</b> depending
 on your choice of configuration options. If you use FFmpeg or its constituent
 libraries, you <b>must</b> adhere to the terms of the license in question.
