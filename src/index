@@ -38,12 +38,115 @@ page</a>.
 
 <h1>News</h1>
 
+<!--
+
+<h3>March 2, 2009</h3>
+<p>
+It's been a very long time since we last made a release and many did not think
+we would make one again but, back by popular demand, we are proud to announce
+a <b>new release: <a href="download.html">FFmpeg 0.5 "Bike Shed"</a></b>. This
+release includes a <b>very</b> extensive number of changes, but highlights from
+the <a href="changelog.html">Changelog</a> are:
+</p>
+<ul>
+<li>Significant work to support at least decoding of all widespread mainstream
+proprietary codecs, such as:
+    <ul>
+    <li>decoders and encoders
+        <ul>
+        <li>ALAC</li>
+        <li>Flash Screen Video and Nellymoser speech codec</li>
+        <li>WMAv2 decoder fixed, WMAv1/v2 encoder</li>
+        </ul>
+    </li>
+    <li>decoders
+        <ul>
+        <li>Atrac3</li>
+        <li>MLP/TrueHD</li>
+        <li>On2 VP3 improvements and VP5/VP6 support</li>
+        <li>RealAudio Cooker and fixes for 14.4 and 28.8</li>
+        <li>RealVideo RV30/40</li>
+        <li>WMV3/WMV9/VC-1 and IntraX8 frame support for WMV2/VC-1</li>
+        </ul>
+    </li>
+    </ul>
+</li>
+
+<li>Broad coverage of widespread non-proprietary codecs, including:
+    <ul>
+    <li>decoders and encoders
+        <ul>
+        <li>DNxHD</li>
+        <li>DVCPRO50 (a.k.a. DV50)</li>
+        <li>Floating point PCM</li>
+        <li>GSM-MS</li>
+        <li>Theora (and encoding via libtheora)</li>
+        <li>Vorbis</li>
+        </ul>
+    </li>
+    <li>decoders
+        <ul>
+        <li>AAC with ADTS support and &gt;2x the speed of FAAD! (no HE AAC
+            support yet)</li>
+        <li>AC-3 that is faster than liba52 in 5.1, up to 2x faster in stereo
+            and also supports E-AC-3! Hence liba52 is now obsolete.</li>
+        <li>DCA</li>
+        <li>DVCPRO HD (a.k.a. DV100)</li>
+        <li>H.264 PAFF and CQM support, plus slice-based multithreaded decoding
+        </li>
+        <li>Monkey's Audio</li>
+        <li>MPEG-2 video support for intra VLC and 4:2:2</li>
+        <li>Musepack</li>
+        <li>QCELP</li>
+        <li>Shorten</li>
+        <li>True Audio (TTA)</li>
+        <li>Wavpack including hybrid mode support</li>
+        <li>
+        </ul>
+    </li>
+    </ul>
+</li>
+
+<li>Highlights among the newly supported container formats:
+    <ul>
+    <li>demuxers and muxers
+        <ul>
+        <li>GXF</li>
+        <li>MXF</li>
+        </ul>
+    </li>
+    <li>demuxers
+        <ul>
+        <li>NullSoft Video (NSV)</li>
+        </ul>
+    </li>
+    <li>muxers
+        <ul>
+        <li>iPhone/iPod compatibility for MP4/MOV</li>
+        <li>Matroska</li>
+        <li>NUT</li>
+        <li>Ogg (FLAC, Theora and Vorbis only)</li>
+        <li>ShockWave Flash (SWF)</li>
+        </ul>
+    </li>
+    </ul>
+</li>
+
+<li>libavdevice</li>
+<li>ffserver is working again.</li>
+<li>a shiny, new, completely revamped, non-recursive build system</li>
+<li>cleaner, more consistent code</li>
+<li>an all new metadata API</li>
+<li>and so much more!</li>
+</ul>
+
+-->
+
 <h3>December 20, 2008</h3>
 <p>
 RealVideo 3.0 decoder added.
 Still working the bugs out, please test and report any problems.
 </p>
-
 
 <h3>December 20, 2008</h3>
 <p>
