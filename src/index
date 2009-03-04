@@ -142,6 +142,29 @@ proprietary codecs, such as:
 
 -->
 
+<h3>March 4, 2009</h3>
+<p>
+Google are again running their <a href="http://code.google.com/soc/">Summer of
+Code</a> program and, as usual, we will be applying for a project position. As
+such we will need strong
+<a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_Summer_Of_Code_2009">
+project proposals</a> and qualification tasks for the students to complete.
+</p>
+<p>
+To all the students out there who want to work on FFmpeg over the summer, the
+sooner you begin to contribute to the project the better. Working on digital
+multimedia software is not the easiest task and getting code into FFmpeg's trunk
+repository demands significant rigor and commitment.
+</p>
+<p>
+Until we are officially accepted into the program, you could take a look at the
+list of
+<a href="http://wiki.multimedia.cx/index.php?title=Small_FFmpeg_Tasks">small
+tasks</a> we have and try to complete one of those. Support for development of
+FFmpeg is available via <a href="contact.html">the FFmpeg-devel mailing list or
+IRC</a>.
+</p>
+
 <h3>December 20, 2008</h3>
 <p>
 RealVideo 3.0 decoder added.
