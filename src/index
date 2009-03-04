@@ -55,7 +55,7 @@ proprietary codecs, such as:
     <li>decoders and encoders
         <ul>
         <li>ALAC</li>
-        <li>Flash Screen Video and Nellymoser speech codec</li>
+        <li>Flash Screen Video</li>
         <li>WMAv2 decoder fixed, WMAv1/v2 encoder</li>
         </ul>
     </li>
