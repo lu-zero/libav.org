@@ -44,9 +44,15 @@ page</a>.
 <p>
 It's been a very long time since we last made a release and many did not think
 we would make one again but, back by popular demand, we are proud to announce
-a <b>new release: <a href="download.html">FFmpeg 0.5 "Bike Shed"</a></b>. This
-release includes a <b>very</b> extensive number of changes, but highlights from
-the <a href="changelog.html">Changelog</a> are:
+a <b>new release: <a href="download.html">FFmpeg 0.5</a></b>. It is codenamed
+"halfway to world domination AKA the belligerent blue bikeshed" to commemorate
+the many fruitful discussions we had during its development and give an idea
+where we stand in the grand scheme of things.
+</p>
+
+<p>
+This release includes a <b>very</b> extensive number of changes, but highlights
+from the <a href="changelog.html">Changelog</a> are:
 </p>
 <ul>
 <li>Significant work to support at least decoding of all widespread mainstream
