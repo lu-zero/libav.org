@@ -28,9 +28,9 @@ is final.
 
 <p>
 We also provide nightly Subversion snapshots. You can choose between a
-<a href="ffmpeg-checkout-snapshot.tar.bz2">full checkout</a> that you
+<a href="releases/ffmpeg-checkout-snapshot.tar.bz2">full checkout</a> that you
 can update with Subversion or
-<a href="ffmpeg-export-snapshot.tar.bz2">bare sources</a> that are
+<a href="releases/ffmpeg-export-snapshot.tar.bz2">bare sources</a> that are
 smaller but don't come with Subversion metadata.
 </p>
 
