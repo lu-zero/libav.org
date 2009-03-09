@@ -4,10 +4,8 @@
 <p>
 FFmpeg has always been a very experimental and developer-driven project. It
 is a key component in many multimedia projects and has new features added
-constantly. New, official "releases" are few and far between. In short,
-if you want to work with FFmpeg, you are advised to go along with SVN
-development rather than relying on formal releases. SVN snapshots work
-really well 99% of the time so people are not afraid to use them.
+constantly. SVN snapshots work really well 99% of the time so people are not
+afraid to use them.
 </p>
 
 <h2>FFmpeg SVN</h2>
