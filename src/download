@@ -58,8 +58,13 @@ Alternatively, you can
 <a href="http://git.ffmpeg.org/">browse it online</a>.
 </p>
 
-<h2>Formal Releases</h2>
+<a name="release"><h2>FFmpeg 0.5 "half-way to world domination A.K.A. the
+belligerent blue bike shed"</h2></a>
 <p>
-If you are looking for a formal release, stop now, there are none.
-Maybe we will have some in the future, but don't hold your breath.
+<a href="releases/ffmpeg-0.5.tar.bz2">Download source code</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.5.tar.bz2.md5">md5</a>
+<a href="releases/ffmpeg-0.5.tar.bz2.sha1">sha1</a>
+<a href="releases/ffmpeg-0.5.tar.bz2.asc">PGP</a><br />
+<a href="http://svn.ffmpeg.org/ffmpeg/branches/0.5/Changelog?revision=17727">Changelog</a><br />
+<a href="http://svn.ffmpeg.org/ffmpeg/branches/0.5/RELEASE?revision=17805">Release Notes</a>
 </p>

@@ -38,21 +38,25 @@ page</a>.
 
 <h1>News</h1>
 
-<!--
-
-<h3>March 2, 2009</h3>
+<h3>March 10, 2009</h3>
 <p>
-It's been a very long time since we last made a release and many did not think
+It has been a very long time since we last made a release and many did not think
 we would make one again but, back by popular demand, we are proud to announce
-a <b>new release: <a href="download.html">FFmpeg 0.5</a></b>. It is codenamed
-"halfway to world domination AKA the belligerent blue bikeshed" to commemorate
-the many fruitful discussions we had during its development and give an idea
-where we stand in the grand scheme of things.
+a <b>new release: <a href="download.html#release">FFmpeg 0.5</a></b>. Check out the
+<a href="http://svn.ffmpeg.org/ffmpeg/branches/0.5/RELEASE?revision=17805">release
+notes</a> and
+<a href="http://svn.ffmpeg.org/ffmpeg/branches/0.5/Changelog?revision=17727">changelog</a>.
 </p>
 
 <p>
-This release includes a <b>very</b> extensive number of changes, but highlights
-from the <a href="changelog.html">Changelog</a> are:
+It is codenamed "half-way to world domination A.K.A. the belligerent blue bike
+shed" to give an idea where we stand in the grand scheme of things and to
+commemorate the many fruitful discussions we had during its development.
+</p>
+
+<p>
+This release includes a <b>very</b> extensive number of changes, but some of the
+highlights are:
 </p>
 <ul>
 <li>Significant work to support at least decoding of all widespread mainstream
@@ -145,8 +149,6 @@ proprietary codecs, such as:
 <li>an all new metadata API</li>
 <li>and so much more!</li>
 </ul>
-
--->
 
 <h3>March 4, 2009</h3>
 <p>
