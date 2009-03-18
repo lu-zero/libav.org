@@ -46,6 +46,9 @@ a <b>new release: <a href="download.html#release">FFmpeg 0.5</a></b>. Check out 
 <a href="http://svn.ffmpeg.org/ffmpeg/branches/0.5/RELEASE?revision=17805">release
 notes</a> and
 <a href="http://svn.ffmpeg.org/ffmpeg/branches/0.5/Changelog?revision=17727">changelog</a>.
+Please note that our svn web interface is currently down so you will have to
+view the RELEASE and Changelog files from the 0.5 tarball available from the
+<a href="download.html#release">download page</a>.
 </p>
 
 <p>
