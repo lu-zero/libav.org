@@ -42,13 +42,8 @@ page</a>.
 <p>
 It has been a very long time since we last made a release and many did not think
 we would make one again but, back by popular demand, we are proud to announce
-a <b>new release: <a href="download.html#release">FFmpeg 0.5</a></b>. Check out the
-<a href="http://svn.ffmpeg.org/ffmpeg/branches/0.5/RELEASE?revision=17805">release
-notes</a> and
-<a href="http://svn.ffmpeg.org/ffmpeg/branches/0.5/Changelog?revision=17727">changelog</a>.
-Please note that our svn web interface is currently down so you will have to
-view the RELEASE and Changelog files from the 0.5 tarball available from the
-<a href="download.html#release">download page</a>.
+a <b>new release: <a href="download.html#release">FFmpeg 0.5</a></b>. Check out
+the <a href="RELEASE">release notes</a> and <a href="Changelog">changelog</a>.
 </p>
 
 <p>
