@@ -16,8 +16,8 @@ broadcasts.</li>
 href="http://www.libsdl.org/">SDL</a> and the FFmpeg libraries.</li>
 
 <li><tt>libavutil</tt> is a library containing functions for
-simplifying multimedia programming, including random number
-generators, data structures, mathematics routines and much more.</li>
+simplifying programming, including random number generators, data
+structures, mathematics routines and much more.</li>
 
 <li><tt>libavcodec</tt> is a library containing decoders and encoders
 for audio/video codecs.</li>
