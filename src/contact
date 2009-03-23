@@ -30,6 +30,10 @@ Trespass these rules at the risk of being flamed.
 This list is for regular user questions like compilation troubles,
 command-line issues and similar.
 <br />
+<a href="https://lists.mplayerhq.hu/mailman/listinfo/ffserver-user/">ffserver-user</a>:
+This list is for ffserver user questions like configuration and streaming
+issues.
+<br />
 <a href="https://lists.mplayerhq.hu/mailman/listinfo/libav-user/">libav-user</a>:
 This list is for regular user questions about development with the FFmpeg libraries.
 <br />
@@ -60,6 +64,8 @@ browse the archives before posting questions.
 
 <p>
 <a href="https://lists.mplayerhq.hu/pipermail/ffmpeg-user/">ffmpeg-user archives</a>
+<br />
+<a href="https://lists.mplayerhq.hu/pipermail/ffserver-user/">ffserver-user archives</a>
 <br />
 <a href="https://lists.mplayerhq.hu/pipermail/libav-user/">libav-user archives</a>
 <br />
