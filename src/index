@@ -38,6 +38,40 @@ page</a>.
 
 <h1>News</h1>
 
+<h3>March 26, 2009</h3>
+<p>
+Once again, FFmpeg has been accepted to take part in the
+<a href="http://code.google.com/soc/">Google Summer of Code</a>. Here is the
+<a href="http://socghop.appspot.com/org/show/google/gsoc2009/ffmpeg"> Google SoC
+FFmpeg page</a>.
+</p>
+<p>
+We have a list of
+<a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_Summer_Of_Code_2009">
+proposed project ideas</a> available so, if you think you might be interested,
+head over there to see if there is any project on which you wish to work and for
+which you may wish to make an application. The list is still in flux, and you're
+free to come up with your own ideas, but note that proposals should be closely
+tied to the progression of FFmpeg's code base.
+</p>
+<p>
+If you're a student who thinks you have what it takes, we require that
+prospective students complete some degree of
+<a href="http://wiki.multimedia.cx/index.php?title=Small_FFmpeg_Tasks">small
+task</a> before they will be considered to take part in the program for FFmpeg.
+Take a look at the list, pick something to do, learn about
+<a href="http://en.wikipedia.org/wiki/Posting_style#Inline_replying">inline
+replying</a> because we don't like top-posting on our mailing lists and then
+tell us on the <a href="contact.html">FFmpeg-devel</a> mailing list your small
+task of choice.
+</p>
+<p>
+The sooner you start communicating with us and working within
+our code base, the sooner both you and we will ascertain your suitability and
+you will get used to our development methodology. You have until the application
+deadline to complete your small task. Good luck!
+</p>
+
 <h3>March 23, 2009</h3>
 <p>
 A new mailing list has been created for ffserver users. The list is intended to
