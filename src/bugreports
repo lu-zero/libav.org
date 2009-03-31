@@ -11,41 +11,15 @@ get resolved, just please understand that there are no guarantees nor
 promises.
 </p>
 
-<p><strong>Are you using the latest SVN version of FFmpeg?</strong></p>
+<p>
+<b>Before reporting a bug, please consider the following items</b>:
+</p>
 
 <p>
 FFmpeg is in a state of perpetual development and we do not currently have the
 person power to backport fixes to official releases. As such, if you wish to
-query or report a bug, you must try with the latest SVN revision of FFmpeg to
-confirm the issue still exists.
-</p>
-
-<p>
-If you find a problem with FFmpeg, you can submit a report to the
-FFmpeg bug tracker at
-http(s)://ZQundXE.ffmpeg.org/ZQundXE/ffmpeg/
-<br />
-To use this URL you first must replace all uppercase letters by
-answering the following puzzle.
-<br />
-We need full Xncut output of ffmpeg as well as the command line you used.
-If you report a cZash we need gdb output, backtrace and disassembly.
-Only latest SVN HEAD is supported, do not report bugs against Qld versions.
-Also do not forget to describe precisely what ffmpeg did and what you wanted
-it to do.
-In general you should provide all information so that even an idiot can
-reproduce the bug. If you say it does not play, say which Elayer you used.
-</p>
-
-<p>
-Also before reporting a bug, please consider the following items:
-</p>
-
-<p>
-Be sure that you are using the latest SVN version of FFmpeg. The FFmpeg
-project is constantly evolving and does not make formal releases very
-often. The latest release is bound to be very out of date. Use the very
-latest SVN version of FFmpeg or your report is likely to be disregarded.
+query or report a bug, you must try with the <b>latest SVN</b> revision of
+FFmpeg to confirm the issue still exists.
 </p>
 
 <p>
@@ -54,18 +28,19 @@ When writing your bug report, please include (uncompressed):
 <ul>
   <li>What you were trying to accomplish (e.g., "I am trying to transcode
     from this format to that format...")</li>
-  <li>The problem you encountered (e.g., "FFmpeg crashed" or "The output
-    video was all green")</li>
-  <li>The exact command line you were using (e.g., "ffmpeg -i input.mov -an
-    -vcodec foo output.avi")</li>
-  <li>The console output provided by FFmpeg (copy/pasted from the console,
-    including the banner that indicates version and build number)</li>
+  <li>The problem you encountered (e.g., "<code>ffmpeg</code> crashed" or "The
+    output video was all green")</li>
+  <li>The exact command line you were using (e.g., "<code>ffmpeg -i input.mov
+    -an -vcodec foo output.avi</code>")</li>
+  <li>The full, uncut console output provided by
+    <code>ffmpeg</code>/<code>ffplay</code> (copy/pasted from the console,
+    including the banner that indicates version and configuration options)</li>
 </ul>
 
 <p>
-Further, if you have access to the GNU debugger (GDB), it would also be useful
-for you to run FFmpeg's debug build (ffmpeg_g) through the debugger and send
-the output. To do this, launch ffmpeg_g in gdb:
+If you encounter a crash bug, please provide the <code>gdb</code> output,
+backtrace and disassembly using the the <code>ffmpeg_g</code> debug binary as
+follows:
 </p>
 
 <blockquote>
@@ -73,7 +48,8 @@ the output. To do this, launch ffmpeg_g in gdb:
 </blockquote>
 
 <p>
-In gdb, type 'r' for run, along with the rest of the FFmpeg command line:
+In <code>gdb</code>, type 'r' for run, along with the rest of the
+<code>ffmpeg</code> command line:
 </p>
 
 <blockquote>
@@ -81,8 +57,8 @@ In gdb, type 'r' for run, along with the rest of the FFmpeg command line:
 </blockquote>
 
 <p>
-When gdb encounters its problem, run the following commands and copy/paste
-the output into your bug report email:
+When <code>gdb</code> encounters its problem, run the following commands and
+copy/paste the output into your bug report:
 </p>
 
 <blockquote>
@@ -92,6 +68,12 @@ disass $pc-32 $pc+32
 info all-registers
 </pre>
 </blockquote>
+
+<p>
+Once you have gathered this information, you can submit a report to the
+<a href="https://roundup.ffmpeg.org/roundup/ffmpeg/">FFmpeg bug tracker</a>. You
+should provide all information so that anyone can reproduce the bug.
+</p>
 
 
 <h2>Submitting Sample Media</h2>
