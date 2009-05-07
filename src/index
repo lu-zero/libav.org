@@ -38,6 +38,71 @@ page</a>.
 
 <h1>News</h1>
 
+<h3>May 7, 2009</h3>
+<p>
+FFmpeg was granted 9 slots to fill with applicants. After the gruelling
+application and qualification process, we will be running the following tasks
+this year:
+</p>
+<ul>
+<li>RTMP Support
+    <ul>
+    <li>Student: Kostya Shiskov</li>
+    <li>Mentor: Ronald Bultje</li>
+    </ul>
+</li>
+<li>Libswscale Cleanup
+    <ul>
+    <li>Student: Ramiro Polla</li>
+    <li>Mentor: Reimar Döffinger</li>
+    </ul>
+</li>
+<li>S/PDIF Multiplexer
+    <ul>
+    <li>Student: Bartlomiej Wolowiec</li>
+    <li>Mentor: Benjamin Larsson</li>
+    </ul>
+</li>
+<li>Playlist/Concatenation Support
+    <ul>
+    <li>Student: Geza Kovacs</li>
+    <li>Mentor: Baptiste Coudurier</li>
+    </ul>
+</li>
+<li>JPEG2000 Codec
+    <ul>
+    <li>Student: Jai Menon</li>
+    <li>Mentor: Justin Ruggles</li>
+    </ul>
+</li>
+<li>Implement the New Seeking API in Libavformat
+    <ul>
+    <li>Student: Zhentan Feng</li>
+    <li>Mentor: Baptiste Coudurier</li>
+    </ul>
+</li>
+<li>MPEG-4 ALS Decoder
+    <ul>
+    <li>Student: Thilo Borgmann</li>
+    <li>Mentor: Justin Ruggles</li>
+    </ul>
+</li>
+<li>Implementation of AVFilter infrastructure and various audio filters
+    <ul>
+    <li>Student: Kevin Dubois</li>
+    <li>Mentor: Vitor Sessak</li>
+    </ul>
+</li>
+<li>Finish AMR-NB decoder and write an encoder
+    <ul>
+    <li>Student: Colin McQuillan</li>
+    <li>Mentor: Robert Swain</li>
+    </ul>
+</li>
+</ul>
+<p>Congratulations to all the successful applicants. Work hard, communicate well
+and prosper! Good luck!</p>
+
 <h3>March 26, 2009</h3>
 <p>
 Once again, FFmpeg has been accepted to take part in the
