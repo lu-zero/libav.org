@@ -32,10 +32,12 @@ can update with Subversion or
 smaller but don't come with Subversion metadata.
 </p>
 
+<!--
 <p>
 Alternatively, you can
 <a href="http://svn.ffmpeg.org/ffmpeg/trunk/">browse the source tree online</a>.
 </p>
+-->
 
 <h2>FFmpeg Git</h2>
 <p>
