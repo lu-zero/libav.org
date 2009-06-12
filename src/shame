@@ -47,8 +47,6 @@ it to our
 <a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue933">issue tracker entry</a></li>
 <li><a href="http://www.conceiva.com/products/mezzmo/default.asp" rel="nofollow">Conceiva Mezzmo</a>,
 <a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue488">issue tracker entry</a></li>
-<li><a href="http://chromaplayer.com/" rel="nofollow">Chroma</a>,
-<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue726">issue tracker entry</a></li>
 <li><a href="http://cooliris.com/" rel="nofollow">Cooliris</a>,
 <a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue534">issue tracker entry</a></li>
 <li><a href="http://www.doremilabs.com/v1control.html" rel="nofollow">Doremi Asset Manager</a>,
@@ -125,6 +123,8 @@ with them and making good progress towards compliance.
 </p>
 
 <ul>
+<li><a href="http://chromaplayer.com/" rel="nofollow">Chroma</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue726">issue tracker entry</a></li>
 <li><a href="http://www.vso-software.fr/products/convert_x_to_dvd/" rel="nofollow">ConvertXtoDVD</a>,
 <a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue272">issue tracker entry</a></li>
 <li><a href="http://www.kandalu.net" rel="nofollow">Kandalu</a>,
