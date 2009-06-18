@@ -33,7 +33,7 @@ When writing your bug report, please include (uncompressed):
   <li>The exact command line you were using (e.g., "<code>ffmpeg -i input.mov
     -an -vcodec foo output.avi</code>")</li>
   <li>The full, uncut console output provided by
-    <code>ffmpeg</code>/<code>ffplay</code> (copy/pasted from the console,
+    <code>ffmpeg -v 9 -loglevel 99</code>/<code>ffplay</code> (copy/pasted from the console,
     including the banner that indicates version and configuration options)</li>
 </ul>
 
