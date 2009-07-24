@@ -38,6 +38,33 @@ page</a>.
 
 <h1>News</h1>
 
+<h3>July 24, 2009</h3>
+<p>
+FFmpeg has removed support for
+<a href="http://www.penguin.cz/~utx/amr">libamr</a> as of svn revision 19365. It
+has been replaced with support for
+<a href="http://opencore-amr.sourceforge.net/">libopencore-amr</a>. Naturally
+the configure options have changed. The libamr options have been removed and
+there are two new options to take their place:
+</p>
+<ul>
+<li>--enable-libopencore-amrnb</li>
+<li>--enable-libopencore-amrwb</li>
+</ul>
+<p>
+The reason for this change is that the libamr license was non-free, while
+libopencore-amr is licensed under an Apache 2 license. The change was
+<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-devel/2009-May/069779.html">
+discussed at length</a> on the developer mailing list during May, June, and
+July. This has several effects:
+</p>
+<ul>
+<li>You may now distribute FFmpeg builds with support for dynamically loading
+    libopencore-amr</li>
+<li>Support for AMR-WB encoding has been removed since libopencore-amr does not
+    support it</li>
+</ul>
+
 <h3>May 7, 2009</h3>
 <p>
 FFmpeg was granted 9 slots to fill with applicants. After the gruelling
