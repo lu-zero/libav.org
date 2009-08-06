@@ -13,10 +13,10 @@ The usual disclaimers apply, this is not legal advice.
 <p>
 FFmpeg is licensed under the
 <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser
-General Public License (LGPL) version 2.1</a> or later.
-However, FFmpeg incorporates several optional modules that are covered by the
+General Public License (LGPL) version 2.1</a> or later. However, FFmpeg
+incorporates several optional parts and optimizations that are covered by the
 <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General
-Public License (GPL) version 2</a> or later, notably libpostproc and libswscale.
+Public License (GPL) version 2</a> or later.
 If those parts get used the GPL applies to all of FFmpeg.
 </p>
 
