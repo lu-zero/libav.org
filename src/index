@@ -38,6 +38,13 @@ page</a>.
 
 <h1>News</h1>
 
+<h3>August 24, 2009</h3>
+<p>
+Just a very short time after its launch (~10 years), FFmpeg now supports
+decoding of TwinVQ (remember .vqf files?). Now FOSS enthusiasts can finally
+contribute to the late 90's discussion if it sounds better than MP3 or not.
+</p>
+
 <h3>July 24, 2009</h3>
 <p>
 FFmpeg has removed support for
