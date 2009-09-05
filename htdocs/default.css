@@ -2,6 +2,10 @@ a {
     color: #2D6198;
 }
 
+a:visited {
+    color: #884488;
+}
+
 #banner {
     background-color: #BBC9D8;
     border-bottom: 1px solid #7A96B3;
