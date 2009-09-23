@@ -38,6 +38,22 @@ page</a>.
 
 <h1>News</h1>
 
+
+<h3>September 23, 2009</h3>
+<p>
+In 1992 Sony introduced the first Minidisc player. 17 years later it is now
+possible to transfer and play back the raw ATRAC data from the actual digital
+disc with the help of FFmpeg, tools developed by the
+<a href="https://wiki.physik.fu-berlin.de/linux-minidisc/doku.php">Linux
+ Minidisc project</a> and official hardware. So if you have lots of digital
+recordings stored on Minidisc now is the time to archive it all.
+</p>
+<p>
+WMAPro support is finally here, a big thanks to all who made this possible.
+It was really a herculean effort.
+</p>
+
+
 <h3>August 24, 2009</h3>
 <p>
 Just a very short time after its launch (~10 years), FFmpeg now supports
