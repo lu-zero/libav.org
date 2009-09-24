@@ -48,9 +48,13 @@ disc with the help of FFmpeg, tools developed by the
  Minidisc project</a> and official hardware (MZ-RH1). So if you have lots of digital
 recordings stored on Minidisc now is the time to archive it all.
 </p>
+
 <p>
-WMAPro support is finally here, a big thanks to all who made this possible.
-It was really a herculean effort.
+One of the last entrenchments of proprietary multimedia has fallen: Windows Media
+Audio Pro support is finally available in FFmpeg. It decodes all known samples
+flawlessly and is considerably faster than the binary decoder from Microsoft.
+A big thank you goes out to all the reverse engineers and programmers who made
+this possible. It really was a herculean effort.
 </p>
 
 
