@@ -10,9 +10,9 @@ developers will be able to better diagnose the problem if you follow
 <h2>General Documentation</h2>
 <ul>
 <li><a href="faq.html">Frequently Asked Questions</a></li>
-<li><a href="general.html">general documentation</a></li>
-<li><a href="libavfilter.html">Libavfilter documentation</a></li>
-<li><a href="developer.html">developer documentation</a></li>
+<li><a href="general.html">General Documentation</a></li>
+<li><a href="libavfilter.html">Libavfilter Documentation</a></li>
+<li><a href="developer.html">Developer Documentation</a></li>
 <li><a href="http://ffmpeg.arrozcru.org/">FFmpeg Windows Help</a>
 discusses all issues regarding FFmpeg under Windows including a wiki
 and help forums.</li>
@@ -22,15 +22,15 @@ explains installing and using FFmpeg on Mac OS X.</li>
 
 <h2>Command Line Interface (CLI) and Related Usage Documentation</h2>
 <ul>
-<li><a href="ffmpeg-doc.html">ffmpeg documentation</a></li>
-<li><a href="ffserver-doc.html">ffserver documentation</a></li>
-<li><a href="ffplay-doc.html">ffplay documentation</a></li>
-<li><a href="sample.html">sample ffserver configuration file</a></li>
+<li><a href="ffmpeg-doc.html">FFmpeg Documentation</a></li>
+<li><a href="ffserver-doc.html">FFserver Documentation</a></li>
+<li><a href="ffplay-doc.html">FFplay Documentation</a></li>
+<li><a href="sample.html">Sample ffserver configuration file</a></li>
 </ul>
 
 <h2>Public API Documentation</h2>
 <ul>
-<li><a href="http://cekirdek.pardus.org.tr/~ismail/ffmpeg-docs/">FFmpeg API documentation</a>,
+<li><a href="http://cekirdek.pardus.org.tr/~ismail/ffmpeg-docs/">FFmpeg API Documentation</a>,
 automatically generated from the FFmpeg source code using
 <a href="http://www.doxygen.org/index.html">doxygen</a>.</li>
 <li><a href="http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html">Using libavformat and libavcodec</a> by
