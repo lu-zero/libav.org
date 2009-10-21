@@ -11,7 +11,7 @@ developers will be able to better diagnose the problem if you follow
 <ul>
 <li><a href="faq.html">Frequently Asked Questions</a></li>
 <li><a href="general.html">general documentation</a></li>
-<li><a href="vfilters.html">Libavfilter documentation</a></li>
+<li><a href="libavfilter.html">Libavfilter documentation</a></li>
 <li><a href="developer.html">developer documentation</a></li>
 <li><a href="http://ffmpeg.arrozcru.org/">FFmpeg Windows Help</a>
 discusses all issues regarding FFmpeg under Windows including a wiki
