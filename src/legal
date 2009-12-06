@@ -27,23 +27,51 @@ of FFmpeg or reusing FFmpeg.  You may also wish to have a look at the
 </p>
 
 <p>
-Here is a short list of things you need to take into consideration when you
-incorporate FFmpeg into proprietary programs. This list is not exhaustive,
-it just lists the most common issues we encounter.
+The following is a checklist for LGPL compliance when linking against the
+FFmpeg libraries. It is not the only way to comply with the license, but we
+think it is the easiest. There are also a few items that are not really related
+to LGPL compliance but are good ideas anyway.
 </p>
 
-<ul>
-<li>Be careful if you enable GPL components.</li>
-<li>Provide the license text, the correct version.</li>
-<li>Provide FFmpeg sources, the exact version you use. The code must compile
-    and you should note which revision it is and what options you used for
-    building your binary.</li>
-<li>Review your EULA terms. They have to be compatible with the license
-    of FFmpeg. For example, terms forbidding reverse engineering are
-    not acceptable.</li>
-<li>Read the LGPL license text, multiple times, and educate yourself about
-    its effects.</li>
-</ul>
+<p>
+You are not obliged by the LGPL to follow this list, but consult a copyright
+lawyer if you choose not to. If you end up violating the LGPL, you will likely
+end up on our shame list and/or get sued by us.
+</p>
+
+<ol>
+<li> Compile FFmpeg <b>without</b> "--enable-gpl" and
+<b>without</b> "--enable-nonfree".</li>
+<li> Use dynamic linking (on windows, this means linking to dlls) for linking
+with FFmpeg libraries. </li>
+<li> Distribute the source code of FFmpeg, no matter if you modified it or not.
+</li>
+<li> Make sure the source code corresponds exactly to the library binaries
+you are distributing. </li>
+<li> Run the command "svn diff . libswscale > changes.diff" in the root
+directory of the FFmpeg source code to create a file with only the changes.</li>
+<li> Explain how you compiled FFmpeg, for example the configure line, in a text
+file added to the root directory of the source code. </li>
+<li> Use tarball or a zip file for distributing the source code. </li>
+<li> Host the FFmpeg source code on the same webserver as the binary you are
+distributing. </li>
+<li> Add "This software uses code of &#60a href=http://ffmpeg.org&#62FFmpeg&#60/a&#62 licensed under the &#60a href=http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html&#62LGPLv2.1&#60/a&#62 and its source can be downloaded &#60a href=link_to_your_sources&#62here&#60/a&#62" to every page in your website where there is a download link to your application. </li>
+<li> Mention "This software uses libraries from the FFmpeg project under the
+LGPLv2.1" in your program "about box". </li>
+<li> Mention in your EULA that your program uses FFmpeg under the LGPLv2.1.</li>
+<li> If your EULA claims ownership over the code, you have to <b>explicitly</b>
+mention that you do not own FFmpeg, and where the relevant owners can be
+found.</li>
+<li> Remove any prohibition of reverse engineering from your EULA.</li>
+<li> Do not misspell FFmpeg (two capitals F and lowercase "mpeg").</li>
+<li> Do not rename FFmpeg dlls to some obfuscated name, but adding a suffix or
+prefix is fine (renaming "avcodec.dll" to "MyProgDec.dll" is not fine, but to
+"avcodec-MyProg.dll" is).</li>
+<li> Go through all the items again for any LGPL external library you compiled
+into FFmpeg (for example LAME).</li>
+<li> Make sure your program is not using any GPL libraries
+(notably libx264).</li>
+</ol>
 
 
 <h2>Trademark</h2>
