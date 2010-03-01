@@ -38,6 +38,15 @@ page</a>.
 
 <h1>News</h1>
 
+<h3>March 1, 2010</h3>
+<p>
+We have been busy over the past few months. Among other things, the
+results are an Indeo 5 video decoder as well as audio decoders for
+AMR-NB, Sipro, MPEG-4 ALS and WMA Voice, complete support for Bink,
+CDG and IFF PBM/ILBM bitmaps, an RTSP muxer, Bluray (PGS) subtitle
+support, a protocol for file concatenation and the ffprobe tool for
+extracting information from multimedia files.
+</p>
 
 <h3>September 23, 2009</h3>
 <p>
