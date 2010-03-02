@@ -68,6 +68,6 @@ shed"</h2>
 <a href="releases/ffmpeg-0.5.tar.bz2.md5">md5</a>
 <a href="releases/ffmpeg-0.5.tar.bz2.sha1">sha1</a>
 <a href="releases/ffmpeg-0.5.tar.bz2.asc">PGP</a><br />
-<a href="Changelog">Changelog</a><br />
-<a href="RELEASE">Release Notes</a>
+<a href="releases/ffmpeg-0.5.changelog">Changelog</a><br />
+<a href="releases/ffmpeg-0.5.release">Release Notes</a>
 </p>

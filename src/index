@@ -213,7 +213,8 @@ and view the archives via the <a href="contact.html">contact page</a>.
 It has been a very long time since we last made a release and many did not think
 we would make one again but, back by popular demand, we are proud to announce
 a <b>new release: <a href="download.html#release">FFmpeg 0.5</a></b>. Check out
-the <a href="RELEASE">release notes</a> and <a href="Changelog">changelog</a>.
+the <a href="releases/ffmpeg-0.5.release">release notes</a> and
+<a href="releases/ffmpeg-0.5.changelog">changelog</a>.
 </p>
 
 <p>
