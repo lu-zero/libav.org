@@ -61,13 +61,17 @@ Alternatively, you can
 </p>
 
 <a name="release"></a><h2>
-FFmpeg 0.5 "half-way to world domination A.K.A. the belligerent blue bike
+FFmpeg 0.5.1 "half-way to world domination A.K.A. the belligerent blue bike
 shed"</h2>
 <p>
-<a href="releases/ffmpeg-0.5.tar.bz2">Download source code</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.5.tar.bz2.md5">md5</a>
-<a href="releases/ffmpeg-0.5.tar.bz2.sha1">sha1</a>
-<a href="releases/ffmpeg-0.5.tar.bz2.asc">PGP</a><br />
-<a href="releases/ffmpeg-0.5.changelog">Changelog</a><br />
-<a href="releases/ffmpeg-0.5.release">Release Notes</a>
+<a href="releases/ffmpeg-0.5.1.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.5.1.tar.bz2.md5">MD5</a>
+<a href="releases/ffmpeg-0.5.1.tar.bz2.sha1">SHA1</a>
+<a href="releases/ffmpeg-0.5.1.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.5.1.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.5.1.tar.gz.md5">MD5</a>
+<a href="releases/ffmpeg-0.5.1.tar.gz.sha1">SHA1</a>
+<a href="releases/ffmpeg-0.5.1.tar.gz.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.5.1.changelog">Changelog</a><br />
+<a href="releases/ffmpeg-0.5.1.release">Release Notes</a>
 </p>

@@ -38,6 +38,39 @@ page</a>.
 
 <h1>News</h1>
 
+
+<a name="release_0.5.1"></a><h3>March 2, 2010</h3>
+<p>
+We have just pushed out a point release from our 0.5 release
+branch: <a href="download.html#release">FFmpeg 0.5.1</a></b>. This
+release fixes security, packaging and licensing issues for FFmpeg 0.5,
+but it is a maintenance only release; no new codecs, formats or other
+feature are being introduced. The full details are spelled out in the
+the <a href="releases/ffmpeg-0.5.release">release notes</a>
+and <a href="releases/ffmpeg-0.5.changelog">changelog</a>.
+</p>
+
+<p>
+There have been security fixes for the ASF, Ogg and MOV/MP4 demuxers
+as well as the FFv1, H.264, HuffYUV, MLP, MPEG audio and Snow
+decoders. libswscale can now be compiled in LGPL mode, albeit with
+x86 optimizations disabled. Some non-free bits in a test program were
+replaced. The AC-3 decoder is now completely LGPL. AMR-NB/WB support
+is now possible in free software through the OpenCORE libraries.
+</p>
+
+<p>
+To help packagers, the x264 glue code was updated to work with newer
+versions and symbol versioning was backported, as was the lock
+management API. The symbol versioning change is enabled on platforms
+that support it. This allows users to upgrade from 0.5.1 to the
+upcoming 0.6 release without having to recompile their applications.
+While this release is both API and ABI compatible with 0.5, please
+note that distributors have to recompile applications against 0.5.1
+in order to make seamless upgrades to 0.6 possible.
+</p>
+
+
 <h3>March 1, 2010</h3>
 <p>
 We have been busy over the past few months. Among other things, the
