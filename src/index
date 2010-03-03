@@ -46,8 +46,8 @@ branch: <a href="download.html#release">FFmpeg 0.5.1</a></b>. This
 release fixes security, packaging and licensing issues for FFmpeg 0.5,
 but it is a maintenance only release; no new codecs, formats or other
 feature are being introduced. The full details are spelled out in the
-the <a href="releases/ffmpeg-0.5.release">release notes</a>
-and <a href="releases/ffmpeg-0.5.changelog">changelog</a>.
+the <a href="releases/ffmpeg-0.5.1.release">release notes</a>
+and <a href="releases/ffmpeg-0.5.1.changelog">changelog</a>.
 </p>
 
 <p>
