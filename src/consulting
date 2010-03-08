@@ -1,0 +1,35 @@
+FFMPEG_ABOUT_NAVBAR
+
+<h1>Hiring FFmpeg developers</h1>
+
+<p>
+If you're running a business that uses FFmpeg or would like to use FFmpeg,
+you will sometimes want to have an expert, i.e. one of the original
+developers, work with you to figure out an issue, fix a bug or add
+some new feature.
+</p>
+
+<p>
+This page is a list of those FFmpeg developers that are available for
+employment or consulting. The FFmpeg project highly recommends these people
+to be hired by your business. All developers on this list have SVN access,
+which serves as a testimony for their competence. By hiring one of these
+developers, your business can also (indirectly) support the development
+of FFmpeg.
+</p>
+
+<!--
+1) please keep this list alphabetically (by firstname)
+2) please limit yourself to approx. one paragraph each
+3) make sure to add some way for potential clients to contact you
+
+E.g.:
+"<h2>Firstname M.I. Lastname</h2>
+ <p>
+ Firstname is located in Location, Country and available for
+ contracting work. He has worked on FFmpeg since Year1 and has had SVN access
+ since Year2. He has special expertise in Feature and Field, but will also
+ take on work related to This Special Thing or That Particular Thing. You
+ can contact him at @Email@ or #Phone#.
+ </p>"
+-->
