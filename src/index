@@ -38,6 +38,41 @@ page</a>.
 
 <h1>News</h1>
 
+<a name="gsoc_2010"></a><h3>March 19, 2010</h3>
+<p>
+Once again, FFmpeg has been accepted to take part in the
+<a href="http://code.google.com/soc/">Google Summer of Code</a>. Here is the
+<a href="http://socghop.appspot.com/org/show/google/gsoc2010/ffmpeg">Google SoC
+FFmpeg page</a>.
+</p>
+<p>
+We have a list of
+<a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_Summer_Of_Code_2010">
+proposed project ideas</a> available so, if you think you might be interested,
+head over there to see if there is any project on which you wish to work and for
+which you may wish to make an application. The list is still in flux, and you're
+free to come up with your own ideas, but note that proposals should be closely
+tied to the progression of FFmpeg's code base.
+</p>
+<p>
+We would like prospective students to show us that they've got what it takes
+to be a contributor to FFmpeg. If you think you're suited, then please complete
+a <a href="http://wiki.multimedia.cx/index.php?title=Small_FFmpeg_Tasks">small
+task</a> before submitting your Summer-of-Code proposal. Note that many of the
+proposed Summer-of-Code projects have specific tasks that you would want to work
+on, since they would show us that you're comfortable in that particular piece of
+our codebase that relates to your specific project. Send patches to the mailing
+list for review, so that you will learn about our patch review process,
+<a href="http://en.wikipedia.org/wiki/Posting_style#Inline_replying">inline
+replying</a> (because we don't like top-posting on our mailing lists) and general
+interactions with our developer base.
+</p>
+<p>
+The sooner you start communicating with us and working within
+our code base, the sooner both you and we will ascertain your suitability and
+you will get used to our development methodology. You have until the application
+deadline to complete your small task. Good luck!
+</p>
 
 <a name="release_0.5.1"></a><h3>March 2, 2010</h3>
 <p>
