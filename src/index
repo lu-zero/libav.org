@@ -38,6 +38,15 @@ page</a>.
 
 <h1>News</h1>
 
+<a name="release_0.5.2"></a><h3>May 25, 2010</h3>
+<p>
+We have just pushed out another point release from our 0.5 release branch:
+<a href="download.html#release">FFmpeg 0.5.2</a></b>.
+This is a maintenance-only release that addresses a small number of security
+and portability issues. Distributors and system integrators are encouraged
+to update and share their patches against this branch.
+</p>
+
 <a name="gsoc_2010"></a><h3>March 19, 2010</h3>
 <p>
 Once again, FFmpeg has been accepted to take part in the
