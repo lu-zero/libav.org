@@ -1,11 +1,11 @@
 # ffmpeg.org HTML generation from source files
 
-SRCS=about bugreports consulting contact documentation download \
-     index legal projects shame
+SRCS = about bugreports consulting contact documentation download \
+       index legal projects shame
 
-TARGETS=$(addsuffix .html,$(addprefix htdocs/,$(SRCS)))
+TARGETS = $(addsuffix .html,$(addprefix htdocs/,$(SRCS)))
 
-PAGE_DEPS=src/template_head1 src/template_head2 src/template_footer sed_commands
+PAGE_DEPS = src/template_head1 src/template_head2 src/template_footer sed_commands
 
 
 all: $(TARGETS)
