@@ -60,9 +60,23 @@ Alternatively, you can
 <a href="http://git.ffmpeg.org/">browse it online</a>.
 </p>
 
+<a name="releases"></a><h1>FFmpeg Releases</h1>
+
+<p>
+At irregular intervals FFmpeg makes releases that represent snapshots of FFmpeg
+at the moment the release branch was cut. Between major releases point releases
+will appear that add important bug fixes but no new features.
+</p>
+
 <a name="release"></a><h2>
 FFmpeg 0.5.2 "half-way to world domination A.K.A. the belligerent blue bike
 shed"</h2>
+
+<p>
+0.5.2 appeared on 2010-05-25. It is the latest point release from the 0.5
+release branch cut on 2009-03-02.
+</p>
+
 <p>
 <a href="releases/ffmpeg-0.5.2.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
 <a href="releases/ffmpeg-0.5.2.tar.bz2.md5">MD5</a>
