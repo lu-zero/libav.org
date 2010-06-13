@@ -73,6 +73,9 @@ FFmpeg 0.5.2 "half-way to world domination A.K.A. the belligerent blue bike
 shed"</h2>
 
 <p>
+The 0.5 branch is ONLY for distributions and not end users, it is over a
+year outdated and unsupported by us. SVN/GIT head is much better in every
+respect including stability, bug count and security.
 0.5.2 appeared on 2010-05-25. It is the latest point release from the 0.5
 release branch cut on 2009-03-02.
 </p>
