@@ -66,6 +66,12 @@ Alternatively, you can
 At irregular intervals FFmpeg makes releases that represent snapshots of FFmpeg
 at the moment the release branch was cut. Between major releases point releases
 will appear that add important bug fixes but no new features.
+Note that these releases are intended for distributors and system integrators.
+Users that wish to compile from source themselves are strongly encouraged to
+consider using SVN trunk (see above), which is the only version on that FFmpeg
+developers actively work on.  The release branches only cherry pick selected
+changes from SVN trunk, which therefore receives much more and much faster
+bugfixes such as additional features and security patches.
 </p>
 
 <a name="release"></a><h2>
@@ -73,9 +79,6 @@ FFmpeg 0.5.2 "half-way to world domination A.K.A. the belligerent blue bike
 shed"</h2>
 
 <p>
-The 0.5 branch is ONLY for distributions and not end users, it is over a
-year outdated and unsupported by us. SVN/GIT head is much better in every
-respect including stability, bug count and security.
 0.5.2 appeared on 2010-05-25. It is the latest point release from the 0.5
 release branch cut on 2009-03-02.
 </p>
