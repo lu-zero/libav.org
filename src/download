@@ -75,15 +75,15 @@ Note that these releases are intended for distributors and system integrators.
 Users that wish to compile from source themselves are strongly encouraged to
 consider using SVN trunk (see above), which is the only version on that FFmpeg
 developers actively work on.  The release branches only cherry pick selected
-changes from SVN trunk, which therefore receives much more and much faster
-bugfixes such as additional features and security patches.
+changes from SVN trunk, which therefore receive much more and much faster
+bug fixes such as additional features and security patches.
 </p>
 
 <a name="release"></a><h2>
 FFmpeg 0.6 "Works with HTML5"</h2>
 
 <p>
-0.6 appeared on 2010-06-15. This release branch was cut on 2010-05-04.
+0.6 appeared on 2010-06-15. The release branch was cut on 2010-05-04.
 </p>
 
 <p>
