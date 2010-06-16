@@ -38,6 +38,94 @@ page</a>.
 
 <h1>News</h1>
 
+<a name="release_0.6"></a><h3>June 15, 2010</h3>
+
+<p>
+A bit longer than actually expected, but finally, we are proud to announce
+a <b>new release: <a href="download.html#release">FFmpeg 0.6</a></b>. Check out
+the <a href="releases/ffmpeg-0.6.release">release notes</a> and
+<a href="releases/ffmpeg-0.6.changelog">changelog</a>.
+</p>
+
+<p>
+It is codenamed "Works with HTML5" as the special focus on this release were a
+lot of improvements that are relevant for HTML5 video.  The H.264 and Theora
+decoders are now significantly faster and the Vorbis decoder has seen important
+updates. This release supports Google's newly released libvpx library for the
+VP8 codec and the matroska demuxer was exented to support to WebM container.
+</p>
+
+<p>
+This release includes again an extensive number of changes; some of its
+highlights are:
+</p>
+<ul>
+<li>Significant work to support at least decoding of all widespread mainstream
+proprietary codecs, and as usual broad coverage of widespread non-proprietary
+codecs, such as:
+    <ul>
+    <li>decoders and encoders
+        <ul>
+        <li>VP8 (via Google's libvpx library)</li>
+        </ul>
+    </li>
+    <li>decoders
+        <ul>
+        <li>AMR-NB</li>
+        <li>Atrac1</li>
+        <li>HE-AAC v1</li>
+        <li>Bink</li>
+        <li>Bluray (PGS) subtitle</li>
+        <li>MPEG-4 Audio Lossless Coding (ALS)</li>
+        <li>WMA Pro</li>
+        <li>WMA Voice</li>
+        </ul>
+    </li>
+    </ul>
+</li>
+
+<li>Highlights among the newly supported container formats:
+    <ul>
+    <li>demuxers and muxers
+        <ul>
+        <li>Adobe Filmstrip</li>
+        <li>SoX native format</li>
+        <li>WebM support in Matroska de/muxer</li>
+        </ul>
+    </li>
+    <li>demuxers
+        <ul>
+        <li>Bink</li>
+        <li>Core Audio Format demuxer</li>
+        <li>Dirac in Ogg</li>
+        <li>IV8</li>
+        <li>QCP</li>
+        <li>VQF</li>
+        <li>Wave64</li>
+        </ul>
+    </li>
+    <li>muxers
+        <ul>
+        <li>IEC-61937</li>
+        <li>RTSP</li>
+        </ul>
+    </li>
+    </ul>
+</li>
+
+<li>faster AAC decoding</li>
+<li>faster H.264 decoding</li>
+<li>numberous ARM optimizations</li>
+<li>important updates to the Vorbis decoder</li>
+<li>RTP packetization support for H.263, and AMR</li>
+<li>RTP depacketization support for AMR, ASF, H.263, RTSP, Theora and Vorbis</li>
+<li>RTMP/RTMPT/RTMPS/RTMPE/RTMPTE protocol support via librtmp</li>
+<li>the new ffprobe tool</li>
+<li>VorbisComment writing for FLAC, Ogg FLAC and Ogg Speex files</li>
+<li>and so much more!</li>
+</ul>
+
+
 <a name="linuxtag_2010"></a><h3>June 2, 2010</h3>
 <p>
 We are pleased to announce that FFmpeg will be present at LinuxTag in
