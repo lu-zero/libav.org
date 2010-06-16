@@ -118,7 +118,7 @@ codecs, such as:
 <li>numberous ARM optimizations</li>
 <li>important updates to the Vorbis decoder</li>
 <li>RTP packetization support for H.263, and AMR</li>
-<li>RTP depacketization support for AMR, ASF, H.263, RTSP, Theora and Vorbis</li>
+<li>RTP depacketization support for AMR, ASF, H.263, Theora and Vorbis</li>
 <li>RTMP/RTMPT/RTMPS/RTMPE/RTMPTE protocol support via librtmp</li>
 <li>the new ffprobe tool</li>
 <li>VorbisComment writing for FLAC, Ogg FLAC and Ogg Speex files</li>
