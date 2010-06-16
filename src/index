@@ -52,7 +52,7 @@ It is codenamed "Works with HTML5" as the special focus on this release were a
 lot of improvements that are relevant for HTML5 video.  The H.264 and Theora
 decoders are now significantly faster and the Vorbis decoder has seen important
 updates. This release supports Google's newly released libvpx library for the
-VP8 codec and the matroska demuxer was exented to support to WebM container.
+VP8 codec and the matroska demuxer was extended to support to WebM container.
 </p>
 
 <p>
