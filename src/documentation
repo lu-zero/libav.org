@@ -34,9 +34,12 @@ explains installing and using FFmpeg on Mac OS X.</li>
 <a href="doxygen/trunk/index.html">trunk</a> (regenerated nightly) or the
 <a href="doxygen/0.6/index.html">0.6</a> and
 <a href="doxygen/0.5/index.html">0.5</a> branches.</li>
-<li><a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_codec_howto">FFmpeg codec howto</a>, describes how to add a codec to libavcodec.</li>
-<li><a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_demuxer_howto">FFmpeg demuxer howto</a>, describes how to add a (de)muxer to libavformat.</li>
-<li><a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_filter_howto">FFmpeg filter howto</a>, describes how to add a filter to libavilter.</li>
+<li><a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_codec_howto">FFmpeg codec HOWTO</a>,
+describes how to add a codec to libavcodec.</li>
+<li><a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_demuxer_howto">FFmpeg demuxer HOWTO</a>,
+describes how to add a (de)muxer to libavformat.</li>
+<li><a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_filter_howto">FFmpeg filter HOWTO</a>,
+describes how to add a filter to libavfilter.</li>
 </ul>
 
 <h2>Tutorials</h2>
