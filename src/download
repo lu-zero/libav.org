@@ -30,7 +30,8 @@ is final.
 </p>
 
 <p>
-We also provide nightly Subversion snapshots. You can choose between a
+We also provide nightly Subversion snapshots that we generate at six in the
+morning (GMT+1). You can choose between a
 <a href="releases/ffmpeg-checkout-snapshot.tar.bz2">full checkout</a> that you
 can update with Subversion or
 <a href="releases/ffmpeg-export-snapshot.tar.bz2">bare sources</a> that are
