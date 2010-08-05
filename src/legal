@@ -26,6 +26,8 @@ of FFmpeg or reusing FFmpeg.  You may also wish to have a look at the
 <a href="http://www.gnu.org/licenses/gpl-faq.html">GPL FAQ</a>.
 </p>
 
+<h2>License checklist</h2>
+
 <p>
 The following is a checklist for LGPL compliance when linking against the
 FFmpeg libraries. It is not the only way to comply with the license, but we
