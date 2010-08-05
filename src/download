@@ -6,11 +6,11 @@ FFmpeg has always been a very experimental and developer-driven project. It
 is a key component in many multimedia projects and has new features added
 constantly. SVN snapshots work really well 99% of the time so people are not
 afraid to use them.
-Note, svn currently doesnt support a filter that adds watermarks to videos,
+Note, SVN currently does not support a filter that adds watermarks to videos,
 this was removed during switching to a more advanced filter layer. We are
-working on resolving this issue, until then if you need the watermark filter
-consider using the latest release from the 0.5 branch. If you dont need that
-filter though svn is much better than the releases!
+working on resolving this issue. Until then if you need the watermark filter
+consider using the latest release from the 0.5 branch. If you do not need that
+filter SVN is much better than the releases!
 </p>
 
 <h2>FFmpeg SVN</h2>
