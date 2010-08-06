@@ -24,6 +24,7 @@ explains installing and using FFmpeg on Mac OS X.</li>
 <ul>
 <li><a href="ffmpeg-doc.html">FFmpeg Documentation</a></li>
 <li><a href="ffplay-doc.html">FFplay Documentation</a></li>
+<li><a href="ffprobe-doc.html">FFprobe Documentation</a></li>
 <li><a href="ffserver-doc.html">FFserver Documentation</a></li>
 <li><a href="sample.html">Sample ffserver configuration file</a></li>
 </ul>
