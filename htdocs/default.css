@@ -81,19 +81,19 @@ img {
     text-align: center;
 }
 
-#navbar a, #navbar_about a {
+#navbar a, #navbar_secondary a {
     color: white;
     padding: 0.3em;
     text-decoration: none;
 }
 
-#navbar a:hover, #navbar_about a:hover {
+#navbar a:hover, #navbar_secondary a:hover {
     background-color: #313131;
     color: white;
     text-decoration: none;
 }
 
-#navbar_about {
+#navbar_secondary {
     background-color: #738073;
     border-bottom: 1px solid #5C665C;
     border-left: 1px solid #5C665C;
