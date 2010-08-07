@@ -71,7 +71,7 @@ LGPLv2.1" in your program "about box". </li>
 mention that you do not own FFmpeg, and where the relevant owners can be
 found.</li>
 <li> Remove any prohibition of reverse engineering from your EULA.</li>
-<li>Apply the same changes to all translations of your EULA.</li>
+<li> Apply the same changes to all translations of your EULA.</li>
 <li> Do not misspell FFmpeg (two capitals F and lowercase "mpeg").</li>
 <li> Do not rename FFmpeg dlls to some obfuscated name, but adding a suffix or
 prefix is fine (renaming "avcodec.dll" to "MyProgDec.dll" is not fine, but to
