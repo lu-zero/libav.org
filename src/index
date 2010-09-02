@@ -26,13 +26,13 @@ with the latest developments by subscribing to both the
 </p>
 
 <p>
-<b>FFmpeg is free software and is licensed under the LGPL or GPL</b> depending
+<b>FFmpeg is free software licensed under the LGPL or GPL</b> depending
 on your choice of configuration options. If you use FFmpeg or its constituent
 libraries, you <b>must</b> adhere to the terms of the license in question.
-If you do not, we will track down your project and list it in our
-<a href="shame.html">Hall of Shame</a>. To see how easy it is to comply,
-take a look at our <a href="legal.html">license and legal considerations
-page</a>.
+You can find basic compliance information and get licensing help on our
+<a href="legal.html">license and legal considerations page</a>.
+Note that if you violate our license terms, we will track you down, list
+you on our <a href="shame.html">Hall of Shame</a> and eventually sue you.
 </p>
 
 
