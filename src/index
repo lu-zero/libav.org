@@ -11,6 +11,16 @@ changes.
 </div>
 
 <p>
+<b>FFmpeg is free software licensed under the LGPL or GPL</b> depending
+on your choice of configuration options. If you use FFmpeg or its constituent
+libraries, you <b>must</b> adhere to the terms of the license in question.
+You can find basic compliance information and get licensing help on our
+<a href="legal.html">license and legal considerations page</a>.
+Note that if you violate our license terms, we will track you down, list
+you on our <a href="shame.html">Hall of Shame</a> and eventually sue you.
+</p>
+
+<p>
 <b>Looking for help?</b> <a href="contact.html">Contact us</a>, but before
 you report any bugs, read the </b> <a href="bugreports.html">guidelines</a>
 that we created for this purpose.
@@ -20,16 +30,6 @@ that we created for this purpose.
 <b>Want to participate in the active development of FFmpeg?</b> Keep up
 with the latest developments by subscribing to both the
 <a href="contact.html">ffmpeg-devel and ffmpeg-cvslog</a> lists.
-</p>
-
-<p>
-<b>FFmpeg is free software licensed under the LGPL or GPL</b> depending
-on your choice of configuration options. If you use FFmpeg or its constituent
-libraries, you <b>must</b> adhere to the terms of the license in question.
-You can find basic compliance information and get licensing help on our
-<a href="legal.html">license and legal considerations page</a>.
-Note that if you violate our license terms, we will track you down, list
-you on our <a href="shame.html">Hall of Shame</a> and eventually sue you.
 </p>
 
 
