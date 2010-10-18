@@ -35,8 +35,7 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
-<!--
-<a name="release_0.6.1"></a><h3>Oct XX, 2010</h3>
+<a name="release_0.6.1"></a><h3>Oct 18, 2010</h3>
 
 <p>
 We have just pushed the first point release from our 0.6 release branch:
@@ -46,7 +45,6 @@ issues. It also adds a newer version of the AAC decoder, which enables the
 playback of HE-AAC v2 media. Distributor and system integrators are encouraged
 to update and share their patches against this branch.
 </p>
--->
 
 
 <a name="release_0.6"></a><h3>June 15, 2010</h3>
