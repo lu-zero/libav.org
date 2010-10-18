@@ -42,8 +42,19 @@ We have just pushed the first point release from our 0.6 release branch:
 <a href="download.html#release">FFmpeg 0.6.1</a></b>. This is a
 maintenance-only release that addresses a small number of bugs and security
 issues. It also adds a newer version of the AAC decoder, which enables the
-playback of HE-AAC v2 media. Distributor and system integrators are encouraged
-to update and share their patches against this branch.
+playback of HE-AAC v2 media.
+</p>
+
+<p>
+We have also taken the time make another point release our 0.5 branch:
+<a href="download.html#release">FFmpeg 0.5.3</a></b>.
+It is a maintenance-only release that addresses a security issue and a
+minor set of bugs.
+</p>
+
+<p>
+Distributors and system integrators are encouraged to update and share their
+patches against our release branches.
 </p>
 
 
