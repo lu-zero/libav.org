@@ -57,8 +57,8 @@ the <a href="releases/ffmpeg-0.6.release">release notes</a> and
 </p>
 
 <p>
-It is codenamed "Works with HTML5" as the special focus on this release were a
-lot of improvements that are relevant for HTML5 video.  The H.264 and Theora
+It is codenamed "Works with HTML5" as the special focus of this release were
+improvements for the new multimedia elements in HTML5. The H.264 and Theora
 decoders are now significantly faster and the Vorbis decoder has seen important
 updates. This release supports Google's newly released libvpx library for the
 VP8 codec and the Matroska demuxer was extended to support to WebM container.
