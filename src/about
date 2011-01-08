@@ -15,9 +15,14 @@ broadcasts.</li>
 <li><tt>ffplay</tt> is a simple media player based on <a
 href="http://www.libsdl.org/">SDL</a> and the FFmpeg libraries.</li>
 
+<li><tt>ffprobe</tt> is a is a simple multimedia stream analyzer.</li>
+
 <li><tt>libavutil</tt> is a library containing functions for
 simplifying programming, including random number generators, data
 structures, mathematics routines and much more.</li>
+
+<li><tt>libavcore</tt> is a library containing multimedia core
+utilities.</li>
 
 <li><tt>libavcodec</tt> is a library containing decoders and encoders
 for audio/video codecs.</li>
@@ -29,6 +34,8 @@ muxers for multimedia container formats.</li>
 devices for grabbing from and rendering to many common multimedia
 input/output software frameworks, including Video4Linux, Video4Linux2,
 VfW, and ALSA.</li>
+
+<li><tt>libavfilter</tt> is a library containing media filters.</li>
 
 <li><tt>libswscale</tt> is a library performing highly optimized image
 scaling and color space/pixel format conversion operations.</li>
