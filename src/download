@@ -4,16 +4,26 @@
 <p>
 FFmpeg has always been a very experimental and developer-driven project. It
 is a key component in many multimedia projects and has new features added
-constantly. SVN snapshots work really well 99% of the time so people are not
-afraid to use them.
-Note, SVN currently does not support a filter that adds watermarks to videos,
+constantly. Development branch snapshots work really well 99% of the
+time so people are not afraid to use them.
+
+Note, the main development branch currently does not support a filter that adds watermarks to videos,
 this was removed during switching to a more advanced filter layer. We are
 working on resolving this issue. Until then if you need the watermark filter
 consider using the latest release from the 0.5 branch. If you do not need that
-filter SVN is much better than the releases!
+filter, the development branch is much better than the releases!
 </p>
 
 <h2>FFmpeg SVN</h2>
+<p><b>
+FFmpeg development has moved to a Git repository, and the SVN
+repository is no longer updated. The last revision committed to SVN
+was r26400 on 2011-01-17.
+
+The SVN repository may be removed in a near future, so you're
+recommended to use the Git repository instead.
+</b></p>
+
 <p>
 In order to use the standard SVN client to check out the source code:
 </p>
@@ -47,23 +57,18 @@ Alternatively, you can
 
 <h2>FFmpeg Git</h2>
 <p>
-There are Git repositories of FFmpeg and libswscale. Both are kept in
-sync with SVN automatically. To allow building FFmpeg with libswscale,
-the libswscale directory must be present inside the FFmpeg directory.
-They can be cloned with the commands:
+In order to use the standard Git client to check out the source code:
 </p>
 
 <blockquote>
 <pre>
-git clone git://git.ffmpeg.org/ffmpeg/
-cd ffmpeg
-git clone git://git.ffmpeg.org/libswscale/
+git clone git://git.videolan.org/ffmpeg
 </pre>
 </blockquote>
 
 <p>
 Alternatively, you can
-<a href="http://git.ffmpeg.org/">browse it online</a>.
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=summary">browse it online</a>.
 </p>
 
 <a name="releases"></a><h1>FFmpeg Releases</h1>
@@ -74,9 +79,9 @@ at the moment the release branch was cut. Between major releases point releases
 will appear that add important bug fixes but no new features.
 Note that these releases are intended for distributors and system integrators.
 Users that wish to compile from source themselves are strongly encouraged to
-consider using SVN trunk (see above), which is the only version on that FFmpeg
-developers actively work on.  The release branches only cherry pick selected
-changes from SVN trunk, which therefore receive much more and much faster
+consider using the development branch (see above), this is the only version on which FFmpeg
+developers actively work.  The release branches only cherry pick selected
+changes from the development branch, which therefore receives much more and much faster
 bug fixes such as additional features and security patches.
 </p>
 
