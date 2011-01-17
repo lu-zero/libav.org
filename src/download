@@ -14,6 +14,22 @@ watermark filter consider using the latest release from the 0.5 branch. If you
 do not need that filter, the development branch is much better than the
 releases!  </p>
 
+<h2>FFmpeg Git</h2>
+<p>
+In order to use the standard Git client to check out the source code:
+</p>
+
+<blockquote>
+<pre>
+git clone git://git.videolan.org/ffmpeg
+</pre>
+</blockquote>
+
+<p>
+Alternatively, you can
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=summary">browse it online</a>.
+</p>
+
 <h2>FFmpeg SVN</h2>
 <p><b>
 FFmpeg development has moved to a Git repository, and the SVN
@@ -54,22 +70,6 @@ Alternatively, you can
 <a href="http://svn.ffmpeg.org/ffmpeg/trunk/">browse the source tree online</a>.
 </p>
 -->
-
-<h2>FFmpeg Git</h2>
-<p>
-In order to use the standard Git client to check out the source code:
-</p>
-
-<blockquote>
-<pre>
-git clone git://git.videolan.org/ffmpeg
-</pre>
-</blockquote>
-
-<p>
-Alternatively, you can
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=summary">browse it online</a>.
-</p>
 
 <a name="releases"></a><h1>FFmpeg Releases</h1>
 
