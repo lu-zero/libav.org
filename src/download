@@ -7,12 +7,12 @@ is a key component in many multimedia projects and has new features added
 constantly. Development branch snapshots work really well 99% of the
 time so people are not afraid to use them.
 
-Note, the main development branch currently does not support a filter that adds watermarks to videos,
-this was removed during switching to a more advanced filter layer. We are
-working on resolving this issue. Until then if you need the watermark filter
-consider using the latest release from the 0.5 branch. If you do not need that
-filter, the development branch is much better than the releases!
-</p>
+Note, the main development branch currently does not support a filter that adds
+watermarks to videos, this was removed during switching to a more advanced
+filter layer. We are working on resolving this issue. Until then if you need the
+watermark filter consider using the latest release from the 0.5 branch. If you
+do not need that filter, the development branch is much better than the
+releases!  </p>
 
 <h2>FFmpeg SVN</h2>
 <p><b>
@@ -79,10 +79,10 @@ at the moment the release branch was cut. Between major releases point releases
 will appear that add important bug fixes but no new features.
 Note that these releases are intended for distributors and system integrators.
 Users that wish to compile from source themselves are strongly encouraged to
-consider using the development branch (see above), this is the only version on which FFmpeg
-developers actively work.  The release branches only cherry pick selected
-changes from the development branch, which therefore receives much more and much faster
-bug fixes such as additional features and security patches.
+consider using the development branch (see above), this is the only version on
+which FFmpeg developers actively work.  The release branches only cherry pick
+selected changes from the development branch, which therefore receives much more
+and much faster bug fixes such as additional features and security patches.
 </p>
 
 <a name="release"></a><h2>
