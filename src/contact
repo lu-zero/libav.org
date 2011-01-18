@@ -83,8 +83,8 @@ browse the archives before posting questions.
 
 <p>
 FFmpeg has two official channels on the <a href="http://freenode.net/">freenode</a>
-IRC network. Both channels are open and unmoderated. Developers with SVN
-write access have operator status, contributors with patches in FFmpeg
+IRC network. Both channels are open and unmoderated. Developers with commit
+rights have operator status, contributors with patches in FFmpeg
 have voice in the channels.
 </p>
 

@@ -10,7 +10,7 @@ some new feature.
 <p>
 This page is a list of those FFmpeg developers that are available for
 employment or consulting. The FFmpeg project highly recommends these people
-to be hired by your business. All developers on this list have SVN access,
+to be hired by your business. All developers on this list have commit rights,
 which serves as a testimony for their competence. By hiring one of these
 developers, your business can also (indirectly) support the development
 of FFmpeg.
@@ -32,7 +32,7 @@ E.g.:
 "<h2>Firstname M.I. Lastname</h2>
  <p>
  Firstname is located in Location, Country and available for
- contracting work. He has worked on FFmpeg since Year1 and has had SVN access
+ contracting work. He has worked on FFmpeg since Year1 and has had commit rights
  since Year2. He has special expertise in Feature and Field, but will also
  take on work related to This Special Thing or That Particular Thing. You
  can contact him at @Email@ or #Phone#.
@@ -42,7 +42,7 @@ E.g.:
 <h2>Baptiste Coudurier</h2>
 <p>
 Baptiste Coudurier is located in Los Angeles, California and is available for
-contracting work. He has worked on FFmpeg since 2005 and has had SVN access
+contracting work. He has worked on FFmpeg since 2005 and has had commit rights
 since 2006. He has special expertise in broadcast codecs
 (ProRes, DNxHD, IMX/D-10, AVC-Intra), formats (MXF, GXF, MOV) and usages
 (Avid, FCP, Interlacing, Time Code, Metadata). You can contact him by email at
@@ -69,7 +69,7 @@ systems.  You can contact him by email at
 <h2>Jason Garrett-Glaser</h2>
 <p>
 Jason is located in Los Angeles, US and is available for contracting
-work.  He has worked on FFmpeg since 2008 and has had SVN access since
+work.  He has worked on FFmpeg since 2008 and has had commit rights since
 2008.  He is also the lead x264 developer and has special expertise in
 H.264 and other modern lossy video formats, as well as x86 SIMD
 assembly optimization.  You can contact him by email at
@@ -79,7 +79,7 @@ assembly optimization.  You can contact him by email at
 <h2>Luca Barbato</h2>
 <p>
 Luca is located in Torino, Italy and available for contracting work.
-He has worked on FFmpeg since 2005 and has had SVN access since 2006.
+He has worked on FFmpeg since 2005 and has had commit rights since 2006.
 He has special expertise in streaming protocols.  You
 can contact him by email at <a href="mailto:luca.barbato@axant.it">luca.barbato@axant.it</a>.
 </p>
@@ -95,7 +95,7 @@ You can contact him by email at <a href="mailto:michaelni at gmx dot at">michael
 <h2>Stefano Sabatini</h2>
 <p>
 Stefano is located in Cagliari, Italy and is available for contracting
-work. He has worked on FFmpeg since 2007 and has had SVN access since
+work. He has worked on FFmpeg since 2007 and has had commit rights since
 2008. He has special expertise in libavfilter, ff* tools usage and
 usability issues. You can contact him by email at
 <a href="mailto:stefasab@gmail.com">stefasab@gmail.com</a>.

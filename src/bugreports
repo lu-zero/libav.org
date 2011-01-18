@@ -18,7 +18,7 @@ promises.
 <p>
 FFmpeg is in a state of perpetual development and we do not currently have the
 person power to backport fixes to official releases. As such, if you wish to
-query or report a bug, you must try with the <b>latest SVN</b> revision of
+query or report a bug, you must try with the <b>latest development branch</b> revision of
 FFmpeg to confirm the issue still exists.
 </p>
 
