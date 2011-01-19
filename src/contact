@@ -42,7 +42,7 @@ This list is for development of FFmpeg itself. It is <strong>not</strong> for
 development of software that use the FFmpeg libraries and <strong>not</strong>
 for bug reports.
 <br />
-<a href="https://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-cvslog/">ffmpeg-cvslog</a>:
+<a href="https://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-commits/">ffmpeg-commits</a>:
 This list gets all changes to the FFmpeg sources.
 <br />
 <a href="https://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-soc/">ffmpeg-soc</a>:
@@ -72,7 +72,7 @@ browse the archives before posting questions.
 <br />
 <a href="https://lists.mplayerhq.hu/pipermail/ffmpeg-devel/">ffmpeg-devel archives</a>
 <br />
-<a href="https://lists.mplayerhq.hu/pipermail/ffmpeg-cvslog/">ffmpeg-cvslog archives</a>
+<a href="https://lists.mplayerhq.hu/pipermail/ffmpeg-commits/">ffmpeg-commits archives</a>
 <br />
 <a href="https://lists.mplayerhq.hu/pipermail/ffmpeg-soc/">ffmpeg-soc archives</a>
 </p>
