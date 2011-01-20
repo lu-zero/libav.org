@@ -39,7 +39,7 @@ with the latest developments by subscribing to both the
 
 <p>
 We have just pushed the first point release from our 0.6 release branch:
-<a href="download.html#release">FFmpeg 0.6.1</a>. This is a
+<a href="download.html#release_0.6">FFmpeg 0.6.1</a>. This is a
 maintenance-only release that addresses a small number of bugs and security
 issues. It also adds a newer version of the AAC decoder, which enables the
 playback of HE-AAC v2 media.
@@ -47,7 +47,7 @@ playback of HE-AAC v2 media.
 
 <p>
 We have also taken the time make another point release our 0.5 branch:
-<a href="download.html#release">FFmpeg 0.5.3</a>.
+<a href="download.html#release_0.5">FFmpeg 0.5.3</a>.
 It is a maintenance-only release that addresses a security issue and a
 minor set of bugs.
 </p>
@@ -62,7 +62,7 @@ patches against our release branches.
 
 <p>
 A bit longer than actually expected, but finally, we are proud to announce
-a <b>new release: <a href="download.html#release">FFmpeg 0.6</a></b>. Check out
+a <b>new release: <a href="download.html#release_0.6">FFmpeg 0.6</a></b>. Check out
 the <a href="releases/ffmpeg-0.6.release">release notes</a> and
 <a href="releases/ffmpeg-0.6.changelog">changelog</a>.
 </p>
@@ -156,7 +156,7 @@ There will also be some trolls.
 <a name="release_0.5.2"></a><h3>May 25, 2010</h3>
 <p>
 We have just pushed out another point release from our 0.5 release branch:
-<a href="download.html#release">FFmpeg 0.5.2</a>.
+<a href="download.html#release_0.5">FFmpeg 0.5.2</a>.
 This is a maintenance-only release that addresses a small number of security
 and portability issues. Distributors and system integrators are encouraged
 to update and share their patches against this branch.
@@ -201,7 +201,7 @@ deadline to complete your small task. Good luck!
 <a name="release_0.5.1"></a><h3>March 2, 2010</h3>
 <p>
 We have just pushed out a point release from our 0.5 release
-branch: <a href="download.html#release">FFmpeg 0.5.1</a>. This
+branch: <a href="download.html#release_0.5">FFmpeg 0.5.1</a>. This
 release fixes security, packaging and licensing issues for FFmpeg 0.5,
 but it is a maintenance only release; no new codecs, formats or other
 feature are being introduced. The full details are spelled out in the
@@ -404,7 +404,7 @@ and view the archives via the <a href="contact.html">contact page</a>.
 <p>
 It has been a very long time since we last made a release and many did not think
 we would make one again but, back by popular demand, we are proud to announce
-a <b>new release: <a href="download.html#release">FFmpeg 0.5</a></b>. Check out
+a <b>new release: <a href="download.html#release_0.5">FFmpeg 0.5</a></b>. Check out
 the <a href="releases/ffmpeg-0.5.release">release notes</a> and
 <a href="releases/ffmpeg-0.5.changelog">changelog</a>.
 </p>
