@@ -63,7 +63,7 @@ file added to the root directory of the source code. </li>
 <li> Use tarball or a zip file for distributing the source code. </li>
 <li> Host the FFmpeg source code on the same webserver as the binary you are
 distributing. </li>
-<li> Add "This software uses code of &#60a href=http://ffmpeg.org&#62FFmpeg&#60/a&#62 licensed under the &#60a href=http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html&#62LGPLv2.1&#60/a&#62 and its source can be downloaded &#60a href=link_to_your_sources&#62here&#60/a&#62" to every page in your website where there is a download link to your application. </li>
+<li> Add "This software uses code of &#60;a href=http://ffmpeg.org&#62;FFmpeg&#60;/a&#62; licensed under the &#60;a href=http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html&#62;LGPLv2.1&#60;/a&#62; and its source can be downloaded &#60;a href=link_to_your_sources&#62;here&#60;/a&#62;" to every page in your website where there is a download link to your application. </li>
 <li> Mention "This software uses libraries from the FFmpeg project under the
 LGPLv2.1" in your program "about box". </li>
 <li> Mention in your EULA that your program uses FFmpeg under the LGPLv2.1.</li>
