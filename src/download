@@ -92,22 +92,6 @@ will it in the future. There is no point in asking for it, the decision
 is final.
 </p>
 
-<p>
-We also provide nightly Subversion snapshots that we generate at six in the
-morning (GMT+1). You can choose between a
-<a href="releases/ffmpeg-checkout-snapshot.tar.bz2">full checkout</a> that you
-can update with Subversion or
-<a href="releases/ffmpeg-export-snapshot.tar.bz2">bare sources</a> that are
-smaller but don't come with Subversion metadata.
-</p>
-
-<!--
-<p>
-Alternatively, you can
-<a href="http://svn.ffmpeg.org/ffmpeg/trunk/">browse the source tree online</a>.
-</p>
--->
-
 <a name="releases"></a><h1>FFmpeg Releases</h1>
 
 <p>
