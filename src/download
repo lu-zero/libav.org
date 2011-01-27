@@ -24,13 +24,13 @@ In order to use the standard Git client to check out the source code:
 
 <blockquote>
 <pre>
-git clone git://git.ffmpeg.org/ffmpeg.git
+git clone git://git.videolan.org/ffmpeg
 </pre>
 </blockquote>
 
 <p>
 Alternatively, you can
-<a href="http://git.ffmpeg.org/?p=ffmpeg.git">browse it online</a>.
+<a href="http://git.videolan.org/?p=ffmpeg.git">browse it online</a>.
 </p>
 
 <h2>FFmpeg SVN</h2>
