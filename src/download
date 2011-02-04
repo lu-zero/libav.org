@@ -71,7 +71,7 @@ developers and groups of developers are available.
 <p><b>
 FFmpeg development has moved to a Git repository, and the SVN
 repository is no longer updated. The last revision committed to SVN
-was r26402 on 2011-01-20.
+was r26402 on 2011-01-19.
 
 The SVN repository may be removed in a near future, so you're
 recommended to use the Git repository instead.
