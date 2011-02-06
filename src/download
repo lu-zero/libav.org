@@ -67,6 +67,20 @@ developers and groups of developers are available.
 </tbody>
 </table>
 
+<p>
+You can retrieve the source code through the standard Git client by
+using the command:
+</p>
+
+<blockquote>
+<pre>git clone <i>CLONE_URL</i> ffmpeg</pre>
+</blockquote>
+
+<p>
+where <i>CLONE_URL</i> is one of the Git clone URLs listed in the
+table above.
+</p>
+
 <h2>FFmpeg SVN</h2>
 <p><b>
 FFmpeg development has moved to a Git repository, and the SVN
