@@ -8,15 +8,6 @@ constantly. Development branch snapshots work really well 99% of the
 time so people are not afraid to use them.
 </p>
 
-<p>
-Note, the main development branch currently does not support a filter that adds
-watermarks to videos, this was removed during switching to a more advanced
-filter layer. We are working on resolving this issue. Until then if you need the
-watermark filter consider using the latest release from the 0.5 branch. If you
-do not need that filter, the development branch is much better than the
-releases!
-</p>
-
 <h2>FFmpeg Git</h2>
 <p>
 FFmpeg is developed with <a href="http://git-scm.com/">Git</a>.
