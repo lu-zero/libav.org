@@ -35,6 +35,19 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="svn_to_git"></a><h3>February 24, 2011</h3>
+
+<p>
+FFmpeg development has moved to Git, and the SVN repository is no longer
+updated. The SVN repository may be removed in a near future, so you're
+recommended to use a <a href="/download.html">Git repository</a> instead.
+</p>
+
+<p>
+The last revision committed to SVN was r26402 on 2011-01-19 and replaced
+the svn:external libswscale with a standalone copy.
+</p>
+
 <a name="release_0.6.1"></a><h3>Oct 18, 2010</h3>
 
 <p>
