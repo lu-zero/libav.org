@@ -72,6 +72,13 @@ where <i>CLONE_URL</i> is one of the Git clone URLs listed in the
 table above.
 </p>
 
+<h2>FFmpeg Snapshots</h2>
+
+<p>
+Instead of using Git to clone git://git.videolan.org/ffmpeg.git you can also download an up to date
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=HEAD;sf=tgz">git snapshot</a> tarball.
+</p>
+
 <h2>FFmpeg SVN</h2>
 <p><b>
 FFmpeg development has moved to a Git repository, and the SVN
