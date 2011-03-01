@@ -72,6 +72,22 @@ where <i>CLONE_URL</i> is one of the Git clone URLs listed in the
 table above.
 </p>
 
+
+<h2>FFmpeg Snapshots</h2>
+
+<p>
+Instead of using Git to clone our repository you can also download our nightly
+<a href="releases/ffmpeg-snapshot-git.tar.bz2">git snapshot</a> tarball to
+bootstrap your local repository.
+</p>
+
+<p>
+Alternatively if you have no need for git metadata and/or prefer the smaller
+download, get the bare
+<a href="releases/ffmpeg-snapshot.tar.bz2">source snapshot</a>.
+</p>
+
+
 <h2>FFmpeg SVN</h2>
 <p><b>
 FFmpeg development has moved to a Git repository, and the SVN
