@@ -93,18 +93,22 @@ table above.
 </p>
 
 
-<h2>FFmpeg Snapshots</h2>
+<h2>git.ffmpeg.org Repository Snapshots</h2>
 
 <p>
-Instead of using Git to clone our repository you can also download our nightly
-<a href="releases/ffmpeg-snapshot-git.tar.bz2">git snapshot</a> tarball to
-bootstrap your local repository.
+For the git.ffmpeg.org repository you can also directly download the
+<a href="releases/ffmpeg-snapshot.tar.bz2">source snapshot</a>
+that we generate each night instead of grabbing a source snapshot
+from the gitweb URL. This is slightly preferred since it reduces
+the load on our server.
 </p>
 
 <p>
-Alternatively if you have no need for git metadata and/or prefer the smaller
-download, get the bare
-<a href="releases/ffmpeg-snapshot.tar.bz2">source snapshot</a>.
+Alternatively, if you cannot access Git directly or wish to speed up
+the cloning and reduce the bandwidth usage, we also offer a complete
+<a href="releases/ffmpeg-snapshot-git.tar.bz2">git snapshot</a>
+tarball that comes with git metadata and version history to
+bootstrap your local ffmpeg.org repository.
 </p>
 
 
