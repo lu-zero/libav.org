@@ -38,6 +38,12 @@ developers and groups of developers are available.
     <td>Direct commits by various developers</td>
 </tr>
 <tr>
+    <td>git://gitorious.org/ffmpeg/ffmpeg.git</td>
+    <td><a href="http://gitorious.org/ffmpeg/ffmpeg">http://gitorious.org/ffmpeg/ffmpeg</a></td>
+    <td>Luca Barbato, Diego E. Pettenò</td>
+    <td>Automirror of git://git.ffmpeg.org/ffmpeg.git</td>
+</tr>
+<tr>
     <td>git://gitorious.org/~astrange/ffmpeg/ffmpeg-mt.git</td>
     <td><a href="http://gitorious.org/~astrange/ffmpeg/ffmpeg-mt">http://gitorious.org/~astrange/ffmpeg/ffmpeg-mt</a></td>
     <td>Alexander Strange</td>
@@ -48,6 +54,12 @@ developers and groups of developers are available.
     <td><a href="http://gitorious.org/~flameeyes/ffmpeg/flameeyes-ffmpeg">http://gitorious.org/~flameeyes/ffmpeg/flameeyes-ffmpeg</a></td>
     <td>Diego E. Pettenò</td>
     <td>Personal repository with works in progress</td>
+</tr>
+<tr>
+    <td>git://github.com/lu-zero/ffmpeg.git</td>
+    <td><a href="https://github.com/lu-zero/ffmpeg">https://github.com/lu-zero/ffmpeg</a></td>
+    <td>Luca Barbato</td>
+    <td>Personal repository with works in progress and experiments</td>
 </tr>
 <tr>
     <td>git://git.mansr.com/ffmpeg.git</td>
