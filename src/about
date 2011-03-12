@@ -1,6 +1,6 @@
 FFMPEG_ABOUT_NAVBAR
 
-<h1>About FFmpeg</h1>
+<h1>About Libav</h1>
 
 <p>The project is made of several components:
 </p>
@@ -13,7 +13,7 @@ between formats.</li>
 broadcasts.</li>
 
 <li><tt>ffplay</tt> is a simple media player based on <a
-href="http://www.libsdl.org/">SDL</a> and the FFmpeg libraries.</li>
+href="http://www.libsdl.org/">SDL</a> and the Libav libraries.</li>
 
 <li><tt>ffprobe</tt> is a is a simple multimedia stream analyzer.</li>
 

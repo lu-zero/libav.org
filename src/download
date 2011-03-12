@@ -1,16 +1,16 @@
-<h1>FFmpeg Download and Source Code Repository Access</h1>
+<h1>Libav Download and Source Code Repository Access</h1>
 
-<h2>Getting FFmpeg</h2>
+<h2>Getting Libav</h2>
 <p>
-FFmpeg has always been a very experimental and developer-driven project. It
+Libav has always been a very experimental and developer-driven project. It
 is a key component in many multimedia projects and has new features added
 constantly. Development branch snapshots work really well 99% of the
 time so people are not afraid to use them.
 </p>
 
-<h2>FFmpeg Git</h2>
+<h2>Libav Git</h2>
 <p>
-FFmpeg is developed with <a href="http://git-scm.com/">Git</a>.
+Libav is developed with <a href="http://git-scm.com/">Git</a>.
 Given the decentralized nature of Git, multiple repositories from
 developers and groups of developers are available.
 </p>
@@ -27,10 +27,10 @@ developers and groups of developers are available.
 </thead>
 <tbody>
 <tr>
-    <td>git://git.ffmpeg.org/ffmpeg.git</td>
-    <td><a href="http://git.ffmpeg.org/?p=ffmpeg.git">http://git.ffmpeg.org/?p=ffmpeg.git</a></td>
-    <td><a href="http://git.ffmpeg.org/?p=ffmpeg.git;a=snapshot;h=HEAD;sf=tgz">http://git.ffmpeg.org/?p=ffmpeg.git;a=snapshot;h=HEAD;sf=tgz</a></td>
-    <td>FFmpeg team</td>
+    <td>git://git.libav.org/libav.git</td>
+    <td><a href="http://git.libav.org/?p=libav.git">http://git.libav.org/?p=libav.git</a></td>
+    <td><a href="http://git.libav.org/?p=libav.git;a=snapshot;h=HEAD;sf=tgz">http://git.libav.org/?p=libav.git;a=snapshot;h=HEAD;sf=tgz</a></td>
+    <td>Libav team</td>
     <td>Main development</td>
 </tr>
 <tr>
@@ -84,7 +84,7 @@ using the command:
 </p>
 
 <blockquote>
-<pre>git clone <i>CLONE_URL</i> ffmpeg</pre>
+<pre>git clone <i>CLONE_URL</i> libav</pre>
 </blockquote>
 
 <p>
@@ -93,11 +93,11 @@ table above.
 </p>
 
 
-<h2>git.ffmpeg.org Repository Snapshots</h2>
+<h2>git.libav.org Repository Snapshots</h2>
 
 <p>
-For the git.ffmpeg.org repository you can also directly download the
-<a href="releases/ffmpeg-snapshot.tar.bz2">source snapshot</a>
+For the git.libav.org repository you can also directly download the
+<a href="releases/libav-snapshot.tar.bz2">source snapshot</a>
 that we generate each night instead of grabbing a source snapshot
 from the gitweb URL. This is slightly preferred since it reduces
 the load on our server.
@@ -106,15 +106,15 @@ the load on our server.
 <p>
 Alternatively, if you cannot access Git directly or wish to speed up
 the cloning and reduce the bandwidth usage, we also offer a complete
-<a href="releases/ffmpeg-snapshot-git.tar.bz2">git snapshot</a>
+<a href="releases/libav-snapshot-git.tar.bz2">git snapshot</a>
 tarball that comes with git metadata and version history to
-bootstrap your local ffmpeg.org repository.
+bootstrap your local libav.org repository.
 </p>
 
 
-<h2>FFmpeg SVN</h2>
+<h2>Libav SVN</h2>
 <p><b>
-FFmpeg development has moved to a Git repository, and the SVN
+Libav development has moved to a Git repository, and the SVN
 repository is no longer updated. The last revision committed to SVN
 was r26402 on 2011-01-19.
 
@@ -137,16 +137,16 @@ will it in the future. There is no point in asking for it, the decision
 is final.
 </p>
 
-<a name="releases"></a><h1>FFmpeg Releases</h1>
+<a name="releases"></a><h1>Libav Releases</h1>
 
 <p>
-At irregular intervals FFmpeg makes releases that represent snapshots of FFmpeg
+At irregular intervals Libav makes releases that represent snapshots of Libav
 at the moment the release branch was cut. Between major releases point releases
 will appear that add important bug fixes but no new features.
 Note that these releases are intended for distributors and system integrators.
 Users that wish to compile from source themselves are strongly encouraged to
 consider using the development branch (see above), this is the only version on
-which FFmpeg developers actively work.  The release branches only cherry pick
+which Libav developers actively work.  The release branches only cherry pick
 selected changes from the development branch, which therefore receives much more
 and much faster bug fixes such as additional features and security patches.
 </p>

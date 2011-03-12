@@ -2,17 +2,17 @@
 
 <div class="center" id="proj_desc">
 <p>
-<b>FFmpeg</b> is a complete, cross-platform solution to record, convert and
+<b>Libav</b> is a complete, cross-platform solution to record, convert and
 stream audio and video. It includes <b>libavcodec</b> - the leading audio/video
-codec library. See the <a href="ffmpeg-doc.html">documentation</a> for a
+codec library. See the <a href="libav-doc.html">documentation</a> for a
 complete feature list and the <a href="changelog.html">Changelog</a> for recent
 changes.
 </p>
 </div>
 
 <p>
-<b>FFmpeg is free software licensed under the LGPL or GPL</b> depending
-on your choice of configuration options. If you use FFmpeg or its constituent
+<b>Libav is free software licensed under the LGPL or GPL</b> depending
+on your choice of configuration options. If you use Libav or its constituent
 libraries, you <b>must</b> adhere to the terms of the license in question.
 You can find basic compliance information and get licensing help on our
 <a href="legal.html">license and legal considerations page</a>.
@@ -27,9 +27,9 @@ that we created for this purpose.
 </p>
 
 <p>
-<b>Want to participate in the active development of FFmpeg?</b> Keep up
+<b>Want to participate in the active development of Libav?</b> Keep up
 with the latest developments by subscribing to both the
-<a href="contact.html">ffmpeg-devel and ffmpeg-cvslog</a> lists.
+<a href="contact.html">libav-devel and libav-commits</a> lists.
 </p>
 
 
