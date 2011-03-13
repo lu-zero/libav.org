@@ -108,6 +108,14 @@ p {
     margin-right: 1em;
 }
 
+table {
+    margin-left: 2em;
+}
+
+pre {
+    margin-left: 2em;
+}
+
 #proj_desc {
     font-size: 1.2em;
 }
