@@ -98,3 +98,15 @@ strictly dedicated to FFmpeg development. This means development of FFmpeg
 itself. Development of other software that uses the FFmpeg libraries is offtopic
 there.
 </p>
+
+<p>
+<a href="irc://irc.freenode.net/libav"><b>#libav</b></a> is for user support
+and general questions similar to the ffmpeg-user mailing list.
+</p>
+
+<p>
+<a href="irc://irc.freenode.net/libav-devel"><b>#libav-devel</b></a> is
+strictly dedicated to Libav development. This means development of Libav
+itself. Development of other software that uses the Libav libraries is offtopic
+there.
+</p>
