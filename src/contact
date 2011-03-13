@@ -3,7 +3,12 @@
 <h2>Mailing lists</h2>
 
 <p>
-Please follow the netiquette when posting on FFmpeg mailing lists, especially
+We are slowly migrating away from the FFmpeg mailing lists to new lists
+at libav.org.
+</p>
+
+<p>
+Please follow the netiquette when posting on Libav or FFmpeg mailing lists, especially
 avoid <a href="http://en.wikipedia.org/wiki/Top-posting">top-posting</a> and
 thread hijacking (that is, replying to a thread and changing the subject line to
 something completely unrelated that was not being discussed within the original
@@ -18,9 +23,9 @@ Attached patches should not have application/octet-stream as mime-type, but
 text/plain or even better text/x-diff or text/x-patch.
 If you send us a patch, please make it some form of unified diff. We prefer
 patches made using <code>git diff &gt; submission.diff</code> from the root of
-your FFmpeg checkout. For more detailed guidelines, have a look at the
+your Libav checkout. For more detailed guidelines, have a look at the
 <a href="http://www.mplayerhq.hu/DOCS/tech/patches.txt">MPlayer patch guidelines</a>
-most of what is written there applies to FFmpeg as well.
+most of what is written there applies to Libav as well.
 Trespass these rules at the risk of being flamed.
 </p>
 
