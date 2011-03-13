@@ -69,8 +69,8 @@ developers and groups of developers are available.
     <td>Personal repository with works in progress and experiments</td>
 </tr>
 <tr>
-    <td>git://git.mansr.com/ffmpeg.git</td>
-    <td><a href="http://git.mansr.com/?p=ffmpeg">http://git.mansr.com/?p=ffmpeg</a></td>
+    <td>git://git.mansr.com/libav.git</td>
+    <td><a href="http://git.mansr.com/?p=libav">http://git.mansr.com/?p=libav</a></td>
     <td>-</td>
     <td>Mans Rullgard</td>
     <td>Personal repository with works in progress</td>
