@@ -38,16 +38,35 @@ with the latest developments by subscribing to both the
 <a name="move_to_libav_org"></a><h3>March 13, 2011</h3>
 
 <p>
-We as a group of FFmpeg developers [add link to announcement mail] have decided to continue developing
-FFmpeg under the name Libav. We'll move all infrastructure to the libav.org
-domain name. Git repository, fate, roundup bugtracker and a patchwork
-instance are already available under git|fate|roundup|patches.libav.org.
-For now we are still reachable over FFmpeg's mailing lists and irc channels
-but we will migrate to libav.org counterparts.
+We, as a group of FFmpeg developers [add link to announcement mail], have decided to continue developing FFmpeg under the name Libav. All existing infrastructure will be transferred to the libav.org domain.
 </p>
+
+<table cellborder=0 cellpadding=0 spacing=0><tr>
+<td style="text-align: left;">Website:&nbsp;</td>
+<td style="text-align: right;">http://www.</td>
+<td style="text-align: left;">libav.org/</td></tr><tr>
+<td style="text-align: left;">Git:&nbsp;</td>
+<td style="text-align: right;">git://git.</td>
+<td style="text-align: left;">libav.org/libav.git (see http://libav.org/download.html)</td></tr><tr>
+<td style="text-align: left;">Fate:&nbsp;</td>
+<td style="text-align: right;">http://fate.</td>
+<td style="text-align: left;">libav.org/</td></tr><tr>
+<td style="text-align: left;">Roundup:&nbsp;</td>
+<td style="text-align: right;">https://roundup.</td>
+<td style="text-align: left;">libav.org/</td></tr><tr>
+<td style="text-align: left;">Patchwork:&nbsp;</td>
+<td style="text-align: right;">http://patches.</td>
+<td style="text-align: left;">libav.org/</td></tr></table>
+
 <p>
-For a transition period both the website and source might still contain
-references to FFmpeg.
+Committers can change the origin of existing git checkouts using:<br/>
+<font style="font-family: monospace;">&nbsp;&nbsp;git remote set-url origin 'git@git.libav.org:libav'</font><br/>
+Other contributors would use the following command:<br/>
+<font style="font-family: monospace;">&nbsp;&nbsp;git remote set-url origin 'git://git.libav.org:libav'</font>
+</p>
+
+<p>
+For now we are still reachable over FFmpeg's mailing lists and irc channels but we will migrate to libav.org counterparts. For a transition period both the website and source might still contain references to FFmpeg. These will disappear over time, except where historically relevant.
 </p>
 
 <a name="svn_to_git"></a><h3>February 24, 2011</h3>
