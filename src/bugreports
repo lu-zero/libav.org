@@ -1,7 +1,7 @@
-<h1>Reporting a Bug To The FFmpeg Project</h1>
+<h1>Reporting a Bug To The Libav Project</h1>
 
 <p>
-First of all, please remember that all the developers working on FFmpeg are
+First of all, please remember that all the developers working on Libav are
 volunteers, we are not paid for analyzing, debugging, fixing and answering
 bug reports. While we try our best to create high quality software and be
 responsive, if you should not get an answer, please consider the above and
@@ -16,10 +16,10 @@ promises.
 </p>
 
 <p>
-FFmpeg is in a state of perpetual development and we do not currently have the
+Libav is in a state of perpetual development and we do not currently have the
 person power to backport fixes to official releases. As such, if you wish to
 query or report a bug, you must try with the <b>latest development branch</b> revision of
-FFmpeg to confirm the issue still exists.
+Libav to confirm the issue still exists.
 </p>
 
 <p>
@@ -73,7 +73,7 @@ info all-registers
 
 <p>
 Once you have gathered this information, you can submit a report to the
-<a href="https://roundup.ffmpeg.org/roundup/ffmpeg/">FFmpeg bug tracker</a>. You
+<a href="https://roundup.libav.org/roundup/ffmpeg/">Libav bug tracker</a>. You
 should provide all information so that anyone can reproduce the bug.
 Please do not report your problem on the developer mailing list:
 Only send bug reports there if you also intend to provide a fix.
@@ -96,13 +96,13 @@ your problem. In this case, please follow these steps:
   <li>Please choose descriptive names like "h264_green_tint.mov" or
       "block_artifacts_after_seeking.mkv". We already have plenty of "bug.rm"
       and "sample.avi" to choose from.</li>
-  <li>Upload the sample to the MPlayer FTP server. Note that our FTP server
+  <li>Upload the sample to the Libav FTP server. Note that our FTP server
     is write-only, as it would immediately get misused for warez trading
     otherwise. Do not let this confuse you. Even though you cannot see the
-    stuff you upload, it will be there and the FFmpeg developers will have
+    stuff you upload, it will be there and the Libav developers will have
     access.
   <ul>
-    <li>Log into upload.ffmpeg.org with an anonymous FTP login.</li>
+    <li>Log into upload.libav.org with an anonymous FTP login.</li>
     <li>cd -> incoming</li>
     <li>Create a new directory.</li>
     <li>cd -> your new directory</li>

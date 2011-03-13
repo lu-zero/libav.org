@@ -1,10 +1,10 @@
 FFMPEG_ABOUT_NAVBAR
 
-<h1>FFmpeg-Based Projects</h1>
+<h1>Libav-Based Projects</h1>
 
 <p>
 These are some of the projects and programs known to incorporate work from
-FFmpeg. If you would like to see another project added here, please send
+Libav. If you would like to see another project added here, please send
 an email to the <a href="contact.html">ffmpeg-devel mailing list</a>.
 </p>
 
