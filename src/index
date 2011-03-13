@@ -38,12 +38,14 @@ with the latest developments by subscribing to both the
 <a name="move_to_libav_org"></a><h3>March 13, 2011</h3>
 
 <p>
-We as A group of FFmpeg developers have decided to continue developing
-FFmpeg under the name libav. We'll move all infrastructure to the libav.org
+We as a group of FFmpeg developers [add link to announcement mail] have decided to continue developing
+FFmpeg under the name Libav. We'll move all infrastructure to the libav.org
 domain name. Git repository, fate, roundup bugtracker and a patchwork
 instance are already available under git|fate|roundup|patches.libav.org.
 For now we are still reachable over FFmpeg's mailing lists and irc channels
 but we will migrate to libav.org counterparts.
+</p>
+<p>
 For a transition period both the website and source might still contain
 references to FFmpeg.
 </p>
