@@ -46,7 +46,7 @@ We, as a group of FFmpeg developers [add link to announcement mail], have decide
 <td style="text-align: left;"><a href="http://www.libav.org/">http://www.libav.org/</a></td></tr><tr>
 <td style="text-align: left;">Git:&nbsp;</td>
 <td style="text-align: left;">git://git.libav.org/libav.git (see <a href="http://www.libav.org/download.html">http://libav.org/download.html</a>)</td></tr><tr>
-<td style="text-align: left;">Fate:&nbsp;</td>
+<td style="text-align: left;">FATE:&nbsp;</td>
 <td style="text-align: left;"><a href="http://fate.libav.org/">http://fate.libav.org/</a></td></tr><tr>
 <td style="text-align: left;">Roundup:&nbsp;</td>
 <td style="text-align: left;"><a href="https://roundup.libav.org/">https://roundup.libav.org/</a></td></tr><tr>
