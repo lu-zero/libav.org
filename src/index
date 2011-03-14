@@ -56,7 +56,7 @@ We, as a group of FFmpeg developers, have decided to continue developing FFmpeg 
 <p>
 You can update your git repository using the following command:
 </p>
-<pre>git remote set-url origin 'git://git.libav.org:libav'</pre>
+<pre>git remote set-url origin 'git://git.libav.org/libav'</pre>
 
 <p>
 For now we are still reachable over FFmpeg's mailing lists and irc channels but we will migrate to libav.org counterparts. For a transition period both the website and source might still contain references to FFmpeg. These will disappear over time, except where historically relevant.
