@@ -4,7 +4,7 @@
 <p>
 <b>Libav</b> is a complete, cross-platform solution to record, convert and
 stream audio and video. It includes <b>libavcodec</b> - the leading audio/video
-codec library. See the <a href="libav-doc.html">documentation</a> for a
+codec library. See the <a href="ffmpeg.html">documentation</a> for a
 complete feature list and the <a href="changelog.html">Changelog</a> for recent
 changes.
 </p>
