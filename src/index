@@ -51,7 +51,10 @@ We, as a group of FFmpeg developers, have decided to continue developing FFmpeg 
 <td style="text-align: left;">Roundup:&nbsp;</td>
 <td style="text-align: left;"><a href="https://roundup.libav.org/">https://roundup.libav.org/</a></td></tr><tr>
 <td style="text-align: left;">Patchwork:&nbsp;</td>
-<td style="text-align: left;"><a href="http://patches.libav.org/">http://patches.libav.org/</a></td></tr></table>
+<td style="text-align: left;"><a href="http://patches.libav.org/">http://patches.libav.org/</a></td></tr>
+<td style="text-align: left;">Mailinglists:&nbsp;</td>
+<td style="text-align: left;"><a href="http://lists.libav.org/">http://lists.libav.org/</a> (developer list: <a href="mailto:libav-devel@libav.org">libav-devel@libav.org</a>)</td></tr>
+</table>
 
 <p>
 You can update your git repository using the following command:
