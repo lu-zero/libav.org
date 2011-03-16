@@ -3,12 +3,7 @@
 <h2>Mailing lists</h2>
 
 <p>
-We are slowly migrating away from the FFmpeg mailing lists to new lists
-at libav.org.
-</p>
-
-<p>
-Please follow the netiquette when posting on Libav or FFmpeg mailing lists, especially
+Please follow the netiquette when posting on Libav mailing lists, especially
 avoid <a href="http://en.wikipedia.org/wiki/Top-posting">top-posting</a> and
 thread hijacking (that is, replying to a thread and changing the subject line to
 something completely unrelated that was not being discussed within the original
@@ -37,7 +32,7 @@ development of software that use the Libav libraries and <strong>not</strong>
 for bug reports.
 <br />
 <a href="https://lists.libav.org/mailman/listinfo/libav-commits/">libav-commits</a>:
-This list gets all changes to the FFmpeg sources.
+This list gets all changes to the Libav sources.
 <br />
 <a href="https://lists.libav.org/mailman/listinfo/libav-api/">libav-api</a>:
 This list is for development <strong>with</strong> the Libav libraries.
@@ -48,37 +43,6 @@ command-line issues and usage of the Libav tools.
 <br />
 </p>
 
-<h3>FFmpeg mailing lists</h3>
-<p>
-<a href="https://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-user/">ffmpeg-user</a>:
-This list is for regular user questions like compilation troubles,
-command-line issues and similar.
-<br />
-<a href="https://lists.mplayerhq.hu/mailman/listinfo/ffserver-user/">ffserver-user</a>:
-This list is for ffserver user questions like configuration and streaming
-issues.
-<br />
-<a href="https://lists.mplayerhq.hu/mailman/listinfo/libav-user/">libav-user</a>:
-This list is for application developer questions about development using the
-FFmpeg libraries.
-<br />
-<a href="https://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-devel/">ffmpeg-devel</a>:
-This list is for development of FFmpeg itself. It is <strong>not</strong> for
-development of software that use the FFmpeg libraries and <strong>not</strong>
-for bug reports.
-<br />
-<a href="https://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-commits/">ffmpeg-commits</a>:
-This list gets all changes to the FFmpeg sources.
-<br />
-<a href="https://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-soc/">ffmpeg-soc</a>:
-This list is about development of the FFmpeg Google Summer of Code projects.
-</p>
-
-<p>
-Alternatively, you can follow the FFmpeg mailing lists through
-<a href="http://dir.gmane.org/index.php?prefix=gmane.comp.video.ffmpeg">Gmane</a>.
-</p>
-
 
 <h2>Mailing list archives</h2>
 
@@ -86,6 +50,22 @@ Alternatively, you can follow the FFmpeg mailing lists through
 To read up on past discussions, read the mailing list archives. It is highly
 likely that you will find an answer to your questions there, so make sure to
 browse the archives before posting questions.
+</p>
+
+
+<p>
+<a href="https://lists.libav.org/pipermail/libav-api/">libav-api archives</a>
+<br />
+<a href="https://lists.libav.org/pipermail/libav-commits/">libav-commits archives</a>
+<br />
+<a href="https://lists.libav.org/pipermail/libav-devel/">libav-devel archives</a>
+<br />
+<a href="https://lists.libav.org/pipermail/libav-tools/">libav-tools archives</a>
+<br />
+</p>
+
+<p>
+The archives of the old FFmpeg mailing lists are still all at.
 </p>
 
 <p>
