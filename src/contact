@@ -39,6 +39,13 @@ for bug reports.
 <a href="https://lists.libav.org/mailman/listinfo/libav-commits/">libav-commits</a>:
 This list gets all changes to the FFmpeg sources.
 <br />
+<a href="https://lists.libav.org/mailman/listinfo/libav-api/">libav-api</a>:
+This list is for development <strong>with</strong> the Libav libraries.
+<br />
+<a href="https://lists.libav.org/mailman/listinfo/libav-tools/">libav-tools</a>:
+This list is for regular user questions like compilation troubles,
+command-line issues and usage of the Libav tools.
+<br />
 </p>
 
 <h3>FFmpeg mailing lists</h3>
