@@ -35,6 +35,20 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="release_0.5.4"></a><h3>Mar 17, 2011</h3>
+
+<p>
+We have just pushed the first point release from our 0.5 release branch:
+<a href="download.html#release_0.5">FFmpeg 0.5.4</a>. This is a
+maintenance-only release that addresses a number of security issues.
+</p>
+
+<p>
+Distributors and system integrators are encouraged to update and share their
+patches against our release branches.
+</p>
+
+
 <a name="move_to_libav_org"></a><h3>March 13, 2011</h3>
 
 <p>
