@@ -53,8 +53,9 @@ for existing FFmpeg installations.
 
 <p>
 Moreover, we are proud to accompany this source release with executables
-and libararies for the win32 platform. These binaries include H.264
-encoding using the bundled x264 library. Enjoy!
+and libraries for the <a href="http://win32.libav.org">win32
+platform</a>. These binaries include H.264 encoding using the bundled
+x264 library. Enjoy!
 </p>
 
 <p>
