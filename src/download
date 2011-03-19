@@ -29,42 +29,38 @@ developers and groups of developers are available.
 <tr>
     <td>git://git.libav.org/libav.git</td>
     <td><a href="http://git.libav.org/?p=libav.git">http://git.libav.org/?p=libav.git</a></td>
-    <td><a href="http://git.libav.org/?p=libav.git;a=snapshot;h=HEAD;sf=tgz">http://git.libav.org/?p=libav.git;a=snapshot;h=HEAD;sf=tgz</a></td>
+    <td><a href="http://git.libav.org/?p=libav.git;a=snapshot;h=HEAD;sf=tgz">tgz</a></td>
     <td>Libav team</td>
     <td>Main development</td>
 </tr>
 <tr>
     <td>git://git.videolan.org/ffmpeg.git</td>
     <td><a href="http://git.videolan.org/?p=ffmpeg.git">http://git.videolan.org/?p=ffmpeg.git</a></td>
-    <td><a href="http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=HEAD;sf=tgz">http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=HEAD;sf=tgz</a></td>
+    <td><a href="http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=HEAD;sf=tgz">tgz</a></td>
     <td>Michael Niedermayer</td>
     <td>Direct commits by various developers</td>
 </tr>
 <tr>
-    <td>git://gitorious.org/ffmpeg/ffmpeg.git</td>
-    <td><a href="http://gitorious.org/ffmpeg/ffmpeg">http://gitorious.org/ffmpeg/ffmpeg</a></td>
-    <td><a href="http://gitorious.org/ffmpeg/ffmpeg/archive-tarball/master">http://gitorious.org/ffmpeg/ffmpeg/archive-tarball/master</a></td>
-    <td>Luca Barbato, Diego E. Pettenò</td>
-    <td>Automirror of git://git.ffmpeg.org/ffmpeg.git</td>
-</tr>
-<tr>
     <td>git://gitorious.org/~astrange/ffmpeg/ffmpeg-mt.git</td>
     <td><a href="http://gitorious.org/~astrange/ffmpeg/ffmpeg-mt">http://gitorious.org/~astrange/ffmpeg/ffmpeg-mt</a></td>
-    <td><a href="http://gitorious.org/ffmpeg/ffmpeg-mt/archive-tarball/master">http://gitorious.org/ffmpeg/ffmpeg-mt/archive-tarball/master</a></td>
+    <td><a href="http://gitorious.org/ffmpeg/ffmpeg-mt/archive-tarball/master">tgz</a></td>
     <td>Alexander Strange</td>
     <td>Multithreaded decoding</td>
 </tr>
 <tr>
     <td>git://gitorious.org/~flameeyes/ffmpeg/flameeyes-ffmpeg.git</td>
     <td><a href="http://gitorious.org/~flameeyes/ffmpeg/flameeyes-ffmpeg">http://gitorious.org/~flameeyes/ffmpeg/flameeyes-ffmpeg</a></td>
-    <td><a href="http://gitorious.org/ffmpeg/flameeyes-ffmpeg/archive-tarball/master">http://gitorious.org/ffmpeg/flameeyes-ffmpeg/archive-tarball/master</a></td>
+    <td><a href="http://gitorious.org/ffmpeg/flameeyes-ffmpeg/archive-tarball/master">tgz</a></td>
     <td>Diego E. Pettenò</td>
     <td>Personal repository with works in progress</td>
 </tr>
 <tr>
     <td>git://github.com/lu-zero/ffmpeg.git</td>
     <td><a href="https://github.com/lu-zero/ffmpeg">https://github.com/lu-zero/ffmpeg</a></td>
-    <td><a href="https://github.com/lu-zero/ffmpeg/tarball/master">https://github.com/lu-zero/ffmpeg/tarball/master</a></td>
+    <td>
+        <a href="https://github.com/lu-zero/ffmpeg/tarball/master">tgz</a>,
+        <a href="https://github.com/lu-zero/ffmpeg/zipball/master">zip</a>
+    </td>
     <td>Luca Barbato</td>
     <td>Personal repository with works in progress and experiments</td>
 </tr>
