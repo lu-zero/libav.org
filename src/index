@@ -88,7 +88,7 @@ We, as a group of FFmpeg developers, have decided to continue developing FFmpeg 
 <td style="text-align: left;">Website:&nbsp;</td>
 <td style="text-align: left;"><a href="http://www.libav.org/">http://www.libav.org/</a></td></tr><tr>
 <td style="text-align: left;">Git:&nbsp;</td>
-<td style="text-align: left;">git://git.libav.org/libav.git (see <a href="http://www.libav.org/download.html">http://libav.org/download.html</a>)</td></tr><tr>
+<td style="text-align: left;"><a href="git://git.libav.org/libav.git">git://git.libav.org/libav.git</a> (see <a href="http://www.libav.org/download.html">http://libav.org/download.html</a>)</td></tr><tr>
 <td style="text-align: left;">FATE:&nbsp;</td>
 <td style="text-align: left;"><a href="http://fate.libav.org/">http://fate.libav.org/</a></td></tr><tr>
 <td style="text-align: left;">Roundup:&nbsp;</td>
