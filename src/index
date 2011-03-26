@@ -35,6 +35,20 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="distros_move_to_libav"></a><h3>Mar 25, 2011</h3>
+
+<p>
+We are pleased to announce that only weeks after its inception, Libav
+has already been integrated into major Linux distributions such
+as <a href="https://launchpad.net/ubuntu/+source/libav">Ubuntu</a>,
+<a href="http://packages.gentoo.org/package/media-video/libav">
+Gentoo</a>
+and <a href="http://ftp-master.debian.org/new/libav_4:0.6.2-1.html">Debian</a>
+(pending). We encourage other distros to review
+our <a href="about.html">mission statement</a> and consider including
+Libav as system libraries as well.
+</p>
+
 <a name="release_0.6.2"></a><h3>Mar 18, 2011</h3>
 
 <p>
