@@ -2,39 +2,182 @@ FFMPEG_ABOUT_NAVBAR
 
 <h1>About Libav</h1>
 
-<p>The project is made of several components:
+<p> Libav is friendly and community driven effort to provide its users
+with a set of portable, functional and performant libraries for dealing
+with multimedia formats of all sorts. It originates from the <a
+href="http://ffmpeg.org">FFmpeg</a> codebase, but goes its own way these
+days, providing its users with reliable releases and a clear vision how
+to go forward. </p>
+
+<p> As an attempt to help with the confusion around the recent
+happenings around FFmpeg, this article presents our views on the
+situation.  </p>
+
+<h2>Some Background</h2>
+
+<p> A significant number of
+<a href="http://article.gmane.org/gmane.comp.video.ffmpeg.devel/123868">
+<b>active</b> FFmpeg developers</a> feel very unhappy about the way
+FFmpeg was driven and managed in general and were particularly unhappy
+with the project leader. Many attempts to resolve and reconcile the
+issues internally were attempted but unfortunately, all of them failed.
 </p>
 
+<p> Over the last few years, more and more flames and bickering spread
+over the ffmpeg-devel mailing list. Important features and fixes were
+delayed or outright rejected on the grounds of not being
+perfect. Moreover, project and review rules were applied very
+inconsistently. Many people were angered and demotivated by this, up to
+the point of abandoning the project.  </p>
+
+<p> In 2010 the situation escalated. A controversial commit resulted in
+a vote over the leadership position. The result was that the leader
+would stay, but must follow the same rules as everybody else and amend
+his behavior. The surrounding flames resulted in one of the most active
+and experienced developers leaving the project. Multiple developers
+tried to compose the situation by mediating between the disgruntled and
+demotivated developers and Michael.  </p>
+
+<p> A few months later we came to the conclusion that the situation had
+not changed for the better. At first, we decided against forking because
+most active developers expressed their interest to join it, including
+the server administrators. We therefore tried to <a
+href="http://lwn.net/Articles/423702/"> preserve the project as it
+was</a>. The ensuing flames were expected, but unfortunately a number of
+people who had not been actively following the discussions protested and
+sided for the former leader. For a time there were two trees sharing one
+mailing list, IRC channel with much hostility between them.  </p>
+
+<h2>The founding of libav.org</h2>
+
+<p> Later we have learned that the FFmpeg founder, who owns the domain,
+still favors the now-demoted project leader. We of course respect his
+opinion, which convinced us to fork "properly" under the name Libav with
+its own website, mailing lists, IRC channel and repositories, thus
+completely separating from the old FFmpeg project. In it, we hope to
+accomplish what was missing in the former development process -- a
+friendly environment, free of pointless flames over trivialities, for
+making THE multimedia library even better than it is now.  </p>
+
+<h2>Our vision for the future</h2>
+
+<p> We strive to implement and provide useful and innovative features in
+a timely fashion, provide stable release and interact to the best of our
+abilities with our downstream such as distributors and end users. For
+instance, most of the ffmpeg-mt work has been merged into Libav <a
+href="http://git.libav.org/?p=libav.git;a=commit;h=37b00b47cbeecd66bb34c5c7c534d016d6e8da24">
+for quite some time</a>. This work is still ongoing, we are still
+working hard to fix the remaining issues such as with multi-threaded
+h264 decoding.  </p>
+
+<p> We are happy to learn that the now arisen competition has finally
+lead FFmpeg to merge important and long requested features such as <a
+href="http://article.gmane.org/gmane.comp.video.ffmpeg.devel/129927">
+frame based multi-threaded decoding</a> based on 
+<a href="http://gitorious.org/~astrange/ffmpeg/ffmpeg-mt/">ffmpeg-mt</a>,
+something Michael strongly refused to merge during our attempts to
+reconcile with him.  </p>
+
+<h1>Organization of Libav</h1>
+
+<h2>Committers</h2>
+
+<p> We started with a small number of committers for practical
+reasons. One bad example we had in mind was the experience with the
+MythTV project where inexperienced git users made a lot of beginner
+errors after the switch. The likely consequence is that the project will
+switch back to Subversion.  </p>
+
+<p> The list of committers was chosen for multiple reasons. One is
+available time, the committers must do a lot of patch monkeying and
+should be able to ensure that the patch queue does not slow down
+development. Another is git experience, we wish to avoid mistakes and
+the fate of MythTV.
+
+<p> While the initial committers are trusted and mostly experienced with
+git, mistakes are inevitable. The point is not that the committers be
+infallible and incapable of making mistakes but rather that there should
+be fewer mistakes and when mistakes occur, that they be fixed quickly
+and effectively.  </p>
+
+<p> The list of committers is not fixed and we continue to extend
+it. New patch monkeys will be chosen by trust and competence through
+consensus in the current committer team. Committers are trusted not to
+break the review rules. Being a committer is a duty, not a privilege.
+</p>
+
+
+<h2>Review process</h2>
+
+<p> Reviews should be done on a best-effort basis by a person competent
+in the area touched by the patch. The rule "no commits without review"
+ensures that another set of qualified eyes looks over code prior to
+commit. Adopting that policy for all developers - maintainers,
+committers or first time contributors - puts everybody on equal footing.
+</p>
+
+<p> If a patch touches a part of Libav that nobody knows well, then
+review is still done on a best-effort basis. In such a case it is not
+possible to guarantee the same quality as when expert (in the field)
+reviewers are available, but general code quality and portability can
+still be maintained. A review shall then verify that the code does what
+the author intended and that the change is sensible and beneficial.
+</p>
+
+<p> We aim to make the lifetime of a patch or a branch minimal. To this
+end, the amount of nitpicking on patches should be
+minimized. Documentation typos or small coding style errors can be
+changed by committers without a new round of review or a new patch
+submission by the original contributor. Likewise, large patches should
+not live in separate branches forever. Instead, committers and reviewers
+should actively reach out to integrate branches into the main tree
+(i.e. we want to avoid another ffmpeg-mt situation).  </p>
+
+
+<h2>Personal Conflict Resolution</h2>
+
+<p> Conflicts, especially personal ones, have been the bane of the
+FFmpeg project for many years. The current way of letting conflicts
+continue and continue to escalate creates nothing but downward spirals
+and unhappiness.  </p>
+
+<p> Personal conflicts shall be assisted by mediators in the
+future. When a conflict between two (or more) people arises and
+threatens to spiral downwards, anybody may ask for a mediator to step
+in. The role of the mediator is to pull the fighters apart, calm them
+down, listen to each side and try to restore and aid civil communication
+towards a resolution.  </p>
+
+<p> If reasonable communication fails, a mediator can ask for people to
+be moderated on the mailing lists so that mails arrive with a delay and
+combatants have a chance to calm down. Suitable mediator candidates
+should be calm, level-headed, respected and more or less neutral in the
+topic at hand. Being uncontroversial as a person and being a good
+communicator is a plus.
+
+
+<h2>Code of Conduct</h2>
+
+In order to foster a friendly and cooperative atmosphere where technical
+collaboration can flourish we expect all members of the FFmpeg community to be
+
 <ul>
-<li><tt>ffmpeg</tt> is a command line tool to convert multimedia files
-between formats.</li>
-
-<li><tt>ffserver</tt> is a multimedia streaming server for live
-broadcasts.</li>
-
-<li><tt>ffplay</tt> is a simple media player based on <a
-href="http://www.libsdl.org/">SDL</a> and the Libav libraries.</li>
-
-<li><tt>ffprobe</tt> is a is a simple multimedia stream analyzer.</li>
-
-<li><tt>libavutil</tt> is a library containing functions for
-simplifying programming, including random number generators, data
-structures, mathematics routines, core multimedia utilities, and much
-more.</li>
-
-<li><tt>libavcodec</tt> is a library containing decoders and encoders
-for audio/video codecs.</li>
-
-<li><tt>libavformat</tt> is a library containing demuxers and
-muxers for multimedia container formats.</li>
-
-<li><tt>libavdevice</tt> is a library containing input and output
-devices for grabbing from and rendering to many common multimedia
-input/output software frameworks, including Video4Linux, Video4Linux2,
-VfW, and ALSA.</li>
-
-<li><tt>libavfilter</tt> is a library containing media filters.</li>
-
-<li><tt>libswscale</tt> is a library performing highly optimized image
-scaling and color space/pixel format conversion operations.</li>
+<li> courteous, polite and respectful in their treatment of others, </li>
+<li> helpful and constructive in suggestions and criticism, </li>
+<li> stay on topic for the communication medium that is being used, </li>
+<li> be tolerant of differences in opinion and mistakes that inevitably get
+  made by everyone. </li>
 </ul>
+
+Plus, we expect everybody to not
+
+<ul>
+<li>  flame and troll, </li>
+<li>  insult, </li>
+<li>  be offtopic or </li>
+<li>  disruptive of our communication channels. </li>
+</ul>
+
+While we hope to keep disciplinary action to a minimum, repeated violations of
+this policy will result in offenders getting temporarily or permanently removed
+from our communication channels.
