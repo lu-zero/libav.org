@@ -92,7 +92,7 @@ switch back to Subversion.  </p>
 available time, the committers must do a lot of patch monkeying and
 should be able to ensure that the patch queue does not slow down
 development. Another is git experience, we wish to avoid mistakes and
-the fate of MythTV.
+the fate of MythTV. </p>
 
 <p> While the initial committers are trusted and mostly experienced with
 git, mistakes are inevitable. The point is not that the committers be
@@ -153,13 +153,13 @@ be moderated on the mailing lists so that mails arrive with a delay and
 combatants have a chance to calm down. Suitable mediator candidates
 should be calm, level-headed, respected and more or less neutral in the
 topic at hand. Being uncontroversial as a person and being a good
-communicator is a plus.
+communicator is a plus. </p>
 
 
 <h2>Code of Conduct</h2>
 
 In order to foster a friendly and cooperative atmosphere where technical
-collaboration can flourish we expect all members of the FFmpeg community to be
+collaboration can flourish we expect all members of the Libav community to be
 
 <ul>
 <li> courteous, polite and respectful in their treatment of others, </li>
