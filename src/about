@@ -36,7 +36,7 @@ would stay, but must follow the same rules as everybody else and amend
 his behavior. The surrounding flames resulted in one of the most active
 and experienced developers leaving the project. Multiple developers
 tried to compose the situation by mediating between the disgruntled and
-demotivated developers and Michael.  </p>
+demotivated developers and the project leader.  </p>
 
 <p> A few months later we came to the conclusion that the situation had
 not changed for the better. At first, we decided against forking because
@@ -75,7 +75,7 @@ lead FFmpeg to merge important and long requested features such as <a
 href="http://article.gmane.org/gmane.comp.video.ffmpeg.devel/129927">
 frame based multi-threaded decoding</a> based on 
 <a href="http://gitorious.org/~astrange/ffmpeg/ffmpeg-mt/">ffmpeg-mt</a>,
-something Michael strongly refused to merge during our attempts to
+something the project leader strongly refused to merge during our attempts to
 reconcile with him.  </p>
 
 <h1>Organization of Libav</h1>
