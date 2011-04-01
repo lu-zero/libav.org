@@ -47,8 +47,8 @@ body {
 }
 
 h1 {
-    background-color: #7BB37B;
-    border: 1px solid #6A996A;
+    background-color: #a82458;
+    border: 1px solid #501324;
     color: #151515;
     font-size: 1.2em;
     padding-bottom: 0.2em;
@@ -72,9 +72,9 @@ img {
 }
 
 #navbar {
-    background-color: #738073;
-    border-bottom: 1px solid #5C665C;
-    border-top: 1px solid #5C665C;
+    background-color: #501324;
+    border-bottom: 1px solid #501324;
+    border-top: 1px solid #501324;
     margin-top: 12px;
     padding: 0.3em;
     position: relative;
@@ -82,22 +82,22 @@ img {
 }
 
 #navbar a, #navbar_secondary a {
-    color: white;
+    color: #eee;
     padding: 0.3em;
     text-decoration: none;
 }
 
 #navbar a:hover, #navbar_secondary a:hover {
-    background-color: #313131;
-    color: white;
+    background-color: #70193d;
+    color: #eee;
     text-decoration: none;
 }
 
 #navbar_secondary {
-    background-color: #738073;
-    border-bottom: 1px solid #5C665C;
-    border-left: 1px solid #5C665C;
-    border-right: 1px solid #5C665C;
+    background-color: #501324;
+    border-bottom: 1px solid #501324;
+    border-left: 1px solid #501324;
+    border-right: 1px solid #501324;
     padding: 0.3em;
     position: relative;
     text-align: center;
@@ -124,15 +124,15 @@ pre {
     margin-left: 1em;
     margin-right: 1em;
     border-collapse: collapse;
-    border: solid 1px #6A996A;
+    border: solid 1px #70193d;
 }
 
 #repos th {
-    background-color: #7BB37B;
-    border: solid 1px #6A996A;
+    background-color: #a82458;
+    border: solid 1px #501324;
 }
 
 #repos td {
     padding: 0.2em;
-    border: solid 1px #6A996A;
+    border: solid 1px #501324;
 }
