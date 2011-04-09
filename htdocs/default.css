@@ -136,3 +136,20 @@ pre {
     padding: 0.2em;
     border: solid 1px #6A996A;
 }
+
+#distro_status {
+    margin-left: 1em;
+    margin-right: 1em;
+    border-collapse: collapse;
+    border: solid 1px #6A996A;
+}
+
+#distro_status th {
+    background-color: #7BB37B;
+    border: solid 1px #6A996A;
+}
+
+#distro_status td {
+    padding: 0.2em;
+    border: solid 1px #6A996A;
+}

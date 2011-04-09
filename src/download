@@ -1,12 +1,18 @@
-<h1>Libav Download and Source Code Repository Access</h1>
-
-<h2>Getting Libav</h2>
+<h1>Getting Libav</h1>
 <p>
 Libav has always been a very experimental and developer-driven project. It
 is a key component in many multimedia projects and has new features added
 constantly. Development branch snapshots work really well 99% of the
 time so people are not afraid to use them.
 </p>
+
+<p>
+Additionally, a number of indivduals and distributions offer precompiled
+packages to their users. This site aggregates information about
+distribution channels.
+</p>
+
+<h1>Libav Download and Source Code Repository Access</h1>
 
 <h2>Libav Git</h2>
 <p>
@@ -181,3 +187,50 @@ release branch cut on 2009-03-02.
 <a href="releases/ffmpeg-0.5.4.changelog">Changelog</a><br />
 <a href="releases/ffmpeg-0.5.4.release">Release Notes</a>
 </p>
+
+<a name="distros"></a><h1>Distribution Status</h1>
+
+<p>This table is sorted alphabetically. Please help to keep it up-to-date.
+</p>
+
+<table id="distro_status">
+<thead>
+<tr>
+    <th>Distribution</th>
+    <th>Package Information URL</th>
+    <th>Version Tracked</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Debian</td>
+  <td><a href="http://packages.qa.debian.org/liba/libav.html">
+               http://packages.qa.debian.org/liba/libav.html</a></td>
+  <td>Release Branches</td>
+</tr>
+<tr>
+  <td>Gentoo</td>
+  <td><a href="http://packages.gentoo.org/package/media-video/libav">
+         http://packages.gentoo.org/package/media-video/libav</a></td>
+  <td>Release Branches, git master</td>
+</tr>
+<tr>
+  <td>Ubuntu</td>
+  <td><a href="https://launchpad.net/ubuntu/+source/libav">
+               https://launchpad.net/ubuntu/+source/libav</a></td>
+  <td>Release Branches</td>
+</tr>
+<tr>
+  <td>Open Embedded</td>
+  <td><a href="http://cgit.openembedded.net/cgit.cgi/openembedded/tree/recipes/libav">
+               http://cgit.openembedded.net/cgit.cgi/openembedded/tree/recipes/libav</a></td>
+  <td>git master</td>
+</tr>
+<tr>
+  <td>Packman (for OpenSuSE)</td>
+  <td><a href="http://pmbs.links2linux.org/package/files?package=libav&amp;project=Essentials">
+               http://pmbs.links2linux.org/package/files?package=libav&amp;project=Essentials</a></td>
+  <td>git master</td>
+</tr>
+</tbody>
+</table>
