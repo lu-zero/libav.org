@@ -35,6 +35,38 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="avio_changes"></a><h3>Apr 13 2011</h3>
+
+<p>
+In the past few months, we did a large-scale cleanup of the formerly
+semi-public IO API in libavformat. As a result:
+<ul>
+    <li>The higher-level buffered API working with ByteIOContext (now
+    renamed to AVIOContext) is now officially public.</li>
+    <li>Some functions from the buffered API were found unfit to be
+    public and were deprecated.</li>
+    <li>The lower-level unbuffered API working with URLContext was found
+    unfit to be public and is now deprecated. If you're using it to feed
+    lavf demuxers with your own I/O system, you can easily switch to the
+    buffered API.</li>
+    <li>All public functions now conform to the Libav naming rules and
+    are properly prefixed with <i>avio_</i>, thus preventing name clashes.</li>
+</ul>
+</p>
+
+<p>
+If you are using the ByteIOContext API in your application, adapting to
+the changes should be straightforward and consist mostly of renames.
+</p>
+
+<p>
+We will maintain compatibility for the 0.7 release, everything
+deprecated now is planned to be removed shortly before 0.8. If you
+can't find an adequate replacement for a deprecated part of API you are
+using or have any problems with switching to the buffered API, please
+<a href="contact.html">contact us</a> and we will try to
+solve it. Refer to the <i>doc/APIChanges</i> file for details.
+
 <a name="distros_move_to_libav"></a><h3>Mar 25, 2011</h3>
 
 <p>
