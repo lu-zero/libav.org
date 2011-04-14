@@ -226,11 +226,5 @@ release branch cut on 2009-03-02.
                http://cgit.openembedded.net/cgit.cgi/openembedded/tree/recipes/libav</a></td>
   <td>git master</td>
 </tr>
-<tr>
-  <td>Packman (for OpenSuSE)</td>
-  <td><a href="http://pmbs.links2linux.org/package/files?package=libav&amp;project=Essentials">
-               http://pmbs.links2linux.org/package/files?package=libav&amp;project=Essentials</a></td>
-  <td>git master</td>
-</tr>
 </tbody>
 </table>
