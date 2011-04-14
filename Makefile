@@ -1,5 +1,3 @@
-# ffmpeg.org HTML generation from source files
-
 SRCS = about bugreports consulting contact documentation download \
        index legal projects shame
 
