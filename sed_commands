@@ -1,13 +1,13 @@
-/FFMPEG_ABOUT_NAVBAR/a\
+/LIBAV_ABOUT_NAVBAR/a\
 <div id="navbar_secondary">\
 <a href="about.html">About</a>\
 <a href="projects.html">Projects Using Libav</a>\
 </div>
-/FFMPEG_ABOUT_NAVBAR/d
+/LIBAV_ABOUT_NAVBAR/d
 
-/FFMPEG_LEGAL_NAVBAR/a\
+/LIBAV_LEGAL_NAVBAR/a\
 <div id="navbar_secondary">\
 <a href="legal.html">License and Legal Issues</a>\
 <a href="shame.html">Hall of Shame</a>\
 </div>
-/FFMPEG_LEGAL_NAVBAR/d
+/LIBAV_LEGAL_NAVBAR/d
