@@ -9,57 +9,46 @@ href="http://ffmpeg.org">FFmpeg</a> codebase, but goes its own way these
 days, providing its users with reliable releases and a clear vision how
 to go forward. </p>
 
-<p> As an attempt to help with the confusion around the recent
-happenings around FFmpeg, this article presents our views on the
-situation.  </p>
+<h2>Releases</h2>
 
-<h2>Some Background</h2>
+<p> We are committed to provide major releases yearly and point releases
+at least on a quaterly rate. We try to maintain at least two major release
+at time (currently 0.5 and 0.6), while developing the next one (0.7). </p>
 
-<p> A significant number of
-<a href="http://article.gmane.org/gmane.comp.video.ffmpeg.devel/123868">
-<b>active</b> FFmpeg developers</a> feel very unhappy about the way
-FFmpeg was driven and managed in general and were particularly unhappy
-with the project leader. Many attempts to resolve and reconcile the
-issues internally were attempted but unfortunately, all of them failed.
-</p>
+<h3>Point releases</h3>
 
-<p> Over the last few years, more and more flames and bickering spread
-over the ffmpeg-devel mailing list. Important features and fixes were
-delayed or outright rejected on the grounds of not being
-perfect. Moreover, project and review rules were applied very
-inconsistently. Many people were angered and demotivated by this, up to
-the point of abandoning the project.  </p>
+<p> Point releases will contain mostly bugfixes and performance improvements.
+The API and ABI will remain stable and only few features might get added.
+The focus is to provide a stable foundation. We suggest distributions to
+provide point releases.</p>
 
-<p> In 2010 the situation escalated. A controversial commit resulted in
-a vote over the leadership position. The result was that the leader
-would stay, but must follow the same rules as everybody else and amend
-his behavior. The surrounding flames resulted in one of the most active
-and experienced developers leaving the project. Multiple developers
-tried to compose the situation by mediating between the disgruntled and
-demotivated developers and the project leader.  </p>
+<h3>Major releases</h3>
 
-<p> A few months later we came to the conclusion that the situation had
-not changed for the better. At first, we decided against forking because
-most active developers expressed their interest to join it, including
-the server administrators. We therefore tried to <a
-href="http://lwn.net/Articles/423702/"> preserve the project as it
-was</a>. The ensuing flames were expected, but unfortunately a number of
-people who had not been actively following the discussions protested and
-sided for the former leader. For a time there were two trees sharing one
-mailing list, IRC channel with much hostility between them.  </p>
+<p> On major releases we expect to have disruptive changes:</p>
+<ul>
+    <li> All the deprecated functions will be removed </li>
+    <li> Libraries and headers might get added or removed </li>
+    <li> The behaviour of the provided tools will change </li>
+</ul>
 
-<h2>The founding of libav.org</h2>
+<p> In order to make the transition as smooth as possible, the removal of
+deprecated function can span more than whole release cycle.</p>
+<p> Currently 0.7 will replace and deprecate most of the buffered and
+unbuffered IO subsystem functions, the 0.6 compatibility will be preserved
+until the 0.8 release. </p>
 
-<p> Later we have learned that the FFmpeg founder, who owns the domain,
-still favors the now-demoted project leader. We of course respect his
-opinion, which convinced us to fork "properly" under the name Libav with
-its own website, mailing lists, IRC channel and repositories, thus
-completely separating from the old FFmpeg project. In it, we hope to
-accomplish what was missing in the former development process -- a
-friendly environment, free of pointless flames over trivialities, for
-making THE multimedia library even better than it is now.  </p>
+<h3>Snapshots</h3>
 
-<h2>Our vision for the future</h2>
+<p> Our master branch should be always in an almost stable condition, we
+provide a quite large regression testing framework and we monitor its
+<a href="http://fate.libav.org"
+   title="FATE Automated Testing Environment">reports</a>
+to make sure everything is working as expected on a wide variety of systems.
+We advise to check <a href="http://fate.libav.org" title="FATE Automated Testing Environment">FATE</a> before distributing a snapshot or run it yourself.</p>
+<p> If you are not represented yet in <a href="http://fate.libav.org" title="FATE Automated Testing Environment">FATE</a> and you have the resources to provide
+reports please contact us. </p>
+
+<h2>Features</h2>
 
 <p> We strive to implement and provide useful and innovative features in
 a timely fashion, provide stable release and interact to the best of our
@@ -68,15 +57,28 @@ instance, most of the ffmpeg-mt work has been merged into Libav <a
 href="http://git.libav.org/?p=libav.git;a=commit;h=37b00b47cbeecd66bb34c5c7c534d016d6e8da24">
 for quite some time</a>. This work is still ongoing, we are still
 working hard to fix the remaining issues such as with multi-threaded
-h264 decoding.  </p>
+h264 decoding. </p>
+
+<p> We are not afraid to overhaul radically our code in order to provide a
+better foundation for future works and we prefer to spend effort to get
+clean code right instead of piling up special cases and heuristics. </p>
+
+<p> We are patient enough to track bugs and corner cases until they are
+completely solved </p>
+
+<p> With the help of our users we try to improve the experience of using
+both the libraries and the tools </p>
+
+<p> We try to focus both on real world issues as well on experiments that
+might lead to new interesting outcomes. </p>
 
 <p> We are happy to learn that the now arisen competition has finally
 lead FFmpeg to merge important and long requested features such as <a
 href="http://article.gmane.org/gmane.comp.video.ffmpeg.devel/129927">
-frame based multi-threaded decoding</a> based on 
+frame based multi-threaded decoding</a> based on
 <a href="http://gitorious.org/~astrange/ffmpeg/ffmpeg-mt/">ffmpeg-mt</a>,
 something the project leader strongly refused to merge during our attempts to
-reconcile with him.  </p>
+reconcile with him. </p>
 
 <h1>Organization of Libav</h1>
 
@@ -181,3 +183,55 @@ Plus, we expect everybody to not
 While we hope to keep disciplinary action to a minimum, repeated violations of
 this policy will result in offenders getting temporarily or permanently removed
 from our communication channels.
+
+<h1>History</h1>
+
+<p> As an attempt to help with the confusion around the recent
+happenings around FFmpeg, this article presents our views on the
+situation.  </p>
+
+<h2>Some Background</h2>
+
+<p> A significant number of
+<a href="http://article.gmane.org/gmane.comp.video.ffmpeg.devel/123868">
+<b>active</b> FFmpeg developers</a> feel very unhappy about the way
+FFmpeg was driven and managed in general and were particularly unhappy
+with the project leader. Many attempts to resolve and reconcile the
+issues internally were attempted but unfortunately, all of them failed.
+</p>
+
+<p> Over the last few years, more and more flames and bickering spread
+over the ffmpeg-devel mailing list. Important features and fixes were
+delayed or outright rejected on the grounds of not being
+perfect. Moreover, project and review rules were applied very
+inconsistently. Many people were angered and demotivated by this, up to
+the point of abandoning the project.  </p>
+
+<p> In 2010 the situation escalated. A controversial commit resulted in
+a vote over the leadership position. The result was that the leader
+would stay, but must follow the same rules as everybody else and amend
+his behavior. The surrounding flames resulted in one of the most active
+and experienced developers leaving the project. Multiple developers
+tried to compose the situation by mediating between the disgruntled and
+demotivated developers and the project leader.  </p>
+
+<p> A few months later we came to the conclusion that the situation had
+not changed for the better. At first, we decided against forking because
+most active developers expressed their interest to join it, including
+the server administrators. We therefore tried to <a
+href="http://lwn.net/Articles/423702/"> preserve the project as it
+was</a>. The ensuing flames were expected, but unfortunately a number of
+people who had not been actively following the discussions protested and
+sided for the former leader. For a time there were two trees sharing one
+mailing list, IRC channel with much hostility between them.  </p>
+
+<h2>The founding of libav.org</h2>
+
+<p> Later we have learned that the FFmpeg founder, who owns the domain,
+still favors the now-demoted project leader. We of course respect his
+opinion, which convinced us to fork "properly" under the name Libav with
+its own website, mailing lists, IRC channel and repositories, thus
+completely separating from the old FFmpeg project. In it, we hope to
+accomplish what was missing in the former development process -- a
+friendly environment, free of pointless flames over trivialities, for
+making THE multimedia library even better than it is now.  </p>
