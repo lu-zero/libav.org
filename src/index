@@ -35,6 +35,20 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="0.7_beta1"></a><h3>Apr 19 2011</h3>
+
+<p>
+We are still on track with doing the next major <b>release 0.7</b>. As a
+number of dependent projects have asked for faster releases, we now
+provide our users with blessed snapshots of the current state of
+development in Libav in form of
+the <a href="download.html#release_0.7">Libav 0.7 beta1
+release</a>. This gives you the opportunity to test and write us your
+opinion on what will be included in the next major release. Please note
+that major versions (and thus the SONAME) of all libraries have just
+been bumped which allows co-installation with 0.6.
+</p>
+
 <a name="big_bump"></a><h3>Apr 18 2011</h3>
 
 <p>
