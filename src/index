@@ -418,7 +418,7 @@ there are two new options to take their place:
 <p>
 The reason for this change is that the libamr license was non-free, while
 libopencore-amr is licensed under an Apache 2 license. The change was
-<a href="http://lists.mplayerhq.hu/pipermail/ffmpeg-devel/2009-May/069779.html">
+<a href="http://lists.libav.org/pipermail/ffmpeg-devel/2009-May/069779.html">
 discussed at length</a> on the developer mailing list during May, June, and
 July. This has several effects:
 </p>
@@ -729,7 +729,7 @@ muxing, Electronic Arts CMV and TGV decoding and MAXIS EA XA demuxing/decoding.
 <h3>June 16, 2008</h3>
 <p>
 UAB "DKD" (dkd.lt) have released a Nellymoser
-ASAO compatible <a href="http://samples.mplayerhq.hu/A-codecs/Nelly_Moser/ASAO/ASAO.zip">decoder and
+ASAO compatible <a href="http://samples.libav.org/A-codecs/Nelly_Moser/ASAO/ASAO.zip">decoder and
 encoder</a> under the LGPL. This will aid the development of a native encoder in
 FFmpeg, and right now a GSoC student is working hard on just that task. A great
 thanks to UAB "DKD" for this contribution to the FFmpeg community.
