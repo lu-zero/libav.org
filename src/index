@@ -35,6 +35,22 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="big_bump"></a><h3>Apr 18 2011</h3>
+
+<p>
+In preparation for the upcoming 0.7 release, major versions of all the libraries
+in Libav (libavcodec, libavformat, libavdevice, libavutil, libavfilter,
+libswscale and libpostproc) were just bumped. This means that some deprecated
+code was disabled and will be removed shortly, thus breaking binary and API
+compatibility with
+0.6.
+</p>
+
+<p>
+The tree is hereby declared unstable for a short time so we can finish all the
+incompatible changes.
+</p>
+
 <a name="avio_changes"></a><h3>Apr 13 2011</h3>
 
 <p>
