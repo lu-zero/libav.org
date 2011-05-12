@@ -35,6 +35,22 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+
+<a name="0.7_beta2"></a><h3>May 12 2011</h3>
+
+<p>
+We are happy to announce our latest beta
+release <a href="download.html#release_0.7">Libav 0.7 beta2</a>. Since
+the last beta version, we've integrated 9bit and 10bit per sample
+support in the H.264 decoder, AVX optimizations (available on, for
+example, Sandy Bridge processors), an DPX image encoder, and SMPTE AES3
+audio decoding. Moreover, we have finished cleaning up the API from
+unnecessary compatibility cruft for the upcoming 0.7 release.
+
+In other words, with this beta release the tree is officially declared
+stable again.
+</p>
+
 <a name="0.7_beta1"></a><h3>Apr 19 2011</h3>
 
 <p>
