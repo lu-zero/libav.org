@@ -144,26 +144,22 @@ selected changes from the development branch, which therefore receives much more
 and much faster bug fixes such as additional features and security patches.
 </p>
 
-<a name="release_0.7"></a><h2>
-Libav 0.7beta2 "The Big Bump"</h2>
+<a name="release_0.7"></a><h2>Libav 0.7 "The Big Bump"</h2>
 
 <p>
-While <b>0.7 is not released yet</b>, we already provide you with a
-preview beta release. Please accept this opportunity to test and provide
-us with feedback about our impressions with this release.  As an
-experiment, please use launchpad for filing bugs for
-now: <a href="https://launchpad.net/libav/+filebug">https://launchpad.net/libav/+filebug</a>
+0.7 appeared on 2011-06-20. Please use our new Bugzilla for filing bugs:
+<a href="https://bugzilla.libav.org">https://bugzilla.libav.org/</a>
 </p>
 
 <p>
-<a href="releases/libav-0.7_beta2.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-0.7_beta2.tar.xz.md5">MD5</a>
-<a href="releases/libav-0.7_beta2.tar.xz.sha1">SHA1</a>
-<a href="releases/libav-0.7_beta2.tar.xz.asc">PGP signature</a><br />
-<a href="releases/libav-0.7_beta2.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-0.7_beta2.tar.gz.md5">MD5</a>
-<a href="releases/libav-0.7_beta2.tar.gz.sha1">SHA1</a>
-<a href="releases/libav-0.7_beta2.tar.gz.asc">PGP signature</a><br />
+<a href="releases/libav-0.7.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-0.7.tar.xz.md5">MD5</a>
+<a href="releases/libav-0.7.tar.xz.sha1">SHA1</a>
+<a href="releases/libav-0.7.tar.xz.asc">PGP signature</a><br />
+<a href="releases/libav-0.7.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-0.7.tar.gz.md5">MD5</a>
+<a href="releases/libav-0.7.tar.gz.sha1">SHA1</a>
+<a href="releases/libav-0.7.tar.gz.asc">PGP signature</a><br />
 </p>
 
 <a name="release_0.6"></a><h2>
