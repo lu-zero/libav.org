@@ -35,6 +35,39 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="release_0.7.1"></a><h3>Juli 21 2011</h3>
+
+<p>
+We have just released <a href="download.html#release_0.7"> Libav 0.7.1</a>,
+the latest release from the 0.7 branch.
+This is a maintenance-only release that addresses the following issues: 
+<ul>
+ <li>added various additional FOURCC codec identifiers</li>
+ <li>H.264 4:4:4 fixes</li>
+ <li>build system and compilation fixes</li>
+ <li>Doxygen and general documentation corrections and improvements</li>
+ <li>fixed segfault in ffprobe</li>
+ <li>behavioral fix in av_open_input_stream()</li>
+ <li>Licensing clarification for LGPL'ed vf_gradfun</li>
+ <li>bugfixes while seeking in multithreaded decoding</li>
+ <li>support newer versions of OpenCV</li>
+ <li>ffmpeg: fix operation with --disable-avfilter</li>
+ <li>fixed integer underflow in matroska decoder</li>
+</ul>
+
+<p>
+A detailed list of changes can be seen in the git log:
+<a href="http://git.libav.org/?p=libav.git;a=shortlog;h=refs/heads/release/0.7">
+ohttp://git.libav.org/?p=libav.git;a=shortlog;h=refs/heads/release/0.7</a>
+</p>
+
+<p>
+Distributors and system integrators are encouraged to update and share
+their patches against our release branches.
+</p>
+
+</p>
+
 <a name="release_0.7"></a><h3>June 20 2011</h3>
 
 <p>
