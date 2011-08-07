@@ -77,11 +77,11 @@ developers and groups of developers are available.
     <td>Personal repository with works in progress</td>
 </tr>
 <tr>
-    <td><a href="git://github.com/lu-zero/ffmpeg.git">git://github.com/lu-zero/ffmpeg.git</a></td>
-    <td><a href="https://github.com/lu-zero/ffmpeg">https://github.com/lu-zero/ffmpeg</a></td>
+    <td><a href="git://github.com/lu-zero/libav.git">git://github.com/lu-zero/libav.git</a></td>
+    <td><a href="https://github.com/lu-zero/libav">https://github.com/lu-zero/libav</a></td>
     <td>
-        <a href="https://github.com/lu-zero/ffmpeg/tarball/master">tgz</a>,
-        <a href="https://github.com/lu-zero/ffmpeg/zipball/master">zip</a>
+        <a href="https://github.com/lu-zero/libav/tarball/master">tgz</a>,
+        <a href="https://github.com/lu-zero/libav/zipball/master">zip</a>
     </td>
     <td>Luca Barbato</td>
     <td>Personal repository with works in progress and experiments</td>
