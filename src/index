@@ -33,6 +33,81 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="fftools_rename"></a><h3>August 09 2011</h3>
+
+<p>
+For consistency with our new name we have renamed <b>ffplay</b> to
+<b>avplay</b>, <b>ffserver</b> to <b>avserver</b> and <b>ffprobe</b> to
+<b>avprobe</b>. Their behavior is the same, just the names were changed.
+</p>
+
+<p>
+With <b>ffmpeg</b> (the commandline tool) we decided to use this opportunity to
+fix some longstanding usability problems, which involves breaking compatibility.
+Therefore we have added a new tool named <b>avconv</b> which is based on
+<b>ffmpeg</b>, but has a different (hopefully more powerful and easier to use)
+syntax for some options.
+<b>ffmpeg</b> will be kept in its current state for some time, so no scripts or
+frontends using it will break. However it will not be developed further.
+</p>
+
+<p>
+Differences between <b>avconv</b> and <b>ffmpeg</b> are:
+<ul>
+    <li>In <b>ffmpeg</b> some options (like <i>-newvideo/-newaudio/...</i>) are
+    irregular in the sense that they're specified <i>after</i> the output
+    filename instead of before, like all other options. In <b>avconv</b> this
+    irregularity is removed, all options apply to the next input or output
+    file.</li>
+    <li><i>-newvideo/-newaudio/-newsubtitle</i> options were removed. Not only
+    were they irregular and highly confusing, they were also redundant. In
+    <b>avconv</b> the <i>-map</i> option will create new streams in the output
+    file and map input streams to them. E.g. <i>avconv -i INPUT -map 0
+    OUTPUT</i> will create an output stream for each stream in the first input
+    file.</li>
+    <li>The <i>-map</i> option now has slightly different and more powerful
+    syntax:
+    <ul>
+        <li> Colons (':') are used to separate file index/stream type/stream
+        index instead of dots. Comma (',') is used to separate the sync stream
+        instead of colon.. This is done for consistency with other options.</li>
+        <li> It's possible to specify stream type. E.g. <i>-map 0:a:2</i>
+        creates an output stream from the third input audio stream.</li>
+        <li> Omitting the stream index now maps all the streams of the given
+        type, not just the first. E.g. <i>-map 0:s</i> creates output streams
+        for all the subtitle streams in the first input file.</li>
+        <li> Since -map can now match multiple streams, negative mappings were
+        introduced. Negative mappings disable some streams from an already
+        defined map. E.g. '-map 0 -map -0:a:1' means 'create output streams for
+        all the stream in the first input file, except for the second audio
+        stream'.</li>
+    </ul>
+    <li> <i>-vcodec/-acodec/-scodec</i> options are gone, replaced by <i>-c</i>
+    (or <i>-codec</i>), which allows to precisely specify target stream(s)
+    consistently with other options. E.g. <i>-c:v lib264</i> sets the codec for all
+    video streams, <i>-c:a:0 libvorbis</i> sets the codec for the first audio stream
+    and <c>-c copy</i> copies all the streams without reencoding.</li>
+    <li> It is now possible to precisely specify which stream should an AVOption
+    apply to. E.g. <i>-b:v:0 2M</i> sets the bitrate for the first video stream,
+    while <i>-b:a 128k</i> sets the bitrate for all audio streams. Note that the
+    old <i>-ab 128k</i> syntax is deprecated and will stop working soon.</li>
+    <li> <i>-map_chapters</i> now takes only an input file index and applies to
+    the next output file. This is consistent with how all the other options
+    work.</li>
+    <li> <i>-map_metadata</i> now takes only an input metadata specifier and
+    applies to the next output file. Output metadata specifier is now part of
+    the option name, similarly to the AVOptions/map/codec feature above.</li>
+    <li> Presets in <b>avconv</b> are disabled, because only libx264 used them
+    and presets for libx264 can now be specified using a private option <i>-preset
+    presetname</i>.</li>
+</ul>
+</p>
+
+<p>
+Note that the <b>avconv</b> interface is not considered stable yet. More
+incompatible changes may come in the following weeks. We will announce here when
+<b>avconv</b> is stable.
+
 <a name="release_0.7.1"></a><h3>July 21 2011</h3>
 
 <p>
