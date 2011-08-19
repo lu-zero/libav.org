@@ -42,6 +42,8 @@ This list is for development <strong>with</strong> the Libav libraries.
 This list is for regular user questions like compilation troubles,
 command-line issues and usage of the Libav tools.
 <br />
+<a href="https://lists.libav.org/mailman/listinfo/libav-security/">libav-security</a>:
+Security contact, report vulnerabilities here.
 </p>
 
 
