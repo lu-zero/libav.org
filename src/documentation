@@ -23,10 +23,11 @@ explains installing and using FFmpeg on Mac OS X.</li>
 <h2>Command Line Interface (CLI) and Related Usage Documentation</h2>
 <ul>
 <li><a href="ffmpeg.html">FFmpeg Documentation</a></li>
-<li><a href="ffplay.html">FFplay Documentation</a></li>
-<li><a href="ffprobe.html">FFprobe Documentation</a></li>
-<li><a href="ffserver.html">FFserver Documentation</a></li>
-<li><a href="sample.html">Sample ffserver configuration file</a></li>
+<li><a href="avconv.html">avconv Documentation</a></li>
+<li><a href="avplay.html">avplay Documentation</a></li>
+<li><a href="avprobe.html">avprobe Documentation</a></li>
+<li><a href="avserver.html">avserver Documentation</a></li>
+<li><a href="sample.html">Sample avserver configuration file</a></li>
 </ul>
 
 <h2>API Documentation</h2>
