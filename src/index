@@ -53,6 +53,7 @@ frontends using it will break. However it will not be developed further.
 
 <p>
 Differences between <b>avconv</b> and <b>ffmpeg</b> are:
+</p>
 <ul>
     <li>In <b>ffmpeg</b> some options (like <i>-newvideo/-newaudio/...</i>) are
     irregular in the sense that they're specified <i>after</i> the output
@@ -82,11 +83,12 @@ Differences between <b>avconv</b> and <b>ffmpeg</b> are:
         all the stream in the first input file, except for the second audio
         stream'.</li>
     </ul>
+    </li>
     <li> <i>-vcodec/-acodec/-scodec</i> options are gone, replaced by <i>-c</i>
     (or <i>-codec</i>), which allows to precisely specify target stream(s)
     consistently with other options. E.g. <i>-c:v lib264</i> sets the codec for all
     video streams, <i>-c:a:0 libvorbis</i> sets the codec for the first audio stream
-    and <c>-c copy</i> copies all the streams without reencoding.</li>
+    and <i>-c copy</i> copies all the streams without reencoding.</li>
     <li> It is now possible to precisely specify which stream should an AVOption
     apply to. E.g. <i>-b:v:0 2M</i> sets the bitrate for the first video stream,
     while <i>-b:a 128k</i> sets the bitrate for all audio streams. Note that the
@@ -101,12 +103,12 @@ Differences between <b>avconv</b> and <b>ffmpeg</b> are:
     and presets for libx264 can now be specified using a private option <i>-preset
     presetname</i>.</li>
 </ul>
-</p>
 
 <p>
 Note that the <b>avconv</b> interface is not considered stable yet. More
 incompatible changes may come in the following weeks. We will announce here when
 <b>avconv</b> is stable.
+</p>
 
 <a name="release_0.7.1"></a><h3>July 21 2011</h3>
 
@@ -114,6 +116,7 @@ incompatible changes may come in the following weeks. We will announce here when
 We have just released <a href="download.html#release_0.7"> Libav 0.7.1</a>,
 the latest release from the 0.7 branch.
 This is a maintenance-only release that addresses the following issues: 
+</p>
 <ul>
  <li>added various additional FOURCC codec identifiers</li>
  <li>H.264 4:4:4 fixes</li>
@@ -139,7 +142,6 @@ Distributors and system integrators are encouraged to update and share
 their patches against our release branches.
 </p>
 
-</p>
 
 <a name="release_0.7"></a><h3>June 20 2011</h3>
 
@@ -224,6 +226,7 @@ incompatible changes.
 <p>
 In the past few months, we did a large-scale cleanup of the formerly
 semi-public IO API in libavformat. As a result:
+</p>
 <ul>
     <li>The higher-level buffered API working with ByteIOContext (now
     renamed to AVIOContext) is now officially public.</li>
@@ -236,7 +239,6 @@ semi-public IO API in libavformat. As a result:
     <li>All public functions now conform to the Libav naming rules and
     are properly prefixed with <i>avio_</i>, thus preventing name clashes.</li>
 </ul>
-</p>
 
 <p>
 If you are using the ByteIOContext API in your application, adapting to
@@ -250,6 +252,8 @@ cannot find an adequate replacement for a deprecated part of the API you
 are using or have any problems while switching to the buffered API, please
 <a href="contact.html">contact us</a> and we will try to
 solve your problem. Refer to the <i>doc/APIChanges</i> file for details.
+</p>
+
 
 <a name="distros_move_to_libav"></a><h3>Mar 25, 2011</h3>
 
@@ -325,7 +329,7 @@ transferred to the libav.org domain.
 <td style="text-align: left;">Roundup:&nbsp;</td>
 <td style="text-align: left;"><a href="https://roundup.libav.org/">https://roundup.libav.org/</a></td></tr><tr>
 <td style="text-align: left;">Patchwork:&nbsp;</td>
-<td style="text-align: left;"><a href="http://patches.libav.org/">http://patches.libav.org/</a></td></tr>
+<td style="text-align: left;"><a href="http://patches.libav.org/">http://patches.libav.org/</a></td></tr><tr>
 <td style="text-align: left;">Mailinglists:&nbsp;</td>
 <td style="text-align: left;"><a href="http://lists.libav.org/">http://lists.libav.org/</a> (developer list: <a href="mailto:libav-devel@libav.org">libav-devel@libav.org</a>)</td></tr>
 </table>

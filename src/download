@@ -40,7 +40,7 @@ developers and groups of developers are available.
     <td>Main development</td>
 </tr>
 <tr>
-    <th colspan=5> Mirrors </th>
+    <th colspan="5"> Mirrors </th>
 </tr>
 <tr>
     <td><a href="git://gitorious.org/libav/libav.git">git://gitorious.org/libav/libav.git</a></td>
@@ -60,7 +60,7 @@ developers and groups of developers are available.
     <td>Github Mirror</td>
 </tr>
 <tr>
-    <th colspan=5> Developer Trees </th>
+    <th colspan="5"> Developer Trees </th>
 </tr>
 <tr>
     <td><a href="git://gitorious.org/~astrange/ffmpeg/ffmpeg-mt.git">git://gitorious.org/~astrange/ffmpeg/ffmpeg-mt.git</a></td>
