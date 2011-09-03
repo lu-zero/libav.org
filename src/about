@@ -138,13 +138,8 @@ should actively reach out to integrate branches into the main tree
 
 <h2>Personal Conflict Resolution</h2>
 
-<p> Conflicts, especially personal ones, have been the bane of the
-FFmpeg project for many years. The current way of letting conflicts
-continue and continue to escalate creates nothing but downward spirals
-and unhappiness.  </p>
-
-<p> Personal conflicts shall be assisted by mediators in the
-future. When a conflict between two (or more) people arises and
+<p> Personal conflicts shall be assisted by mediators.
+When a conflict between two (or more) people arises and
 threatens to spiral downwards, anybody may ask for a mediator to step
 in. The role of the mediator is to pull the fighters apart, calm them
 down, listen to each side and try to restore and aid civil communication
