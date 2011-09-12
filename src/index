@@ -36,6 +36,10 @@ with the latest developments by subscribing to both the
 <a name="fftools_rename"></a><h3>August 09 2011</h3>
 
 <p>
+<b>Updated on 12.09.2011.</b>
+</p>
+
+<p>
 For consistency with our new name we have renamed <b>ffplay</b> to
 <b>avplay</b>, <b>ffserver</b> to <b>avserver</b> and <b>ffprobe</b> to
 <b>avprobe</b>. Their behavior is the same, just the names were changed.
@@ -55,6 +59,19 @@ frontends using it will break. However it will not be developed further.
 Differences between <b>avconv</b> and <b>ffmpeg</b> are:
 </p>
 <ul>
+    <li>The options placement is now strictly enforced! While in theory the
+    options for <b>ffmpeg</b> should be given in <i>[input options] -i INPUT
+    [output options] OUTPUT</i> order, in practice it was possible to give
+    output options before the <i>-i</i> and it mostly worked. Except when it
+    didn't - the behavior was a bit inconsistent.
+    In <b>avconv</b>, it is not possible to mix input and output options. All
+    non-global options are reset after an input or output filename.</li>
+    <li>All per-file options are now truly per-file - they apply only to the
+    next input or output file and specifying different values for different
+    files will now work properly (notably <i>-ss</i> and <i>-t</i> options).</li>
+    <li>All per-stream options are now truly per-stream - it is possible to
+    specify which stream(s) should a given option apply to.  See the
+    <i>Stream specifiers</i> section in the <b>avconv</b> manual for details.</li>
     <li>In <b>ffmpeg</b> some options (like <i>-newvideo/-newaudio/...</i>) are
     irregular in the sense that they're specified <i>after</i> the output
     filename instead of before, like all other options. In <b>avconv</b> this
@@ -84,11 +101,12 @@ Differences between <b>avconv</b> and <b>ffmpeg</b> are:
         stream'.</li>
     </ul>
     </li>
-    <li> <i>-vcodec/-acodec/-scodec</i> options are gone, replaced by <i>-c</i>
-    (or <i>-codec</i>), which allows to precisely specify target stream(s)
+    <li> There is a new option <i>-c</i> (or <i>-codec</i>) for choosing the
+    decoder/encoder to use, which allows to precisely specify target stream(s)
     consistently with other options. E.g. <i>-c:v lib264</i> sets the codec for all
     video streams, <i>-c:a:0 libvorbis</i> sets the codec for the first audio stream
-    and <i>-c copy</i> copies all the streams without reencoding.</li>
+    and <i>-c copy</i> copies all the streams without reencoding.
+    Old <i>-vcodec/-acodec/-scodec</i> options are now aliases to <i>-c:v/a/s</i></li>
     <li> It is now possible to precisely specify which stream should an AVOption
     apply to. E.g. <i>-b:v:0 2M</i> sets the bitrate for the first video stream,
     while <i>-b:a 128k</i> sets the bitrate for all audio streams. Note that the
@@ -99,9 +117,34 @@ Differences between <b>avconv</b> and <b>ffmpeg</b> are:
     <li> <i>-map_metadata</i> now takes only an input metadata specifier and
     applies to the next output file. Output metadata specifier is now part of
     the option name, similarly to the AVOptions/map/codec feature above.</li>
+    <li> <i>-metadata</i> can now be used to set metadata on streams and
+    chapters, e.g. <i>-metadata:s:1 language=eng</i> sets the language of the
+    first stream to 'eng'.
+    This made <i>-vlang/-alang/-slang</i> options redundant, so they were
+    removed.</li>
     <li> Presets in <b>avconv</b> are disabled, because only libx264 used them
     and presets for libx264 can now be specified using a private option <i>-preset
     presetname</i>.</li>
+    <li> <i>-qscale</i> option now uses stream specifiers and applies to all
+    streams, not just video. I.e. plain <i>-qscale number</i> would now apply
+    to all streams. To get the old behavior, use <i>-qscale:v</i>.
+    Also there is now a shortcut <i>-q</i> for <i>-qscale</i> and <i>-aq</i> is
+    now an alias for <i>-q:a</i>.</li>
+    <li> <i>-vbsf/-absf/-sbsf</i> options were removed and replaced by a
+    <i>-bsf</i> option which uses stream specifiers. Use <i>-bsf:v/a/s</i>
+    instead of the old options.</li>
+    <li> <i>-itsscale</i> option now uses stream specifiers, so its argument is
+    only the scale parameter.</li>
+    <li> <i>-intra</i> option was removed, use <i>-g 0</i> for the same
+    effect.</li>
+    <li> <i>-psnr</i> option was removed, use <i>-flags +psnr</i> for the same
+    effect.</li>
+    <li> <i>-vf</i> option is now an alias to the new <i>-filter</i> option,
+    which uses stream specifiers.</li>
+    <li> <i>-vframes/-aframes/-dframes</i> options are now aliases to the new
+    <i>-frames</i> option.</li>
+    <li> <i>-vtag/-atag/-stag</i> options are now aliases to the new <i>-tag</i>
+    option.</li>
 </ul>
 
 <p>
