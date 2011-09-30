@@ -33,6 +33,45 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="release_0.7.2"></a><h3>Sept 30 2011</h3>
+
+<p>
+We have just released <a href="download.html#release_0.7"> Libav 0.7.2</a>,
+the latest release from the 0.7 branch.
+This is a security focused release that addresses the following issues:
+</p>
+<ul>
+ <li>Check buffer and input values in various parts of the code:
+    <ul>
+     <li>H.264, VC-1, cavs (OCERT-2011-002, CVE-2011-3362)</li>
+     <li>APE, Indeo 2, XAN, wavpack, ffv1, Smacker</li>
+     <li>RV10, RV30/RV40</li>
+     <li>FLV, Ogg, MXF, MOV, Matroska (CVE-2011-3504)</li>
+     <li>cpu detection</li>
+    </ul>
+ <li>Remove memory leaks in vf_scale, eval</li>
+ <li>Remove some suspicious illegal memcpy()s from LTP in AAC</li>
+ <li>Fix Continuity Counter error detection in mpegts</li>
+ <li>Fix crashes in ppc32 PIC builds
+     (as reported in <a href="http://bugs.debian.org/639948">Debian</a>)</li>
+ <li>Fix cast related random failures in ppc64</li>
+ <li>Fix context pointer in av_open_input_stream when avformat_open_input fails</li>
+</ul>
+
+<p>
+Additional bugfixes and improvements in the build system, h264 and vp3/theora decoder,
+ARM support and audio codecs are present. A detailed list of changes can be seen in
+the git log:
+<a href="http://git.libav.org/?p=libav.git;a=shortlog;h=refs/heads/release/0.7">
+http://git.libav.org/?p=libav.git;a=shortlog;h=refs/heads/release/0.7</a>
+</p>
+
+<p>
+Distributors and system integrators are encouraged to update and share
+their patches against our release branches.
+</p>
+
+
 <a name="avconv_stable"></a><h3>September 27 2011</h3>
 
 <p>
