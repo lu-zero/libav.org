@@ -33,6 +33,46 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="release_0.6.3"></a><h3>Nov 05 2011</h3>
+
+<p>
+Today, we update two of our stable
+branches: <a href="download.html#release_0.6"> Libav 0.6.3</a>,
+and <a href="download.html#release_0.5"> Libav 0.5.5</a>. Both are
+mostly security related updates, with the intention to not introduce
+disturbing or interfering changes. This allows distributors and system
+integrators to update their libraries at low risk of unexpected
+problems.
+</p>
+
+<p>
+For the <b>0.5.5</b> release, the following issues have been fixed:
+<ul>
+  <li>Fix memory (re)allocation in matroskadec.c (MSVR11-011/CVE-2011-3504)</li>
+  <li>Fix some crashes with invalid bitstreams in the CAVS decoder
+    (CVE-2011-3362, CVE-2011-3973, CVE-2011-3974)</li>
+  <li>Compilation fixes for gcc-4.6, testsuite now passes again</li>
+  <li>Detect and handle overreads in the MJPEG decoder.</li>
+</ul>
+</p>
+
+<p>
+For the <b>0.6.3</b> release, the following <b>additional</b> changes
+have been done:
+<ul>
+  <li>Fix compilation with --enable-hardcoded-tables</li>
+  <li>Fix races in default av_log handler (possibly exploitable)</li>
+  <li>lavf: inspect more frames for fps when container time base is coarse</li>
+  <li>AMV: disable DR1 and don't override EMU_EDGE (addresses http://seclists.org/bugtraq/2011/Apr/257)</li>
+  <li>Fix a heap corruption issue in the OGG decoder</li>
+  <li>Backported the Android VisualOn AAC encoder wrapper from 0.7.2</li>
+</ul>
+
+<p>
+As always, distributors and system integrators are encouraged to update
+and share their patches against our release branches.
+</p>
+
 <a name="release_0.7.2"></a><h3>Sept 30 2011</h3>
 
 <p>

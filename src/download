@@ -180,47 +180,47 @@ which was cut on on 2011-06-20. Please use our new Bugzilla for filing bugs:
 </p>
 
 <a name="release_0.6"></a><h2>
-Libav 0.6.2 "Works with HTML5"</h2>
+Libav 0.6.3 "Works with HTML5"</h2>
 
 <p>
-0.6.2 appeared on 2011-03-18. It is the latest point release from the
+0.6.3 appeared on 2011-11-05. It is the latest point release from the
 0.6 release branch, which was cut on 2010-05-04.
 </p>
 
 <p>
-<a href="releases/libav-0.6.2.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-0.6.2.tar.bz2.md5">MD5</a>
-<a href="releases/libav-0.6.2.tar.bz2.sha1">SHA1</a>
-<a href="releases/libav-0.6.2.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/libav-0.6.2.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-0.6.2.tar.gz.md5">MD5</a>
-<a href="releases/libav-0.6.2.tar.gz.sha1">SHA1</a>
-<a href="releases/libav-0.6.2.tar.gz.asc">PGP signature</a><br />
+<a href="releases/libav-0.6.3.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-0.6.3.tar.xz.md5">MD5</a>
+<a href="releases/libav-0.6.3.tar.xz.sha1">SHA1</a>
+<a href="releases/libav-0.6.3.tar.xz.asc">PGP signature</a><br />
+<a href="releases/libav-0.6.3.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-0.6.3.tar.gz.md5">MD5</a>
+<a href="releases/libav-0.6.3.tar.gz.sha1">SHA1</a>
+<a href="releases/libav-0.6.3.tar.gz.asc">PGP signature</a><br />
 <a href="releases/libav-win32-0.6.2.7z">Win32 binaries</a><br />
-<a href="releases/libav-0.6.2.changelog">Changelog</a><br />
-<a href="releases/libav-0.6.2.release">Release Notes</a>
+<a href="releases/libav-0.6.3.changelog">Changelog</a><br />
+<a href="releases/libav-0.6.3.release">Release Notes</a>
 </p>
 
 <a name="release_0.5"></a><h2>
-FFmpeg 0.5.4 "half-way to world domination A.K.A. the belligerent blue bike
+FFmpeg 0.5.5 "half-way to world domination A.K.A. the belligerent blue bike
 shed"</h2>
 
 <p>
-0.5.4 appeared on 2011-03-17. It is the latest point release from the 0.5
+0.5.5 appeared on 2011-11-05. It is the latest point release from the 0.5
 release branch cut on 2009-03-02.
 </p>
 
 <p>
-<a href="releases/ffmpeg-0.5.4.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.5.4.tar.bz2.md5">MD5</a>
-<a href="releases/ffmpeg-0.5.4.tar.bz2.sha1">SHA1</a>
-<a href="releases/ffmpeg-0.5.4.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.5.4.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.5.4.tar.gz.md5">MD5</a>
-<a href="releases/ffmpeg-0.5.4.tar.gz.sha1">SHA1</a>
-<a href="releases/ffmpeg-0.5.4.tar.gz.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.5.4.changelog">Changelog</a><br />
-<a href="releases/ffmpeg-0.5.4.release">Release Notes</a>
+<a href="releases/ffmpeg-0.5.5.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.5.5.tar.xz.md5">MD5</a>
+<a href="releases/ffmpeg-0.5.5.tar.xz.sha1">SHA1</a>
+<a href="releases/ffmpeg-0.5.5.tar.xz.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.5.5.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.5.5.tar.gz.md5">MD5</a>
+<a href="releases/ffmpeg-0.5.5.tar.gz.sha1">SHA1</a>
+<a href="releases/ffmpeg-0.5.5.tar.gz.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.5.5.changelog">Changelog</a><br />
+<a href="releases/ffmpeg-0.5.5.release">Release Notes</a>
 </p>
 
 <a name="distros"></a><h1>Distribution Status</h1>
