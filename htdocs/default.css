@@ -6,6 +6,11 @@ a:visited {
     color: #884488;
 }
 
+h1 a, h2 a, h3 a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
 #banner {
     background-color: #BBC9D8;
     border-bottom: 1px solid #7A96B3;
