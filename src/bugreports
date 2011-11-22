@@ -41,8 +41,8 @@ When writing your bug report, please include (uncompressed):
 
 <p>
 If you encounter a crash bug, please provide the <code>gdb</code> output,
-backtrace and disassembly using a unstripped <code>avconv</code> binary
-as foolows:
+backtrace and disassembly using an unstripped <code>avconv</code> binary as
+follows:
 </p>
 
 <blockquote>
