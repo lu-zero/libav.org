@@ -61,6 +61,7 @@ problems.
 
 <p>
 For the <b>0.5.5</b> release, the following issues have been fixed:
+</p>
 <ul>
   <li>Fix memory (re)allocation in matroskadec.c (MSVR11-011/CVE-2011-3504)</li>
   <li>Fix some crashes with invalid bitstreams in the CAVS decoder
@@ -68,11 +69,11 @@ For the <b>0.5.5</b> release, the following issues have been fixed:
   <li>Compilation fixes for gcc-4.6, testsuite now passes again</li>
   <li>Detect and handle overreads in the MJPEG decoder.</li>
 </ul>
-</p>
 
 <p>
 For the <b>0.6.3</b> release, the following <b>additional</b> changes
 have been done:
+</p>
 <ul>
   <li>Fix compilation with --enable-hardcoded-tables</li>
   <li>Fix races in default av_log handler (possibly exploitable)</li>
@@ -103,6 +104,7 @@ This is a security focused release that addresses the following issues:
      <li>FLV, Ogg, MXF, MOV, Matroska (CVE-2011-3504)</li>
      <li>cpu detection</li>
     </ul>
+ </li>
  <li>Remove memory leaks in vf_scale, eval</li>
  <li>Remove some suspicious illegal memcpy()s from LTP in AAC</li>
  <li>Fix Continuity Counter error detection in mpegts</li>
