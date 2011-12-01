@@ -33,6 +33,20 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="gci_2011"></a><h3>November 21 2011</h3>
+
+<p>
+Libav is participating in this year's
+<a href="http://code.google.com/opensource/gci/2011-12/index.html">Google Code-in</a>
+under the umbrella of our friends from the <a href="http://videolan.org/">VideoLAN organization</a>.
+</p>
+
+<p>
+Google Code-in is the pre-university version of
+<a href="http://code.google.com/soc">Google Summer of Code</a>,
+where Libav has successfully participated in the last few years.
+</p>
+
 <a name="release_0.6.3"></a><h3>Nov 05 2011</h3>
 
 <p>
