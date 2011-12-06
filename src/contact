@@ -19,10 +19,9 @@ text/plain or even better text/x-diff or text/x-patch.
 If you send us a patch, please make it some form of unified diff. We prefer
 patches made using <code>git format-patch</code> from your Libav local clone,
 they can be sent directly using <code>git send-email</code>.
-For more detailed guidelines, have a look at the
-<a href="http://www.mplayerhq.hu/DOCS/tech/patches.txt">MPlayer patch guidelines</a>
-most of what is written there applies to Libav as well.
-Trespass these rules at the risk of being flamed.
+More detailed guidelines are available in the
+<a href="developer.html#Submitting-patches">submitting patches</a> section
+of our <a href="developer.html">developer documentation</a>.
 </p>
 
 <h3>Libav mailing lists</h3>
