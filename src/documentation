@@ -9,25 +9,29 @@ developers will be able to better diagnose the problem if you follow
 
 <h2>General Documentation</h2>
 <ul>
-<li><a href="faq.html">Frequently Asked Questions</a></li>
 <li><a href="general.html">General Documentation</a></li>
-<li><a href="libavfilter.html">Libavfilter Documentation</a></li>
+<ul>
+    <li><a href="faq.html">Frequently Asked Questions</a></li>
+</ul>
 <li><a href="developer.html">Developer Documentation</a></li>
-<li><a href="http://ffmpeg.arrozcru.org/">FFmpeg Windows Help</a>
-discusses all issues regarding FFmpeg under Windows including a wiki
-and help forums.</li>
-<li><a href="http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html">FFmpeg on Mac OS X HOWTO</a>
-explains installing and using FFmpeg on Mac OS X.</li>
+<ul>
+    <li><a href="platform.html">Platform Specific Support</a></li>
+    <li><a href="git-howto.html">Git Tutorial</a></li>
+    <li><a href="fate.html">FATE Automated Testing Environment</a></li>
+</ul>
 </ul>
 
 <h2>Command Line Interface (CLI) and Related Usage Documentation</h2>
 <ul>
-<li><a href="ffmpeg.html">FFmpeg Documentation</a></li>
 <li><a href="avconv.html">avconv Documentation</a></li>
 <li><a href="avplay.html">avplay Documentation</a></li>
 <li><a href="avprobe.html">avprobe Documentation</a></li>
 <li><a href="avserver.html">avserver Documentation</a></li>
-<li><a href="sample.html">Sample avserver configuration file</a></li>
+<ul>
+    <li><a href="sample.html">Sample avserver configuration file</a></li>
+</ul>
+<li><a href="libavfilter.html">Libavfilter Documentation</a></li>
+<li><a href="ffmpeg.html">ffmpeg Documentation <strong>deprecated</strong></a></li>
 </ul>
 
 <h2>API Documentation</h2>
