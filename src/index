@@ -409,7 +409,7 @@ has already been integrated into major Linux distributions such
 as <a href="https://launchpad.net/ubuntu/+source/libav">Ubuntu</a>,
 <a href="http://packages.gentoo.org/package/media-video/libav">
 Gentoo</a>, <a href="http://packages.qa.debian.org/liba/libav.html">Debian</a> and
-<a href="http://cgit.openembedded.net/cgit.cgi/openembedded/tree/recipes/libav">OpenEmbedded</a>.
+<a href="http://cgit.openembedded.org/openembedded/tree/recipes/libav">OpenEmbedded</a>.
 We encourage other distros to review our <a href="about.html">mission
 statement</a> and consider including Libav as system libraries as well.
 </p>
