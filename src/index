@@ -33,6 +33,34 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="xmas_releases"></a><h3>December 25 2011</h3>
+
+<p>
+Just in time for Christmas, we update our three release
+branches: <a href="download.html#release_0.7"> Libav
+0.7.3</a>, <a href="download.html#release_0.6"> Libav 0.6.4</a>,
+and <a href="download.html#release_0.5"> Libav 0.5.6</a>. All releases
+contain mostly security fixes only with the intention to not introduce
+disturbing or interfering changes. 0.6.4 contains in addition a number
+of other carefully selected functional fixes from the 0.7 release
+branch. As an extra bonus, the 0.7.3 release contains a backported API
+avcodec_open2(). This allows newer versions of the external library
+libx264 to work with Libav's libavcodec and libavformat libraries again.
+</p>
+
+<p>
+In detail, all releases feature fixes for the VP3 decoder
+(CVE-2011-4352), svq1 decoder (CVE-2011-4579), DoS in the VP5/VP6
+decoders (CVE-2011-4353), the QDM2 decoder (CVE-2011-4351), and a buffer
+overflow in the Sierra VMD decoder CVE-2011-4364. For a full list of
+changes, please refer to the respective Changelog files.
+</p>
+
+<p>
+Distributors and system integrators are encouraged to update and share
+their patches against our release branches.
+</p>
+
 <a name="gci_2011"></a><h3>November 21 2011</h3>
 
 <p>
