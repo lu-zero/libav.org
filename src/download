@@ -40,6 +40,13 @@ developers and groups of developers are available.
     <td>Main development</td>
 </tr>
 <tr>
+    <td><a href="git://git.libav.org/libav.org.git">git://git.libav.org/libav.org.git</a></td>
+    <td>-</td>
+    <td>-</td>
+    <td>Libav team</td>
+    <td>Website module</td>
+</tr>
+<tr>
     <th colspan="5"> Mirrors </th>
 </tr>
 <tr>
