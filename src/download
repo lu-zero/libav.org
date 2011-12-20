@@ -41,8 +41,8 @@ developers and groups of developers are available.
 </tr>
 <tr>
     <td><a href="git://git.libav.org/libav.org.git">git://git.libav.org/libav.org.git</a></td>
-    <td>-</td>
-    <td>-</td>
+    <td><a href="http://git.libav.org/?p=libav.org.git">http://git.libav.org/?p=libav.org.git</a></td>
+    <td><a href="http://git.libav.org/?p=libav.org.git;a=snapshot;h=HEAD;sf=tgz">tgz</a></td>
     <td>Libav team</td>
     <td>Website module</td>
 </tr>
