@@ -12,10 +12,10 @@ developers will be able to better diagnose the problem if you follow
 <li><a href="general.html">General Documentation</a></li>
 <ul>
     <li><a href="faq.html">Frequently Asked Questions</a></li>
+    <li><a href="platform.html">Platform-Specific Issues</a></li>
 </ul>
 <li><a href="developer.html">Developer Documentation</a></li>
 <ul>
-    <li><a href="platform.html">Platform Specific Support</a></li>
     <li><a href="git-howto.html">Git Tutorial</a></li>
     <li><a href="fate.html">FATE Automated Testing Environment</a></li>
 </ul>
