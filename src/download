@@ -184,12 +184,31 @@ selected changes from the development branch, which therefore receives much more
 and much faster bug fixes such as additional features and security patches.
 </p>
 
+<a name="release_0.8"></a><h2>Libav 0.8 "Forbidden Fruit"</h2>
+<p>
+While <b>0.8 is not released yet</b>, we already provide you with a
+preview beta release. Please accept this opportunity to test and provide
+us with feedback about your impressions with this release and use our
+new Bugzilla for filing bugs:
+<a href="https://bugzilla.libav.org">https://bugzilla.libav.org/</a>
+</p>
+
+<p>
+<a href="releases/libav-0.8_beta1.tar.xz">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-0.8_beta1.tar.xz.md5">MD5</a>
+<a href="releases/libav-0.8_beta1.tar.xz.sha1">SHA1</a>
+<a href="releases/libav-0.8_beta1.tar.xz.asc">PGP signature</a><br />
+<a href="releases/libav-0.8_beta1.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-0.8_beta1.tar.gz.md5">MD5</a>
+<a href="releases/libav-0.8_beta1.tar.gz.sha1">SHA1</a>
+<a href="releases/libav-0.8_beta1.tar.gz.asc">PGP signature</a><br />
+</p>
+
 <a name="release_0.7"></a><h2>Libav 0.7.3 "The Big Bump"</h2>
 
 <p>
 0.7.3 was released on 2011-12-25. It is the latest point release from the 0.7 branch,
-which was cut on on 2011-06-20. Please use our new Bugzilla for filing bugs:
-<a href="https://bugzilla.libav.org">https://bugzilla.libav.org/</a>
+which was cut on 2011-06-20.
 </p>
 
 <p>
