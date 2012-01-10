@@ -33,6 +33,39 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="2012_new_year_releases"></a><h3>Jan 11 2012</h3>
+
+<p>
+Since our last point release last month, three security issues have come
+to our attention.  All of them, along with the corresponding fixes,
+originate from the Chromium Project, but apply to Libav as well. In
+detail, they have been published as CVE-2011-3892, CVE-2011-3893, and
+CVE-2011-3895. Therefore, we have updated all three stable branches with
+the new releases <a href="download.html#release_0.7"> Libav
+0.7.4</a>, <a href="download.html#release_0.6"> Libav 0.6.5</a>,
+and <a href="download.html#release_0.5"> Libav 0.5.7</a>. As always, all
+releases contain mostly security fixes only with the intention to not
+introduce disturbing or interfering changes.
+</p>
+
+<p>
+Distributors and system integrators are encouraged to update and share
+their patches against our release branches.
+</p>
+
+<p>
+Additionally, please use the opportunity to
+give <a href="download.html#release_0.8">Libav 0.8_beta2</a> a
+try. Compared to the first beta release, this snapshot has seen a number
+of bugfixes. Note that since libpostproc has not been maintained for
+quite a while, it is considered deprecated from now on and thus, no
+longer built by default.  In case your applications still require it,
+you can re-enable the compilation of the post-processing library with
+the <tt>--enable-postproc</tt> configure switch at this time, but the
+library may disappear in a later release of Libav.
+</p>
+
+
 <a name="0.8_beta1"></a><h3>Dec 30 2011</h3>
 
 <p>
