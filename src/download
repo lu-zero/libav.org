@@ -186,22 +186,20 @@ and much faster bug fixes such as additional features and security patches.
 
 <a name="release_0.8"></a><h2>Libav 0.8 "Forbidden Fruit"</h2>
 <p>
-While <b>0.8 is not released yet</b>, we are providing you with a
-preview beta release. Please accept this opportunity to test and provide
-us with feedback about your impressions with this release and use our
-new Bugzilla for filing bugs:
+0.8 was released on 2012-01-21. Please give us feedback with your
+experiences with this release and use our new Bugzilla for filing bugs:
 <a href="https://bugzilla.libav.org">https://bugzilla.libav.org/</a>
 </p>
 
 <p>
-<a href="releases/libav-0.8_beta2.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-0.8_beta2.tar.xz.md5">MD5</a>
-<a href="releases/libav-0.8_beta2.tar.xz.sha1">SHA1</a>
-<a href="releases/libav-0.8_beta2.tar.xz.asc">PGP signature</a><br />
-<a href="releases/libav-0.8_beta2.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-0.8_beta2.tar.gz.md5">MD5</a>
-<a href="releases/libav-0.8_beta2.tar.gz.sha1">SHA1</a>
-<a href="releases/libav-0.8_beta2.tar.gz.asc">PGP signature</a><br />
+<a href="releases/libav-0.8.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-0.8.tar.xz.md5">MD5</a>
+<a href="releases/libav-0.8.tar.xz.sha1">SHA1</a>
+<a href="releases/libav-0.8.tar.xz.asc">PGP signature</a><br />
+<a href="releases/libav-0.8.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-0.8.tar.gz.md5">MD5</a>
+<a href="releases/libav-0.8.tar.gz.sha1">SHA1</a>
+<a href="releases/libav-0.8.tar.gz.asc">PGP signature</a><br />
 </p>
 
 <a name="release_0.7"></a><h2>Libav 0.7.4 "The Big Bump"</h2>

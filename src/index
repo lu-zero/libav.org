@@ -33,6 +33,50 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="0.8"></a><h3>Jan 21 2012</h3>
+
+<p>
+We are pleased to announce the availability of our next major
+release <a href="download.html#release_0.8"> Libav 0.8</a>, which is
+codenamed "Forbidden Fruit". Unlike our last major release, this release
+is a binary compatible drop-in replacement for the 0.7 release series.
+</p>
+
+<p>
+This release continues the API cleanups that have begun with the
+previous release. While it remains binary compatible with 0.7, many
+parts of the public API were deprecated and will be removed in the git
+master and later releases. Please consult
+the <a href="http://git.libav.org/?p=libav.git;a=blob;f=doc/APIchanges;hb=refs/heads/release/0.8">
+doc/APIchanges</a> file to see intended replacements for the deprecated
+APIs.
+</p>
+
+<p>
+Furthermore, our work on the 'ffmpeg' command-line tool has resulted in
+major revisions to its interface. In order to not break existing scripts
+and applications, we have chosen to introduce a new tool called
+'avconv', and keep the traditional 'ffmpeg' frontend for end-user's
+convenience. An <a href="index.html#fftools_rename"> earlier news
+entry</a> compares how 'avconv' differs from 'ffmpeg'.
+</p>
+
+<p>
+Additionally, this release introduces a number of new interesting codecs
+such as the Apple Prores, Flash Screen Video 2 and Windows Media Image,
+and muxers such as LATM or CELT in Ogg, among many others. Moreover, our
+H.264 decoder has been improved to decode 4:2:2 material and our libx264
+wrapper now allows to produce 4:2:2 and 4:4:4 video.
+</p>
+
+<p>
+The 0.8 branch will see maintenance and small feature updates in the
+future, similar to previous release branches. Please request changes
+such as bug fixes and new features
+on <a href="http://bugzilla.libav.org">our bug tracker</a>.
+</p>
+
+
 <a name="2012_new_year_releases"></a><h3>Jan 11 2012</h3>
 
 <p>
