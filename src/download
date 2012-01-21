@@ -200,6 +200,8 @@ experiences with this release and use our new Bugzilla for filing bugs:
 <a href="releases/libav-0.8.tar.gz.md5">MD5</a>
 <a href="releases/libav-0.8.tar.gz.sha1">SHA1</a>
 <a href="releases/libav-0.8.tar.gz.asc">PGP signature</a><br />
+<a href="releases/libav-0.8.changelog">Changelog</a><br />
+<a href="releases/libav-0.8.release">Release Notes</a>
 </p>
 
 <a name="release_0.7"></a><h2>Libav 0.7.4 "The Big Bump"</h2>
