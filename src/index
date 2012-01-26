@@ -33,6 +33,31 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="small_bump"></a><h3>Jan 27 2012</h3>
+
+<p>
+Major versions of the <b>libavformat</b> and <b>libavcodec</b> libraries have
+been bumped, thus <b>breaking ABI and API compatibility</b> with the recent
+0.8 release. As usual, the ABI should be considered unstable until further
+notice (a few weeks at most).
+</p>
+
+<p>
+This step allows us to remove a large amount of obsolete code (over 3000 lines).
+Users who still did not update to the latest API must do so now to be able to use
+this new major version. The bump also allows us to enable protocol private
+options in libavformat and fix some outstanding problems with options passing in
+the libx264 wrapper.
+</p>
+
+<p>
+Furthermore, the legacy <b>ffmpeg</b> conversion tool has been removed. Only
+<b>avconv</b> is available now. Shared builds of Libav now also disable the
+<b>avserver</b> tool. <b>avserver</b> can only be linked with Libav statically
+because it uses internal library symbols (volunteers to fix this are very
+welcome).
+</p>
+
 <a name="0.8"></a><h3>Jan 21 2012</h3>
 
 <p>
