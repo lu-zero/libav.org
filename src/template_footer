@@ -12,6 +12,11 @@
        alt="Valid CSS!" />
 </a>
 </p>
+<div id="ending">
+<p>
+Server donated by <a href="http://code.google.com/opensource/">Google</a>
+</p>
+</div>
 </div>
 
 </div>

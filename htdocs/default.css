@@ -51,6 +51,14 @@ body {
     text-align: center;
 }
 
+#ending {
+    background-color: #7BB37B;
+    border: 1px solid #6A996A;
+    color: #151515;
+    font-size: small;
+    padding-top: 0.1em;
+}
+
 h1 {
     background-color: #7BB37B;
     border: 1px solid #6A996A;
