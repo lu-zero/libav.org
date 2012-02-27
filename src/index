@@ -33,6 +33,13 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="tree_stable"></a><h3>Feb 28 2012</h3>
+
+<p>
+The tree is hereby declared stable again. There will be no more API or ABI
+compatibility breaks until the next major bump.
+</p>
+
 <a name="small_bump"></a><h3>Jan 27 2012</h3>
 
 <p>
