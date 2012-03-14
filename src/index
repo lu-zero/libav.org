@@ -33,6 +33,89 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="0.8.1"></a><h3>Mar 15 2012</h3>
+
+<p>
+Today, we update our latest release series 0.8 with the release
+<a href="download.html#release_0.8">Libav 0.8.1</a>. As usual, this release
+includes a number of functional corrections and security fixes, such as:
+</p>
+
+<ul>
+<li/>CVE-2012-0848
+<li/>CVE-2012-0853
+<li/>CVE-2012-0858
+<li/>CVE-2011-3929
+<li/>CVE-2011-3936
+<li/>CVE-2011-3937
+<li/>CVE-2011-3940
+<li/>CVE-2011-3945
+<li/>CVE-2011-3947
+<li/>CVE-2011-3951
+<li/>CVE-2011-3952
+</ul>
+
+<p>
+The following bugs in our Bugzilla have been fixed:
+</p>
+
+<ul>
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=212">http://bugzilla.libav.org/show_bug.cgi?id=212</a>
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=216">http://bugzilla.libav.org/show_bug.cgi?id=216</a>
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=220">http://bugzilla.libav.org/show_bug.cgi?id=220</a>
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=221">http://bugzilla.libav.org/show_bug.cgi?id=221</a>
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=227">http://bugzilla.libav.org/show_bug.cgi?id=227</a>
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=237">http://bugzilla.libav.org/show_bug.cgi?id=237</a>
+</ul>
+
+<p>
+<b>Several bugs and crashes have been fixed in the following codecs:</b>
+AAC, AC-3, ADPCM, AMR (both NB and WB), ATRAC3, CAVC, Cook, camstudio,
+DCA, DPCM, DSI CIN, DV, EA TGQ, FLAC, fraps, G.722 (both encoder and
+decoder), H.264, huvffyuv, BB JV decoder, Indeo 3, KGV1, LCL, the
+libx264 wrapper, MJPEG, mp3on4, Musepack, MPEG1/2, PNG, QDM2, Qt RLE,
+ROQ, RV10, RV30/RV34//RV40, shorten, smacker, subrip, SVQ3, TIFF,
+Truemotion2, TTA, VC1, VMware Screen codec, Vorbis, VP5, VP6, WMA,
+Westwood SNDx, XXAN.
+</p>
+
+<p>
+<em>This release additionally updates the following codecs to the
+bytestream2 API, and therefore benefit from additional overflow
+checks</em>: XXAN, ALG MM, TQG, SMC, Qt SMC, ROQ, PNG
+</p>
+
+<p>
+<b>Several bugs and crashes have been fixed in the following formats:</b>
+AIFF, ASF, DV, Matroska, NSV, MOV, MPEG-TS, Smacker, Sony OpenMG, RM,
+SWF.
+</p>
+
+<p>
+Libswscale has an potential overflow for large image size fixed.
+</p>
+
+<p>
+The following <b>APIs have been added</b>:
+</p>
+
+<ul>
+<li/>avcodec_is_open()
+<li/>avformat_get_riff_video_tags()
+<li/>avformat_get_riff_audio_tags()
+</ul>
+
+<p>
+Please see the
+file <a href="http://git.libav.org/?p=libav.git;a=blob;f=doc/APIchanges;hb=refs/heads/release/0.8">
+and the Doxygen documentation for further information.
+</p>
+
+<p>
+Distributors and system integrators are encouraged to update and share
+their patches against our release branches.
+</p>
+
 <a name="tree_stable"></a><h3>Feb 28 2012</h3>
 
 <p>
