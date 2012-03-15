@@ -107,7 +107,7 @@ The following <b>APIs have been added</b>:
 
 <p>
 Please see the
-file <a href="http://git.libav.org/?p=libav.git;a=blob;f=doc/APIchanges;hb=refs/heads/release/0.8">
+file <a href="http://git.libav.org/?p=libav.git;a=blob;f=doc/APIchanges;hb=refs/heads/release/0.8">doc/APIChanges</a>
 and the Doxygen documentation for further information.
 </p>
 
