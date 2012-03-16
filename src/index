@@ -33,6 +33,37 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="gsoc2012"></a><h3> Mar 16 2012</h3>
+<p>
+Libav has been accepted as mentoring organization for
+<a href="http://www.google-melange.com/gsoc/homepage/google/gsoc2012">
+Google Summer of Code</a>. Here is the
+<a href="http://www.google-melange.com/gsoc/org/google/gsoc2012/libav">
+Google SoC Libav page</a>.
+</p>
+<p>
+We have a list of
+<a href="http://wiki.multimedia.cx/index.php?title=Libav_Summer_Of_Code_2012">
+proposed project ideas</a> available so, if you think you might be interested,
+head over there to see if there is any project on which you wish to work and for
+which you may wish to make an application. The list is still in flux, and you're
+free to come up with your own ideas, but note that proposals should be closely
+tied to the progression of Libav's code base.
+</p>
+<p>
+If you're a student who thinks you have what it takes, please read
+<a href="http://wiki.multimedia.cx/index.php?title=Libav_Summer_Of_Code_2012#How_it_works">
+how it works</a> and contact us on our <a href="contact.html">libav-devel</a>
+mailing list or on <a href="http://www.freenode.net">IRC</a> in the channel
+#libav-devel.
+</p>
+<p>
+The sooner you start communicating with us and working within
+our code base, the sooner both you and we will ascertain your suitability and
+you will get used to our development methodology. You have until the application
+deadline to complete your small task. Good luck!
+</p>
+
 <a name="0.8.1"></a><h3>Mar 15 2012</h3>
 
 <p>
