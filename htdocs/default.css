@@ -78,6 +78,11 @@ h3 {
     color: #313131;
     font-size: 0.8em;
     margin-bottom: -8px;
+    background: #E0FFC9;
+    border: 1px solid #7BB37B;
+    border-width: 1px 0; /* 1px for top and bottom and 0px for the sides */
+    margin: 1em 0;
+    padding: .1em .5em;
 }
 
 img {
