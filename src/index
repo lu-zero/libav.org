@@ -33,6 +33,65 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="0.7.5"></a><h3>Apr 8 2012</h3>
+
+<p>
+Today, we update our latest release series 0.7 with the release
+<a href="download.html#release_0.7">Libav 0.7.5</a>. As usual, this release
+includes a number of functional corrections and security fixes, such as:
+</p>
+
+<ul>
+<li/>CVE-2012-0848
+<li/>CVE-2012-0853
+<li/>CVE-2012-0858
+<li/>CVE-2011-3929
+<li/>CVE-2011-3936
+<li/>CVE-2011-3937
+<li/>CVE-2011-3940
+<li/>CVE-2011-3945
+<li/>CVE-2011-3947
+</ul>
+
+<p>
+<b>Several bugs and crashes have been fixed in the following codecs:</b>
+  4xm, AAC, AC3, ADPCM.C, ALS, ANM, AVS, Atrac3, Bink, Bitmap Brothers
+  JV, COOK, CamStudio, Cinepak, DCA, DSI CIN, EA CMV, FLAC, Fraps FPS1,
+  H263, H264, Huffyuv, KMVC, Kega Game Video, LCL, MJPEG, MPEG1/2
+  encoder, Motion Pixels, Musepack SV7, Musepack SV8, Nellymoser, QCELP,
+  QDM2, QT RPZA, QT SVQ3, Qt RLE, QuickDraw, RAW, RV10, RV34, SIPR,
+  Shorten, Smacker, SubRib, TIFF, Tiertex Limited SEQ, Truemotion2,
+  V.Flash PTX, VC1, VMware Screen Codec, VP5, VP6, VP8, Vorbis, WMA, WMA
+  PRO, WMA Voice.c, Wavpack, Westwood SNDx, Wing Commander/Xan.
+</p>
+
+<p>
+<b>Several bugs and crashes have been fixed in the following formats:</b>
+  4xm, ASF, AVS, DV, FLV, Matroska, Musepack SV8, MPEG, MXF, NSV, RM,
+  Segafilm, Smacker, Sierra SOL, SWF.
+</p>
+
+<p>
+<b>Several bugs and crashes have been fixed in the following filters:</b>
+  avfiltergraph, lavfi, vf_unsharp, vf_scale, vf_pad, vf_yadif, vf_yadif.
+</p>
+
+<p>
+Libswscale has an potential overflow for large image size fixed.
+</p>
+
+<p>
+Please see the
+file <a href="http://git.libav.org/?p=libav.git;a=blob;f=doc/APIchanges;hb=refs/heads/release/0.7">doc/APIChanges</a>
+and the Doxygen documentation for further information.
+</p>
+
+<p>
+Distributors and system integrators are encouraged to update and share
+their patches against our release branches.
+</p>
+
+
 <a name="gsoc2012"></a><h3> Mar 16 2012</h3>
 <p>
 Libav has been accepted as mentoring organization for
