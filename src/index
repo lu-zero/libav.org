@@ -33,6 +33,50 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="0.8.2"></a><h3>May 4 2012</h3>
+
+<p>
+Today, we update our latest release series 0.8 with the release
+of <a href="download.html#release_0.8">Libav 0.8.2</a>. This release
+contains a security fix for vqavideo filed as CVE-2012-0947.
+</p>
+
+<p>
+The following bug in our Bugzilla has been fixed:
+<ul>
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=278">#278</a>: fate-motionpixel overread in ff_cropTbl
+</ul>
+</p>
+
+<p>
+<b>Several bugs and crashes have been fixed in the following codecs:</b>
+  AAC, APE, H.263, H.264, Indeo 4, Mimic, MJPEG, Motion Pixels Video, RAW,
+  TTA, VC1, VQA, WMA Voice, vqavideo (CVE-2012-0947).
+</p>
+
+<p>
+<b>Several bugs and crashes have been fixed in the following formats:</b>
+  ASF, ID3v2, MOV, xWMA
+</p>
+
+<p>
+<em>This release additionally updates the following codecs to the bytestream2 API,
+and therefore benefits from additional overflow checks:</em>
+  truemotion2, utvideo, vqavideo.
+</p>
+
+<p>
+This release now properly reads from .avpreset files.
+</p>
+
+<p>
+Distributors and system integrators are encouraged to update and share their patches against our release branches.
+</p>
+
+<p>
+<em>Enjoy!</em>
+</p>
+
 <a name="0.7.5"></a><h3>Apr 8 2012</h3>
 
 <p>

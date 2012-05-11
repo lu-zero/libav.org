@@ -194,9 +194,9 @@ selected changes from the development branch, which therefore receives much more
 and much faster bug fixes such as additional features and security patches.
 </p>
 
-<a name="release_0.8"></a><h2>Libav 0.8 "Forbidden Fruit"</h2>
+<a name="release_0.8"></a><h2>Libav 0.8.2 "Forbidden Fruit"</h2>
 <p>
-0.8.1 was released on 2012-03-15. It is the latest point release from
+0.8.2 was released on 2012-05-04. It is the latest point release from
 the 0.8 branch, which was cut on 2012-01-21. Please give us feedback
 with your experiences with this release and use our new Bugzilla for
 filing bugs:
@@ -204,15 +204,15 @@ filing bugs:
 </p>
 
 <p>
-<a href="releases/libav-0.8.1.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-0.8.1.tar.xz.md5">MD5</a>
-<a href="releases/libav-0.8.1.tar.xz.sha1">SHA1</a>
-<a href="releases/libav-0.8.1.tar.xz.asc">PGP signature</a><br />
-<a href="releases/libav-0.8.1.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-0.8.1.tar.gz.md5">MD5</a>
-<a href="releases/libav-0.8.1.tar.gz.sha1">SHA1</a>
-<a href="releases/libav-0.8.1.tar.gz.asc">PGP signature</a><br />
-<a href="releases/libav-0.8.1.changelog">Changelog</a><br />
+<a href="releases/libav-0.8.2.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-0.8.2.tar.xz.md5">MD5</a>
+<a href="releases/libav-0.8.2.tar.xz.sha1">SHA1</a>
+<a href="releases/libav-0.8.2.tar.xz.asc">PGP signature</a><br />
+<a href="releases/libav-0.8.2.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-0.8.2.tar.gz.md5">MD5</a>
+<a href="releases/libav-0.8.2.tar.gz.sha1">SHA1</a>
+<a href="releases/libav-0.8.2.tar.gz.asc">PGP signature</a><br />
+<a href="releases/libav-0.8.2.changelog">Changelog</a><br />
 <a href="releases/libav-0.8.release">Release Notes</a>
 </p>
 
