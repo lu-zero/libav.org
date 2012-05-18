@@ -44,8 +44,17 @@ copy/paste the output into your bug report:
 <blockquote>
 <pre>
 bt
-disass $pc-32 $pc+32
+disass $pc-32,$pc+32
 info all-registers
+</pre>
+</blockquote>
+
+For gdb versions before 7.1, you need to employ a slightly different
+syntax for the above <code>disass</code> command:
+
+<blockquote>
+<pre>
+disass $pc-32 $pc+32
 </pre>
 </blockquote>
 
