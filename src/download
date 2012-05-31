@@ -259,25 +259,25 @@ Libav 0.6.5 "Works with HTML5"</h2>
 </p>
 
 <a name="release_0.5"></a><h2>
-Libav 0.5.7 "half-way to world domination A.K.A. the belligerent blue bike
+Libav 0.5.8 "half-way to world domination A.K.A. the belligerent blue bike
 shed"</h2>
 
 <p>
-0.5.7 appeared on 2012-01-11. It is the latest point release from the 0.5
+0.5.8 appeared on 2012-05-10. It is the latest point release from the 0.5
 release branch cut on 2009-03-02.
 </p>
 
 <p>
-<a href="releases/libav-0.5.7.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-0.5.7.tar.xz.md5">MD5</a>
-<a href="releases/libav-0.5.7.tar.xz.sha1">SHA1</a>
-<a href="releases/libav-0.5.7.tar.xz.asc">PGP signature</a><br />
-<a href="releases/libav-0.5.7.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-0.5.7.tar.gz.md5">MD5</a>
-<a href="releases/libav-0.5.7.tar.gz.sha1">SHA1</a>
-<a href="releases/libav-0.5.7.tar.gz.asc">PGP signature</a><br />
-<a href="releases/libav-0.5.7.changelog">Changelog</a><br />
-<a href="releases/libav-0.5.7.release">Release Notes</a>
+<a href="releases/libav-0.5.8.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-0.5.8.tar.xz.md5">MD5</a>
+<a href="releases/libav-0.5.8.tar.xz.sha1">SHA1</a>
+<a href="releases/libav-0.5.8.tar.xz.asc">PGP signature</a><br />
+<a href="releases/libav-0.5.8.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-0.5.8.tar.gz.md5">MD5</a>
+<a href="releases/libav-0.5.8.tar.gz.sha1">SHA1</a>
+<a href="releases/libav-0.5.8.tar.gz.asc">PGP signature</a><br />
+<a href="releases/libav-0.5.8.changelog">Changelog</a><br />
+<a href="releases/libav-0.5.8.release">Release Notes</a>
 </p>
 
 <a name="distros"></a><h1>Distribution Status</h1>
