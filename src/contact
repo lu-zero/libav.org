@@ -43,6 +43,10 @@ command-line issues and usage of the Libav tools.
 <br />
 <a href="https://lists.libav.org/mailman/listinfo/libav-security/">libav-security</a>:
 Security contact, report vulnerabilities here.
+<br />
+<a href="https://lists.libav.org/mailman/listinfo/libav-bugs/">libav-bugs</a>:
+All messages from the Bugzilla bug tracking system.
+Please respond via Bugzilla rather than directly to this list.
 </p>
 
 
@@ -57,6 +61,8 @@ browse the archives before posting questions.
 
 <p>
 <a href="https://lists.libav.org/pipermail/libav-api/">libav-api archives</a>
+<br />
+<a href="https://lists.libav.org/pipermail/libav-bugs/">libav-bugs archives</a>
 <br />
 <a href="https://lists.libav.org/pipermail/libav-commits/">libav-commits archives</a>
 <br />
