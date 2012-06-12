@@ -33,6 +33,80 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="0.8.3_and_friends"></a><h3>June 9, 2012</h3>
+<p>
+We have been busy lately! Today, we are updating all 4 of our release trees.
+</p>
+
+<p>
+Fresh from the release team we are introducing
+<a href="download.html#release_0.8">0.8.3</a>,
+<a href="download.html#release_0.7">0.7.6</a>,
+<a href="download.html#release_0.6">0.6.6</a> and
+<a href="download.html#release_0.5">0.5.9</a>.
+</p>
+
+<p>
+The following bugs in our Bugzilla have been fixed:
+</p>
+
+<ul>
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=118">#118</a>:
+zzufed H.261 file crashes avconv signal 11 (SIGSEGV)
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=145">#145</a>:
+signal 11 (SIGSEGV) on input from corrupted file
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=146">#146</a>:
+zzufed FRAPS files crashes avconv signal 11 (SIGSEGV)
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=197">#197</a>:
+Read errors in kega decoder
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=198">#198</a>:
+vorbis decoder infinite loop
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=199">#199</a>:
+vorbis decoder FPE
+</ul>
+
+<p>
+<b>Several bugs and crashes have been fixed in the following codecs:</b> AAC,
+ADPCM, ATRAC3, CELP, DPCM, DXVA2, H.263, H.264, Kega, KMVC, Motion Pixels,
+MJPEG-B, PNG, QDM2, Shorten, Westwood VQA
+</p>
+
+<p>
+<b>Several bugs and crashes have been fixed in the following formats:</b> ASF,
+DV, EA &amp; EAtqi, ID3v2, NSV
+</p>
+
+<p>
+These releases contain security fixes for the following CVEs:
+</p>
+
+<ul>
+<li/>CVE-2012-0947
+<li/>CVE-2012-0858
+<li/>CVE-2012-0853
+<li/>CVE-2012-0852
+<li/>CVE-2012-0851
+<li/>CVE-2012-0850
+<li/>CVE-2011-4031
+<li/>CVE-2011-3952
+<li/>CVE-2011-3951
+<li/>CVE-2011-3947
+<li/>CVE-2011-3945
+<li/>CVE-2011-3940
+<li/>CVE-2011-3937
+<li/>CVE-2011-3936
+<li/>CVE-2011-3929
+</ul>
+
+<p>
+Distributors and system integrators are encouraged to update and share their
+patches against our release branches.
+</p>
+
+<p>
+<em>Enjoy!</em>
+</p>
+
 <a name="linuxtag_2012"></a><h3>May 22, 2012</h3>
 <p>
 As every year some members from our crew will be trolling^Wattending
