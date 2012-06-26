@@ -35,20 +35,20 @@ with the latest developments by subscribing to both the
 
 <a name="lavfi_bump_3"></a><h3>June 22, 2012</h3>
 <p>
-Major version of the <b>libavfilter</b> library has been bumped. This means that
-ABI and API compatibility has been broken and some deprecated functions and
+The major version of the <b>libavfilter</b> library has been bumped. This means
+that ABI and API compatibility has been broken and some deprecated functions and
 structures have been removed.
 </p>
 
 <p>
 Most of those were related to filter internals, which are now private. User-side
-filters are now not officially supported until libavfilter reaches a more mature
-state.
+filters are no longer officially supported until libavfilter reaches a more
+mature state.
 </p>
 
 <p>
-Libavfilter ABI is now declared unstable until further notice (stabilizing it
-should take a couple of weeks at most).
+The libavfilter ABI is now declared unstable until further notice (stabilizing
+it should take a couple of weeks at most).
 </p>
 
 <a name="0.8.3_and_friends"></a><h3>June 9, 2012</h3>
