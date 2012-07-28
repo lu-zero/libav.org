@@ -33,6 +33,12 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="lavfi_stable_3"></a><h3>July 28, 2012</h3>
+<p>
+The <b>libavfilter</b> library is hereby declared stable. This means there will
+be no more API- or ABI-incompatible changes until the next major bump.
+</p>
+
 <a name="lavfi_bump_3"></a><h3>June 22, 2012</h3>
 <p>
 The major version of the <b>libavfilter</b> library has been bumped. This means
