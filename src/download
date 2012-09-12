@@ -46,9 +46,13 @@ developers and groups of developers are available.
     <td>Libav team</td>
     <td>Website module</td>
 </tr>
+</tbody>
+<thead>
 <tr>
     <th colspan="5"> Mirrors </th>
 </tr>
+</thead>
+<tbody>
 <tr>
     <td><a href="git://gitorious.org/libav/libav.git">git://gitorious.org/libav/libav.git</a></td>
     <td><a href="http://gitorious.org/libav/libav">http://gitorious.org/libav/libav</a></td>
@@ -66,9 +70,13 @@ developers and groups of developers are available.
     <td>Libav team</td>
     <td>Github Mirror</td>
 </tr>
+</tbody>
+<thead>
 <tr>
     <th colspan="5"> Developer Trees </th>
 </tr>
+</thead>
+<tbody>
 <tr>
     <td><a href="git://gitorious.org/~astrange/ffmpeg/ffmpeg-mt.git">git://gitorious.org/~astrange/ffmpeg/ffmpeg-mt.git</a></td>
     <td><a href="http://gitorious.org/~astrange/ffmpeg/ffmpeg-mt">http://gitorious.org/~astrange/ffmpeg/ffmpeg-mt</a></td>
