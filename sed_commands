@@ -1,8 +1,8 @@
 /LIBAV_ABOUT_NAVBAR/a\
-<div id="navbar_secondary">\
-<a href="about.html">About</a>\
-<a href="projects.html">Projects Using Libav</a>\
-</div>
+<ul class="breadcrumb">\
+<li><a href="about.html">About</a><span class="divider">/</span></li> \
+<li><a href="projects.html">Projects Using Libav</a></li>\
+</ul>
 /LIBAV_ABOUT_NAVBAR/d
 
 /LIBAV_LEGAL_NAVBAR/a\
