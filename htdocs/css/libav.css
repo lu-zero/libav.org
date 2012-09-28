@@ -28,8 +28,8 @@ h6 small {
   vertical-align: middle;
 }
 
-.page-header h1 {
-  font-size: 50px;
+.page-header h1, h1:first-child {
+  font-size: 40px;
   line-height: 1.2em;
 }
 
@@ -68,3 +68,13 @@ h4 {
   padding-bottom: 2px;
 }
 
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+  color: inherit;
+}
+
+.navbar-inner a {
+  font-weight: bold;
+}
