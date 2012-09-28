@@ -1,0 +1,58 @@
+.navbar .brand {
+  padding: 5px;
+  margin-left: 0;
+}
+.navbar .brand img {
+  width: 30px;
+  vertical-align: middle;
+}
+
+body {
+  padding-top: 51px;
+}
+
+h1 small {
+  font-size: 18px;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  line-height: 0.8;
+  font-weight: normal;
+  color: #999999;
+  display:block;
+  vertical-align: middle;
+}
+
+.page-header h1 {
+  font-size: 50px;
+}
+
+.page-header img {
+  height: 80px;
+  padding-bottom: 5px;
+}
+
+.page-header * {
+  vertical-align: middle;
+}
+
+
+h2,
+h3,
+h4 {
+/*  background-color: #DFF0D8; */
+  border-color: #D6E9C6;
+  color: #468847;
+  border-style: solid;
+  border-width: 0 0 1px;
+  padding-left: 0.5em;
+}
+
+.google {
+  color: white;
+}

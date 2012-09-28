@@ -21,7 +21,7 @@ Given the decentralized nature of Git, multiple repositories from
 developers and groups of developers are available.
 </p>
 
-<table id="repos">
+<table class="table table-condensed table-striped">
 <thead>
 <tr>
     <th>Clone URL</th>
@@ -292,7 +292,7 @@ release branch cut on 2009-03-02.
 <p>This table is sorted alphabetically. Please help to keep it up-to-date.
 </p>
 
-<table id="distro_status">
+<table class="table table-condensed table-striped">
 <thead>
 <tr>
     <th>Distribution</th>

@@ -1,37 +1,41 @@
-<h1>Project Description</h1>
 
-<div class="center" id="proj_desc">
+<div class="page-header">
+<h1>
+<img src="libav-logo-text.png" alt="Libav" />
+<small>A complete, cross-platform solution to record, convert and stream audio
+and video.</small></h1>
+</div>
+<div class="well well-small">
 <p>
-<b>Libav</b> is a complete, cross-platform solution to record, convert and
-stream audio and video. It includes <b>libavcodec</b> - the leading audio/video
+It includes <b>libavcodec</b> - the leading audio/video
 codec library. See the <a href="general.html">documentation</a> for a
 complete feature list and the <a href="changelog.html">Changelog</a> for recent
 changes.
 </p>
 </div>
-
-<p>
+<div class="alert alert-success">
 <b>Libav is free software licensed under the LGPL or GPL</b> depending
 on your choice of configuration options. If you use Libav or its constituent
 libraries, you <b>must</b> adhere to the terms of the license in question.
 You can find basic compliance information and get licensing help on our
 <a href="legal.html">license and legal considerations page</a>.
-</p>
+</div>
 
-<p>
+<div class="alert alert-info">
 <b>Looking for help?</b> <a href="contact.html">Contact us</a>, but before
 you report any bugs, read the <a href="bugreports.html">guidelines</a>
 that we created for this purpose.
-</p>
+</div>
 
-<p>
+<div class="alert">
 <b>Want to participate in the active development of Libav?</b> Keep up
 with the latest developments by subscribing to both the
 <a href="contact.html">libav-devel and libav-commits</a> lists.
-</p>
+</div>
 
-
+<div class="page-header">
 <h1>News</h1>
+</div>
 
 <a name="lavfi_stable_3"></a><h3>July 28, 2012</h3>
 <p>
@@ -733,7 +737,7 @@ incompatible changes may come in the following weeks. We will announce here when
 <p>
 We have just released <a href="download.html#release_0.7"> Libav 0.7.1</a>,
 the latest release from the 0.7 branch.
-This is a maintenance-only release that addresses the following issues: 
+This is a maintenance-only release that addresses the following issues:
 </p>
 <ul>
  <li>added various additional FOURCC codec identifiers</li>
@@ -1605,3 +1609,4 @@ Nine months without news but with heavy
 development. A few select highlights are decoders for VC-1/WMV3/WMV9, VMware,
 VP5, VP6 video and WavPack, IMC, DCA audio and a WMA encoder.
 </p>
+</div>
