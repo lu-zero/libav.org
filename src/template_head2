@@ -14,14 +14,14 @@
 <img src="libav-logo.png" alt="Libav" />
 </a>
 <ul class="nav">
-<li><a href="index.html">Home/News</a></li>
+<li><a href="index.html">News</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="download.html">Download</a></li>
 <li><a href="documentation.html">Documentation</a></li>
 <li><a href="bugreports.html">Bug Reports</a></li>
 <li><a href="http://fate.libav.org/">Fate</a></li>
-<li><a href="contact.html">Contact</a></li>
 <li><a href="consulting.html">Consulting</a></li>
+<li><a href="contact.html">Contact</a></li>
 <li><a href="legal.html">Legal</a></li>
 </ul>
 </div>
