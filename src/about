@@ -1,11 +1,13 @@
-<h1>About Libav</h1>
 
-<p> Libav is friendly and community driven effort to provide its users
+<div class="page-header">
+<h1>About Libav
+<small> Libav is friendly and community driven effort to provide its users
 with a set of portable, functional and performant libraries for dealing
 with multimedia formats of all sorts. It originates from the <a
 href="http://ffmpeg.org">FFmpeg</a> codebase, but goes its own way these
 days, providing its users with reliable releases and a clear vision how
-to go forward. </p>
+to go forward.</small></h1>
+</div>
 
 <h2>Releases</h2>
 
