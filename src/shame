@@ -30,7 +30,7 @@ it to our
 (in alphabetical order)
 </p>
 
-<ul>
+<ul class="list-2panes">
 <li><a href="http://www.alivemedia.net" rel="nofollow">alive</a>,
 <a href="http://roundup.libav.org/issue1160">issue tracker entry</a></li>
 <li><a href="http://www.alloksoft.com" rel="nofollow">Alloksoft</a>,
@@ -178,7 +178,7 @@ The companies below are not yet in full compliance, but we are in negotiations
 with them and making good progress towards compliance.
 </p>
 
-<ul>
+<ul class="list-2panes">
 <li><a href="http://chromaplayer.com/" rel="nofollow">Chroma</a>,
 <a href="http://roundup.libav.org/issue726">issue tracker entry</a></li>
 <li><a href="http://www.kandalu.net" rel="nofollow">Kandalu</a>,
