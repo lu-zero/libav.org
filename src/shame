@@ -1,28 +1,30 @@
+<div class="page-header">
 <h1>Hall of Shame</h1>
 
-<p>
+<small>
 This is a list of projects, persons or companies violating Libav's license.
 The list is part of an effort to raise awareness of license violations and
 get violators to comply with the licensing terms in order to eventually move
 them from this Hall of Shame to our <a href="projects.html">Hall of Fame</a>
 instead.
-</p>
+</small>
+</div>
 
-<p>
+<div class="alert alert-success">
 A good way to help us is to link to this page, thereby boosting its
 pagerank, possibly near or past the homepage of the offender. We discourage
 you from using or buying the software listed here, unless you do so to
 demand that its producers comply with the license of Libav.
-</p>
+</div>
 
-<p>
+<div class="alert alert-info">
 Our issue tracker also contains a list of
 <a href="https://roundup.libav.org/issue?%40search_text=&amp;title=&amp;%40columns=title&amp;topic=14&amp;id=&amp;%40columns=id&amp;creation=&amp;activity=&amp;%40columns=activity&amp;%40sort=activity&amp;priority=&amp;%40group=priority&amp;type=&amp;status=-1%2C1%2C2&amp;%40columns=status&amp;substatus=&amp;%40pagesize=50&amp;%40startwith=0&amp;%40action=search">license violations</a>.
 If you become aware of license infringements, please notify us on the
 <a href="contact.html">libav-devel mailing list</a> and/or add
 it to our
 <a href="https://bugzilla.libav.org/">issue tracker</a>.
-</p>
+</div>
 
 <p>
 (in alphabetical order)
