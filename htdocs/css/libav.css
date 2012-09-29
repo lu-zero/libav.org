@@ -31,11 +31,12 @@ h6 small,
 
 .page-header h1, h1:first-child {
   font-size: 40px;
-  line-height: 1.2em;
+  padding-bottom: 5px;
 }
 
 .page-header h1 {
   border-bottom: 1px solid #999999;
+  padding-bottom: 9px;
 }
 
 .page-header img {
@@ -44,7 +45,7 @@ h6 small,
 }
 
 .page-header small {
-  line-height: 1;
+  line-height: 1.1;
   font-size: 18px;
 }
 
