@@ -1,5 +1,6 @@
 <div class="page-header">
-<h1>Getting Libav<small>
+<h1>Getting Libav</h1>
+<small>
 Libav has always been a very experimental and developer-driven project. It
 is a key component in many multimedia projects and has new features added
 constantly. Development branch snapshots work really well 99% of the
@@ -10,7 +11,6 @@ Additionally, a number of individuals and distributions offer precompiled
 packages to their users. This site aggregates information about distribution
 channels.
 </small>
-</h1>
 </div>
 
 <h1>Libav Download and Source Code Repository Access</h1>

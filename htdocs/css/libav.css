@@ -20,7 +20,8 @@ h2 small,
 h3 small,
 h4 small,
 h5 small,
-h6 small {
+h6 small,
+.page-header small {
   line-height: 0.8;
   font-weight: normal;
   color: #999999;
@@ -33,17 +34,18 @@ h6 small {
   line-height: 1.2em;
 }
 
+.page-header h1 {
+  border-bottom: 1px solid #999999;
+}
+
 .page-header img {
   height: 80px;
   padding-bottom: 5px;
 }
 
-.page-header * {
-  vertical-align: middle;
-}
-
 .page-header small {
   line-height: 1;
+  font-size: 18px;
 }
 
 h2,

@@ -1,12 +1,12 @@
 
 <div class="page-header">
-<h1>About Libav
+<h1>About Libav</h1>
 <small> Libav is friendly and community driven effort to provide its users
 with a set of portable, functional and performant libraries for dealing
 with multimedia formats of all sorts. It originates from the <a
 href="http://ffmpeg.org">FFmpeg</a> codebase, but goes its own way these
 days, providing its users with reliable releases and a clear vision how
-to go forward.</small></h1>
+to go forward.</small>
 </div>
 
 <h2>Releases</h2>
@@ -180,11 +180,10 @@ this policy will result in offenders getting temporarily or permanently removed
 from our communication channels.
 
 <div class="page-header">
-<h1>History
+<h1>History</h1>
 <small>As an attempt to help with the confusion around the recent
 happenings around FFmpeg, this article presents our views on the
 situation.</small>
-</h1>
 </div>
 
 <h2>Some Background</h2>
