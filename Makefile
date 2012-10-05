@@ -1,5 +1,5 @@
 SRCS = about bugreports consulting contact documentation download \
-       index legal projects shame
+       index legal news projects shame
 
 SRCS_2 = about legal projects shame
 
@@ -16,11 +16,17 @@ all: $(TARGETS)
 clean:
 	rm -f $(TARGETS)
 
+htdocs/index.html: src/index src/news src/index_title $(PAGE_DEPS)
+	cat src/template_head1 $<_title \
+	    src/template_head2 \
+	    src/template_head3 $< src/news \
+	    src/template_footer > $@
+
 htdocs/%.html: src/% src/%_title $(PAGE_DEPS)
 	cat src/template_head1 $<_title \
 	    src/template_head2 $(BREADCRUMB) \
 	    src/template_head3 $< \
-	src/template_footer > $@
+	    src/template_footer > $@
 
 $(TARGETS_2): htdocs/%.html: src/%_breadcrumb
 
