@@ -1,25 +1,22 @@
-    <link rel="icon" href="favicon.png" type="image/png" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/libav.css" />
-    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />-->
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <link rel="icon" href="favicon.png" type="image/png" />
 </head>
 
 <body>
 
-<div class="navbar navbar-fixed-top">
+<div class="navbar">
 <div class="navbar-inner">
 <a class="brand" href="index.html">
 <img src="libav-logo.png" alt="Libav" />
 </a>
 <ul class="nav">
-<li><a href="index.html">News</a></li>
+<li><a href="news.html">News</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="download.html">Download</a></li>
 <li><a href="documentation.html">Documentation</a></li>
 <li><a href="bugreports.html">Bug Reports</a></li>
-<li><a href="http://fate.libav.org/">Fate</a></li>
+<li><a href="http://fate.libav.org/">FATE</a></li>
 <li><a href="consulting.html">Consulting</a></li>
 <li><a href="contact.html">Contact</a></li>
 <li><a href="legal.html">Legal</a></li>

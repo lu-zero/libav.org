@@ -7,9 +7,9 @@
   vertical-align: middle;
 }
 
-body {
+/* body {
   padding-top: 55px;
-}
+} */
 
 h1 small {
   font-size: 18px;
@@ -57,7 +57,6 @@ h4 {
   color: #468847;
   border-style: solid;
   border-width: 0 0 1px;
-  padding-left: 0.5em;
 }
 
 
