@@ -1,5 +1,6 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/libav.css" />
+    <link rel="stylesheet" type="text/css" href="css/alert.css" />
     <link rel="icon" href="favicon.png" type="image/png" />
 </head>
 
