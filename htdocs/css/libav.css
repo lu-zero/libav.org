@@ -59,6 +59,10 @@ h4 {
   border-width: 0 0 1px;
 }
 
+h2 {
+  border-color: #468847;
+}
+
 
 .google {
   color: white;
