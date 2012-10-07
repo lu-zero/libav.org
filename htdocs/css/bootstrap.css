@@ -546,20 +546,20 @@ h2 {
   line-height: 40px;
 }
 h3 {
-  font-size: 18px;
-  line-height: 40px;
+  font-size: 16px;
+  line-height: 30px;
 }
 h4 {
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 18px;
 }
 h5 {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 16px;
 }
 h6 {
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 10px;
+  line-height: 14px;
 }
 h1 small {
   font-size: 24px;
