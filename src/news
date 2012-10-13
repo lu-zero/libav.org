@@ -1,5 +1,97 @@
 <h1>News</h1>
 
+<a name="9beta1"></a><h3>October 11, 2012</h3>
+<p>
+With the next upcoming release, we change our versioning scheme to follow our
+workflow better.  This means that the leading zero, present in our previous
+version numbers, is dropped. Version numbers from now on will be in
+<i>major.minor</i> form, with major releases updating the major component and
+stable releases the minor component. With this in mind, we are happy to provide
+a first preview of our next release <b>version 9</b>.
+</p>
+
+<p>
+A new library arrived in Libav during this development cycle -- its name is
+<b>libavresample</b> and it handles audio conversion and mixing. All
+users are encouraged to use it instead of the old, now deprecated, audio
+conversion API in libavcodec.
+</p>
+
+<p>
+The <b>libpostproc</b> library now resides in a separate tree. It was fully
+independent of the other Libav libraries, not used by any of the tools
+and saw very little development. For these reasons we decided that it
+has no place in Libav. A standalone Git tree is available
+at <a href="http://git.videolan.org/?p=libpostproc.git">videolan</a> for
+people wishing to use libpostproc.
+</p>
+
+<p>
+The major versions of the <b>libavcodec</b>, <b>libavformat</b>
+and <b>libavfilter</b> libraries have been bumped, so they are not API
+or ABI compatible with the 0.8 release. The ffmpeg transcoding tool,
+kept for compatibility in 0.8, has also been dropped.
+</p>
+
+<p>
+This release brings a number of significant changes in
+the <b>libavfilter</b> library.  Firstly, all the API dealing with
+filter internals is no longer public. The result is that creating
+user-side filters will not be supported until libavfilter is more
+mature.  Secondly, full audio filtering support is now available along
+with a set of basic audio filters. We hope that their number will soon
+grow significantly.  The avconv transcoding tool has of course been
+extended to handle audio filtering as well.  There were a number of
+other API changes, most importantly the addition of the buffer sink
+public API.
+</p>
+
+<p>
+In the <b>libavcodec</b> library, one of the most notable changes is
+added support for planar audio (i.e. not interleaved). Many decoders and
+encoders, that previously did inefficient (de)interleaving internally,
+now only work with planar audio formats. Libavresample can be used for
+optimized conversion between interleaved and planar formats.
+</p>
+
+<p>
+Of big interest to our Windows users can be newly added support for building
+with the MSVC compiler. Since MSVC does not support C99 features used
+extensively by Libav, this has been accomplished using a <a
+href="https://github.com/rbultje/c99-to-c89/">converter</a> that turns C99 code
+to C89. See <a href="platform.html#Microsoft-Visual-C_002b_002b">here</a> for
+more detailed documentation on building Libav with MSVC.
+</p>
+
+<p>
+As usual, this release also contains support for some new formats, many
+smaller new features and countless bug fixes. We can highlight Opus
+decoding / encoding through libopus, encoders for Apple ProRes and Ut
+Video, WMA Lossless and RealAudio Lossless decoders, fragmented MOV/MP4
+and ISMV (Smooth Streaming) muxers, a large number of RTMP improvements
+and support for cover art in ID3v2, WMA, MP4 and FLAC.
+</p>
+
+<p>
+See
+the <a href="http://git.libav.org/?p=libav.git;a=blob_plain;f=Changelog;h=b4b5294755d7f67f0bf3b091112f688ae8df886d;hb=e578f8f4680f7ad290de64270dc152fb1adb6e6a">Changelog</a>
+file for a list of significant changes.
+</p>
+
+<p>
+Please note that our policy on bug reports has not changed. We still
+only accept bug reports against <b>HEAD</b> of the Libav trunk
+repository. If you are experiencing issues with any formally released
+version of Libav, please try a current version of the development code
+to check if the issue still exists. If it does, make your report against
+the development code following the usual bug reporting guidelines.
+</p>
+
+<p>
+You can download the new release, as usual,
+from <a href="download.html#release9">our download page</a>
+</p>
+
 <a name="lavr_stable"></a><h3>October 05, 2012</h3>
 <p>
 The <b>libavresample</b> library is now declared stable. There will be no more
