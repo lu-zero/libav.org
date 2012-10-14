@@ -12,8 +12,8 @@ to go forward.</small>
 <h2>Releases</h2>
 
 <p> We are committed to provide major releases yearly and point releases
-at least on a quaterly rate. We try to maintain at least two major release
-at time (currently 0.5 and 0.6), while developing the next one (0.7). </p>
+at least on a quarterly basis. We try to maintain at least two major
+releases at a time, while developing the next one.</p>
 
 <h3>Point releases</h3>
 
@@ -33,9 +33,6 @@ provide point releases.</p>
 
 <p> In order to make the transition as smooth as possible, the removal of
 deprecated function can span more than whole release cycle.</p>
-<p> Currently 0.7 will replace and deprecate most of the buffered and
-unbuffered IO subsystem functions, the 0.6 compatibility will be preserved
-until the 0.8 release. </p>
 
 <h3>Snapshots</h3>
 
@@ -51,13 +48,14 @@ reports please contact us. </p>
 <h2>Features</h2>
 
 <p> We strive to implement and provide useful and innovative features in
-a timely fashion, provide stable release and interact to the best of our
-abilities with our downstream such as distributors and end users. For
-instance, most of the ffmpeg-mt work has been merged into Libav <a
-href="http://git.libav.org/?p=libav.git;a=commit;h=37b00b47cbeecd66bb34c5c7c534d016d6e8da24">
-for quite some time</a>. This work is still ongoing, we are still
-working hard to fix the remaining issues such as with multi-threaded
-h264 decoding. </p>
+a timely fashion, provide stable releases and interact to the best of our
+abilities with our downstream distributors and end users.
+Supporting a large variety of systems and compilers is an ongoing effort,
+as witnessed by our
+<a href="http://fate.libav.org" title="FATE Automated Testing Environment">FATE</a>
+continuous integration system. Thanks to the dedication and effort of many
+developers even difficult targets such as the Microsoft Visual C compiler
+are supported through a series of toolchain wrappers.</p>
 
 <p> We are not afraid to overhaul radically our code in order to provide a
 better foundation for future works and we prefer to spend effort to get
