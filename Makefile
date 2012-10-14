@@ -16,11 +16,12 @@ all: $(TARGETS)
 clean:
 	rm -f $(TARGETS)
 
-htdocs/index.html: src/index src/news src/index_title $(PAGE_DEPS)
+htdocs/index.html: src/index src/news src/index_title $(PAGE_DEPS) split.awk
 	cat src/template_head1 $<_title \
 	    src/template_head2 \
-	    src/template_head3 $< src/news \
-	    src/template_footer > $@
+	    src/template_head3 $<  > $@
+	awk -f split.awk src/news >> $@
+	cat  src/template_footer  >> $@
 
 htdocs/%.html: src/% src/%_title $(PAGE_DEPS)
 	cat src/template_head1 $<_title \
