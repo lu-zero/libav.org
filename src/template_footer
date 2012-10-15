@@ -1,11 +1,22 @@
 <footer class="footer pagination-right">
-  <span><a href="http://plus.google.com/109970378897678547866?prsrc=3" rel="publisher" style="text-decoration:none;">
-  <img src="https://ssl.gstatic.com/images/icons/gplus-16.png" alt="Google+" style="border:0;width:16px;height:16px;"/></a></span>
   <span class="label label-info">
     Server donated by
-    <a class="google" href="http://code.google.com/opensource/">Google</a>
+    <a href="http://code.google.com/opensource/">Google</a>
   </span>
+  <div>
+  <span class="label label-success">
+    Bandwidth provided by
+    <a href="http://www.init7.net">init7</a>
+  </span>
+  </div>
+  <div>
+  <span class="label label-inverse">
+    Rackspace provided by
+    <a href="http://www.nine.ch">nine.ch</a>
+  </span>
+  </div>
 </footer>
+
 </div>
 
 </body>
