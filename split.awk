@@ -13,7 +13,7 @@ BEGIN {
 /\<h3/ {
     count++;
     if (count > 5 || NR > 30) {
-        print "<ul class=\"pager\"><li><a href=\"" name "\">read more</a></li></ul>";
+        print "<ul class=\"pager\"><li><a href=\"" name "\">more news</a></li></ul>";
         exit 0;
     }
 }
