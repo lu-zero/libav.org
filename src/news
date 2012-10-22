@@ -1,5 +1,66 @@
 <h1>News</h1>
 
+<a name="0.8.2"></a><h3>October 22 2012</h3>
+
+<p>
+Today, we update our latest release series 0.8 with the release
+of <a href="download.html#release_0.8">Libav 0.8.4</a>. This release
+contains several security and bug fixes.
+</p>
+
+<p>
+The following bug in our Bugzilla has been fixed:
+<ul>
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=118">#118</a>: zzufed H.261 file crashes avconv signal 11 (SIGSEGV)
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=203">#203</a>: scale filter has a rounding error
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=245">#245</a>: Reading already freed mem when using vfilters pad and settb
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=265">#265</a>: smacker audio decode regression
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=277">#277</a>: avconv ignores audio bitrate -ab parameter
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=310">#310</a>: avconv hangs when transcoding .flac files
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=327">#327</a>: wmaprodec: Arithmetic exception
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=352">#352</a>: Pad filter pass-through problem
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=367">#367</a>: Crash in bmp_decode_frame() when decoding unusual bmp file
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=373">#373</a>: y4m as input results in "filename.y4m: Operation not permitted"
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=379">#379</a>: Regression in WAV files between 52.72. 2 and 53. 35. 0 
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=380">#380</a>: double free in option handling
+</ul>
+</p>
+
+<p>
+These releases contain security fixes for the following CVEs:
+</p>
+
+<ul>
+<li/>CVE-2012-2772
+<li/>CVE-2012-2775
+<li/>CVE-2012-2776
+<li/>CVE-2012-2777
+<li/>CVE-2012-2779
+<li/>CVE-2012-2784
+<li/>CVE-2012-2786
+<li/>CVE-2012-2787
+<li/>CVE-2012-2788
+<li/>CVE-2012-2789
+<li/>CVE-2012-2790
+<li/>CVE-2012-2793
+<li/>CVE-2012-2794
+<li/>CVE-2012-2796
+<li/>CVE-2012-2798
+<li/>CVE-2012-2800
+<li/>CVE-2012-2801
+<li/>CVE-2012-2802
+</ul>
+
+<p>
+Distributors and system integrators are encouraged to update and share their
+patches against our release branches.
+</p>
+
+<p>
+<em>Enjoy!</em>
+</p>
+
+
 <a name="9beta1"></a><h3>October 11, 2012</h3>
 <p>
 With the next upcoming release, we change our versioning scheme to follow our
