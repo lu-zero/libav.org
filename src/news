@@ -9,7 +9,7 @@ contains several security and bug fixes.
 </p>
 
 <p>
-The following bug in our Bugzilla has been fixed:
+The following bug in our Bugzilla have been fixed:
 <ul>
 <li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=118">#118</a>: zzufed H.261 file crashes avconv signal 11 (SIGSEGV)
 <li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=203">#203</a>: scale filter has a rounding error
@@ -27,7 +27,7 @@ The following bug in our Bugzilla has been fixed:
 </p>
 
 <p>
-These releases contain security fixes for the following CVEs:
+This release contains security fixes for the following CVEs:
 </p>
 
 <ul>
