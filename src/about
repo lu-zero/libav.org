@@ -1,8 +1,8 @@
 
 <div class="page-header">
 <h1>About Libav</h1>
-<small> Libav is friendly and community driven effort to provide its users
-with a set of portable, functional and performant libraries for dealing
+<small> Libav is a friendly and community-driven effort to provide its users
+with a set of portable, functional and high-performance libraries for dealing
 with multimedia formats of all sorts. It originates from the <a
 href="http://ffmpeg.org">FFmpeg</a> codebase, but goes its own way these
 days, providing its users with reliable releases and a clear vision how
@@ -17,7 +17,7 @@ releases at a time, while developing the next one.</p>
 
 <h3>Point releases</h3>
 
-<p> Point releases will contain mostly bugfixes and performance improvements.
+<p> Point releases will contain mostly bug fixes and performance improvements.
 The API and ABI will remain stable and only few features might get added.
 The focus is to provide a stable foundation. We suggest distributions to
 provide point releases.</p>
@@ -28,7 +28,7 @@ provide point releases.</p>
 <ul>
     <li> All the deprecated functions will be removed </li>
     <li> Libraries and headers might get added or removed </li>
-    <li> The behaviour of the provided tools will change </li>
+    <li> The behavior of the provided tools will change </li>
 </ul>
 
 <p> In order to make the transition as smooth as possible, the removal of

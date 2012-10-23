@@ -60,7 +60,7 @@ disass $pc-32 $pc+32
 
 <p>
 If gdb does not provide useful information please try to use
-<a href="http://valgrind.org">valgrind</a> to trace possible memory
+<a href="http://valgrind.org">Valgrind</a> to trace possible memory
 corruption.
 </p>
 

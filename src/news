@@ -9,7 +9,7 @@ contains several security and bug fixes.
 </p>
 
 <p>
-The following bug in our Bugzilla have been fixed:
+The following bugs in our Bugzilla have been fixed:
 <ul>
 <li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=118">#118</a>: zzufed H.261 file crashes avconv signal 11 (SIGSEGV)
 <li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=203">#203</a>: scale filter has a rounding error
@@ -21,7 +21,7 @@ The following bug in our Bugzilla have been fixed:
 <li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=352">#352</a>: Pad filter pass-through problem
 <li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=367">#367</a>: Crash in bmp_decode_frame() when decoding unusual bmp file
 <li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=373">#373</a>: y4m as input results in "filename.y4m: Operation not permitted"
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=379">#379</a>: Regression in WAV files between 52.72. 2 and 53. 35. 0 
+<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=379">#379</a>: Regression in WAV files between 52.72. 2 and 53. 35. 0
 <li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=380">#380</a>: double free in option handling
 </ul>
 </p>
@@ -83,7 +83,7 @@ The <b>libpostproc</b> library now resides in a separate tree. It was fully
 independent of the other Libav libraries, not used by any of the tools
 and saw very little development. For these reasons we decided that it
 has no place in Libav. A standalone Git tree is available
-at <a href="http://git.videolan.org/?p=libpostproc.git">videolan</a> for
+at <a href="http://git.videolan.org/?p=libpostproc.git">VideoLAN</a> for
 people wishing to use libpostproc.
 </p>
 
@@ -339,7 +339,7 @@ includes a number of functional corrections and security fixes, such as:
   QDM2, QT RPZA, QT SVQ3, Qt RLE, QuickDraw, RAW, RV10, RV34, SIPR,
   Shorten, Smacker, SubRib, TIFF, Tiertex Limited SEQ, Truemotion2,
   V.Flash PTX, VC1, VMware Screen Codec, VP5, VP6, VP8, Vorbis, WMA, WMA
-  PRO, WMA Voice.c, Wavpack, Westwood SNDx, Wing Commander/Xan.
+  PRO, WMA Voice, WavPack, Westwood SNDx, Wing Commander/Xan.
 </p>
 
 <p>
@@ -354,7 +354,7 @@ includes a number of functional corrections and security fixes, such as:
 </p>
 
 <p>
-Libswscale has an potential overflow for large image size fixed.
+Libswscale has a fix for a potential overflow with large image sizes.
 </p>
 
 <p>
@@ -437,7 +437,7 @@ The following bugs in our Bugzilla have been fixed:
 
 <p>
 <b>Several bugs and crashes have been fixed in the following codecs:</b>
-AAC, AC-3, ADPCM, AMR (both NB and WB), ATRAC3, CAVC, Cook, camstudio,
+AAC, AC-3, ADPCM, AMR (both NB and WB), ATRAC3, CAVS, Cook, camstudio,
 DCA, DPCM, DSI CIN, DV, EA TGQ, FLAC, fraps, G.722 (both encoder and
 decoder), H.264, huvffyuv, BB JV decoder, Indeo 3, KGV1, LCL, the
 libx264 wrapper, MJPEG, mp3on4, Musepack, MPEG1/2, PNG, QDM2, Qt RLE,
@@ -459,7 +459,7 @@ SWF.
 </p>
 
 <p>
-Libswscale has an potential overflow for large image size fixed.
+Libswscale has a fix for a potential overflow with large image sizes.
 </p>
 
 <p>
@@ -545,7 +545,7 @@ entry</a> compares how 'avconv' differs from 'ffmpeg'.
 
 <p>
 Additionally, this release introduces a number of new interesting codecs
-such as the Apple Prores, Flash Screen Video 2 and Windows Media Image,
+such as the Apple ProRes, Flash Screen Video 2 and Windows Media Image,
 and muxers such as LATM or CELT in Ogg, among many others. Moreover, our
 H.264 decoder has been improved to decode 4:2:2 material and our libx264
 wrapper now allows to produce 4:2:2 and 4:4:4 video.
@@ -583,7 +583,7 @@ their patches against our release branches.
 Additionally, please use the opportunity to
 give <a href="download.html#release_0.8">Libav 0.8_beta2</a> a
 try. Compared to the first beta release, this snapshot has seen a number
-of bugfixes. Note that since libpostproc has not been maintained for
+of bug fixes. Note that since libpostproc has not been maintained for
 quite a while, it is considered deprecated from now on and thus, no
 longer built by default.  In case your applications still require it,
 you can re-enable the compilation of the post-processing library with
@@ -620,7 +620,7 @@ libx264 to work with Libav's libavcodec and libavformat libraries again.
 
 <p>
 In detail, all releases feature fixes for the VP3 decoder
-(CVE-2011-4352), svq1 decoder (CVE-2011-4579), DoS in the VP5/VP6
+(CVE-2011-4352), SVQ1 decoder (CVE-2011-4579), DoS in the VP5/VP6
 decoders (CVE-2011-4353), the QDM2 decoder (CVE-2011-4351), and a buffer
 overflow in the Sierra VMD decoder CVE-2011-4364. For a full list of
 changes, please refer to the respective Changelog files.
@@ -696,16 +696,16 @@ This is a security focused release that addresses the following issues:
 <ul>
  <li>Check buffer and input values in various parts of the code:
     <ul>
-     <li>H.264, VC-1, cavs (OCERT-2011-002, CVE-2011-3362)</li>
-     <li>APE, Indeo 2, XAN, wavpack, ffv1, Smacker</li>
+     <li>H.264, VC-1, CAVS (OCERT-2011-002, CVE-2011-3362)</li>
+     <li>APE, Indeo 2, XAN, WavPack, ffv1, Smacker</li>
      <li>RV10, RV30/RV40</li>
      <li>FLV, Ogg, MXF, MOV, Matroska (CVE-2011-3504)</li>
-     <li>cpu detection</li>
+     <li>CPU detection</li>
     </ul>
  </li>
  <li>Remove memory leaks in vf_scale, eval</li>
  <li>Remove some suspicious illegal memcpy()s from LTP in AAC</li>
- <li>Fix Continuity Counter error detection in mpegts</li>
+ <li>Fix Continuity Counter error detection in MPEG-TS</li>
  <li>Fix crashes in ppc32 PIC builds
      (as reported in <a href="http://bugs.debian.org/639948">Debian</a>)</li>
  <li>Fix cast related random failures in ppc64</li>
@@ -713,7 +713,7 @@ This is a security focused release that addresses the following issues:
 </ul>
 
 <p>
-Additional bugfixes and improvements in the build system, h264 and vp3/theora decoder,
+Additional bug fixes and improvements in the build system, H.264 and VP3/Theora decoder,
 ARM support and audio codecs are present. A detailed list of changes can be seen in
 the git log:
 <a href="http://git.libav.org/?p=libav.git;a=shortlog;h=refs/heads/release/0.7">
@@ -747,7 +747,7 @@ For consistency with our new name we have renamed <b>ffplay</b> to
 </p>
 
 <p>
-With <b>ffmpeg</b> (the commandline tool) we decided to use this opportunity to
+With <b>ffmpeg</b> (the command line tool) we decided to use this opportunity to
 fix some longstanding usability problems, which involves breaking compatibility.
 Therefore we have added a new tool named <b>avconv</b> which is based on
 <b>ffmpeg</b>, but has a different (hopefully more powerful and easier to use)
@@ -862,17 +862,17 @@ the latest release from the 0.7 branch.
 This is a maintenance-only release that addresses the following issues:
 </p>
 <ul>
- <li>added various additional FOURCC codec identifiers</li>
+ <li>added various additional FourCC codec identifiers</li>
  <li>H.264 4:4:4 fixes</li>
  <li>build system and compilation fixes</li>
  <li>Doxygen and general documentation corrections and improvements</li>
  <li>fixed segfault in ffprobe</li>
  <li>behavioral fix in av_open_input_stream()</li>
  <li>Licensing clarification for LGPL'ed vf_gradfun</li>
- <li>bugfixes while seeking in multithreaded decoding</li>
+ <li>bug fixes while seeking in multithreaded decoding</li>
  <li>support newer versions of OpenCV</li>
  <li>ffmpeg: fix operation with --disable-avfilter</li>
- <li>fixed integer underflow in matroska decoder</li>
+ <li>fixed integer underflow in Matroska decoder</li>
 </ul>
 
 <p>
@@ -1140,7 +1140,7 @@ It is codenamed "Works with HTML5" as the special focus of this release were
 improvements for the new multimedia elements in HTML5. The H.264 and Theora
 decoders are now significantly faster and the Vorbis decoder has seen important
 updates. This release supports Google's newly released libvpx library for the
-VP8 codec and the Matroska demuxer was extended to support to WebM container.
+VP8 codec and the Matroska demuxer was extended to support the WebM container.
 </p>
 
 <p>
@@ -1163,7 +1163,7 @@ codecs, such as:
         <li>Atrac1</li>
         <li>HE-AAC v1</li>
         <li>Bink</li>
-        <li>Bluray (PGS) subtitle</li>
+        <li>Blu-ray (PGS) subtitle</li>
         <li>MPEG-4 Audio Lossless Coding (ALS)</li>
         <li>WMA Pro</li>
         <li>WMA Voice</li>
@@ -1303,7 +1303,7 @@ in order to make seamless upgrades to 0.6 possible.
 We have been busy over the past few months. Among other things, the
 results are an Indeo 5 video decoder as well as audio decoders for
 AMR-NB, Sipro, MPEG-4 ALS and WMA Voice, complete support for Bink,
-CDG and IFF PBM/ILBM bitmaps, an RTSP muxer, Bluray (PGS) subtitle
+CDG and IFF PBM/ILBM bitmaps, an RTSP muxer, Blu-ray (PGS) subtitle
 support, a protocol for file concatenation and the ffprobe tool for
 extracting information from multimedia files.
 </p>
@@ -1539,7 +1539,7 @@ proprietary codecs, such as:
         <li>QCELP</li>
         <li>Shorten</li>
         <li>True Audio (TTA)</li>
-        <li>Wavpack including hybrid mode support</li>
+        <li>WavPack including hybrid mode support</li>
         </ul>
     </li>
     </ul>

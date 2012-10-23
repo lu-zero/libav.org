@@ -49,7 +49,7 @@ end up on our shame list and/or get sued by us.
 <ol>
 <li> Compile Libav <b>without</b> "--enable-gpl" and
 <b>without</b> "--enable-nonfree".</li>
-<li> Use dynamic linking (on windows, this means linking to dlls) for linking
+<li> Use dynamic linking (on Windows, this means linking to DLLs) for linking
 with Libav libraries. </li>
 <li> Distribute the source code of Libav, no matter if you modified it or not.
 </li>
@@ -71,7 +71,7 @@ mention that you do not own Libav, and where the relevant owners can be
 found.</li>
 <li> Remove any prohibition of reverse engineering from your EULA.</li>
 <li> Apply the same changes to all translations of your EULA.</li>
-<li> Do not rename Libav dlls to some obfuscated name, but adding a suffix or
+<li> Do not rename Libav DLLs to some obfuscated name, but adding a suffix or
 prefix is fine (renaming "avcodec.dll" to "MyProgDec.dll" is not fine, but to
 "avcodec-MyProg.dll" is).</li>
 <li> Go through all the items again for any LGPL external library you compiled

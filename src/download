@@ -69,7 +69,7 @@ developers and groups of developers are available.
         <a href="https://github.com/libav/libav/zipball/master">zip</a>
     </td>
     <td>Libav team</td>
-    <td>Github Mirror</td>
+    <td>GitHub Mirror</td>
 </tr>
 </tbody>
 <thead>
@@ -173,7 +173,7 @@ bootstrap your local libav.org repository.
 <a name="builds"></a><h1>Windows Nightly Builds</h1>
 
 <p>
-Nighly builds of Libav linked with various libraries are done for 32-bit and
+Nightly builds of Libav linked with various libraries are done for 32-bit and
 64-bit Windows, and can be obtained at the following URLs:
 </p>
 
