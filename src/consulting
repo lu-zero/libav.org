@@ -37,18 +37,6 @@ E.g.:
  </p>"
 -->
 
-<!--
-<h2>Baptiste Coudurier</h2>
-<p>
-Baptiste Coudurier is located in Los Angeles, California and is available for
-contracting work. He has worked on FFmpeg since 2005. He has special expertise
-in broadcast codecs
-(ProRes, DNxHD, IMX/D-10, AVC-Intra), formats (MXF, GXF, MOV) and usages
-(Avid, FCP, Interlacing, Time Code, Metadata). You can contact him by email at
-<a href="mailto:baptiste.coudurier@gmail.com">baptiste.coudurier@gmail.com</a>.
-</p>
--->
-
 <h2>Benjamin Larsson</h2>
 <p>
 Benjamin Larsson is located in Stockholm, Sweden and is available for
@@ -81,23 +69,3 @@ worked on FFmpeg and Libav since 2005. He has special expertise in streaming
 protocols. You can contact him by email at
 <a href="mailto:luca.barbato@gmail.com">luca.barbato@gmail.com</a>.
 </p>
-
-<!--
-<h2>Michael Niedermayer</h2>
-<p>
-Michael is located in Vienna, Austria and available for contracting work.
-He is the former FFmpeg project leader.
-He is an expert in all areas of video coding as well as x86 assembly.
-You can contact him by email at <a href="mailto:michaelni%20at%20gmx%20dot%20at">michaelni at gmx dot at</a>.
-</p>
--->
-
-<!--
-<h2>Stefano Sabatini</h2>
-<p>
-Stefano is located in Cagliari, Italy and is available for contracting work.
-He has worked on FFmpeg since 2007. He has special expertise in libavfilter,
-ff* tools usage and usability issues. You can contact him by email at
-<a href="mailto:stefasab@gmail.com">stefasab@gmail.com</a>.
-</p>
--->
