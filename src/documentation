@@ -31,7 +31,6 @@ developers will be able to better diagnose the problem if you follow
     <li><a href="sample.html">Sample avserver configuration file</a></li>
 </ul>
 <li><a href="libavfilter.html">Libavfilter Documentation</a></li>
-<li><a href="ffmpeg.html">ffmpeg Documentation <strong>deprecated</strong></a></li>
 </ul>
 
 <h2>API Documentation</h2>
