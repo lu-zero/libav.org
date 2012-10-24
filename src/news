@@ -1,5 +1,31 @@
 <h1>News</h1>
 
+<a name="9_beta2"></a><h3>October 23 2012</h3>
+
+<p>
+We are still on track with our <b>next major release codename "Plain
+9".</b>  Today, we update our beta release with <b>9_beta2</b> based on
+the feedback and testing that we got.
+<p>
+
+<p>
+Compared to the changes listed in the <a href="news.html#9beta1">beta_1
+announcement</a>, the following items come in addition:
+<ul>
+<li> Support for shared libraries with the MSVC toolchain </li>
+<li> Metadata (INFO tag) support in WAV muxer </li>
+<li> Support building on the Plan 9 operating system </li>
+<li> The SONAME of <b>libavutil</b> was bumped to <tt>libavutil.so.52</tt> </li>
+<li> Support FF1 codec version 3 </li>
+<li> Various other bugfixes and cleanups </li>
+</p>
+</ul>
+
+<p>
+You can download the new release, as usual,
+from <a href="download.html#release_9">our download page</a>
+</p>
+
 <a name="0.8.2"></a><h3>October 22 2012</h3>
 
 <p>

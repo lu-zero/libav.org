@@ -213,16 +213,16 @@ new Bugzilla for filing bugs:
 </p>
 
 <p>
-<a href="releases/libav-9_beta1.tar.xz">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-9_beta1.tar.xz.md5">MD5</a>
-<a href="releases/libav-9_beta1.tar.xz.sha1">SHA1</a>
-<a href="releases/libav-9_beta1.tar.xz.asc">PGP signature</a><br />
-<a href="releases/libav-9_beta1.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-9_beta1.tar.gz.md5">MD5</a>
-<a href="releases/libav-9_beta1.tar.gz.sha1">SHA1</a>
-<a href="releases/libav-9_beta1.tar.gz.asc">PGP signature</a><br />
-<a href="releases/libav-9_beta1.changelog">Changelog</a><br />
-<a href="releases/libav-9_beta1.release">Release Notes</a>
+<a href="releases/libav-9_beta2.tar.xz">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-9_beta2.tar.xz.md5">MD5</a>
+<a href="releases/libav-9_beta2.tar.xz.sha1">SHA1</a>
+<a href="releases/libav-9_beta2.tar.xz.asc">PGP signature</a><br />
+<a href="releases/libav-9_beta2.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-9_beta2.tar.gz.md5">MD5</a>
+<a href="releases/libav-9_beta2.tar.gz.sha1">SHA1</a>
+<a href="releases/libav-9_beta2.tar.gz.asc">PGP signature</a><br />
+<a href="releases/libav-9_beta2.changelog">Changelog</a><br />
+<a href="releases/libav-9_beta2.release">Release Notes</a>
 </p>
 
 <a name="release_0.8"></a><h2>Libav 0.8.4 "Forbidden Fruit"</h2>
