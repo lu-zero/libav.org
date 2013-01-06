@@ -1,7 +1,7 @@
 <h1>News</h1>
 
  <h1>News</h1>
- 
+
 <a name="9final"></a><h3>January 05, 2013</h3>
 <p>
 After several months spent making sure that a sufficient number of our
@@ -11,7 +11,7 @@ downstreams is ready, we are now pleased to announce the release of Libav 9
 
 <p>
 The first thing to note is that it is indeed 9, not 0.9. With this release, we
-change our versioning scheme to follow our workflow better.  This means that the
+change our versioning scheme to follow our workflow better. This means that the
 leading zero, present in our previous version numbers, is dropped. Version
 numbers from now on will be in <i>major.minor</i> form, with major releases
 updating the major component and stable releases the minor component.
@@ -41,13 +41,13 @@ or ABI compatible with the 0.8 release.
 
 <p>
 This release brings a number of significant changes in
-the <b>libavfilter</b> library.  Firstly, all the API dealing with
+the <b>libavfilter</b> library. Firstly, all the API dealing with
 filter internals is no longer public. The result is that creating
 user-side filters will not be supported until libavfilter is more
-mature.  Secondly, full audio filtering support is now available along
+mature. Secondly, full audio filtering support is now available along
 with a set of basic audio filters. We hope that their number will soon
-grow significantly.  The avconv transcoding tool has of course been
-extended to handle audio filtering as well.  There were a number of
+grow significantly. The avconv transcoding tool has of course been
+extended to handle audio filtering as well. There were a number of
 other API changes, most importantly the addition of the buffer sink
 public API.
 </p>
@@ -61,12 +61,13 @@ optimized conversion between interleaved and planar formats.
 </p>
 
 <p>
-Of big interest to our Windows users, Libav now supports building with the MSVC
-compiler. Since MSVC does not support C99 features used extensively by Libav,
-this has been accomplished using a <a
-href="https://github.com/libav/c99-to-c89/">converter</a> that turns C99 code
-to C89. See <a href="platform.html#Microsoft-Visual-C_002b_002b">here</a> for
-more detailed documentation on building Libav with MSVC.
+Of big interest to our Windows users, Libav now supports building with the
+MSVC compiler. Since MSVC does not support C99 features used extensively
+by Libav, this has been accomplished using a
+<a href="https://github.com/libav/c99-to-c89/">converter</a>
+that turns C99 code to C89. See
+<a href="platform.html#Microsoft-Visual-C_002b_002b">here</a>
+for more detailed documentation on building Libav with MSVC.
 </p>
 
 <p>
@@ -86,7 +87,7 @@ file for a list of significant changes.
 
 <p>
 You can download the new release, as usual,
-from <a href="download.html#release9">our download page</a>
+from <a href="download.html#release9">our download page</a>.
 </p>
 
 
@@ -123,7 +124,7 @@ from <a href="download.html#release_9">our download page</a>
 
 <p>
 We are still on track with our <b>next major release codename "Plain
-9".</b>  Today, we update our beta release with <b>9_beta2</b> based on
+9".</b> Today, we update our beta release with <b>9_beta2</b> based on
 the feedback and testing that we got.
 <p>
 
@@ -209,7 +210,7 @@ patches against our release branches.
 <a name="9beta1"></a><h3>October 11, 2012</h3>
 <p>
 With the next upcoming release, we change our versioning scheme to follow our
-workflow better.  This means that the leading zero, present in our previous
+workflow better. This means that the leading zero, present in our previous
 version numbers, is dropped. Version numbers from now on will be in
 <i>major.minor</i> form, with major releases updating the major component and
 stable releases the minor component. With this in mind, we are happy to provide
@@ -241,13 +242,13 @@ kept for compatibility in 0.8, has also been dropped.
 
 <p>
 This release brings a number of significant changes in
-the <b>libavfilter</b> library.  Firstly, all the API dealing with
+the <b>libavfilter</b> library. Firstly, all the API dealing with
 filter internals is no longer public. The result is that creating
 user-side filters will not be supported until libavfilter is more
-mature.  Secondly, full audio filtering support is now available along
+mature. Secondly, full audio filtering support is now available along
 with a set of basic audio filters. We hope that their number will soon
-grow significantly.  The avconv transcoding tool has of course been
-extended to handle audio filtering as well.  There were a number of
+grow significantly. The avconv transcoding tool has of course been
+extended to handle audio filtering as well. There were a number of
 other API changes, most importantly the addition of the buffer sink
 public API.
 </p>
@@ -708,7 +709,7 @@ on <a href="http://bugzilla.libav.org">our bug tracker</a>.
 
 <p>
 Since our last point release last month, three security issues have come
-to our attention.  All of them, along with the corresponding fixes,
+to our attention. All of them, along with the corresponding fixes,
 originate from the Chromium Project, but apply to Libav as well. In
 detail, they have been published as CVE-2011-3892, CVE-2011-3893, and
 CVE-2011-3895. Therefore, we have updated all three stable branches with
@@ -730,7 +731,7 @@ give <a href="download.html#release_0.8">Libav 0.8_beta2</a> a
 try. Compared to the first beta release, this snapshot has seen a number
 of bug fixes. Note that since libpostproc has not been maintained for
 quite a while, it is considered deprecated from now on and thus, no
-longer built by default.  In case your applications still require it,
+longer built by default. In case your applications still require it,
 you can re-enable the compilation of the post-processing library with
 the <tt>--enable-postproc</tt> configure switch at this time, but the
 library may disappear in a later release of Libav.
@@ -916,7 +917,7 @@ Differences between <b>avconv</b> and <b>ffmpeg</b> are:
     next input or output file and specifying different values for different
     files will now work properly (notably <i>-ss</i> and <i>-t</i> options).</li>
     <li>All per-stream options are now truly per-stream - it is possible to
-    specify which stream(s) should a given option apply to.  See the
+    specify which stream(s) should a given option apply to. See the
     <i>Stream specifiers</i> section in the <b>avconv</b> manual for details.</li>
     <li>In <b>ffmpeg</b> some options (like <i>-newvideo/-newaudio/...</i>) are
     irregular in the sense that they're specified <i>after</i> the output
@@ -1037,7 +1038,7 @@ their patches against our release branches.
 <p>
 Long overdue but finally finished, we are happy to announce the first
 release from the <a href="download.html#release_0.7">Libav 0.7</a>
-release branch.  Since the last beta version, we have taken feedback
+release branch. Since the last beta version, we have taken feedback
 from our users into account and integrated H.264/MPEG frame-level
 multithreading.
 </p>
@@ -1052,7 +1053,7 @@ and new features on <a href="http://bugzilla.libav.org">our new bug tracker</a>.
 This release enables frame-based multithreaded decoding for a number of codecs,
 including VP8, H.263 and H.264. Additionally, there has been a major cleanup of
 both internal and external APIs. For this reason, the major versions of all
-libraries have been bumped.  On the one hand, this means that 0.7 can be installed
+libraries have been bumped. On the one hand, this means that 0.7 can be installed
 side-by-side with previous releases, on the other hand, in order to benefit
 from the new features, applications need to be recompiled.
 </p>
