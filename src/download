@@ -205,24 +205,22 @@ and much faster bug fixes such as additional features and security patches.
 
 <a name="release_9"></a><h2>Libav 9 "plain 9"</h2>
 <p>
-While <b>9 is not released yet</b>, we already provide you with a
-preview beta release. Please accept this opportunity to test and provide
-us with feedback about your impressions with this release and use our
-new Bugzilla for filing bugs:
+Libav 9 was released on 2013-01-05. Please give us feedback and use use
+our Bugzilla for filing bugs:
 <a href="https://bugzilla.libav.org">https://bugzilla.libav.org/</a>
 </p>
 
 <p>
-<a href="releases/libav-9_beta3.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-9_beta3.tar.xz.md5">MD5</a>
-<a href="releases/libav-9_beta3.tar.xz.sha1">SHA1</a>
-<a href="releases/libav-9_beta3.tar.xz.asc">PGP signature</a><br />
-<a href="releases/libav-9_beta3.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-9_beta3.tar.gz.md5">MD5</a>
-<a href="releases/libav-9_beta3.tar.gz.sha1">SHA1</a>
-<a href="releases/libav-9_beta3.tar.gz.asc">PGP signature</a><br />
-<a href="releases/libav-9_beta3.changelog">Changelog</a><br />
-<a href="releases/libav-9_beta3.release">Release Notes</a>
+<a href="releases/libav-9.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-9.tar.xz.md5">MD5</a>
+<a href="releases/libav-9.tar.xz.sha1">SHA1</a>
+<a href="releases/libav-9.tar.xz.asc">PGP signature</a><br />
+<a href="releases/libav-9.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-9.tar.gz.md5">MD5</a>
+<a href="releases/libav-9.tar.gz.sha1">SHA1</a>
+<a href="releases/libav-9.tar.gz.asc">PGP signature</a><br />
+<a href="releases/libav-9.changelog">Changelog</a><br />
+<a href="releases/libav-9.release">Release Notes</a>
 </p>
 
 <a name="release_0.8"></a><h2>Libav 0.8.4 "Forbidden Fruit"</h2>
