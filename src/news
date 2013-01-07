@@ -1,5 +1,17 @@
 <h1>News</h1>
 
+<a name="9.1"></a><h3>January 07, 2013</h3>
+<p>
+Today, we push out a quick but important update <b>9.1</b>. It fixes a
+segfault in <b>libavresample</b> on Windows 32bit platforms when
+compiling with MSVC or ICC 10.x, and fixes memory leaks in the Ogg demuxer.
+</p>
+
+<p>
+You can download the new release, as usual,
+from <a href="download.html#release9">our download page</a>.
+</p>
+
 <a name="9final"></a><h3>January 05, 2013</h3>
 <p>
 After several months spent making sure that a sufficient number of our
