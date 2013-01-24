@@ -173,16 +173,16 @@ bootstrap your local libav.org repository.
 <a name="builds"></a><h1>Windows Nightly and Release Builds</h1>
 
 <p>
-Nightly and Release builds of Libav linked with various libraries are
+Nightly and release builds of Libav linked with various libraries are
 done for 32-bit and 64-bit Windows, and can be obtained at the following
 URLs:
 </p>
 
 <p>
-<a href="http://win32.libav.org/releases/">Windows Builds of official releases</a>
-<a href="http://win32.libav.org/win32/">32-bit Windows Builds</a><br />
-<a href="http://win32.libav.org/win32-pthreads/">32-bit Windows Builds using pthreads</a><br />
-<a href="http://win32.libav.org/win64/">64-bit Windows Builds</a>
+<a href="http://win32.libav.org/releases/">Windows builds of official releases</a><br />
+<a href="http://win32.libav.org/win32/">32-bit Windows builds</a><br />
+<a href="http://win32.libav.org/win32-pthreads/">32-bit Windows builds using pthreads</a><br />
+<a href="http://win32.libav.org/win64/">64-bit Windows builds</a>
 </p>
 
 <p>
