@@ -15,16 +15,16 @@ This release contains security fixes for the following CVEs:
 </p>
 
 <ul>
-<li/> Indeo 4 (CVE-2012-2791)
-<li/> VP5/VP6 (CVE-2012-2783)
-<li/> Indeo 3 (CVE-2012-2804)
-<li/> MPEG-1/2 (CVE-2012-2803)
-<li/> MP3 (CVE-2012-2797)
-<li/> AAC (CVE-2012-5144)
-<li/> AC-3 (CVE-2012-2802)
-<li/> AVS (CVE-2012-2801)
-<li/> DFA (CVE-2012-2798)
-<ul/>
+<li>Indeo 4 (CVE-2012-2791)</li>
+<li>VP5/VP6 (CVE-2012-2783)</li>
+<li>Indeo 3 (CVE-2012-2804)</li>
+<li>MPEG-1/2 (CVE-2012-2803)</li>
+<li>MP3 (CVE-2012-2797)</li>
+<li>AAC (CVE-2012-5144)</li>
+<li>AC-3 (CVE-2012-2802)</li>
+<li>AVS (CVE-2012-2801)</li>
+<li>DFA (CVE-2012-2798)</li>
+</ul>
 
 <p>
 Distributors and system integrators are encouraged to update and share their
@@ -151,13 +151,13 @@ This tarball comes with the following changes:
 </p>
 
 <ul>
-<li> ashowinfo audio filter
-<li> 24-bit FLAC encoding
-<li> audio volume filter
-<li> deprecated the avconv -vol option. the volume filter is to be used instead.
-<li> multi-channel ALAC encoding up to 7.1
-<li> TAK demuxer, parser, and decoder
-<li> adaptive frame-level multithreading for H.264
+<li>ashowinfo audio filter</li>
+<li>24-bit FLAC encoding</li>
+<li>audio volume filter</li>
+<li>deprecated the avconv -vol option. the volume filter is to be used instead.</li>
+<li>multi-channel ALAC encoding up to 7.1</li>
+<li>TAK demuxer, parser, and decoder</li>
+<li>adaptive frame-level multithreading for H.264</li>
 </ul>
 
 <p>
@@ -177,12 +177,12 @@ the feedback and testing that we got.
 Compared to the changes listed in the <a href="news.html#9beta1">beta_1
 announcement</a>, the following items come in addition:
 <ul>
-<li> Support for shared libraries with the MSVC toolchain </li>
-<li> Metadata (INFO tag) support in WAV muxer </li>
-<li> Support building on the Plan 9 operating system </li>
-<li> The SONAME of <b>libavutil</b> was bumped to <tt>libavutil.so.52</tt> </li>
-<li> Support FF1 codec version 3 </li>
-<li> Various other bugfixes and cleanups </li>
+<li>Support for shared libraries with the MSVC toolchain</li>
+<li>Metadata (INFO tag) support in WAV muxer</li>
+<li>Support building on the Plan 9 operating system</li>
+<li>The SONAME of <b>libavutil</b> was bumped to <tt>libavutil.so.52</tt></li>
+<li>Support FF1 codec version 3</li>
+<li>Various other bugfixes and cleanups</li>
 </p>
 </ul>
 
@@ -202,18 +202,18 @@ contains several security and bug fixes.
 <p>
 The following bugs in our Bugzilla have been fixed:
 <ul>
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=118">#118</a>: zzufed H.261 file crashes avconv signal 11 (SIGSEGV)
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=203">#203</a>: scale filter has a rounding error
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=245">#245</a>: Reading already freed mem when using vfilters pad and settb
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=265">#265</a>: smacker audio decode regression
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=277">#277</a>: avconv ignores audio bitrate -ab parameter
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=310">#310</a>: avconv hangs when transcoding .flac files
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=327">#327</a>: wmaprodec: Arithmetic exception
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=352">#352</a>: Pad filter pass-through problem
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=367">#367</a>: Crash in bmp_decode_frame() when decoding unusual bmp file
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=373">#373</a>: y4m as input results in "filename.y4m: Operation not permitted"
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=379">#379</a>: Regression in WAV files between 52.72. 2 and 53. 35. 0
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=380">#380</a>: double free in option handling
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=118">#118</a>: zzufed H.261 file crashes avconv signal 11 (SIGSEGV)</li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=203">#203</a>: scale filter has a rounding error</li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=245">#245</a>: Reading already freed mem when using vfilters pad and settb</li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=265">#265</a>: smacker audio decode regression</li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=277">#277</a>: avconv ignores audio bitrate -ab parameter</li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=310">#310</a>: avconv hangs when transcoding .flac files</li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=327">#327</a>: wmaprodec: Arithmetic exception</li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=352">#352</a>: Pad filter pass-through problem</li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=367">#367</a>: Crash in bmp_decode_frame() when decoding unusual bmp file</li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=373">#373</a>: y4m as input results in "filename.y4m: Operation not permitted"</li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=379">#379</a>: Regression in WAV files between 52.72. 2 and 53. 35. 0</li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=380">#380</a>: double free in option handling</li>
 </ul>
 </p>
 
@@ -222,24 +222,24 @@ This release contains security fixes for the following CVEs:
 </p>
 
 <ul>
-<li/>CVE-2012-2772
-<li/>CVE-2012-2775
-<li/>CVE-2012-2776
-<li/>CVE-2012-2777
-<li/>CVE-2012-2779
-<li/>CVE-2012-2784
-<li/>CVE-2012-2786
-<li/>CVE-2012-2787
-<li/>CVE-2012-2788
-<li/>CVE-2012-2789
-<li/>CVE-2012-2790
-<li/>CVE-2012-2793
-<li/>CVE-2012-2794
-<li/>CVE-2012-2796
-<li/>CVE-2012-2798
-<li/>CVE-2012-2800
-<li/>CVE-2012-2801
-<li/>CVE-2012-2802
+<li>CVE-2012-2772</li>
+<li>CVE-2012-2775</li>
+<li>CVE-2012-2776</li>
+<li>CVE-2012-2777</li>
+<li>CVE-2012-2779</li>
+<li>CVE-2012-2784</li>
+<li>CVE-2012-2786</li>
+<li>CVE-2012-2787</li>
+<li>CVE-2012-2788</li>
+<li>CVE-2012-2789</li>
+<li>CVE-2012-2790</li>
+<li>CVE-2012-2793</li>
+<li>CVE-2012-2794</li>
+<li>CVE-2012-2796</li>
+<li>CVE-2012-2798</li>
+<li>CVE-2012-2800</li>
+<li>CVE-2012-2801</li>
+<li>CVE-2012-2802</li>
 </ul>
 
 <p>
@@ -422,21 +422,21 @@ These releases contain security fixes for the following CVEs:
 </p>
 
 <ul>
-<li/>CVE-2012-0947
-<li/>CVE-2012-0858
-<li/>CVE-2012-0853
-<li/>CVE-2012-0852
-<li/>CVE-2012-0851
-<li/>CVE-2012-0850
-<li/>CVE-2011-4031
-<li/>CVE-2011-3952
-<li/>CVE-2011-3951
-<li/>CVE-2011-3947
-<li/>CVE-2011-3945
-<li/>CVE-2011-3940
-<li/>CVE-2011-3937
-<li/>CVE-2011-3936
-<li/>CVE-2011-3929
+<li>CVE-2012-0947</li>
+<li>CVE-2012-0858</li>
+<li>CVE-2012-0853</li>
+<li>CVE-2012-0852</li>
+<li>CVE-2012-0851</li>
+<li>CVE-2012-0850</li>
+<li>CVE-2011-4031</li>
+<li>CVE-2011-3952</li>
+<li>CVE-2011-3951</li>
+<li>CVE-2011-3947</li>
+<li>CVE-2011-3945</li>
+<li>CVE-2011-3940</li>
+<li>CVE-2011-3937</li>
+<li>CVE-2011-3936</li>
+<li>CVE-2011-3929</li>
 </ul>
 
 <p>
@@ -510,15 +510,15 @@ includes a number of functional corrections and security fixes, such as:
 </p>
 
 <ul>
-<li/>CVE-2012-0848
-<li/>CVE-2012-0853
-<li/>CVE-2012-0858
-<li/>CVE-2011-3929
-<li/>CVE-2011-3936
-<li/>CVE-2011-3937
-<li/>CVE-2011-3940
-<li/>CVE-2011-3945
-<li/>CVE-2011-3947
+<li>CVE-2012-0848</li>
+<li>CVE-2012-0853</li>
+<li>CVE-2012-0858</li>
+<li>CVE-2011-3929</li>
+<li>CVE-2011-3936</li>
+<li>CVE-2011-3937</li>
+<li>CVE-2011-3940</li>
+<li>CVE-2011-3945</li>
+<li>CVE-2011-3947</li>
 </ul>
 
 <p>
@@ -600,17 +600,17 @@ includes a number of functional corrections and security fixes, such as:
 </p>
 
 <ul>
-<li/>CVE-2012-0848
-<li/>CVE-2012-0853
-<li/>CVE-2012-0858
-<li/>CVE-2011-3929
-<li/>CVE-2011-3936
-<li/>CVE-2011-3937
-<li/>CVE-2011-3940
-<li/>CVE-2011-3945
-<li/>CVE-2011-3947
-<li/>CVE-2011-3951
-<li/>CVE-2011-3952
+<li>CVE-2012-0848</li>
+<li>CVE-2012-0853</li>
+<li>CVE-2012-0858</li>
+<li>CVE-2011-3929</li>
+<li>CVE-2011-3936</li>
+<li>CVE-2011-3937</li>
+<li>CVE-2011-3940</li>
+<li>CVE-2011-3945</li>
+<li>CVE-2011-3947</li>
+<li>CVE-2011-3951</li>
+<li>CVE-2011-3952</li>
 </ul>
 
 <p>
@@ -618,12 +618,12 @@ The following bugs in our Bugzilla have been fixed:
 </p>
 
 <ul>
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=212">http://bugzilla.libav.org/show_bug.cgi?id=212</a>
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=216">http://bugzilla.libav.org/show_bug.cgi?id=216</a>
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=220">http://bugzilla.libav.org/show_bug.cgi?id=220</a>
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=221">http://bugzilla.libav.org/show_bug.cgi?id=221</a>
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=227">http://bugzilla.libav.org/show_bug.cgi?id=227</a>
-<li/><a href="http://bugzilla.libav.org/show_bug.cgi?id=237">http://bugzilla.libav.org/show_bug.cgi?id=237</a>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=212">http://bugzilla.libav.org/show_bug.cgi?id=212</a></li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=216">http://bugzilla.libav.org/show_bug.cgi?id=216</a></li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=220">http://bugzilla.libav.org/show_bug.cgi?id=220</a></li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=221">http://bugzilla.libav.org/show_bug.cgi?id=221</a></li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=227">http://bugzilla.libav.org/show_bug.cgi?id=227</a></li>
+<li><a href="http://bugzilla.libav.org/show_bug.cgi?id=237">http://bugzilla.libav.org/show_bug.cgi?id=237</a></li>
 </ul>
 
 <p>
@@ -978,64 +978,64 @@ Differences between <b>avconv</b> and <b>ffmpeg</b> are:
     <li>The <i>-map</i> option now has slightly different and more powerful
     syntax:
     <ul>
-        <li> Colons (':') are used to separate file index/stream type/stream
+        <li>Colons (':') are used to separate file index/stream type/stream
         index instead of dots. Comma (',') is used to separate the sync stream
         instead of colon.. This is done for consistency with other options.</li>
-        <li> It's possible to specify stream type. E.g. <i>-map 0:a:2</i>
+        <li>It's possible to specify stream type. E.g. <i>-map 0:a:2</i>
         creates an output stream from the third input audio stream.</li>
-        <li> Omitting the stream index now maps all the streams of the given
+        <li>Omitting the stream index now maps all the streams of the given
         type, not just the first. E.g. <i>-map 0:s</i> creates output streams
         for all the subtitle streams in the first input file.</li>
-        <li> Since -map can now match multiple streams, negative mappings were
+        <li>Since -map can now match multiple streams, negative mappings were
         introduced. Negative mappings disable some streams from an already
         defined map. E.g. '-map 0 -map -0:a:1' means 'create output streams for
         all the stream in the first input file, except for the second audio
         stream'.</li>
     </ul>
     </li>
-    <li> There is a new option <i>-c</i> (or <i>-codec</i>) for choosing the
+    <li>There is a new option <i>-c</i> (or <i>-codec</i>) for choosing the
     decoder/encoder to use, which allows to precisely specify target stream(s)
     consistently with other options. E.g. <i>-c:v lib264</i> sets the codec for all
     video streams, <i>-c:a:0 libvorbis</i> sets the codec for the first audio stream
     and <i>-c copy</i> copies all the streams without reencoding.
     Old <i>-vcodec/-acodec/-scodec</i> options are now aliases to <i>-c:v/a/s</i></li>
-    <li> It is now possible to precisely specify which stream should an AVOption
+    <li>It is now possible to precisely specify which stream should an AVOption
     apply to. E.g. <i>-b:v:0 2M</i> sets the bitrate for the first video stream,
     while <i>-b:a 128k</i> sets the bitrate for all audio streams. Note that the
     old <i>-ab 128k</i> syntax is deprecated and will stop working soon.</li>
-    <li> <i>-map_chapters</i> now takes only an input file index and applies to
+    <li><i>-map_chapters</i> now takes only an input file index and applies to
     the next output file. This is consistent with how all the other options
     work.</li>
-    <li> <i>-map_metadata</i> now takes only an input metadata specifier and
+    <li><i>-map_metadata</i> now takes only an input metadata specifier and
     applies to the next output file. Output metadata specifier is now part of
     the option name, similarly to the AVOptions/map/codec feature above.</li>
-    <li> <i>-metadata</i> can now be used to set metadata on streams and
+    <li><i>-metadata</i> can now be used to set metadata on streams and
     chapters, e.g. <i>-metadata:s:1 language=eng</i> sets the language of the
     first stream to 'eng'.
     This made <i>-vlang/-alang/-slang</i> options redundant, so they were
     removed.</li>
-    <li> Presets in <b>avconv</b> are disabled, because only libx264 used them
+    <li>Presets in <b>avconv</b> are disabled, because only libx264 used them
     and presets for libx264 can now be specified using a private option <i>-preset
     presetname</i>.</li>
-    <li> <i>-qscale</i> option now uses stream specifiers and applies to all
+    <li><i>-qscale</i> option now uses stream specifiers and applies to all
     streams, not just video. I.e. plain <i>-qscale number</i> would now apply
     to all streams. To get the old behavior, use <i>-qscale:v</i>.
     Also there is now a shortcut <i>-q</i> for <i>-qscale</i> and <i>-aq</i> is
     now an alias for <i>-q:a</i>.</li>
-    <li> <i>-vbsf/-absf/-sbsf</i> options were removed and replaced by a
+    <li><i>-vbsf/-absf/-sbsf</i> options were removed and replaced by a
     <i>-bsf</i> option which uses stream specifiers. Use <i>-bsf:v/a/s</i>
     instead of the old options.</li>
-    <li> <i>-itsscale</i> option now uses stream specifiers, so its argument is
+    <li><i>-itsscale</i> option now uses stream specifiers, so its argument is
     only the scale parameter.</li>
-    <li> <i>-intra</i> option was removed, use <i>-g 0</i> for the same
+    <li><i>-intra</i> option was removed, use <i>-g 0</i> for the same
     effect.</li>
-    <li> <i>-psnr</i> option was removed, use <i>-flags +psnr</i> for the same
+    <li><i>-psnr</i> option was removed, use <i>-flags +psnr</i> for the same
     effect.</li>
-    <li> <i>-vf</i> option is now an alias to the new <i>-filter</i> option,
+    <li><i>-vf</i> option is now an alias to the new <i>-filter</i> option,
     which uses stream specifiers.</li>
-    <li> <i>-vframes/-aframes/-dframes</i> options are now aliases to the new
+    <li><i>-vframes/-aframes/-dframes</i> options are now aliases to the new
     <i>-frames</i> option.</li>
-    <li> <i>-vtag/-atag/-stag</i> options are now aliases to the new <i>-tag</i>
+    <li><i>-vtag/-atag/-stag</i> options are now aliases to the new <i>-tag</i>
     option.</li>
 </ul>
 
