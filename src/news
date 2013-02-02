@@ -1,5 +1,73 @@
 <h1>News</h1>
 
+<a name="0.7.7"></a><h3>February 2, 2013</h3>
+
+<p>
+Today, we update our latest release series 0.7 with the release
+<a href="download.html#release_0.7">Libav 0.7.7</a>. As usual, this release
+includes a number of functional corrections and security fixes, such as:
+</p>
+
+<ul>
+<li>aacdec: Fix an off-by-one overwrite when switching to LTP profile from MAIN (CVE-2012-5144)</li>
+<li>alsdec: check opt_order (CVE-2012-2775)</li>
+<li>alsdec: fix number of decoded samples in first sub-block in BGMC mode (CVE-2012-2790)</li>
+<li>avidec: use actually read size instead of requested size (CVE-2012-2788)</li>
+<li>avsdec: Set dimensions instead of relying on the demuxer (CVE-2012-2801)</li>
+<li>cavsdec: check for changing w/h (CVE-2012-2777 and CVE-2012-2784)</li>
+<li>dfa: check that the caller set width/height properly (CVE-2012-2786)</li>
+<li>dfa: improve boundary checks in decode_dds1() (CVE-2012-2798)</li>
+<li>indeo4/5: check empty tile size in decode_mb_info() (CVE-2012-2800)</li>
+<li>indeo5: Make sure we have had a valid GOP header (CVE-2012-2779)</li>
+<li>indeo5: check tile size in decode_mb_info() (CVE-2012-2794)</li>
+<li>ivi_common: check that scan pattern is set before using it (CVE-2012-2791)</li>
+<li>lagarith: check count before writing zeros (CVE-2012-2793)</li>
+<li>mpeg12: do not decode extradata more than once (CVE-2012-2803)</li>
+<li>rv34: error out on size changes with frame threading (CVE-2012-2772)</li>
+<li>vp56: release frames on error (CVE-2012-2783)</li>
+<li>wmaprodec: check num_vec_coeffs for validity (CVE-2012-2789)</li>
+</ul>
+
+<p>
+Additional, further bug fixes have been made to the following codecs:
+</p>
+
+<ul>
+<li>h264</li>
+<li>vc1</li>
+<li>nuv</li>
+<li>imgconvert</li>
+<li>vorbisenc</li>
+<li>flacenc</li>
+</ul>
+
+<p>
+Other noteworthy changes include:
+</p>
+
+<ul>
+<li>fix segfault in avformat_open_input()</li>
+<li>rtsp: Recheck the reordering queue if getting a new packet</li>
+<li>fix uninitialized reads and memory leaks on malformed Ogg files</li>
+</ul>
+
+<p>
+We intend to discontinue updates for the 0.7 release branch unless there
+is significant demand for an 0.7.8 release. If such a release becomes
+necessary in the future, please do not hesitate to get in contact with
+us, preferably via email or via a bugzilla entry.
+</p>
+
+<p>
+Distributors and system integrators are encouraged to update and share their
+patches against our release branches.
+</p>
+
+<p>
+<em>Enjoy!</em>
+</p>
+
+
 <a name="0.8.5"></a><h3>January 13, 2013</h3>
 
 <p>
