@@ -1,5 +1,15 @@
 <h1>News</h1>
 
+<a name="drop0.6"></a><h3>February 9, 2013</h3>
+
+<p>
+Along with the previously mentioned deprecation of the 0.7 series, we
+are also planning to drop the 0.6 series, as announced several weeks
+ago on the development mailing list. If you are currently using this
+release, we strongly recommend you upgrade to 0.8 or 9.
+</p>
+
+
 <a name="0.7.7"></a><h3>February 2, 2013</h3>
 
 <p>
