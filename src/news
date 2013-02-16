@@ -1,5 +1,47 @@
 <h1>News</h1>
 
+<a name="0.5.10"></a><h3>February 16, 2013</h3>
+
+<p>
+We have just finalized another point release from our 0.5 release branch:
+<a href="download.html#release_0.5">Libav 0.5.10</a>. This is another
+maintenance-only release that addresses a number of security issues,
+such as:
+</p>
+
+<ul>
+<li>mpeg12: do not decode extradata more than once (CVE-2012-2803)</li>
+<li>vp6: properly fail on unsupported feature (CVE-2012-2783)</li>
+<li>vp56: release frames on error (CVE-2012-2783)</li>
+<li>shorten: Use separate pointers for the allocated memory for decoded samples (CVE-2012-0858)</li>
+<li>cavsdec: check for changing w/h (CVE-2012-2777 and CVE-2012-2784)</li>
+<li>avidec: use actually read size instead of requested size CVE-2012-2788</li>
+<li>avsdec: Set dimensions instead of relying on the demuxer (CVE-2012-2801)</li>
+</ul>
+
+<p>
+In addition, further bug fixes have been made:
+</p>
+
+<ul>
+<li>yuv4mpeg: return proper error codes <a href="http://bugzilla.libav.org/show_bug.cgi?id=373">(Bug 373)</a></li>
+<li>bmpdec: only initialize palette for pal8 <a href="http://bugzilla.libav.org/show_bug.cgi?id=367">(Bug 367)</a></li>
+</ul>
+
+<p>
+Distributors and system integrators are encouraged to update and share their
+patches against our release branches.
+</p>
+
+<p>
+We intend to discontinue updates for the 0.5 release branch unless there
+is significant demand for an 0.5.11 release. If such a release becomes
+necessary in the future, please do not hesitate to get in contact with
+us, preferably via email or via a bugzilla entry. Otherwise, this is
+most likely the last update of this release branch.
+</p>
+
+
 <a name="drop0.6"></a><h3>February 9, 2013</h3>
 
 <p>
