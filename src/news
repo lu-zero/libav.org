@@ -1,15 +1,15 @@
 <h1>News</h1>
 
 
-<a name="9.2"></a><h3>January 07, 2013</h3>
+<a name="9.2"></a><h3>February 24, 2013</h3>
 <p>
 Today, we update our latest release series 9 with the release
-of <a href="download.html#release_0.8">Libav 9.2</a>. This release
+of <a href="download.html#release_9">Libav 9.2</a>. This release
 contains a number of pro-active bug fixes, most of which lead to crashes
 in the library. While selecting them, special care has been applied to
 ensure that this update remains fully compatible to previous releases of
-this release branches. For details, please refer to the verbose
-the <a href="http://git.libav.org/?p=libav.git;a=blob;f=Changelog;h=d20dca904fadb8b2ed8b70add7ee4fb96555e5c6;hb=d20dca904fadb8b2ed8b70add7ee4fb96555e5c6">
+this release branch.  For details, please refer to the verbose
+<a href="http://git.libav.org/?p=libav.git;a=blob;f=Changelog;h=d20dca904fadb8b2ed8b70add7ee4fb96555e5c6;hb=d20dca904fadb8b2ed8b70add7ee4fb96555e5c6">
 Changelog file</a>.
 </p>
 
