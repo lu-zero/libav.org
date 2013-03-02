@@ -1,5 +1,26 @@
 <h1>News</h1>
 
+<a name="9.3"></a><h3>March 2, 2013</h3>
+<p>
+We have been made aware of a security issue in our Vorbis
+decoder. Therefore, we push out a small and quick
+update, <a href="download.html#release_9">Libav 9.3</a>, that fixes
+CVE-2013-0894. Besides this, we also include a small number of critical
+correction to our H.264, Flash Video and AC3 decoders. For details,
+please refer to the verbose
+<a href="http://git.libav.org/?p=libav.git;a=blob;f=Changelog;hb=refs/tags/v9.3">
+Changelog file</a>.
+</p>
+
+<p>
+Distributors and system integrators are encouraged to update and share
+their patches against our release branches.
+</p>
+
+<p>
+You can download the new release, as usual,
+from <a href="download.html#release_9">our download page</a>.
+</p>
 
 <a name="9.2"></a><h3>February 24, 2013</h3>
 <p>
