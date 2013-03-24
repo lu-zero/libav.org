@@ -208,28 +208,28 @@ and much faster bug fixes such as additional features and security patches.
 <a name="release_9"></a><h2>Libav 9 "plain 9"</h2>
 
 <p>
-9.3 was released on 2013-03-02. It is the latest point release from
+9.4 was released on 2013-03-24. It is the latest point release from
 the version 9 release branch, which was released on 2013-01-05. Please
 give us feedback and use our Bugzilla for filing
 bugs: <a href="https://bugzilla.libav.org">https://bugzilla.libav.org/</a>
 </p>
 
 <p>
-<a href="releases/libav-9.3.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-9.3.tar.xz.md5">MD5</a>
-<a href="releases/libav-9.3.tar.xz.sha1">SHA1</a>
-<a href="releases/libav-9.3.tar.xz.asc">PGP signature</a><br />
-<a href="releases/libav-9.3.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-9.3.tar.gz.md5">MD5</a>
-<a href="releases/libav-9.3.tar.gz.sha1">SHA1</a>
-<a href="releases/libav-9.3.tar.gz.asc">PGP signature</a><br />
-<a href="releases/libav-9.3.changelog">Changelog</a><br />
-<a href="releases/libav-9.3.release">Release Notes</a>
+<a href="releases/libav-9.4.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-9.4.tar.xz.md5">MD5</a>
+<a href="releases/libav-9.4.tar.xz.sha1">SHA1</a>
+<a href="releases/libav-9.4.tar.xz.asc">PGP signature</a><br />
+<a href="releases/libav-9.4.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-9.4.tar.gz.md5">MD5</a>
+<a href="releases/libav-9.4.tar.gz.sha1">SHA1</a>
+<a href="releases/libav-9.4.tar.gz.asc">PGP signature</a><br />
+<a href="releases/libav-9.4.changelog">Changelog</a><br />
+<a href="releases/libav-9.4.release">Release Notes</a>
 </p>
 
 <a name="release_0.8"></a><h2>Libav 0.8.5 "Forbidden Fruit"</h2>
 <p>
-0.8.5 was released on 2012-10-22. It is the latest point release from
+0.8.6 was released on 2013-03-24. It is the latest point release from
 the 0.8 branch, which was cut on 2012-01-21. Please give us feedback
 with your experiences with this release and use our new Bugzilla for
 filing bugs:
@@ -237,15 +237,15 @@ filing bugs:
 </p>
 
 <p>
-<a href="releases/libav-0.8.5.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-0.8.5.tar.xz.md5">MD5</a>
-<a href="releases/libav-0.8.5.tar.xz.sha1">SHA1</a>
-<a href="releases/libav-0.8.5.tar.xz.asc">PGP signature</a><br />
-<a href="releases/libav-0.8.5.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/libav-0.8.5.tar.gz.md5">MD5</a>
-<a href="releases/libav-0.8.5.tar.gz.sha1">SHA1</a>
-<a href="releases/libav-0.8.5.tar.gz.asc">PGP signature</a><br />
-<a href="releases/libav-0.8.5.changelog">Changelog</a><br />
+<a href="releases/libav-0.8.6.tar.xz">Download XZ tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-0.8.6.tar.xz.md5">MD5</a>
+<a href="releases/libav-0.8.6.tar.xz.sha1">SHA1</a>
+<a href="releases/libav-0.8.6.tar.xz.asc">PGP signature</a><br />
+<a href="releases/libav-0.8.6.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/libav-0.8.6.tar.gz.md5">MD5</a>
+<a href="releases/libav-0.8.6.tar.gz.sha1">SHA1</a>
+<a href="releases/libav-0.8.6.tar.gz.asc">PGP signature</a><br />
+<a href="releases/libav-0.8.6.changelog">Changelog</a><br />
 <a href="releases/libav-0.8.release">Release Notes</a>
 </p>
 

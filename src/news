@@ -1,5 +1,40 @@
 <h1>News</h1>
 
+<a name="9.4"></a><h3>March 23, 2013</h3>
+<p>
+We are proud to update two release branches: Today, we provide you with
+both, <a href="download.html#release_9">Libav 9.4</a>
+and <a href="download.html#release_0.8">Libav 0.8.6</a>, in order to
+address a number of critical functional and security issues that we have
+been made aware of. For both releases, we are happy to confirm that the
+following CVE tracked issues have been fixed:
+</p>
+
+<ul>
+<li>h264: check for luma and chroma bit depth being equal (CVE-2013-2277)</li>
+<li>iff: validate CMAP palette size (CVE-2013-2495)</li>
+<li>msrledec: convert to bytestream2 API and add proper bounds checking (CVE-2013-2496)</li>
+<li>vorbisdec: Error on bark_map_size equal to 0 (CVE-2013-0894)</li>
+</ul
+
+<p>
+For further details on the backported changes, please refer to our verbose Changelog files:
+</p>
+
+<ul>
+<li><a href="http://git.libav.org/?p=libav.git;a=blob;f=Changelog;hb=refs/tags/v9.4">Changelog for 9.4</a></li>
+<li><a href="http://git.libav.org/?p=libav.git;a=blob;f=Changelog;hb=refs/tags/v0.8.6">Changelog for 0.8.6</a></li>
+</ul>
+
+<p>
+Distributors and system integrators are encouraged to update and share
+their patches against our release branches.
+</p>
+
+<p>
+<em>Enjoy!</em>
+</p>
+
 <a name="9.3"></a><h3>March 2, 2013</h3>
 <p>
 We have been made aware of a security issue in our Vorbis
