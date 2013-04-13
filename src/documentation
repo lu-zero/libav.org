@@ -7,7 +7,7 @@ developers will be able to better diagnose the problem if you follow
 <a href="bugreports.html">these bug reporting guidelines</a>.
 </p>
 
-<h2>General Documentation</h2>
+<a name="general"></a><h2>General Documentation</h2>
 <ul>
 <li><a href="general.html">General Documentation</a></li>
 <ul>
@@ -21,7 +21,7 @@ developers will be able to better diagnose the problem if you follow
 </ul>
 </ul>
 
-<h2>Command Line Interface (CLI) and Related Usage Documentation</h2>
+<a name="cli"></a><h2>Command Line Interface (CLI) and Related Usage Documentation</h2>
 <ul>
 <li><a href="avconv.html">avconv Documentation</a></li>
 <li><a href="avplay.html">avplay Documentation</a></li>
@@ -33,7 +33,7 @@ developers will be able to better diagnose the problem if you follow
 <li><a href="libavfilter.html">Libavfilter Documentation</a></li>
 </ul>
 
-<h2>API Documentation</h2>
+<a name="api"></a><h2>API Documentation</h2>
 <ul>
 <li><a href="doxygen/master/index.html">Doxygen documentation</a> for current
 git master (regenerated nightly); documentation for the
@@ -48,7 +48,7 @@ describes how to add a (de)muxer to libavformat.</li>
 describes how to add a filter to libavfilter.</li>
 </ul>
 
-<h2>Tutorials</h2>
+<a name="tutorials"></a><h2>Tutorials</h2>
 <ul>
 <li><a href="http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html">Using libavformat and libavcodec</a> by
 Martin Böhme, a good overview of the FFmpeg APIs.</li>
