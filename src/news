@@ -1,5 +1,29 @@
 <h1>News</h1>
 
+<a name="9.6"></a><h3>May 12, 2013</h3>
+<p>
+
+Today, we are happy to present you updates to our latest two release
+branches: <a href="download.html#release_9">Libav 9.6</a>,
+and <a href="download.html#release_0.8">Libav 0.8.7</a>. Both point
+releases include a number of security and stability fixes. For details,
+please refer to the verbose Changelog files for 
+<a href="http://git.libav.org/?p=libav.git;a=blob;f=Changelog;hb=refs/tags/v9.6">
+version 9.6</a> and
+<a href="http://git.libav.org/?p=libav.git;a=blob;f=Changelog;hb=refs/tags/v0.8.7">
+version 0.8.7</a>.
+</p>
+
+<p>
+Distributors and system integrators are encouraged to update and share
+their patches against our release branches.
+</p>
+
+<p>
+You can download the new release, as usual,
+from <a href="download.html#release_9">our download page</a>.
+</p>
+
 <a name="9.5"></a><h3>April 21, 2013</h3>
 <p>
 Thanks to the Google Security Team, who have provided us with a number
