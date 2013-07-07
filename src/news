@@ -1,5 +1,31 @@
 <h1>News</h1>
 
+<a name="9.8"></a><h3>July 7, 2013</h3>
+<p>
+We are happy to update two release branches: Today, we provide you with
+both, <a href="download.html#release_9">Libav 9.8</a>
+and <a href="download.html#release_0.8">Libav 0.8.8</a>, in order to
+address a number of critical functional and security issues that we have
+been made aware of.
+
+<p>
+For further details on the backported changes, please refer to our verbose Changelog files:
+</p>
+
+<ul>
+<li><a href="http://git.libav.org/?p=libav.git;a=blob;f=Changelog;hb=refs/tags/v9.8">Changelog for 9.8</a></li>
+<li><a href="http://git.libav.org/?p=libav.git;a=blob;f=Changelog;hb=refs/tags/v0.8.8">Changelog for 0.8.8</a></li>
+</ul>
+
+<p>
+Distributors and system integrators are encouraged to update and share
+their patches against our release branches.
+</p>
+
+<p>
+<em>Enjoy!</em>
+</p>
+
 <a name="9.7"></a><h3>June 16, 2013</h3>
 <p>
 Once again and thanks to the Google Security Team, who have provided us
