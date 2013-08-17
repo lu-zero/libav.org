@@ -34,6 +34,10 @@ for bug reports.
 <a href="https://lists.libav.org/mailman/listinfo/libav-commits/">libav-commits</a>:
 This list gets all changes to the Libav sources.
 <br />
+<a href=https://lists.libav.org/mailman/listinfo/libav-stable/>libav-stable</a>:
+This list gets all the commits destined for and discussion related to
+the stable branches of Libav.
+<br />
 <a href="https://lists.libav.org/mailman/listinfo/libav-api/">libav-api</a>:
 This list is for development <strong>with</strong> the Libav libraries.
 <br />
@@ -67,6 +71,8 @@ browse the archives before posting questions.
 <a href="https://lists.libav.org/pipermail/libav-commits/">libav-commits archives</a>
 <br />
 <a href="https://lists.libav.org/pipermail/libav-devel/">libav-devel archives</a>
+<br />
+<a href="https://lists.libav.org/pipermail/libav-stable/">libav-stable archives</a>
 <br />
 <a href="https://lists.libav.org/pipermail/libav-tools/">libav-tools archives</a>
 <br />
