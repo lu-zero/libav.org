@@ -1,5 +1,19 @@
 <h1>News</h1>
 
+<a name="9.10"></a><h3>October 10, 2013</h3>
+<p>
+We've collected a number of security and stability patches recently,
+so today we are releasing <a href="download.html#release_9">Libav 9.10</a>.
+For details, please refer to the verbose
+<a href="http://git.libav.org/?p=libav.git;a=blob;f=Changelog;hb=refs/tags/v9.10">
+Changelog file</a>.
+</p>
+
+<p>
+Distributors and system integrators are encouraged to update and share
+their patches against our release branches.
+</p>
+
 <a name="9.9"></a><h3>September 9, 2013</h3>
 <p>
 After the summer break and thanks to the Google Security Team, who have
