@@ -1,5 +1,31 @@
 <h1>News</h1>
 
+<a name="0.8.9"></a><h3>November 2, 2013</h3>
+
+<p>
+Today, we update our latest release series 0.8 with the release
+of <a href="download.html#release_0.8">Libav 0.8.9</a>. This release
+contains several security and bug fixes. Among others, several bugs that
+lead to crashes during playback have been fixed in the H.264 and SVQ3
+decoder.
+</p>
+
+<p>
+This release contains many potentially security relevant corrections.
+For details, please refer to the verbose
+<a href="http://git.libav.org/?p=libav.git;a=blob;f=Changelog;hb=refs/tags/v0.8.9">
+Changelog file</a>.
+</p>
+
+<p>
+We encourage distributors and system integrators to update, and share
+their patches against our release branches.
+</p>
+
+<p>
+<em>Enjoy!</em>
+</p>
+
 <a name="9.10"></a><h3>October 10, 2013</h3>
 <p>
 We've collected a number of security and stability patches recently,
