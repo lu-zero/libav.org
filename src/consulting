@@ -21,6 +21,13 @@ the <a href="contact.html">libav-devel mailing list</a>, where it will
 reach a wider audience.
 </div>
 
+<div class="alert alert-success">
+As whole community we gladly accept bounties and donations to further
+improve the codebase through the
+<a href="http://ffmtech.org/contribute.html">Foundation for free multimedia technologies</a>.
+Such improvements include extending codecs and formats support or
+developing new ones.
+</div>
 
 <!--
 1) please keep this list alphabetically (by firstname)
