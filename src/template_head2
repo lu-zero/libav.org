@@ -1,26 +1,26 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="css/libav.css" />
-    <link rel="stylesheet" type="text/css" href="css/alert.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
     <link rel="icon" href="favicon.png" type="image/png" />
 </head>
 
 <body>
 
-<div class="navbar">
-<div class="navbar-inner">
-<a class="brand" href="index.html">
-<img src="libav-logo.png" alt="Libav" />
-</a>
-<ul class="nav">
-<li><a href="news.html">News</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="download.html">Download</a></li>
-<li><a href="documentation.html">Documentation</a></li>
-<li><a href="bugreports.html">Bug Reports</a></li>
-<li><a href="http://fate.libav.org/">FATE</a></li>
-<li><a href="consulting.html">Consulting</a></li>
-<li><a href="contact.html">Contact</a></li>
-<li><a href="legal.html">Legal</a></li>
-</ul>
+<header class="navbar navbar-inverse" role="navigation">
+<div class="navbar-header">
+    <a class="navbar-brand" href="index.html">
+        <img src="http://libav.org/libav-logo.png" alt="Libav" />
+    </a>
 </div>
+<ul class="nav navbar-nav">
+<li><a href="/news.html">News</a></li>
+<li><a href="/about.html">About</a></li>
+<li><a href="/download.html">Download</a></li>
+<li><a href="/documentation.html">Documentation</a></li>
+<li><a href="/bugreports.html">Bug Reports</a></li>
+<li><a href="http://fate.libav.org/">FATE</a></li>
+<li><a href="/consulting.html">Consulting</a></li>
+<li><a href="/contact.html">Contact</a></li>
+<li><a href="/legal.html">Legal</a></li>
+</ul>
+</header>
 

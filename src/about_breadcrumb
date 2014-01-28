@@ -1,4 +1,4 @@
 <ul class="breadcrumb">
-<li class="active">About<span class="divider">/</span></li>
+<li class="active">About</li>
 <li><a href="projects.html">Projects Using Libav</a></li>
 </ul>
